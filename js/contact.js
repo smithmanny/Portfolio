@@ -1,0 +1,40 @@
+$(document).ready(function () {
+  $('.disabled').hover(
+    function() {
+      $('p.error-row').removeClass('error-hidden');
+      $('p.error-row').addClass('error-show');
+    }, function() {
+      $('p.error-row').removeClass('error-show');
+      $('p.error-row').addClass('error-hidden');
+    }
+  );
+});
+
+$(function () {
+
+    $('#contact-form').validator();
+
+    $('#contact-form').on('submit', function (e) {
+        if (!e.isDefaultPrevented()) {
+            var url = "php/contact.php";
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: $(this).serialize(),
+                success: function (data)
+                {
+                    var messageAlert = 'alert-' + data.type;
+                    var messageText = data.message;
+
+                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true"><i class="material-icons">close</i></button>' + messageText + '</div>';
+                    if (messageAlert && messageText) {
+                        $('#contact-form').find('.messages').html(alertBox);
+                        $('#contact-form')[0].reset();
+                    }
+                }
+            });
+            return false;
+        }
+    });
+});
