@@ -90,6 +90,9 @@ nav {
     margin: 0;
     text-transform: uppercase;
   }
+  .linksP .links a {
+    text-decoration: none;
+  }
   .links {
     color: #fff;
   }
@@ -121,7 +124,6 @@ nav {
   background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
   height: 100vh!important;
 }
-
 
 .copy{
   position:absolute;
