@@ -23,7 +23,7 @@ nav a {
   color: white; }
 
 nav a:hover {
-  color: #2FC5CC; }
+  color: black; }
 
 .navbar-nav {
   justify-content: center; }
@@ -84,7 +84,7 @@ nav a:hover {
   color: #fff; }
 
 .nav-wrapper .links a:hover {
-  color: #2FC5CC; }
+  color: rgba(255, 255, 255, 0.7); }
 
 #about {
   background: url("../../img/portfolioBg.png");

@@ -1,48 +1,46 @@
 <?php
-
-// configure
-$from = 'Portfolio Contact Form';
-$sendTo = 'shakhor94@hotmail.com';
-$subject = 'New message from contact form';
-$fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
-
-// let's do the sending
-
-try
-{
-    $emailText = "You have new message from contact form\n=============================\n";
-
-    foreach ($_POST as $key => $value) {
-
-        if (isset($fields[$key])) {
-            $emailText .= "$fields[$key]: $value\n";
-        }
+$errorMSG = "";
+// NAME
+if (empty($_POST["name"])) {
+    $errorMSG = "Name is required ";
+} else {
+    $name = $_POST["name"];
+}
+// EMAIL
+if (empty($_POST["email"])) {
+    $errorMSG .= "Email is required ";
+} else {
+    $email = $_POST["email"];
+}
+// MESSAGE
+if (empty($_POST["message"])) {
+    $errorMSG .= "Message is required ";
+} else {
+    $message = $_POST["message"];
+}
+$EmailTo = "shakhor94@hotmail.com";
+$Subject = "New Contact Form Message";
+// prepare email body text
+$Body = "";
+$Body .= "Name: ";
+$Body .= $name;
+$Body .= "\n";
+$Body .= "Email: ";
+$Body .= $email;
+$Body .= "\n";
+$Body .= "Message: ";
+$Body .= $message;
+$Body .= "\n";
+// send email
+$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+// redirect to success page
+if ($success && $errorMSG == ""){
+   echo "success";
+}else{
+    if($errorMSG == ""){
+        echo "Something went wrong :(";
+    } else {
+        echo $errorMSG;
     }
-
-    $headers = array('Content-Type: text/plain; charset="UTF-8";',
-        'From: ' . $from,
-        'Reply-To: ' . $from,
-        'Return-Path: ' . $from,
-    );
-
-    mail($sendTo, $subject, $emailText, implode("\n", $headers));
-
-    $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
-catch (\Exception $e)
-{
-    $responseArray = array('type' => 'danger', 'message' => $errorMessage);
-}
-
-if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
-    $encoded = json_encode($responseArray);
-
-    header('Content-Type: application/json');
-
-    echo $encoded;
-}
-else {
-    echo $responseArray['message'];
-}
+?>

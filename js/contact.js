@@ -1,40 +1,46 @@
-$(document).ready(function () {
-  $('.disabled').hover(
-    function() {
-      $('p.error-row').removeClass('error-hidden');
-      $('p.error-row').addClass('error-show');
-    }, function() {
-      $('p.error-row').removeClass('error-show');
-      $('p.error-row').addClass('error-hidden');
+$("#contact-form").validator().on("submit", function (event) {
+    if (event.isDefaultPrevented()) {
+        // handle the invalid form...
+        // formError();
+        submitMSG(false, 'Did you fill in the form properly?');
+    } else {
+        // everything looks good!
+        event.preventDefault();
+        submitForm();
     }
-  );
 });
 
-$(function () {
+function submitForm(){
+    // Initiate Variables With Form Content
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var message = $("#message").val();
 
-    $('#contact-form').validator();
-
-    $('#contact-form').on('submit', function (e) {
-        if (!e.isDefaultPrevented()) {
-            var url = "php/contact.php";
-
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: $(this).serialize(),
-                success: function (data)
-                {
-                    var messageAlert = 'alert-' + data.type;
-                    var messageText = data.message;
-
-                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true"><i class="material-icons">close</i></button>' + messageText + '</div>';
-                    if (messageAlert && messageText) {
-                        $('#contact-form').find('.messages').html(alertBox);
-                        $('#contact-form')[0].reset();
-                    }
-                }
-            });
-            return false;
+    $.ajax({
+        type: "POST",
+        url: "php/contact.php",
+        data: "name=" + name + "&email=" + email + "&message=" + message,
+        success : function(text){
+            if (text == "success"){
+                formSuccess();
+            } else {
+              // formError();
+              submitMSG(false, text);
+            }
         }
     });
-});
+}
+function formSuccess(){
+    $('#contact-form')[0].reset();
+    submitMSG(true, 'Message Submitted!');
+}
+
+function submitMSG(valid, msg){
+        var msgClasses;
+    if(valid){
+        msgClasses = "h4 text-center text-success";
+    } else {
+        msgClasses = "h4 text-center text-danger";
+    }
+    $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+}
