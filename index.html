@@ -100,7 +100,10 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col port-body">
+                        <div class="col-xs-12 mx-auto">
+                            <h1>Coming Soon</h1>
+                        </div>
+                        <!-- <div class="col port-body">
                             <a href="#">
                                 <div class="overlay">
                                     <div class="overlay-btn">
@@ -154,40 +157,41 @@
                                 Languages I used for project
                             </p>
                         </div>
+                    </div> -->
                     </div>
                 </div>
-            </div>
         </section>
         <!-- Contact Section -->
         <section class="content" id="contact">
             <div class="inner">
                 <div class="aboutContent container">
                     <h1 class="mb-3">Contact Me</h1>
-                    <form method="post " id="contact-form " action="php/contact.php " role="form ">
+                    <!-- Form submitted message -->
+                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                    <form method="post" id="contact-form" action="php/contact.php" role="form">
                         <!-- Form submitted message -->
                         <div class="messages "></div>
                         <!-- Name - From -->
                         <div class="form-group col-8">
                             <label for="name">Name *</label>
-                            <input type="text " id="name " name="name " class="form-control " required />
-                            <div class="help-block with-errors "></div>
+                            <input type="text" id="name" name="name" class="form-control" required/>
+                            <div class="help-block with-errors"></div>
                         </div>
                         <!-- Email - Form -->
                         <div class="form-group col-8 ">
                             <label for="email ">Email *</label>
-                            <input id="email " type="email " name="email " class="form-control " required>
-                            <div class="help-block with-errors "></div>
+                            <input id="email" type="email" name="email" class="form-control" required>
+                            <div class="help-block with-errors"></div>
                         </div>
                         <!-- Messages - Form -->
                         <div class="form-group col-8">
-                            <label for="textarea1 ">Message *</label>
-                            <textarea id="textarea1 " name="message " class="form-control" rows='3' required></textarea>
-                            <div class="help-block with-errors "></div>
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" class="form-control" rows='3' required></textarea>
+                            <div class="help-block with-errors"></div>
                         </div>
                 </div>
 
-                <p class="error-hidden center-align error-row ">Form is not complete</p>
-                <button class="btn submit-btn" id="contact-btn" name="submit" type="submit" value="submit">Submit
+                <button class="btn submit-btn" id="submit" name="submit" type="submit" value="send">Submit
                 </button>
                 <div class="row ">
                     <div class="col-md-12 mt-1">
@@ -203,8 +207,8 @@
     </main>
 
     <footer class="page-footer">
-        <div class="container ">
-            <p class="center-align ">
+        <div class="container py-2">
+            <p class="center-align my-auto">
                 Made with &hearts; by Shakhor Smith
             </p>
         </div>
@@ -215,6 +219,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js " integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb " crossorigin="anonymous "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js " integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
     <script type="text/javascript" src="dist/js/all.min.js "></script>
 
 </body>

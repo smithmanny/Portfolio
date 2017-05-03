@@ -15,7 +15,7 @@ if (target.length) {
     scrollTop: target.offset().top
   }, 500);
   // Add class to show border
-  $(this).addClass('active');
+  // $(this).addClass('active');
 }
   });
 
