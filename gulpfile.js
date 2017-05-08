@@ -1,42 +1,43 @@
 // Include gulp
 var gulp = require('gulp');
-
-// Include Our Plugins
-var jshint = require('gulp-jshint');
-var sass = require('gulp-sass');
+ // Define base folders
+var src = 'src/';
+var dest = 'build/';
+ // Include plugins
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
+var sass = require('gulp-ruby-sass');
+var imagemin = require('gulp-imagemin');
+var cache = require('gulp-cache');
 
-// Lint Task
-gulp.task('lint', function() {
-    return gulp.src('js/*.js')
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
-});
-
-// Compile Our Sass
-gulp.task('sass', function() {
-    return gulp.src('scss/*.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('dist/css'));
-});
-
-// Concatenate & Minify JS
+ // Concatenate & Minify JS
 gulp.task('js', function() {
-    return gulp.src('js/*.js')
-        .pipe(concat('all.js'))
-        .pipe(gulp.dest('dist'))
-        .pipe(rename('all.min.js'))
+    return gulp.src(src + 'js/*.js')
+      .pipe(concat('main.js'))
+        .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
-        .pipe(gulp.dest('dist/js'));
+        .pipe(gulp.dest(dest + 'js'));
 });
-
-// Watch Files For Changes
+ // Compile CSS from Sass files
+gulp.task('sass', function() {
+    return sass('src/scss/style.scss', {style: 'compressed'})
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest('build/css'));
+});
+ gulp.task('images', function() {
+  return gulp.src(src + 'images/**/*')
+    .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+    .pipe(gulp.dest(dest + 'img'));
+});
+ // Watch for changes in files
 gulp.task('watch', function() {
-    gulp.watch('js/*.js', ['lint', 'scripts']);
-    gulp.watch('scss/*.scss', ['sass']);
-});
-
-// Default Task
-gulp.task('default', ['lint', 'sass', 'scripts', 'watch']);
+   // Watch .js files
+  gulp.watch(src + 'js/*.js', ['scripts']);
+   // Watch .scss files
+  gulp.watch(src + 'scss/*.scss', ['sass']);
+   // Watch image files
+  gulp.watch(src + 'images/**/*', ['images']);
+ });
+ // Default Task
+gulp.task('default', ['scripts', 'sass', 'images', 'watch']);
