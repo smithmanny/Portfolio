@@ -4,19 +4,20 @@ var gulp = require('gulp');
 var src = 'src/';
 var dest = 'build/';
 // Include plugins
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var sass = require('gulp-sass');
-var bs = require('browser-sync');
-var reload = bs.reload;
+var concat = require('gulp-concat'),
+    uglify = require('gulp-uglify'),
+    rename = require('gulp-rename'),
+    sass = require('gulp-sass'),
+    bs = require('browser-sync'),
+    reload = bs.reload,
+    php = require('gulp-connect-php');
 
 //Browser-Sync It's magic!!!
 gulp.task('browser-sync', function() {
-  bs.init({
-    server: {
-      baseDir: "./"
-    }
+  php.server({}, function() {
+    bs({
+      proxy: 'portfolio.dev'
+    });
   });
 });
 
@@ -51,15 +52,14 @@ gulp.task('watch', ['browser-sync'], function() {
   // Watch .scss files
   gulp.watch(src + 'scss/*.scss', ['sass']).on('change', reload);
   // Watch HTML files
-  gulp.watch('*.html').on('change', reload);
+  gulp.watch('*.php').on('change', reload);
 });
 
-// Default task
-gulp.task('default', ['js', 'sass', 'browser-sync'], function() {
+gulp.task('default', ['browser-sync'], function() {
   // Watch .js files
   gulp.watch(src + 'js/*.js', ['js']).on('change', reload);
   // Watch .scss files
   gulp.watch(src + 'scss/*.scss', ['sass']).on('change', reload);
   // Watch HTML files
-  gulp.watch('*.html').on('change', reload);
-})
+  gulp.watch('*.php').on('change', reload);
+});

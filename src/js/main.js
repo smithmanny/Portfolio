@@ -14,8 +14,7 @@ if (target.length) {
   $('html, body').stop().animate({
     scrollTop: target.offset().top
   }, 500);
-  // Add class to show border
-  // $(this).addClass('active');
+
 }
   });
 

@@ -169,13 +169,24 @@ p {
       color: white;
     }
   }
+
   .aboutContent {
-    margin: 1rem auto;
-  }
-  .aboutContent {
+    margin: 2rem auto;
     h1 {
-      padding-top: 5rem;
+      font-size: 2rem;
       color: black;
+      padding: 1rem;
+    }
+    h1:hover {
+      color: #EE6E73;
+      text-decoration: none;
+    }
+    p {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+    a:hover {
+      text-decoration: none;
     }
   }
 
@@ -247,8 +258,13 @@ color: red;
   padding: .5rem 1rem;
   background-color: #2FC5CC;
 }
+
+// Blog Section
+
+
 // Footer Section
   .page-footer {
+    padding: 20px;
     background-color: #EE6E73;
     color: white;
     text-align: center;
