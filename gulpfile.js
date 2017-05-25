@@ -1,8 +1,8 @@
 // Include gulp
 var gulp = require('gulp');
 // Define base folders
-var src = 'src/';
-var dest = 'build/';
+var src = 'wp-content/themes/Porfolio/src/';
+var dest = 'wp-content/themes/Porfolio/build/';
 // Include plugins
 var concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
