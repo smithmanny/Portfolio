@@ -1,0 +1,275 @@
+/*
+Theme Name: Start WordPress
+Author: Tania Rascia
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+/***********************************BASE***********************************/
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+ .card {
+   max-width: 350px;
+ }
+
+ .cardImg {
+   max-height: 300px;
+ }
+
+/***********************************NAVBAR***********************************/
+.navbar {
+  background-color: #EE6E73;
+  color: white
+}
+
+nav {
+
+ i {
+   margin-right: 5px;
+ }
+
+ a {
+   color: rgba(255, 255, 255, 0.7);
+   text-decoration: none;
+ }
+
+ a:hover {
+   color: white;
+   text-decoration: none;
+ }
+
+ a:visited {
+   color: rgba(255, 255, 255, 0.7);
+ }
+
+ a:focus {
+   color: white;
+   text-decoration: none;
+ }
+}
+
+.navbar-nav {
+  justify-content: center;
+}
+
+.navbar-nav li {
+  padding: 0 1rem;;
+}
+.navbar-brand {
+  font-weight: 600;
+  color: white;
+}
+
+.subNav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-wrapper {
+    background-color: #EE6E73;
+    padding-bottom: 0;
+}
+.nav-wrapper {
+
+  .linksP {
+      display: flex;
+      margin-bottom: 0
+  }
+
+  .linksP .links a {
+    padding: 0 24px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: color .28s ease;
+    font-size: 14px;
+  }
+
+  .linksP .links {
+    height: 48px;
+    line-height: 48px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+/***********************************ABOUT PAGE***********************************/
+// About me background IMG
+#about {
+  background: url("../Portfolio/assets/img/portfolioBg.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#about h1 {
+  line-height: 5rem;
+}
+
+.hero, .content{
+  text-align:center;
+  position:relative;
+  width: 100%;
+}
+
+.inner{
+  min-height:600px;
+  position: relative;
+}
+
+.hero .inner{
+  background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+  height: 100vh!important;
+}
+
+.copy{
+  position:absolute;
+  top: calc(50% - 10em);
+  height:10em;
+  margin-top:-5em;
+  width:100%;
+}
+
+.hero {
+  h1, p{
+  color:#fff;
+  }
+}
+
+.content {
+  h1, p {
+    color:#333;
+  }
+}
+
+h1 {
+  margin:0px;
+  font-family: 'Roboto Slab', serif;
+  font-weight:400;
+  padding:0px 20px;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size:14px;
+  padding:0px 20px;
+}
+
+.info {
+  background: #2FC5CC;
+  }
+
+  .infoContent {
+    h1 {
+      padding-top: 5rem;
+      padding-bottom: 20px;
+      color: white;
+    }
+  }
+
+  .aboutContent {
+    margin: 2rem auto;
+    h1 {
+      font-size: 2rem;
+      color: black;
+      padding: 1rem;
+    }
+    p {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+    a:hover {
+      color: #EE6E73;
+      text-decoration: none;
+    }
+  }
+
+label {
+  text-align: left;
+}
+
+/***********************************Portfolio Section***********************************/
+.port-body > p {
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+.overlay {
+  position: relative;
+}
+.overlay-btn:hover {
+  opacity: 1;
+}
+.overlay-btn {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 303px;
+  background-color: rgba(238, 110, 115, 0.24);
+}
+.overlay-btn p {
+  top: 50%;
+  left: 33%;
+  color: white;
+  font-weight: 800;
+  position: absolute;
+}
+.port-body p:nth-child(n+2) {
+  color: white;
+}
+
+/***********************************CONTACT FORM***********************************/
+form {
+.messages {
+  padding-bottom: 20px;
+}
+.alert {
+  padding: 20px;
+  border-radius: 20px 20px;
+  background-color: #DFF0D8;
+  }
+  .close {
+    float: right;
+    background-color: #DFF0D8;
+    border: none;
+    padding: 0;
+  }
+  .form-group {
+    margin: 0 auto 1rem auto;
+    text-align: left;
+  }
+}
+.error-hidden {
+  display: none;
+}
+.error-show {
+display: block;
+font-size: 1.3rem;
+color: red;
+}
+
+.submit-btn {
+  color: white;
+  padding: .5rem 1rem;
+  background-color: #2FC5CC;
+}
+
+/***********************************FOOTER***********************************/
+  .page-footer {
+    padding: 20px;
+    background-color: #EE6E73;
+    color: white;
+    text-align: center;
+  }
