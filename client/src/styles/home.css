@@ -1,0 +1,204 @@
+section {
+    padding: 2rem 0;
+}
+
+button {
+  color: #FFF;
+  transition: background-color .3s ease-in-out;
+  background-color: #FA5D00;
+  border: 1px solid #FA5D00;
+  border-radius: .25rem;
+  padding: .6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.25;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #FA5D00;
+}
+
+#intro {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.12'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#intro h1 {
+  padding: 1rem 0;
+  color: white;
+}
+
+#about {
+  min-height: 400px;
+}
+
+.skills {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.skills i {
+  padding: 1rem;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.12'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#projects p {
+  color: black;
+}
+
+.projectWrapper {
+  background-color: #fff;
+  max-width: 350px;
+  margin: auto;
+  position: relative;
+  padding-bottom: .1rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.projectWrapper::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #ccc;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  top: 50%;
+  z-index: -1;
+  box-shadow: 0 0 40px #a09c9c;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.projectImg {
+  box-shadow: -2px 1px 20px 2px black;
+}
+
+.level-3:hover::before {
+  box-shadow: 0 0 80px #a09c9c;
+}
+
+.projectInfo {
+  word-wrap: break-word;
+  padding: 0 .5rem;
+}
+
+.projectSkills {
+  display: flex;
+  justify-content: center;
+  padding: 0 .5rem;
+}
+
+.projectSkills img {
+  height: 1.5rem;
+}
+
+#contact {
+  min-height: 400px;
+}
+
+#contact p {
+  max-width: 650px;
+  margin: auto;
+  text-align: center;
+}
+
+Form {
+  max-width: 600px;
+  margin: auto;
+}
+
+#social {
+  background-color: #FA5D00;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.12'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+#social h1 {
+  color: #eee;
+}
+
+.social i {
+  margin: 1rem 2rem;
+  font-size: 3rem;
+}
+
+
+/*Colors*/
+.icon-npm {
+  color: #CA3838;
+}
+
+.icon-gulp {
+  color: #EB4A4B;
+}
+
+.icon-git {
+  color: #F05033;
+}
+
+.icon-html5 {
+  color: #E34C26;
+}
+
+.icon-css3 {
+  color: #1572B6;
+}
+
+.icon-sass {
+  color: #C69;
+}
+
+.icon-bootstrap {
+  color: #553B78;
+}
+
+.icon-javascript {
+  color: #90C53F;
+}
+
+.icon-jquery {
+  color: #0868AB;
+}
+
+.icon-reactjs {
+  color: #00d8ff;
+}
+
+.icon-php {
+  color: #8993BE;
+}
+
+.icon-symfony {
+  color: #EEE;
+}
+
+.icon-mysql {
+  color: #00758f;
+}
+
+.icon-mongodb {
+  color: #589636;
+}
+
+.fa-github {
+  color: #0077B5;
+}
+
+.fa-linkedin {
+  color: #0077B5;
+}
+
+.fa-file-pdf-o {
+  color: #0077B5;
+}

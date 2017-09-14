@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+  min-width: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round",Arial,Sans-Serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   background-color: #1b1e1e;
+ }
+
+ h1 {
+   color: #FA5D00;
+   text-transform: uppercase;
+   margin: 0;
+   padding: 1rem 0;
+ }
+
+ label {
+   color: #eee;
+ }
+
+ p {
+   font-family: 'Montserrat',sans-serif, Arial;
+   line-height: 2rem;
+   font-size: 1rem;
+   color: #ADADAD;
+ }
+
+ a {
+   color: #FA5D00;
+ }
+
+ a:hover {
+   color: #FF7928;
+   text-decoration: none;
+ }
+
+ footer {
+   flex: 0 0 auto;
+   position: relative;
+   height: 100px;
+   justify-content: center;
+   display: flex;
+ }
+
+ #copyright {
+   margin-top: auto;
+   padding-bottom: 1rem;
+   color: #eee;
+ }
+
+ #root {
+   flex: 1 0 auto;
+ }
