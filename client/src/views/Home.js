@@ -3,6 +3,7 @@ import { Container, Row, Col, Form, FormGroup, FormFeedback, Input, Label } from
 import axios from "axios";
 import "../styles/home.css";
 import "../font-mfizz/font-mfizz.css";
+import Resume from "../Shakhor_Smith_Resume.pdf";
 
 class Home extends Component {
   constructor(props) {
@@ -311,11 +312,9 @@ class Home extends Component {
                     aria-hidden="true"
                   />
                 </a>
-                <a href="/resume"><i
+                <a href={Resume} rel="noopener" target="_blank" alt="Resume"><i
                   className="fa fa-file-pdf-o"
-                  alt="Resume"
-                  aria-hidden="true"
-                />
+                  aria-hidden="true"/>
               </a>
               </div>
             </div>
