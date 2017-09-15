@@ -7,7 +7,7 @@ class Resume extends Component {
     return(
       <Container>
         <div className="actions">
-          <i className="fa fa-arrow-left" aria-hidden="true">&nbsp; Back To Site</i>
+          <a href="/"><i className="fa fa-arrow-left" aria-hidden="true">&nbsp; Back To Site</i></a>
           <i className="fa fa-file" aria-hidden="true">&nbsp; Download As PDF</i>
         </div>
         <div className="wrapper">

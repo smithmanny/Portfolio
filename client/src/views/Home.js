@@ -311,11 +311,12 @@ class Home extends Component {
                     aria-hidden="true"
                   />
                 </a>
-                <i
+                <a href="/resume"><i
                   className="fa fa-file-pdf-o"
                   alt="Resume"
                   aria-hidden="true"
                 />
+              </a>
               </div>
             </div>
           </Container>
