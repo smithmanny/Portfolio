@@ -18,21 +18,15 @@ body {
  }
 
  h1 {
-   color: #FA5D00;
    text-transform: uppercase;
    margin: 0;
    padding: 1rem 0;
- }
-
- label {
-   color: #eee;
  }
 
  p {
    font-family: 'Montserrat',sans-serif, Arial;
    line-height: 2rem;
    font-size: 1rem;
-   color: #ADADAD;
  }
 
  a {
