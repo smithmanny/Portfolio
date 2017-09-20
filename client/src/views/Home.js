@@ -46,7 +46,7 @@ class Home extends Component {
       <div>
         <div id="intro">
           <h1>Shakhor Smith</h1>
-          <h1>WordPress & Front-End Web Developer</h1>
+          <h1>WordPress & Front-End Developer</h1>
         </div>
 
         {/* About Me Section */}
@@ -109,7 +109,7 @@ class Home extends Component {
                   <div className="projectInfo my-4">
                     <h2 className="text-center">Sharonne Lanier</h2>
                     <p className="m-0 text-center">
-                      shdaklhdadnasldkakldnalkdnasldasldhsaldasdasddaskdasldhasdhasdlhasdlasdhasldhasldhasldhsadlashdl
+                      WordPress website built for actress Sharonne Lanier
                     </p>
                   </div>
                   <div className="projectSkills my-4">
@@ -126,19 +126,24 @@ class Home extends Component {
                       <Col>
                         <i className="icon-bootstrap" alt="Bootstrap" />
                       </Col>
-                      {/* <Col>
-                          <i className="icon-javascript" alt="Javascript" />
-                        </Col> */}
                       <Col>
-                        <i className="icon-jquery" alt="Jquery" />
-                      </Col>
+                          <i className="icon-jquery" alt="jQuery" />
+                        </Col>
                       <Col>
                         <i className="icon-php" alt="PHP" />
                       </Col>
+                      <Col>
+                        <i className="icon-wordpress" alt="WordPress" />
+                      </Col>
                     </Row>
                   </div>
-                  <div className="text-center my-4">
-                    <button>View Project</button>
+                  <div className="text-center my-4 code">
+                    <a href="https://github.com/smithmanny/Sharonne-Lanier"
+                    target="_blank" rel="noopener noreferrer">
+                      <button>
+                      View Project
+                      </button>
+                    </a>
                   </div>
                 </div>
               </Col>
@@ -154,9 +159,9 @@ class Home extends Component {
                     />
                   </div>
                   <div className="projectInfo my-4">
-                    <h2 className="text-center">Project Name</h2>
+                    <h2 className="text-center">Emaily App</h2>
                     <p className="m-0 text-center">
-                      shdaklhdadnasldkakldnalkdnasldasldhsaldasdasddaskdasldhasdhasdlhasdlasdhasldhasldhasldhsadlashdl
+                      App to send out email surveys built with Node + React + Redux Form + MongoDB
                     </p>
                   </div>
                   <div className="projectSkills my-4">
@@ -168,24 +173,25 @@ class Home extends Component {
                         <i className="icon-css3" alt="CSS3" />
                       </Col>
                       <Col>
-                        <i className="icon-sass" alt="Sass" />
+                          <i className="icon-reactjs" alt="React" />
+                        </Col>
+                      <Col>
+                        <i className="icon-nodejs" alt="Node" />
                       </Col>
                       <Col>
-                        <i className="icon-bootstrap" alt="Bootstrap" />
-                      </Col>
-                      {/* <Col>
-                          <i className="icon-javascript" alt="Javascript" />
-                        </Col> */}
-                      <Col>
-                        <i className="icon-jquery" alt="Jquery" />
-                      </Col>
-                      <Col>
-                        <i className="icon-php" alt="PHP" />
+                        <i className="icon-mongodb" alt="Jquery" />
                       </Col>
                     </Row>
                   </div>
                   <div className="text-center my-4">
-                    <button>View Project</button>
+                    <a href="https://github.com/smithmanny/Emaily"
+                    target="_blank" rel="noopener noreferrer">
+                      <button>View Code</button>
+                    </a>
+                    <a href="https://aqueous-stream-25587.herokuapp.com/"
+                    className="mx-1" target="_blank" rel="noopener noreferrer">
+                      <button>View Project</button>
+                    </a>
                   </div>
                 </div>
               </Col>
@@ -201,9 +207,9 @@ class Home extends Component {
                     />
                   </div>
                   <div className="projectInfo my-4">
-                    <h2 className="text-center">Project Name</h2>
+                    <h2 className="text-center">Simple Todo App</h2>
                     <p className="m-0 text-center">
-                      shdaklhdadnasldkakldnalkdnasldasldhsaldasdasddaskdasldhasdhasdlhasdlasdhasldhasldhasldhsadlashdl
+                      First React project building simple a Todo App
                     </p>
                   </div>
                   <div className="projectSkills my-4">
@@ -215,24 +221,22 @@ class Home extends Component {
                         <i className="icon-css3" alt="CSS3" />
                       </Col>
                       <Col>
-                        <i className="icon-sass" alt="Sass" />
-                      </Col>
+                          <i className="icon-reactjs" alt="React" />
+                        </Col>
                       <Col>
-                        <i className="icon-bootstrap" alt="Bootstrap" />
-                      </Col>
-                      {/* <Col>
-                          <i className="icon-javascript" alt="Javascript" />
-                        </Col> */}
-                      <Col>
-                        <i className="icon-jquery" alt="Jquery" />
-                      </Col>
-                      <Col>
-                        <i className="icon-php" alt="PHP" />
+                        <i className="icon-heroku" alt="Heroku" />
                       </Col>
                     </Row>
                   </div>
                   <div className="text-center my-4">
-                    <button>View Project</button>
+                    <a href="https://github.com/smithmanny/Todo-App"
+                    target="_blank" rel="noopener noreferrer" cursor="pointer">
+                      <button>View Code</button>
+                    </a>
+                    <a href="https://aqueous-stream-25587.herokuapp.com/"
+                    className="mx-1" target="_blank" rel="noopener noreferrer">
+                      <button>View Project</button>
+                    </a>
                   </div>
                 </div>
               </Col>
@@ -323,14 +327,14 @@ class Home extends Component {
 
         <footer id="footer">
           <div id="copyright">
-            Designed and developed by{" "}
+            <small>Designed and developed by{" "}
             <a
               href="https://shakhorsmith.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               Shakhor Smith
-            </a>
+            </a></small>
           </div>
         </footer>
       </div>

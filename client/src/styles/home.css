@@ -75,6 +75,14 @@ button:hover {
   cursor: pointer;
 }
 
+.projectWrapper a {
+  color: white;
+}
+
+.projectWrapper a:hover {
+  color: #FA5D00;
+}
+
 .projectWrapper::before {
   content: '';
   display: block;
@@ -108,8 +116,8 @@ button:hover {
   padding: 0 .5rem;
 }
 
-.projectSkills img {
-  height: 1.5rem;
+.projectSkills i {
+  font-size: 1.3rem;
 }
 
 #contact {
@@ -213,4 +221,40 @@ Form {
 
 .fa-file-pdf-o {
   color: #0077B5;
+}
+
+/* Media Queries */
+@media (max-width: 553px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 483px) {
+  .skills i {
+    font-size: 1.5rem;
+    padding: .8rem;
+  }
+}
+
+@media (max-width: 411px) {
+  .skills i {
+    padding: .5rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 347px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: .9rem;
+  }
+
+  .social i {
+    margin: 1rem;
+    font-size: 3rem;
+  }
 }
