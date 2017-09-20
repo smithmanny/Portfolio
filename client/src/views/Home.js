@@ -109,7 +109,7 @@ class Home extends Component {
                   <div className="projectInfo my-4">
                     <h2 className="text-center">Sharonne Lanier</h2>
                     <p className="m-0 text-center">
-                      WordPress website built for actress Sharonne Lanier
+                      WordPress website designed and developed for actress Sharonne Lanier
                     </p>
                   </div>
                   <div className="projectSkills my-4">
@@ -209,7 +209,7 @@ class Home extends Component {
                   <div className="projectInfo my-4">
                     <h2 className="text-center">Simple Todo App</h2>
                     <p className="m-0 text-center">
-                      First React project building simple a Todo App
+                      First React project building a simple Todo App
                     </p>
                   </div>
                   <div className="projectSkills my-4">
@@ -233,7 +233,7 @@ class Home extends Component {
                     target="_blank" rel="noopener noreferrer" cursor="pointer">
                       <button>View Code</button>
                     </a>
-                    <a href="https://aqueous-stream-25587.herokuapp.com/"
+                    <a href="https://smithmanny.github.io/Todo-App/"
                     className="mx-1" target="_blank" rel="noopener noreferrer">
                       <button>View Project</button>
                     </a>

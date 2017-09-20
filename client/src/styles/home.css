@@ -102,7 +102,7 @@ button:hover {
 }
 
 .level-3:hover::before {
-  box-shadow: 0 0 80px #a09c9c;
+  box-shadow: 0 0 60px #a09c9c;
 }
 
 .projectInfo {
