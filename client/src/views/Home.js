@@ -4,6 +4,9 @@ import axios from "axios";
 import "../styles/home.css";
 import "../font-mfizz/font-mfizz.css";
 import Resume from "../Shakhor_Smith_Resume.pdf";
+import Project_1 from "../img/project_1.jpeg";
+import Project_2 from "../img/project_2.jpeg";
+import Project_3 from "../img/project_3.jpeg";
 
 class Home extends Component {
   constructor(props) {
@@ -101,7 +104,7 @@ class Home extends Component {
                 <div className="projectWrapper level-3">
                   <div className="projectImg">
                     <img
-                      src="https://unsplash.it/350"
+                      src={Project_1}
                       alt="Github Logo"
                       className="img-fluid"
                     />
@@ -153,7 +156,7 @@ class Home extends Component {
                 <div className="projectWrapper level-3">
                   <div className="projectImg">
                     <img
-                      src="https://unsplash.it/350"
+                      src={Project_2}
                       alt="Github Logo"
                       className="img-fluid"
                     />
@@ -201,7 +204,7 @@ class Home extends Component {
                 <div className="projectWrapper level-3">
                   <div className="projectImg">
                     <img
-                      src="https://unsplash.it/350"
+                      src={Project_3}
                       alt="Github Logo"
                       className="img-fluid"
                     />
