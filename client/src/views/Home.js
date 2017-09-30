@@ -55,7 +55,7 @@ class Home extends Component {
         {/* About Me Section */}
         <section id="about">
           <Container>
-            <h1 className="text-center">About Me</h1>
+            <h2 className="text-center">About Me</h2>
             <p className="text-center">
 Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in both LAMP and MERN stack. During work, I'm working with PHP, MySQL, and Vue. On my off hours I transform into a Javascript ninja working with MongoDB, Express, React JS, and Node. I'm in the process of switching into a software engineer working with Full Stack Javascript as well as Java to build applications for both web and mobile.
             </p>
@@ -75,7 +75,7 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
                 <i className="icon-bootstrap" alt="Bootstrap" />
                 {/* <i className="icon-javascript" /> */}
                 <i className="icon-jquery" alt="Jquery" />
-                <i className="icon-reactjs" /> 
+                <i className="icon-reactjs" />
                 <i className="icon-php" alt="PHP" />
                 <i className="icon-symfony" alt="Symfony" />
               </div>
@@ -87,7 +87,7 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
         <section id="projects">
           <Container>
             <div className="mb-4 text-center">
-              <h1>Projects</h1>
+              <h2>Projects</h2>
             </div>
             <Row>
               {/* Project 1 */}
@@ -260,7 +260,7 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
         <section id="contact">
           <Container>
             <div className="mb-4">
-              <h1 className="text-center">Get In Touch</h1>
+              <h2 className="text-center">Get In Touch</h2>
               <p>
                 I love working on unique websites, if you have any questions or
                 have an interesting project you think I'm the perfect one to do,
@@ -308,7 +308,7 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
         <section id="social">
           <Container>
             <div className="text-center">
-              <h1>Around The Web</h1>
+              <h2>Around The Web</h2>
               <div className="social">
                 <a
                   href="https://github.com/smithmanny"

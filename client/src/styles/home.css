@@ -223,7 +223,7 @@ Form {
 
 /* Media Queries */
 @media (max-width: 553px) {
-  h1 {
+  h1, h2 {
     font-size: 2rem;
   }
 }
@@ -243,7 +243,7 @@ Form {
 }
 
 @media (max-width: 347px) {
-  h1 {
+  h1, h2 {
     font-size: 1.5rem;
   }
 

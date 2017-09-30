@@ -23,6 +23,10 @@ body {
    padding: 1rem 0;
  }
 
+ h2 {
+   font-size: 2.5rem;
+ }
+
  p {
    font-family: 'Montserrat',sans-serif, Arial;
    line-height: 2rem;
