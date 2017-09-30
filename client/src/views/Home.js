@@ -211,9 +211,9 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
                     />
                   </div>
                   <div className="projectInfo my-4">
-                    <h2 className="text-center">Simple Todo App</h2>
+                    <h2 className="text-center">Home Decor</h2>
                     <p className="m-0 text-center">
-                      First React project building a simple Todo App
+                      Home Decor website where clients can request quotes to rent furniture
                     </p>
                   </div>
                   <div className="projectSkills my-4">
@@ -225,7 +225,7 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
                         <i className="icon-css3" alt="CSS3" />
                       </Col>
                       <Col>
-                        <i className="icon-reactjs" alt="React" />
+                        <i className="icon-php" alt="PHP" />
                       </Col>
                       <Col>
                         <i className="icon-heroku" alt="Heroku" />
@@ -234,7 +234,7 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
                   </div>
                   <div className="text-center my-4">
                     <a
-                      href="https://github.com/smithmanny/Todo-App"
+                      href="https://github.com/smithmanny/Khadija-Project"
                       target="_blank"
                       rel="noopener noreferrer"
                       cursor="pointer"
@@ -242,7 +242,7 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
                       <button>View Code</button>
                     </a>
                     <a
-                      href="https://smithmanny.github.io/Todo-App/"
+                      href="https://khadija.herokuapp.com/"
                       className="mx-1"
                       target="_blank"
                       rel="noopener noreferrer"
