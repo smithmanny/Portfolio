@@ -308,7 +308,7 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
         <section id="social">
           <Container>
             <div className="text-center">
-              <h2>Around The Web</h2>
+              <h2 style={{ color: 'white' }}>Around The Web</h2>
               <div className="social">
                 <a
                   href="https://github.com/smithmanny"
