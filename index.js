@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const xoauth2 = require('xoauth2');
+const request = require('request');
 const keys = require('./config/keys');
 const app = express();
 
@@ -20,7 +21,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.post('/api/form', (req, res) => {
-  console.log(req.body);
   nodemailer.createTestAccount((err, account) => {
     // HTML email
     const htmlEmail = `
@@ -59,6 +59,35 @@ app.post('/api/form', (req, res) => {
       html: htmlEmail // html body
     };
 
+    // Recaptcha
+    if (
+      req.body.captcha === undefined ||
+      req.body.captcha === '' ||
+      req.body.captcha === null
+    ) {
+      return res.json({ success: false, msg: 'Please select captcha' });
+    }
+
+    // Recaptcha Secret Key
+    const captchaKey = keys.captchaKey;
+
+    // Verify URL
+    const verifyURL = `https://google.com/recaptcha/api/siteverify?secret=${captchaKey}&response=${req
+      .body.captcha}&remoteip=${req.connection.remoteAddress}`;
+
+    // Make request to VerifyURL
+    request(verifyURL, (err, response, body) => {
+      body = JSON.parse(body);
+
+      // If Not Successful
+      if (body.success !== undefined && !body.success) {
+        return res.json({ success: false, msg: 'Failed captcha verification' });
+      } 
+
+      // If Successful
+      return res.json({ success: true, msg: 'Captcha passed' });
+    })
+
     // send mail with defined transport object
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
@@ -66,7 +95,6 @@ app.post('/api/form', (req, res) => {
       }
       console.log('Message sent: %s', info.messageId);
       console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-
     });
   });
 });

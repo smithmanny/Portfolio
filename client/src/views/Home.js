@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Form, FormGroup, Input, Label } from 'reactstrap';
 import axios from 'axios';
+// Assets (Resume, Images, Styles)
 import '../styles/home.css';
 import '../font-mfizz/font-mfizz.css';
 import Resume from '../Shakhor_Smith_Resume.pdf';
 import Project_1 from '../img/project_1.jpeg';
 import Project_2 from '../img/project_2.jpeg';
 import Project_3 from '../img/project_3.jpeg';
+// Form Views
+import DefaultView from './form/DefaultView';
+import ErrorView from './form/ErrorView';
+import SentView from './form/SentView';
 
 class Home extends Component {
   constructor(props) {
@@ -14,7 +19,9 @@ class Home extends Component {
     this.state = {
       name: '',
       email: '',
-      message: ''
+      message: '',
+      sent: '',
+      msg: ''
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -29,9 +36,22 @@ class Home extends Component {
     event.preventDefault();
 
     const { name, email, message } = this.state;
+    const captcha = document.querySelector('#g-recaptcha-response').value;
 
-    axios.post('/api/form', { name, email, message });
-    await this.clearForm();
+    const form = await axios.post('/api/form', {
+      name,
+      email,
+      message,
+      captcha
+    });
+
+    // Check captcha status
+    if (form.data.success === false) {
+      this.setState({ sent: false, msg: form.data.msg });
+    } else {
+      this.setState({ sent: true });
+      await this.clearForm();
+    }
   }
 
   // Clear Form after submit
@@ -42,6 +62,17 @@ class Home extends Component {
       message: '',
       error: ''
     });
+  }
+
+  renderStatus() {
+    switch (this.state.sent) {
+      case false:
+        return <ErrorView text={this.state.msg} />;
+      case true:
+        return <SentView />;
+      default:
+        return <SentView />;
+    }
   }
 
   render() {
@@ -57,7 +88,13 @@ class Home extends Component {
           <Container>
             <h2 className="text-center">About Me</h2>
             <p className="text-center">
-Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in both LAMP and MERN stack. During work, I'm working with PHP, MySQL, and Vue. On my off hours I transform into a Javascript ninja working with MongoDB, Express, React JS, and Node. I'm in the process of switching into a software engineer working with Full Stack Javascript as well as Java to build applications for both web and mobile.
+              Hi, my name is Shakhor Smith and I'm a Full Stack Developer with
+              experience in both LAMP and MERN stack. During work, I'm working
+              with PHP, MySQL, and Vue. On my off hours I transform into a
+              Javascript ninja working with MongoDB, Express, React JS, and
+              Node. I'm in the process of switching into a software engineer
+              working with Full Stack Javascript as well as Java to build
+              applications for both web and mobile.
             </p>
             <div className="skills">
               <div className="mb-2">
@@ -213,7 +250,8 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
                   <div className="projectInfo my-4">
                     <h2 className="text-center">Home Decor</h2>
                     <p className="m-0 text-center">
-                      Home Decor website where clients can request quotes to rent furniture
+                      Home Decor website where clients can request quotes to
+                      rent furniture
                     </p>
                   </div>
                   <div className="projectSkills my-4">
@@ -259,14 +297,8 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
         {/* Contact Section */}
         <section id="contact">
           <Container>
-            <div className="mb-4">
-              <h2 className="text-center">Get In Touch</h2>
-              <p>
-                I love working on unique websites, if you have any questions or
-                have an interesting project you think I'm the perfect one to do,
-                send me an email below:
-              </p>
-            </div>
+            {/* Render Form paragraph with sent status */}
+            {this.renderStatus()}
             {/* Contact Form */}
             <Form onSubmit={this.handleSubmit}>
               <FormGroup>
@@ -297,6 +329,12 @@ Hi, my name is Shakhor Smith and I'm a Full Stack Developer with experience in b
                   value={this.state.message}
                   onChange={this.handleChange.bind(this)}
                   required
+                />
+              </FormGroup>
+              <FormGroup>
+                <div
+                  className="g-recaptcha"
+                  data-sitekey="6LfWPTMUAAAAAO-5cU6hv9bHBX08DVUrvIrvnrRl"
                 />
               </FormGroup>
               <button>Submit</button>
