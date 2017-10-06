@@ -71,7 +71,7 @@ class Home extends Component {
       case true:
         return <SentView />;
       default:
-        return <SentView />;
+        return <DefaultView />;
     }
   }
 
