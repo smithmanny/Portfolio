@@ -1,0 +1,13 @@
+#notFound {
+  background-image: url('../img/archer.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  height: 900px;
+}
+
+@media (max-width: 560px) {
+  h4 {
+    font-size: 1rem;
+  }
+}
