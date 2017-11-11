@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -5,7 +6,6 @@ const xoauth2 = require('xoauth2');
 const request = require('request');
 const keys = require('./config/keys');
 const app = express();
-require('newrelic');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
