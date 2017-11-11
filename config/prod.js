@@ -4,5 +4,6 @@ module.exports = {
   googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
   refreshToken: process.env.REFRESH_TOKEN,
   accessToken: process.env.ACCESS_TOKEN,
-  captchaKey: process.env.CAPTCHA_KEY
+  captchaKey: process.env.CAPTCHA_KEY,
+  newRelic: process.env.NEW_RELIC
 };

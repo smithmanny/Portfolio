@@ -5,6 +5,7 @@ const xoauth2 = require('xoauth2');
 const request = require('request');
 const keys = require('./config/keys');
 const app = express();
+require('newrelic');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -82,7 +83,7 @@ app.post('/api/form', (req, res) => {
       // If Not Successful
       if (body.success !== undefined && !body.success) {
         return res.json({ success: false, msg: 'Failed captcha verification' });
-      } 
+      }
 
       // If Successful
       return res.json({ success: true, msg: 'Captcha passed' });
