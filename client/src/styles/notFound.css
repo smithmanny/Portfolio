@@ -1,13 +1,25 @@
-#notFound {
-  background-image: url('../img/archer.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
-  height: 900px;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('../img/banner.jpg');
+  background-position: center;
+  height: 100vh;
+  position: relative;
 }
 
-@media (max-width: 560px) {
-  h4 {
-    font-size: 1rem;
-  }
+.notFoundBanner {
+  width: 400px;
+}
+
+.back_home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+}
+
+.back_home h5 {
+  color: white;
 }
