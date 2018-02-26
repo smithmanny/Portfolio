@@ -188,6 +188,32 @@ class Home extends Component {
                   </a>
                 </div>
               </Col>
+
+              {/* Project 4 */}
+              <Col xs="12" md="6" lg="4" className="mb-4">
+                <div className="projectWrapper level-3 text-center">
+                  <h3>Pig Game</h3>
+                  <p>
+                    First person to 100 wins!
+                  </p>
+                  <a
+                    href="https://github.com/smithmanny/Pig-Dice-Game"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    cursor="pointer"
+                  >
+                    <button>View Code</button>
+                  </a>
+                  <a
+                    href="https://smithmanny.github.io/Pig-Dice-Game/"
+                    className="mx-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>View Project</button>
+                  </a>
+                </div>
+              </Col>
             </Row>
           </Container>
         </section>
