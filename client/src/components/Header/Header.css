@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    padding: 20px;
+}
+
+.header-links, .header-logo, .header-social {
+    flex: 1;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+.header-links div {
+    margin-right: 10px;
+}
+
+.header-logo {
+    text-align: center;
+}
+.header-logo img {
+    width: 100%;
+    max-width: 350px;
+}
+
+.header-social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-social div {
+    margin-left: 10px;
+}
