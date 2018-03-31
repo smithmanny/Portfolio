@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('../img/banner.jpg');
+  background: url('../../img/banner.jpg');
   background-position: center;
   height: 100vh;
   position: relative;

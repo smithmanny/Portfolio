@@ -37,7 +37,7 @@
     opacity: 0;
     transition: .3s ease;
 }
-.project-info h5 {
+.project-info h4 {
     font-family: 'Montserrat', sans-serif, Arial;
     margin-top: 30px;
 }

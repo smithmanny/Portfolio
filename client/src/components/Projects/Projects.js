@@ -14,9 +14,9 @@ class Projects extends Component {
             <img className="project-img" src={Img} alt="" />
 
             <div className="project-info">
-              <h2>Project Info</h2>
+              <h3>Project Info</h3>
               <button className="btn">View More</button>
-              <h5>Web Design / Web Development</h5>
+              <h4>Web Design / Web Development</h4>
             </div>
           </div>
 
@@ -24,9 +24,9 @@ class Projects extends Component {
             <img className="project-img" src={Img} alt="" />
 
             <div className="project-info">
-              <h2>Project Info</h2>
+              <h3>Project Info</h3>
               <button className="btn">View More</button>
-              <h5>Web Design / Web Development</h5>
+              <h4>Web Design / Web Development</h4>
             </div>
           </div>
         </div>

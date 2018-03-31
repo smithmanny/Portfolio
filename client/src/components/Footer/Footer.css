@@ -4,10 +4,21 @@ footer {
   height: 100px;
   justify-content: center;
   display: flex;
+  flex-direction: column;
+  background-color: #e8ebea;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social div {
+  margin: 10px;
 }
 
 #copyright {
-  margin-top: auto;
+  margin: auto;
   padding-bottom: 1rem;
   color: #000;
 }

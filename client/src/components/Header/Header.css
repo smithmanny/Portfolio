@@ -10,13 +10,15 @@
 .header-links {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 .header-links div {
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .header-logo {
     text-align: center;
+    order: -1;
 }
 .header-logo img {
     width: 100%;
@@ -24,10 +26,40 @@
 }
 
 .header-social {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: flex-end;
+    transition: display 5s;
 }
 .header-social div {
     margin-left: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 530px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header-links {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 800px) {
+    .header-links {
+        justify-content: flex-start;
+    }
+    .header-links div {
+        margin-right: 30px;
+        margin-left: 0;
+    }
+
+    .header-logo {
+        order: 0;
+    }
+    .header-social {
+        display: flex;
+    }
 }

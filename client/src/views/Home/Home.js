@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Header from '../components/Header/Header';
-import Projects from '../components/Projects/Projects';
-import Contact from '../components/Contact/Contact';
-import Footer from '../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+import Projects from '../../components/Projects/Projects';
+import Contact from '../../components/Contact/Contact';
+import Footer from '../../components/Footer/Footer';
 
 // Assets
-import '../styles/home.css';
+import './home.css';
 
 class Home extends Component {
   render() {
@@ -15,9 +15,9 @@ class Home extends Component {
 
           <div className="intro">
             <h1>Hello, my name is Shakhor Smith.</h1>
-            <h3>
+            <h2>
               I'm a <span>Full Stack</span> JavaScript Developer.
-            </h3>
+            </h2>
           </div>
 
           <div className="circles">
@@ -59,21 +59,21 @@ class Home extends Component {
           <h2 className="title">Services</h2>
           <div className="service-wrapper">
             <div className="service">
-              <h4>Branding</h4>
+              <h3>Branding</h3>
               <p>
                 I can help your organization create a high-impact identity
                 that will leave a lasting impression.
               </p>
             </div>
             <div className="service">
-              <h4>Website Development</h4>
+              <h3>Website Development</h3>
               <p>
                 From WordPress to Web Apps, I have the talent to develop
                 incredible projects using the best practices.
               </p>
             </div>
             <div className="service">
-              <h4>Marketing Optimization</h4>
+              <h3>Marketing Optimization</h3>
               <p>
                 I can help drive traffic to your website and help generate
                 leads.
