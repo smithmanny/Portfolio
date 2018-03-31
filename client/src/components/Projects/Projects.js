@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
 import Img from '../../img/project.jpg';
+
 import './Projects.css';
 
 class Projects extends Component {
@@ -11,20 +11,28 @@ class Projects extends Component {
 
         <div className="projects-wrapper">
           <div className="project">
-            <div className="project-info">
-                Project Info
-            </div>
+            <img className="project-img" src={Img} alt="" />
 
-            <img src={Img} alt=""/>
+            <div className="project-info">
+              <h2>Project Info</h2>
+              <button className="btn">View More</button>
+              <h5>Web Design / Web Development</h5>
+            </div>
           </div>
-          
+
           <div className="project">
-            <div className="project-info">
-                Project Info
-            </div>
+            <img className="project-img" src={Img} alt="" />
 
-            <img src={Img} alt=""/>
+            <div className="project-info">
+              <h2>Project Info</h2>
+              <button className="btn">View More</button>
+              <h5>Web Design / Web Development</h5>
+            </div>
           </div>
+        </div>
+        
+        <div className="all-projects">
+            <button className="btn">View All</button>
         </div>
       </div>
     );

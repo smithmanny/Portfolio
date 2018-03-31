@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'reactstrap';
 import Header from '../components/Header/Header';
 import Projects from '../components/Projects/Projects';
 import Contact from '../components/Contact/Contact';
@@ -12,7 +11,8 @@ import Resume from '../Shakhor_Smith_Resume.pdf';
 
 class Home extends Component {
   render() {
-    return <div>
+    return (
+      <div>
         <div id="intro-wrapper">
           <Header />
 
@@ -36,7 +36,7 @@ class Home extends Component {
             <p>Over 1 year of experience using these languages.</p>
           </div>
           <div className="skills">
-            <div className="mb-2">
+            <div>
               <i className="icon-npm" alt="NPM" />
               <i className="icon-gulp" alt="Gulp" />
               <i className="icon-git" alt="Git" />
@@ -65,8 +65,8 @@ class Home extends Component {
             <div className="service">
               <h4>Branding</h4>
               <p>
-                I can help your organization create a high-impact identity
-                that will leave a lasting impression.
+                I can help your organization create a high-impact identity that
+                will leave a lasting impression.
               </p>
             </div>
             <div className="service">
@@ -90,30 +90,11 @@ class Home extends Component {
         <Projects />
 
         {/* Contact Section */}
-        {/* <Contact /> */}
-
-        {/* Social Section */}
-        <section id="social">
-          <Container>
-            <div className="text-center">
-              <h2 style={{ color: 'white' }}>Around The Web</h2>
-              <div className="social">
-                <a href="https://github.com/smithmanny" target="_blank" rel="noopener noreferrer">
-                  <i className="fa fa-github" alt="Github" aria-hidden="true" />
-                </a>
-                <a href="https://www.linkedin.com/in/shakhor-smith/" target="_blank" rel="noopener noreferrer">
-                  <i className="fa fa-linkedin" alt="Linkedin" aria-hidden="true" />
-                </a>
-                <a href={Resume} rel="noopener" target="_blank" alt="Resume">
-                  <i className="fa fa-file-pdf-o" aria-hidden="true" />
-                </a>
-              </div>
-            </div>
-          </Container>
-        </section>
+        <Contact />
 
         <Footer />
-      </div>;
+      </div>
+    );
   }
 }
 

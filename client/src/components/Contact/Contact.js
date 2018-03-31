@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, FormGroup, Input, Label } from 'reactstrap';
 import axios from 'axios';
 
 // Form Views
 import DefaultView from './form/DefaultView';
 import ErrorView from './form/ErrorView';
 import SentView from './form/SentView';
+
+import './Contact.css';
 
 class Contact extends Component {
   constructor(props) {
@@ -71,51 +72,51 @@ class Contact extends Component {
 
   render() {
     return (
-      <section id="contact">
-        <Container>
+      <section id="wrapper">
+        <div className="contact-wrapper">
           {/* Render Form paragraph with sent status */}
           {this.renderStatus()}
-          {/* Contact Form */}
-          <Form onSubmit={this.handleSubmit}>
-            <FormGroup>
-              <Label for="name">Name</Label>
-              <Input
+
+          <form onSubmit={this.handleSubmit}>
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
+              <input
                 type="text"
                 name="name"
                 value={this.state.name}
                 onChange={this.handleChange.bind(this)}
                 required
               />
-            </FormGroup>
-            <FormGroup>
-              <Label for="email">Email</Label>
-              <Input
+            </div>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input
                 type="email"
                 name="email"
                 value={this.state.email}
                 onChange={this.handleChange.bind(this)}
                 required
               />
-            </FormGroup>
-            <FormGroup>
-              <Label for="message">Message/Comment</Label>
-              <Input
+            </div>
+            <div className="form-group">
+              <label htmlFor="message">Message/Comment</label>
+              <input
                 type="textarea"
                 name="message"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this)}
                 required
               />
-            </FormGroup>
-            <FormGroup>
+            </div>
+            <div>
               <div
                 className="g-recaptcha"
                 data-sitekey="6LfWPTMUAAAAAO-5cU6hv9bHBX08DVUrvIrvnrRl"
               />
-            </FormGroup>
-            <button>Submit</button>
-          </Form>
-        </Container>
+            </div>
+            <button className="btn">Submit</button>
+          </form>
+        </div>
       </section>
     );
   }
