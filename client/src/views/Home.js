@@ -4,15 +4,12 @@ import Projects from '../components/Projects/Projects';
 import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 
-// Assets (Resume, Images, Styles)
+// Assets
 import '../styles/home.css';
-import '../font-mfizz/font-mfizz.css';
-import Resume from '../Shakhor_Smith_Resume.pdf';
 
 class Home extends Component {
   render() {
-    return (
-      <div>
+    return <div>
         <div id="intro-wrapper">
           <Header />
 
@@ -29,31 +26,30 @@ class Home extends Component {
           </div>
         </div>
 
-        {/* About Me Section */}
-        <section className="wrapper">
+        {/* Skills Section */}
+        <section className="wrapper skills-wrapper">
           <div className="title">
             <h2>Skills</h2>
             <p>Over 1 year of experience using these languages.</p>
           </div>
           <div className="skills">
-            <div>
-              <i className="icon-npm" alt="NPM" />
-              <i className="icon-gulp" alt="Gulp" />
-              <i className="icon-git" alt="Git" />
-              <i className="icon-mysql" alt="MySQL" />
-              <i className="icon-mongodb" />
+            <div className="skill">
+              <i className="fab fa-html5" style={{ color: '#E14322' }} />
             </div>
-            {/* Front-End Languages & Frameworks */}
-            <div>
-              <i className="icon-html5" alt="HTML5" />
-              <i className="icon-css3" alt="CSS3" />
-              <i className="icon-sass" alt="Sass" />
-              <i className="icon-bootstrap" alt="Bootstrap" />
-              {/* <i className="icon-javascript" /> */}
-              <i className="icon-jquery" alt="Jquery" />
-              <i className="icon-reactjs" />
-              <i className="icon-php" alt="PHP" />
-              <i className="icon-symfony" alt="Symfony" />
+            <div className="skill">
+              <i className="fab fa-css3-alt" style={{ color: '#239FDC' }} />
+            </div>
+            <div className="skill">
+              <i className="fab fa-js" style={{ color: '#EED646' }} />
+            </div>
+            <div className="skill">
+              <i className="fab fa-react" style={{ color: '#4ED4FA' }} />
+            </div>
+            <div className="skill">
+              <i className="fab fa-node" style={{ color: '#85BD37' }} />
+            </div>
+            <div className="skill">
+              <i className="fab fa-wordpress-simple" style={{ color: '#3D3D3D' }} />
             </div>
           </div>
         </section>
@@ -65,8 +61,8 @@ class Home extends Component {
             <div className="service">
               <h4>Branding</h4>
               <p>
-                I can help your organization create a high-impact identity that
-                will leave a lasting impression.
+                I can help your organization create a high-impact identity
+                that will leave a lasting impression.
               </p>
             </div>
             <div className="service">
@@ -90,11 +86,10 @@ class Home extends Component {
         <Projects />
 
         {/* Contact Section */}
-        <Contact />
+        {/* <Contact /> */}
 
         <Footer />
-      </div>
-    );
+      </div>;
   }
 }
 
