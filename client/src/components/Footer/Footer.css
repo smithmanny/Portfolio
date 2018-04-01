@@ -1,5 +1,5 @@
-footer {
-  flex: 0 0 auto;
+.footer {
+  flex-shrink: 0;
   position: relative;
   height: 100px;
   justify-content: center;
@@ -15,6 +15,11 @@ footer {
 }
 .footer-social div {
   margin: 10px;
+  transition: .3s ease;
+}
+.footer-social div:hover {
+    transform: translateY(-5px);
+    transition: .3s ease;
 }
 
 #copyright {

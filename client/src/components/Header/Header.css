@@ -1,6 +1,8 @@
 .header {
     display: flex;
     padding: 20px;
+    align-items: center;
+    width: 100%;
 }
 
 .header-links, .header-logo, .header-social {
@@ -33,7 +35,13 @@
 }
 .header-social div {
     margin-left: 30px;
+    transition: .3s ease;
 }
+.header-social div:hover {
+    transform: translateY(-5px);
+    transition: .3s ease;
+}
+
 
 /* Media Queries */
 @media (max-width: 530px) {

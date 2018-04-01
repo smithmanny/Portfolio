@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer className="footer">
       <div className="footer-social">
         <div className="fa-2x">
           <a href="https://www.youtube.com/channel/UC33Y0c5LX9Z2TvtxpztaFUA?view_as=subscriber" alt="Youtube Channel" target="_blank" rel="noopener noreferrer" >

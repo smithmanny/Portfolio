@@ -1,42 +1,55 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { graphql } from 'react-apollo';
+import gql from 'graphql-tag';
+// Assets
 import Img from '../../img/project.jpg';
-
 import './Projects.css';
 
-class Projects extends Component {
-  render() {
+const Projects = ({ data: { loading, allProjects } }) => {
+  if (!loading) {
     return (
       <div className="wrapper">
         <h2 className="title">Projects</h2>
 
         <div className="projects-wrapper">
-          <div className="project">
-            <img className="project-img" src={Img} alt="" />
+          {allProjects.map(project => (
+            <div className="project" key={project.id}>
+              <img className="project-img" src={project.image.url} alt="" />
 
-            <div className="project-info">
-              <h3>Project Info</h3>
-              <button className="btn">View More</button>
-              <h4>Web Design / Web Development</h4>
+              <div className="project-info">
+                <h3>{project.name}</h3>
+                <button className="btn">View More</button>
+                <h4>{project.type}</h4>
+              </div>
             </div>
-          </div>
-
-          <div className="project">
-            <img className="project-img" src={Img} alt="" />
-
-            <div className="project-info">
-              <h3>Project Info</h3>
-              <button className="btn">View More</button>
-              <h4>Web Design / Web Development</h4>
-            </div>
-          </div>
+          ))}
         </div>
-        
+
         <div className="all-projects">
-            <button className="btn">View All</button>
+          <button className="btn">View All</button>
         </div>
       </div>
     );
   }
-}
 
-export default Projects;
+  return (
+    <div className="loading">
+      <div className="loading-anim"></div>
+    </div>
+  )
+};
+
+const allProjects = gql`
+  query allProjects {
+    allProjects (first: 2) {
+      id
+      name
+      type
+      image {
+        url
+      }
+    }
+  }
+`;
+
+export default graphql(allProjects)(Projects);

@@ -1,18 +1,15 @@
 import React, { Component } from 'react';
-import Header from '../../components/Header/Header';
+// Components
 import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
-import Footer from '../../components/Footer/Footer';
-
 // Assets
 import './home.css';
 
 class Home extends Component {
   render() {
-    return <div>
+    return (
+      <div className="container">
         <div id="intro-wrapper">
-          <Header />
-
           <div className="intro">
             <h1>Hello, my name is Shakhor Smith.</h1>
             <h2>
@@ -49,7 +46,10 @@ class Home extends Component {
               <i className="fab fa-node" style={{ color: '#85BD37' }} />
             </div>
             <div className="skill">
-              <i className="fab fa-wordpress-simple" style={{ color: '#3D3D3D' }} />
+              <i
+                className="fab fa-wordpress-simple"
+                style={{ color: '#3D3D3D' }}
+              />
             </div>
           </div>
         </section>
@@ -61,8 +61,8 @@ class Home extends Component {
             <div className="service">
               <h3>Branding</h3>
               <p>
-                I can help your organization create a high-impact identity
-                that will leave a lasting impression.
+                I can help your organization create a high-impact identity that
+                will leave a lasting impression.
               </p>
             </div>
             <div className="service">
@@ -88,8 +88,8 @@ class Home extends Component {
         {/* Contact Section */}
         {/* <Contact /> */}
 
-        <Footer />
-      </div>;
+      </div>
+    );
   }
 }
 
