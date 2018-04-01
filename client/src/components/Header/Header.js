@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SocialIcons from '../SocialIcons/SocialIcons';
+import Icon from '../SocialIcons/Icon';
+// Assets
 import Logo from '../../img/logo.png';
-
 import './Header.css';
 
 const Header = () => {
@@ -14,7 +16,9 @@ const Header = () => {
         <Link to="/about">
           <div>About</div>
         </Link>
-        <div>Projects</div>
+        <Link to="/projects">
+          <div>Projects</div>
+        </Link>
       </div>
       <div className="header-logo">
         <Link to="/">
@@ -22,48 +26,33 @@ const Header = () => {
         </Link>
       </div>
 
-      <div className="header-social">
-        <div className="fa-2x">
-          <a
-            href="https://www.youtube.com/channel/UC33Y0c5LX9Z2TvtxpztaFUA?view_as=subscriber"
-            alt="Youtube Channel"
-            target="_blank"
-            rel="noopener noreferrer">
-            <i
-              className="fab fa-youtube"
-              alt="Youtube Channel"
-              style={{ color: '#ff0000' }}
-            />
-          </a>
-        </div>
-        <div className="fa-2x">
-          <a
-            href="http://github.com/smithmanny"
-            alt="Github Profile"
-            target="_blank"
-            rel="noopener noreferrer">
-            <i className="fab fa-github" style={{ color: '#333' }} />
-          </a>
-        </div>
-        <div className="fa-2x">
-          <a
-            href="https://twitter.com/Smithmanny"
-            alt="Twitter Profile"
-            target="_blank"
-            rel="noopener noreferrer">
-            <i className="fab fa-twitter" style={{ color: '#1da1f2' }} />
-          </a>
-        </div>
-        <div className="fa-2x">
-          <a
-            href="https://www.linkedin.com/in/shakhor-smith/"
-            alt="Linkedin Profile"
-            target="_blank"
-            rel="noopener noreferrer">
-            <i className="fab fa-linkedin" style={{ color: '#0070AD' }} />
-          </a>
-        </div>
-      </div>
+      {/* Social Icons */}
+      <SocialIcons>
+        <Icon
+          link="https://www.youtube.com/channel/UC33Y0c5LX9Z2TvtxpztaFUA?view_as=subscriber"
+          icon="fab fa-youtube"
+          alt="Youtube Channel"
+          color="#ff0000"
+        />
+        <Icon
+          link="http://github.com/smithmanny"
+          icon="fab fa-github"
+          alt="Github Profile"
+          color="#333"
+        />
+        <Icon
+          link="https://twitter.com/Smithmanny"
+          icon="fab fa-twitter"
+          alt="Twitter Profile"
+          color="#1da1f2"
+        />
+        <Icon
+          link="https://www.linkedin.com/in/shakhor-smith/"
+          icon="fab fa-linkedin"
+          alt="Linkedin Profile"
+          color="#0070AD"
+        />
+      </SocialIcons>
     </header>
   );
 };

@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Home from './views/Home/Home';
 import Blog from './views/Blog/Blog';
 import About from './views/About/About';
+import Projects from './views/Projects/Projects';
 import NotFound from './views/404/notFound';
 
 const Routes = (props) => {
@@ -18,7 +19,7 @@ const Routes = (props) => {
             <Route exact path='/' component={Home} />
             <Route path='/blog' component={Blog} />
             <Route path='/about' component={About} />
-            {/* <Route path='/projects' component={Projects} /> */}
+            <Route path='/projects' component={Projects} />
             <Route component={NotFound} />
           </Switch>
         <Footer />

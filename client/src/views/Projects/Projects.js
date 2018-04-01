@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
 // Assets
-import './Projects.css';
+import '../../components/Projects/Projects.css';
 
 const Projects = ({ data: { loading, allProjects } }) => {
   if (!loading) {
@@ -25,7 +25,7 @@ const Projects = ({ data: { loading, allProjects } }) => {
         </div>
 
         <div className="all-projects">
-          <button className="btn">View All</button>
+          <button className="btn">View More</button>
         </div>
       </div>
     );
@@ -41,7 +41,7 @@ const Projects = ({ data: { loading, allProjects } }) => {
 
 const allProjects = gql`
   query allProjects {
-    allProjects(first: 2) {
+    allProjects {
       id
       name
       type
