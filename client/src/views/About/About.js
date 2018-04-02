@@ -2,12 +2,14 @@ import React from 'react';
 import Header from '../../components/Header/Header';
 // Assets
 import './About.css';
-import Me from '../../img/prof_headshot.jpg';
 
 const youtube =
   'https://www.youtube.com/channel/UC33Y0c5LX9Z2TvtxpztaFUA?view_as=subscriber';
 
 const medium = 'https://medium.com/@shakhorsmith';
+
+const img =
+  'https://res.cloudinary.com/smithmanny/image/upload/c_fill,f_auto,h_300,q_auto,w_300/v1522696199/IMG_1722_vfnsif.jpg';
 
 const About = () => (
   <div className="container">
@@ -16,7 +18,7 @@ const About = () => (
       <div className="about-me">
         <div className="about-left">
           <div className="about-img">
-            <img src={Me} alt="Headshot" />
+            <img src={img} alt="Headshot" />
           </div>
           <h2 className="title">Shakhor Smith</h2>
         </div>
