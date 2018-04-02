@@ -100,9 +100,9 @@ class Contact extends Component {
             </div>
             <div className="form-group">
               <label htmlFor="message">Message/Comment</label>
-              <input
-                type="textarea"
+              <textarea
                 name="message"
+                rows="10"
                 value={this.state.message}
                 onChange={this.handleChange.bind(this)}
                 required
