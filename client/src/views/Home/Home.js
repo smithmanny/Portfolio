@@ -88,7 +88,7 @@ class Home extends Component {
         <Projects />
 
         {/* Contact Section */}
-        {/* <Contact /> */}
+        <Contact />
 
       </div>
     );
