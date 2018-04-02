@@ -1,8 +1,12 @@
 import React from 'react';
+import Header from '../../components/Header/Header';
 
 const Blog = () => (
-  <div>
-    Blog Page
+  <div className="container">
+  <Header />
+    <div className="wrapper">
+      Blog Page
+    </div>
   </div>
 )
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 // Components
+import Header from '../../components/Header/Header';
 import Projects from '../../components/Projects/Projects';
 import Contact from '../../components/Contact/Contact';
 // Assets
@@ -10,6 +11,7 @@ class Home extends Component {
     return (
       <div className="container">
         <div id="intro-wrapper">
+        <Header />
           <div className="intro">
             <h1>Hello, my name is Shakhor Smith.</h1>
             <h2>

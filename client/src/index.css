@@ -12,6 +12,9 @@
   box-sizing: border-box;
   font-family: 'Varela Round', Arial, Sans-Serif;
 }
+*::before, *::after {
+  box-sizing: border-box;
+}
 
 body {
   background-color: var(--bg);
@@ -57,6 +60,30 @@ p {
   text-align: center;
 }
 
+.btn {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 14px 0;
+    border-radius: 2px;
+    background: #FFF;
+    color: var(--purple);
+    border: 3px solid var(--purple);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.3s ease all;
+    box-shadow: var(--shadow);
+}
+.btn:hover, .btn:focus {
+    color: #FFF;
+    background-color: var(--purple);
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: var(--links);
@@ -90,6 +117,12 @@ a:hover {
 
 /* Media Queries */
 @media (min-width: 635px) {
+  .container {
+    max-width: 1900px;
+    margin: auto;
+    width: 100%;
+  }
+
   h1 {
     font-size: 2.5rem;
   }

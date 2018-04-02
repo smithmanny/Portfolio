@@ -5,6 +5,7 @@
     grid-gap: 30px;
     margin: 0 auto;
     justify-content: center;
+    padding: 30px 0;
 }
 
 .project {
@@ -42,49 +43,11 @@
     font-family: 'Montserrat', sans-serif, Arial;
     margin-top: 30px;
 }
-
-.btn {
-    position: relative;
-    width: 200px;
-    margin: 0 auto;
-    padding: 14px 0;
-    border-radius: 2px;
-    background: #FFF;
+.project-info .btn a {
     color: var(--purple);
-    border: 3px solid var(--purple);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 18px;
-    transition: .3s ease all;
-    box-shadow: var(--shadow);
 }
-.btn:hover {
-    color: #FFF;
-}
-.btn:before {
-    transition: 0.5s all ease;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    opacity: 0;
-    content: '';
-    background-color: var(--purple);
-    z-index: -2;
-}
-.btn:hover:before {
-    transition: 0.5s all ease;
-    left: 0;
-    right: 0;
-    opacity: 1;
-}
-.btn:focus:before {
-    transition: 0.5s all ease;
-    left: 0;
-    right: 0;
-    opacity: 1;
+.project-info .btn:hover a {
+    color: white;
 }
 
 .all-projects {

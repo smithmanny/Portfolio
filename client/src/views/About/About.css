@@ -4,9 +4,9 @@
 }
 
 .about-me {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-    grid-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: .3s ease;
 }
 
 .about-left .title {
@@ -29,7 +29,7 @@
 }
 
 .about-content {
-    text-align: center;
+    text-align: left;
 }
 .about-content span {
     color: var(--purple);
@@ -48,7 +48,9 @@
 }
 
 @media (min-width: 770px) {
-    .about-content {
-        text-align: left;
+    .about-me {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        grid-gap: 50px;
     }
 }

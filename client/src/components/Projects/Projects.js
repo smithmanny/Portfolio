@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { graphql } from 'react-apollo';
 import gql from 'graphql-tag';
 // Assets
@@ -13,11 +14,19 @@ const Projects = ({ data: { loading, allProjects } }) => {
         <div className="projects-wrapper">
           {allProjects.map(project => (
             <div className="project" key={project.id}>
-              <img className="project-img" src={project.image.url} alt="" />
+              <img
+                className="project-img"
+                src={project.image.url}
+                alt={project.name}
+              />
 
               <div className="project-info">
                 <h3>{project.name}</h3>
-                <button className="btn">View More</button>
+                <button className="btn">
+                  <a href={project.link} rel="noopener noreferrer">
+                    View Project
+                  </a>
+                </button>
                 <h4>{project.type}</h4>
               </div>
             </div>
@@ -25,7 +34,9 @@ const Projects = ({ data: { loading, allProjects } }) => {
         </div>
 
         <div className="all-projects">
-          <button className="btn">View All</button>
+          <Link to="/projects">
+            <button className="btn">View All</button>
+          </Link>
         </div>
       </div>
     );
@@ -38,13 +49,13 @@ const Projects = ({ data: { loading, allProjects } }) => {
   );
 };
 
-
 const allProjects = gql`
   query allProjects {
     allProjects(first: 2) {
       id
       name
       type
+      link
       image {
         url
       }

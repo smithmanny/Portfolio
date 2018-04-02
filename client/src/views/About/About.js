@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../../components/Header/Header';
 // Assets
 import './About.css';
 import Me from '../../img/prof_headshot.jpg';
@@ -10,11 +11,12 @@ const medium = 'https://medium.com/@shakhorsmith';
 
 const About = () => (
   <div className="container">
+  <Header />
     <div className="wrapper">
       <div className="about-me">
         <div className="about-left">
           <div className="about-img">
-            <img src={Me} alt="" />
+            <img src={Me} alt="Headshot" />
           </div>
           <h2 className="title">Shakhor Smith</h2>
         </div>
