@@ -3,6 +3,11 @@ import React from 'react';
 import './About.css';
 import Me from '../../img/prof_headshot.jpg';
 
+const youtube =
+  'https://www.youtube.com/channel/UC33Y0c5LX9Z2TvtxpztaFUA?view_as=subscriber';
+
+const medium = 'https://medium.com/@shakhorsmith';
+
 const About = () => (
   <div className="container">
     <div className="wrapper">
@@ -24,10 +29,24 @@ const About = () => (
             becoming a Software Developer. I would like to think as myself as an
             entrepreneur in the making, focusing on building applications / web
             apps for small to medium sized business. My passion has always been
-            being able to help people, which I took the first step doing{' '}
-            <span id="youtube">Youtube videos</span> 😁 and{' '}
-            <span id="medium">writing articles</span> 
-            {' '} about developing.
+            being able to help people, which I took the first step making{' '}
+            <span id="youtube">
+              <a href={youtube} target="_blank" rel="noopener noreferrer">
+                Youtube videos
+              </a>
+            </span>{' '}
+            😁 and{' '}
+            <span id="medium">
+              <a href={medium} target="_blank" rel="noopener noreferrer">
+                writing articles
+              </a>
+            </span>{' '}
+            about developing. So if you're here to learn more about developing,
+            head over to the blog section, or if you think I'm perfect for your
+            project, feel free to{' '}
+            <span id="contact">
+              <a href="mailto:contact@shakhorsmith.com">contact me.</a>
+            </span>
           </p>
         </div>
       </div>
