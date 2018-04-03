@@ -72,7 +72,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <section id="wrapper">
+      <section className="wrapper">
         <div className="contact-wrapper">
           {/* Render Form paragraph with sent status */}
           {this.renderStatus()}
