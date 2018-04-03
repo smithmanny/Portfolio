@@ -31,9 +31,9 @@ const Projects = ({ data: { loading, allProjects } }) => {
             ))}
           </div>
 
-          <div className="all-projects">
+          {/* <div className="all-projects">
             <button className="btn">View More</button>
-          </div>
+          </div> */}
         </div>
       </div>
     );
