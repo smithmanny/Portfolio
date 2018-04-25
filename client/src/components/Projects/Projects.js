@@ -23,7 +23,7 @@ const Projects = ({ data: { loading, allProjects } }) => {
               <div className="project-info">
                 <h3>{project.name}</h3>
                 <button className="btn">
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  <a href={project.link} target="__blank" rel="noopener noreferrer">
                     View Project
                   </a>
                 </button>

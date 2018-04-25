@@ -16,12 +16,12 @@ const Projects = ({ data: { loading, allProjects } }) => {
           <div className="projects-wrapper">
             {allProjects.map(project => (
               <div className="project" key={project.id}>
-                <img className="project-img" src={project.image.url} alt="" />
+                <img className="project-img" src={project.image.url} alt={project.name} />
 
                 <div className="project-info">
                   <h3>{project.name}</h3>
                   <button className="btn">
-                    <a href={project.link} rel="noopener noreferrer">
+                    <a href={project.link} rel="noopener noreferrer" target='__blank'>
                       View Project
                     </a>
                   </button>{' '}
