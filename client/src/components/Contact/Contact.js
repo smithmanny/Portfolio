@@ -11,12 +11,12 @@ import './Contact.css';
 class Contact extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       name: '',
       email: '',
       message: '',
-      sent: ''
+      sent: '',
+      msg: ''
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -30,36 +30,23 @@ class Contact extends Component {
   async handleSubmit(event) {
     event.preventDefault();
 
-    const api = 'https://forms.hubspot.com/uploads/form/v2/3958169/7921dc0e-05ff-4e2a-adbb-9c174dd4b583';
-
     const { name, email, message } = this.state;
+    const captcha = document.querySelector('#g-recaptcha-response').value;
 
-    const data = JSON.stringify({
-      firstname: name,
+    const form = await axios.post('/api/form', {
+      name,
       email,
-      message
+      message,
+      captcha
     });
 
-    const headers = {
-    headers: {
-        'Postman-Token': '01bb319c-7720-4558-bb43-b17a8b44ca7e',
-        'Cache-Control': 'no-cache',
-        'Content-Type': 'application/x-www-form-urlencoded'
-    }
-  }
-    // const captcha = document.querySelector('#g-recaptcha-response').value;
-
-    const form = await axios.post(api, data, headers)
-      .then(data => this.setState({ state: true }))
-      .catch(err => console.log(err));
-
     // Check captcha status
-    // if (form.data.success === false) {
-    //   this.setState({ sent: false, msg: form.data.msg });
-    // } else {
-    //   this.setState({ sent: true });
-    //   await this.clearForm();
-    // }
+    if (form.data.success === false) {
+      this.setState({ sent: false, msg: form.data.msg });
+    } else {
+      this.setState({ sent: true });
+      await this.clearForm();
+    }
   }
 
   // Clear Form after submit
@@ -75,7 +62,7 @@ class Contact extends Component {
   renderStatus() {
     switch (this.state.sent) {
       case false:
-        return <ErrorView text='Error! Please try again.' />;
+        return <ErrorView text={this.state.msg} />;
       case true:
         return <SentView />;
       default:
@@ -121,12 +108,12 @@ class Contact extends Component {
                 required
               />
             </div>
-            {/* <div>
+            <div>
               <div
                 className="g-recaptcha"
                 data-sitekey="6LfWPTMUAAAAAO-5cU6hv9bHBX08DVUrvIrvnrRl"
               />
-            </div> */}
+            </div>
             <button className="btn">Submit</button>
           </form>
         </div>
