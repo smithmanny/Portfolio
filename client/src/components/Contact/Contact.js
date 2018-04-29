@@ -42,8 +42,9 @@ class Contact extends Component {
 
     const headers = {
     headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-        "Access-Control-Allow-Origin": "*",
+        'Postman-Token': '01bb319c-7720-4558-bb43-b17a8b44ca7e',
+        'Cache-Control': 'no-cache',
+        'Content-Type': 'application/x-www-form-urlencoded'
     }
   }
     // const captcha = document.querySelector('#g-recaptcha-response').value;
