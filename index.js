@@ -20,81 +20,60 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.post('/api/form', (req, res) => {
-  nodemailer.createTestAccount((err, account) => {
-    // HTML email
-    const htmlEmail = `
-    <p>You have a new contact request</p>
-    <h3>Contact Details</h3>
-    <ul>
-      <li>Name: ${req.body.name}</li>
-      <li>Email: ${req.body.email}</li>
-    </ul>
-    <h3>Message</h3>
-    <p>${req.body.message}</p>
-    `;
+  // Recaptcha
+  if (
+    req.body.captcha === undefined ||
+    req.body.captcha === '' ||
+    req.body.captcha === null
+  ) {
+    return res.json({ success: false, msg: 'Please select captcha' });
+  }
 
-    // create reusable transporter object using the default SMTP transport
-    let transporter = nodemailer.createTransport({
-      host: 'smtp.gmail.com',
-      port: 465,
-      secure: true,
-      auth: {
-        type: 'OAuth2',
-        user: keys.email,
-        clientId: keys.googleClientID,
-        clientSecret: keys.googleClientSecret,
-        refreshToken: keys.refreshToken,
-        expires: 1484314697598
-      }
-    });
+  // Recaptcha Secret Key
+  const captchaKey = keys.captchaKey;
 
-    // setup email data with unicode symbols
-    let mailOptions = {
-      from: keys.email, // sender address
-      to: keys.email, // list of receivers
-      replyTo: req.body.email,
-      subject: 'New Contact Message ✔', // Subject line
-      text: req.body.message, // plain text body
-      html: htmlEmail // html body
-    };
+  // Verify URL
+  const verifyURL = `https://google.com/recaptcha/api/siteverify?secret=${captchaKey}&response=${
+    req.body.captcha
+  }&remoteip=${req.connection.remoteAddress}`;
 
-    // Recaptcha
-    if (
-      req.body.captcha === undefined ||
-      req.body.captcha === '' ||
-      req.body.captcha === null
-    ) {
-      return res.json({ success: false, msg: 'Please select captcha' });
+  // Make request to VerifyURL
+  request(verifyURL, (err, response, body) => {
+    body = JSON.parse(body);
+
+    // If Not Successful
+    if (body.success !== undefined && !body.success) {
+      return res.json({ success: false, msg: 'Failed captcha verification' });
     }
 
-    // Recaptcha Secret Key
-    const captchaKey = keys.captchaKey;
+    // If Recaptcha pass send data to Hubspot
+    const hubspotAPI = keys.hubspotAPI;
 
-    // Verify URL
-    const verifyURL = `https://google.com/recaptcha/api/siteverify?secret=${captchaKey}&response=${req
-      .body.captcha}&remoteip=${req.connection.remoteAddress}`;
+    const data = {
+      firstname: req.body.name,
+      email: req.body.email,
+      message: req.body.message
+    };
 
-    // Make request to VerifyURL
-    request(verifyURL, (err, response, body) => {
-      body = JSON.parse(body);
-
-      // If Not Successful
-      if (body.success !== undefined && !body.success) {
-        return res.json({ success: false, msg: 'Failed captcha verification' });
+    const headers = {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
       }
+    };
 
-      // If Successful
-      return res.json({ success: true, msg: 'Captcha passed' });
-    })
+    const options = {
+      method: 'POST',
+      url: hubspotAPI,
+      headers,
+      form: data
+    };
 
-    // send mail with defined transport object
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        return console.log(error);
-      }
-      console.log('Message sent: %s', info.messageId);
-      console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+    request(options, function(error, response, body) {
+      if (error) throw new Error(error);
     });
+
+    // Send success message to client side
+    return res.json({ success: true, msg: 'Captcha passed' });
   });
 });
 

@@ -10,8 +10,7 @@ const ErrorView = (props) => {
         send me an email below:
       </p>
       <p className="message danger">
-           {/* {props.text} */}
-           Error
+           {props.text}
          </p>
     </div>
   )
