@@ -52,6 +52,10 @@ app.post('/api/form', (req, res) => {
     const data = {
       firstname: req.body.name,
       email: req.body.email,
+      company: req.body.companyName,
+      website: req.body.website,
+      phone: req.body.number,
+      project_cost: req.body.projectCost,
       message: req.body.message
     };
 

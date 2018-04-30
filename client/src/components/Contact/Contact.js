@@ -14,6 +14,10 @@ class Contact extends Component {
     this.state = {
       name: '',
       email: '',
+      companyName: '',
+      website: '',
+      number: '',
+      projectCost: '$1,000 - $3,000',
       message: '',
       sent: '',
       msg: ''
@@ -30,12 +34,25 @@ class Contact extends Component {
   async handleSubmit(event) {
     event.preventDefault();
 
-    const { name, email, message } = this.state;
+    const {
+      name,
+      email,
+      message,
+      companyName,
+      website,
+      number,
+      projectCost
+    } = this.state;
+
     const captcha = document.querySelector('#g-recaptcha-response').value;
 
     const form = await axios.post('/api/form', {
       name,
       email,
+      companyName,
+      website,
+      number,
+      projectCost,
       message,
       captcha
     });
@@ -54,8 +71,13 @@ class Contact extends Component {
     this.setState({
       name: '',
       email: '',
+      companyName: '',
+      website: '',
+      number: '',
+      projectCost: '$1,000 - $3,000',
       message: '',
-      error: ''
+      sent: '',
+      msg: ''
     });
   }
 
@@ -84,7 +106,7 @@ class Contact extends Component {
                 type="text"
                 name="name"
                 value={this.state.name}
-                onChange={this.handleChange.bind(this)}
+                onChange={this.handleChange}
                 required
               />
             </div>
@@ -94,9 +116,48 @@ class Contact extends Component {
                 type="email"
                 name="email"
                 value={this.state.email}
-                onChange={this.handleChange.bind(this)}
+                onChange={this.handleChange}
                 required
               />
+            </div>
+            <div className="form-group">
+              <label htmlFor="companyName">Company Name</label>
+              <input
+                type="text"
+                name="companyName"
+                value={this.state.companyEmail}
+                onChange={this.handleChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="website">Website</label>
+              <input
+                type="url"
+                name="website"
+                placeholder="https://shakhorsmith.com"
+                value={this.state.website}
+                onChange={this.handleChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="number">Phone Number</label>
+              <input
+                type="number"
+                name="number"
+                value={this.state.number}
+                onChange={this.handleChange}
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="projectCost">Project Cost</label>
+              <select
+                name="projectCost"
+                value={this.state.projectCost}
+                onChange={this.handleChange}>
+                <option value="$1,000 - $3,000">$1,000 - $3,000</option>
+                <option value="$4,000">$4,000</option>
+                <option value="$5,000+">$5,000+</option>
+              </select>
             </div>
             <div className="form-group">
               <label htmlFor="message">Message/Comment</label>
@@ -104,7 +165,7 @@ class Contact extends Component {
                 name="message"
                 rows="10"
                 value={this.state.message}
-                onChange={this.handleChange.bind(this)}
+                onChange={this.handleChange}
                 required
               />
             </div>
