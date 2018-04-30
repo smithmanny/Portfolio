@@ -75,9 +75,7 @@ class Contact extends Component {
       website: '',
       number: '',
       projectCost: '$1,000 - $3,000',
-      message: '',
-      sent: '',
-      msg: ''
+      message: ''
     });
   }
 
