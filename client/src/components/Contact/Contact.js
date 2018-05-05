@@ -17,7 +17,7 @@ class Contact extends Component {
       companyName: '',
       website: '',
       number: '',
-      projectCost: '$1,000 - $3,000',
+      projectCost: 'Less than $1,000',
       message: '',
       sent: '',
       msg: ''
@@ -74,7 +74,7 @@ class Contact extends Component {
       companyName: '',
       website: '',
       number: '',
-      projectCost: '$1,000 - $3,000',
+      projectCost: 'Less than $1,000',
       message: ''
     });
   }
@@ -152,6 +152,7 @@ class Contact extends Component {
                 name="projectCost"
                 value={this.state.projectCost}
                 onChange={this.handleChange}>
+                <option value="Less than $1,000">Less than $1,000</option>
                 <option value="$1,000 - $3,000">$1,000 - $3,000</option>
                 <option value="$4,000">$4,000</option>
                 <option value="$5,000+">$5,000+</option>
