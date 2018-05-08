@@ -1,0 +1,23 @@
+.post-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    min-height: 330px;
+    align-items: center;
+}
+.post-img {
+    height: 200px;
+}
+.post-img img {
+    height: 100%;
+}
+.post-description {
+    padding: 20px 10px;
+}
