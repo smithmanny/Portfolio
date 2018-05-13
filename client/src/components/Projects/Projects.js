@@ -51,7 +51,7 @@ const Projects = ({ data: { loading, allProjects } }) => {
 
 const allProjects = gql`
   query allProjects {
-    allProjects(first: 2) {
+    allProjects(filter: { homepage: true }) {
       id
       name
       type
