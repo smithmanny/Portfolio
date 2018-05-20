@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 // Assets
 import Header from '../Header/Header';
-import Comp from '../../img/comp.jpg';
+import Post from '../Blog/Post';
 import Profile from '../../img/profile.jpg';
 import './Posts.css';
 
@@ -16,9 +16,30 @@ class Posts extends Component {
   }
 
   componentDidMount() {
-    fetch('http://portfolio.local/wp-json/wp/v2/posts')
+    const URL =
+      'https://public-api.wordpress.com/wp/v2/sites/shakhorblog.wordpress.com/posts/';
+
+    fetch(URL)
       .then(res => res.json())
-      .then(post => this.setState({ posts: post }));
+      .then(posts => {
+        return Promise.all(posts.map(async post => {
+          return {
+            ...post,
+            categories: await this.getCategory(...post.categories).then(res => res.name),
+            categoryLink: await this.getCategory(...post.categories).then(res => res.link)
+          };
+        }));
+      })
+      .then(posts => this.setState({ posts }))
+      .catch(err => console.log(err));
+  }
+
+  getCategory(id) {
+    const URL = `https://public-api.wordpress.com/wp/v2/sites/shakhorblog.wordpress.com/categories/${id}`;
+
+    return fetch(URL)
+      .then(data => data.json())
+      // .then(res => res.name)
   }
 
   render() {
@@ -32,15 +53,17 @@ class Posts extends Component {
           <section className="post-wrapper">
             {posts.map((post, index) => (
               <article className="post" key={index}>
-                <div className="post-img">
-                  <img src={Comp} alt="Computer" />
-                </div>
                 <div className="post-content">
                   <div className="post-description">
-                    <div className="post-meta">Tag</div>
-                    <h4 className="post-title">
-                      <Link to="">{post.title.rendered}</Link>
-                    </h4>
+                  <Link to={`/blog/${post.id}`}>
+                    <h4
+                      className="post-title"
+                      dangerouslySetInnerHTML={{
+                        __html: post.title.rendered
+                      }}
+                    />
+                  </Link>
+                    <div className="post-meta">{post.categories}</div>
                     <div
                       className="post-excerpt-wrapper"
                       dangerouslySetInnerHTML={{
@@ -49,11 +72,15 @@ class Posts extends Component {
                     />
                   </div>
                   <div className="user-meta">
-                    <div className='user-meta_pic'>
-                      <Link to=""><img src={Profile} alt="Profile"/></Link>
+                    <div className="user-meta_pic">
+                      <Link to="">
+                        <img src={Profile} alt="Profile" />
+                      </Link>
                     </div>
-                    <div className='user-meta_info'>
-                      <Link to="">Shakhor <span className='user-meta_info_on'>on</span></Link>
+                    <div className="user-meta_info">
+                      <Link to="">
+                        Shakhor <span className="user-meta_info_on">on</span>
+                      </Link>
                       <time>February 21, 2018</time>
                     </div>
                   </div>
