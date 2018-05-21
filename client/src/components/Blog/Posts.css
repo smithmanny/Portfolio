@@ -1,4 +1,4 @@
-.post-wrapper {
+.posts-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,7 +9,7 @@
     display: none;
 }
 
-.post {
+.posts {
     display: flex;
     flex-direction: column;
     background: white;
@@ -21,23 +21,23 @@
     box-shadow: var(--shadow);
 }
 
-.post-content {
+.posts-content {
     display: flex;
     flex-direction: column;
     height: 100%;
     padding: 20px 10px;
 }
-.post-description {
+.posts-description {
     flex: 1;
 }
-.post-meta {
+.posts-meta {
     margin-bottom: 10px;
     background: var(--orange);
     display: inline-block;
     padding: 5px 20px;
     color: white;
 }
-.post-title {
+.posts-title {
     text-align: center;
     line-height: 25px;
 }
@@ -66,4 +66,9 @@
 }
 .user-meta_info_on {
     color: lightgray;
+}
+
+/* Post Section */
+.post-title {
+    font-size: 22px;
 }

@@ -48,22 +48,21 @@ class Posts extends Component {
         <Header />
 
         <div className="wrapper">
-          <section className="post-wrapper">
+          <section className="posts-wrapper">
             {posts.map((post, index) => (
-              <article className="post" key={index}>
-                <div className="post-content">
-                  <div className="post-description">
+              <article className="posts" key={index}>
+                <div className="posts-content">
+                  <div className="posts-description">
                   <Link to={`/blog/${post.slug}`}>
                     <h4
-                      className="post-title"
+                      className="posts-title"
                       dangerouslySetInnerHTML={{
                         __html: post.title.rendered
                       }}
                     />
                   </Link>
-                    <div className="post-meta">{post.categories}</div>
+                    <div className="posts-meta">{post.categories}</div>
                     <div
-                      className="post-excerpt-wrapper"
                       dangerouslySetInnerHTML={{
                         __html: post.excerpt.rendered
                       }}
