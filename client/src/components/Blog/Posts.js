@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 // Assets
 import Header from '../Header/Header';
-import Post from '../Blog/Post';
 import Profile from '../../img/profile.jpg';
 import './Posts.css';
 
@@ -16,9 +15,9 @@ class Posts extends Component {
   }
 
   componentDidMount() {
-    const URL =
-      'https://public-api.wordpress.com/wp/v2/sites/shakhorblog.wordpress.com/posts/';
+    const URL = process.env.REACT_APP_WP_POSTS;
 
+    // Fetch all blog posts
     fetch(URL)
       .then(res => res.json())
       .then(posts => {
@@ -35,11 +34,10 @@ class Posts extends Component {
   }
 
   getCategory(id) {
-    const URL = `https://public-api.wordpress.com/wp/v2/sites/shakhorblog.wordpress.com/categories/${id}`;
+    const URL = process.env.REACT_APP_WP_CATEGORIES+id;
 
     return fetch(URL)
       .then(data => data.json())
-      // .then(res => res.name)
   }
 
   render() {
@@ -55,7 +53,7 @@ class Posts extends Component {
               <article className="post" key={index}>
                 <div className="post-content">
                   <div className="post-description">
-                  <Link to={`/blog/${post.id}`}>
+                  <Link to={`/blog/${post.slug}`}>
                     <h4
                       className="post-title"
                       dangerouslySetInnerHTML={{
