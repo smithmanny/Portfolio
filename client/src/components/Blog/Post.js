@@ -23,11 +23,21 @@ class Post extends Component {
 
     fetch(URL)
       .then(res => res.json())
-      .then(post => {
-        this.setState({ post })
-
-        console.log(post)
+      .then(async post => {
+        return {
+          ...post,
+          tags: await this.getTags(post.tags)
+        }
       })
+      .then(post => this.setState({ post }))
+  }
+
+  getTags(arr) {
+    const URL = process.env.REACT_APP_WP_TAGS
+
+    return fetch(URL)
+      .then(data => data.json())
+      .then(() => Object.values(arr))
   }
 
   render() {
@@ -39,7 +49,9 @@ class Post extends Component {
 
         <div className="wrapper">
           <h1 className='post-title'>{post.title}</h1>
-          <div className="post-tags">#React #Heroku #JavaScript</div>
+          <div className="post-tags">
+            {post !== '' && post.tags.map(tag => `#${tag.name} `)}
+          </div>
           <div className="user-meta">
             <div className="user-meta_pic">
               <Link to="">
