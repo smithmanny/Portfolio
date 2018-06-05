@@ -2,24 +2,21 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 // Assets
 import Header from '../Header/Header';
-import Profile from '../../img/profile.jpg';
 import './Posts.css';
 
 class Post extends Component {
   constructor() {
-    super()
+    super();
 
     this.state = {
       post: ''
-    }
-
-
+    };
   }
 
   componentDidMount() {
-    const { slug } = this.props.match.params
+    const { slug } = this.props.match.params;
 
-    const URL = process.env.REACT_APP_WP_POST+`slug:${slug}`;
+    const URL = process.env.REACT_APP_WP_POST + `slug:${slug}`;
 
     fetch(URL)
       .then(res => res.json())
@@ -27,17 +24,17 @@ class Post extends Component {
         return {
           ...post,
           tags: await this.getTags(post.tags)
-        }
+        };
       })
-      .then(post => this.setState({ post }))
+      .then(post => this.setState({ post }));
   }
 
   getTags(arr) {
-    const URL = process.env.REACT_APP_WP_TAGS
+    const URL = process.env.REACT_APP_WP_TAGS;
 
     return fetch(URL)
       .then(data => data.json())
-      .then(() => Object.values(arr))
+      .then(() => Object.values(arr));
   }
 
   render() {
@@ -47,24 +44,22 @@ class Post extends Component {
       <div className="container">
         <Header />
 
-        <div className="wrapper">
-          <h1 className='post-title'>{post.title}</h1>
+        <div className="wrapper post-wrapper">
+          <h1 className="post-title">{post.title}</h1>
           <div className="post-tags">
             {post !== '' && post.tags.map(tag => `#${tag.name} `)}
           </div>
           <div className="user-meta">
-            <div className="user-meta_pic">
-              <Link to="">
-                <img src={Profile} alt="Profile" />
-              </Link>
+            <div className="user-meta__date">
+              <p>February 21, 2018</p>
             </div>
-            <div className="user-meta_info">
-              <Link to="">
-                Shakhor <span className="user-meta_info_on">on</span>
-              </Link>
-              <time>February 21, 2018</time>
-            </div>
+            <div className="user-meta__share" />
           </div>
+
+          <section
+            className="post-content"
+            dangerouslySetInnerHTML={{ __html: post.content }}
+          />
         </div>
       </div>
     );

@@ -1,8 +1,10 @@
 :root {
   --orange: #ee7732;
   --purple: #8f1fdf;
+  --pink: #FF4F7B;
   --bg: #f4f7f6;
-  --links: #000;
+  --links: var(--orange);
+  --linksHover: var(--pink);
   --shadow: 0 2px 10px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.1);
 }
 
@@ -90,7 +92,7 @@ a {
   transition: 0.2s ease;
 }
 a:hover {
-  color: var(--orange);
+  color: var(--linksHover);
   transition: 0.2s ease;
 }
 
