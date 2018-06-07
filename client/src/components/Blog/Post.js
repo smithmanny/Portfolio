@@ -23,11 +23,24 @@ class Post extends Component {
 
     fetch(URL)
       .then(res => res.json())
-      .then(post => {
-        this.setState({ post })
-
-        console.log(post)
+      .then(async post => {
+        return {
+          ...post,
+          tags: await this.getTags(post.tags)
+        }
       })
+      .then(post => console.log(post))
+  }
+
+  getTags(arr) {
+    const URL = process.env.REACT_APP_WP_TAGS
+
+    fetch(URL)
+      .then(data => data.json())
+      .then(res => console.log(arr))
+      // .then(res => {
+      //   return res.filter(tags => arr.includes(tags.id))
+      // })
   }
 
   render() {
