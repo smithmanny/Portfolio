@@ -7,7 +7,7 @@ import Home from './views/Home/Home';
 import About from './views/About/About';
 import Projects from './views/Projects/Projects';
 import Posts from './components/Blog/Posts';
-import Post from './components/Blog/Post';
+import Post from './components/Blog/PostDetails';
 import NotFound from './views/404/notFound';
 
 const Routes = () => {

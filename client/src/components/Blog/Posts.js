@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-// Assets
 import Header from '../Header/Header';
-import Profile from '../../img/profile.jpg';
+import Post from './Post';
+// Assets
 import './Posts.css';
 
 class Posts extends Component {
@@ -50,39 +49,7 @@ class Posts extends Component {
         <div className="wrapper">
           <section className="posts-wrapper">
             {posts.map((post, index) => (
-              <article className="posts" key={index}>
-                <div className="posts-content">
-                  <div className="posts-description">
-                  <Link to={`/blog/${post.slug}`}>
-                    <h4
-                      className="posts-title"
-                      dangerouslySetInnerHTML={{
-                        __html: post.title.rendered
-                      }}
-                    />
-                  </Link>
-                    <div className="posts-meta">{post.categories}</div>
-                    <div
-                      dangerouslySetInnerHTML={{
-                        __html: post.excerpt.rendered
-                      }}
-                    />
-                  </div>
-                  <div className="user-meta">
-                    <div className="user-meta_pic">
-                      <Link to="">
-                        <img src={Profile} alt="Profile" />
-                      </Link>
-                    </div>
-                    <div className="user-meta_info">
-                      <Link to="">
-                        Shakhor <span className="user-meta_info_on">on</span>
-                      </Link>
-                      <time>February 21, 2018</time>
-                    </div>
-                  </div>
-                </div>
-              </article>
+              <Post post={post} key={index} />
             ))}
           </section>
         </div>

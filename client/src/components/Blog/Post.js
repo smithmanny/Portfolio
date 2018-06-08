@@ -1,69 +1,38 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-// Assets
-import Header from '../Header/Header';
-import './Posts.css';
 
-class Post extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      post: ''
-    };
-  }
-
-  componentDidMount() {
-    const { slug } = this.props.match.params;
-
-    const URL = process.env.REACT_APP_WP_POST + `slug:${slug}`;
-
-    fetch(URL)
-      .then(res => res.json())
-      .then(async post => {
-        return {
-          ...post,
-          tags: await this.getTags(post.tags)
-        };
-      })
-      .then(post => this.setState({ post }));
-  }
-
-  getTags(arr) {
-    const URL = process.env.REACT_APP_WP_TAGS;
-
-    return fetch(URL)
-      .then(data => data.json())
-      .then(() => Object.values(arr));
-  }
-
-  render() {
-    const { post } = this.state;
-
-    return (
-      <div className="container">
-        <Header />
-
-        <div className="wrapper post-wrapper">
-          <h1 className="post-title">{post.title}</h1>
-          <div className="post-tags">
-            {post !== '' && post.tags.map(tag => `#${tag.name} `)}
-          </div>
-          <div className="user-meta">
-            <div className="user-meta__date">
-              <p>February 21, 2018</p>
-            </div>
-            <div className="user-meta__share" />
-          </div>
-
-          <section
-            className="post-content"
-            dangerouslySetInnerHTML={{ __html: post.content }}
+const Post = props => (
+  <article className="posts">
+    <div className="posts-content">
+      <div className="posts-description">
+        <Link to={`/blog/${props.post.slug}`}>
+          <h4
+            className="posts-title"
+            dangerouslySetInnerHTML={{
+              __html: props.post.title.rendered
+            }}
           />
+        </Link>
+        <div className="posts-meta">{props.post.categories}</div>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: props.post.excerpt.rendered
+          }}
+        />
+      </div>
+      <div className="user-meta">
+        <div className="user-meta_pic">
+          <Link to="">{/* <img src={Profile} alt="Profile" /> */}</Link>
+        </div>
+        <div className="user-meta_info">
+          <Link to="">
+            Shakhor <span className="user-meta_info_on">on</span>
+          </Link>
+          <time>February 21, 2018</time>
         </div>
       </div>
-    );
-  }
-}
+    </div>
+  </article>
+);
 
 export default Post;
