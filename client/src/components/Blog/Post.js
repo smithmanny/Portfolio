@@ -1,38 +1,52 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Pic from '../../img/blogger.png';
 
-const Post = props => (
-  <article className="posts">
-    <div className="posts-content">
-      <div className="posts-description">
-        <Link to={`/blog/${props.post.slug}`}>
-          <h4
-            className="posts-title"
-            dangerouslySetInnerHTML={{
-              __html: props.post.title.rendered
-            }}
-          />
-        </Link>
-        <div className="posts-meta">{props.post.categories}</div>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: props.post.excerpt.rendered
-          }}
-        />
-      </div>
-      <div className="user-meta">
-        <div className="user-meta_pic">
-          <Link to="">{/* <img src={Profile} alt="Profile" /> */}</Link>
+class Post extends Component {
+  constructor() {
+    super();
+
+    this.text = React.createRef();
+  }
+
+  componentDidMount() {
+    const html = this.text.current.textContent;
+    const excerpt = html.substring(0, 200) + '...';
+
+    this.text.current.textContent = excerpt;
+  }
+
+  render() {
+    return (
+      <article className="post-container">
+        <div className="post-image">
+          <img src={Pic} alt="" />
         </div>
-        <div className="user-meta_info">
-          <Link to="">
-            Shakhor <span className="user-meta_info_on">on</span>
+        <div className="post-content">
+          <Link to={`/blog/${this.props.post.slug}`}>
+            <h2
+              className="post-title"
+              dangerouslySetInnerHTML={{
+                __html: this.props.post.title.rendered
+              }}
+            />
+            <p
+              ref={this.text}
+              className="post-text"
+              dangerouslySetInnerHTML={{
+                __html: this.props.post.excerpt.rendered
+              }}
+            />
           </Link>
-          <time>February 21, 2018</time>
         </div>
-      </div>
-    </div>
-  </article>
-);
+
+        <div className="post-meta">
+          <div className="post-category">{this.props.post.categories}</div>
+          <div className="post-date">February 21, 1994</div>
+        </div>
+      </article>
+    );
+  }
+}
 
 export default Post;

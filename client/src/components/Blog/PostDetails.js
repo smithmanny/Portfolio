@@ -48,23 +48,7 @@ class PostDetails extends Component {
       <div className="container">
         <Header />
 
-        <div className="wrapper">
-          <h1 className='post-title'>{post.title}</h1>
-          <div className="post-tags">#React #Heroku #JavaScript</div>
-          <div className="user-meta">
-            <div className="user-meta_pic">
-              <Link to="">
-                <img src={Profile} alt="Profile" />
-              </Link>
-            </div>
-            <div className="user-meta_info">
-              <Link to="">
-                Shakhor <span className="user-meta_info_on">on</span>
-              </Link>
-              <time>February 21, 2018</time>
-            </div>
-          </div>
-        </div>
+
       </div>
     );
   }
