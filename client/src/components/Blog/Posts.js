@@ -24,7 +24,8 @@ class Posts extends Component {
           return {
             ...post,
             categories: await this.getCategory(...post.categories).then(res => res.name),
-            categoryLink: await this.getCategory(...post.categories).then(res => res.link)
+            categoryLink: await this.getCategory(...post.categories).then(res => res.link),
+            date: await this.convertDate(post.date)
           };
         }));
       })
@@ -37,6 +38,17 @@ class Posts extends Component {
 
     return fetch(URL)
       .then(data => data.json())
+  }
+
+  convertDate(date) {
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+    const convertDate = new Date(date);
+    const month = months[convertDate.getMonth()];
+    const year = convertDate.getFullYear();
+    const day = convertDate.getDate();
+
+    return `${month} ${day}, ${year}`;
   }
 
   render() {

@@ -19,11 +19,11 @@ class Post extends Component {
   render() {
     return (
       <article className="post-container">
-        <div className="post-image">
-          <img src={Pic} alt="" />
-        </div>
-        <div className="post-content">
-          <Link to={`/blog/${this.props.post.slug}`}>
+        <Link className='post-link' to={`/blog/${this.props.post.slug}`}>
+          <div className="post-image">
+            <img src={this.props.post.featured_media_url || Pic} alt="" />
+          </div>
+          <div className="post-info">
             <h2
               className="post-title"
               dangerouslySetInnerHTML={{
@@ -37,12 +37,12 @@ class Post extends Component {
                 __html: this.props.post.excerpt.rendered
               }}
             />
-          </Link>
-        </div>
+          </div>
+        </Link>
 
         <div className="post-meta">
-          <div className="post-category">{this.props.post.categories}</div>
-          <div className="post-date">February 21, 1994</div>
+          <div className="post-category">{`#` + this.props.post.categories}</div>
+          <div className="post-date">{this.props.post.date}</div>
         </div>
       </article>
     );

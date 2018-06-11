@@ -10,15 +10,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-links">
-        {/* <Link to="/blog">
+        <Link to="/blog">
           <div>Blog</div>
-        </Link> */}
-        <a
-          href="https://medium.com/@shakhorsmith"
-          rel="noopener noreferrer"
-          target="_blank">
-          <div>Blog</div>
-        </a>
+        </Link>
         <Link to="/about">
           <div>About Me</div>
         </Link>
