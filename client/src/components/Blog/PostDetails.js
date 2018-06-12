@@ -117,7 +117,6 @@ class PostDetails extends Component {
                   icon="fab fa-facebook"
                   alt="Share on Facebook"
                   color="#0070AD"
-                  share="true"
                 />
               </SocialIcons>
             </div>
