@@ -8,7 +8,7 @@ import './index.css';
 import App from './routes';
 import registerServiceWorker from './registerServiceWorker';
 
-const API = 'https://api.graphcms.com/simple/v1/cjfgapowz0zlh01033pt7aatk';
+const API = process.env.REACT_APP_GRAPHCMS_KEY;
 
 const client = new ApolloClient({
   link: new HttpLink({ uri: API }),

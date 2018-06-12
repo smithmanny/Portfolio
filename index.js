@@ -1,8 +1,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const nodemailer = require('nodemailer');
 const request = require('request');
 const keys = require('./config/keys');
+const path = require('path');
+
 const app = express();
 
 app.use(bodyParser.json());
@@ -13,7 +14,6 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'));
 
   // Express serve up index.html file if it doesn't recognize route
-  const path = require('path');
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
@@ -30,7 +30,7 @@ app.post('/api/form', (req, res) => {
   }
 
   // Recaptcha Secret Key
-  const captchaKey = keys.captchaKey;
+  const { captchaKey } = keys;
 
   // Verify URL
   const verifyURL = `https://google.com/recaptcha/api/siteverify?secret=${captchaKey}&response=${
@@ -47,7 +47,7 @@ app.post('/api/form', (req, res) => {
     }
 
     // If Recaptcha pass send data to Hubspot
-    const hubspotAPI = keys.hubspotAPI;
+    const { hubspotAPI } = keys;
 
     const data = {
       firstname: req.body.name,
@@ -72,7 +72,7 @@ app.post('/api/form', (req, res) => {
       form: data
     };
 
-    request(options, function(error, response, body) {
+    request(options, (error, response, body) => {
       if (error) throw new Error(error);
     });
 
