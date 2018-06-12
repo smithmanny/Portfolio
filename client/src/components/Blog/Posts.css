@@ -60,6 +60,11 @@
 .post-meta div {
   flex: 1;
 }
+
+.post-meta .post-date {
+  text-align: right
+}
+
 .post-meta .post-createdAt {
   text-align: left;
   border-right: 1px solid black;
