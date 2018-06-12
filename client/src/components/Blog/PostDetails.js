@@ -74,7 +74,6 @@ class PostDetails extends Component {
     const twttr = `https://twitter.com/intent/tweet?${this.socialAction(twttrData)}`;
 
     const fbData = {
-      quote: post.content,
       u: window.location.href
     }
 
