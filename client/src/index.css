@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans');
+
 :root {
   --orange: #ee7732;
   --purple: #8f1fdf;
@@ -12,7 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Varela Round', Arial, Sans-Serif;
+  font-family: 'Montserrat', sans-serif;
 }
 *::before, *::after {
   box-sizing: border-box;
@@ -45,10 +47,11 @@ h4,
 h5,
 h6 {
   margin: 20px 0;
+  font-weight: 700;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif, Arial;
+  font-family: 'Open Sans', sans-serif;
   line-height: 35px;
   font-size: 1rem;
   color: #000;
