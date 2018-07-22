@@ -97,6 +97,10 @@
   margin: 10px 0;
 }
 
+.post-content ul li ul li {
+  margin-left: 20px;
+}
+
 figure img {
   width: 100%;
 }
