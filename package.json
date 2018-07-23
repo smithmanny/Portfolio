@@ -17,6 +17,7 @@
     "nodemailer": "^4.6.4",
     "nodemon": "^1.17.3",
     "request": "^2.85.0",
+    "sqreen": "^1.21.0",
     "throng": "^4.0.0"
   },
   "scripts": {

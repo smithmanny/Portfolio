@@ -1,3 +1,4 @@
+require('sqreen');
 const throng = require('throng');
 const express = require('express');
 const bodyParser = require('body-parser');
