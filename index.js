@@ -1,3 +1,4 @@
+require('newrelic');
 require('sqreen');
 const throng = require('throng');
 const express = require('express');
