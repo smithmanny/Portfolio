@@ -1,4 +1,4 @@
-const keys = './config/keys';
+const keys = require('./config/keys');
 
 /**
  * New Relic agent configuration.
