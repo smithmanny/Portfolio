@@ -1,9 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Shakhor Smith',
+    menuLinks: [
+      {
+        name: 'Blog',
+        link: '/blog',
+      },
+      {
+        name: 'About Me',
+        link: '/about',
+      },
+      {
+        name: 'Contact',
+        link: '/contact',
+      }
+    ],
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
