@@ -5,6 +5,9 @@ var plugins = [{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
+    },{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
     }]

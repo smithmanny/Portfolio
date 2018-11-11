@@ -1,4 +1,10 @@
 export const themes = {
+  dark: {
+    primary: '#0091A0',
+    secondary: '#FF8500',
+    background: '#616163',
+    contentColor: '#FFFFFC',
+  },
   main: {
     primary: '#FF8500',
     secondary: '#0091A0',

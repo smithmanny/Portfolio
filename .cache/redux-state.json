@@ -352,6 +352,85 @@
         "owner": "internal-data-bridge"
       }
     },
+    "32abca12-bc12-5ab8-a75b-8cae899beba8": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-typography",
+      "id": "32abca12-bc12-5ab8-a75b-8cae899beba8",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.1",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ec1c4901cea9a00deb077d2a4c3f0f54",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "310a79d3-295f-555f-b290-0e24792d5c9e": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-source-filesystem",
       "id": "310a79d3-295f-555f-b290-0e24792d5c9e",
@@ -861,12 +940,14 @@
       "resolve": "/Users/shakhor/Projects/Web/Portfolio",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "0a70577f2a30bc84caa4a574b9cb7b3f",
+      "version": "2195ee24077ef9c082134b19b7eb75f6",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
-      "browserAPIs": [],
+      "browserAPIs": [
+        "wrapRootElement"
+      ],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio",
       "packageJson": {
@@ -880,8 +961,40 @@
         "license": "MIT",
         "dependencies": [
           {
+            "name": "babel-eslint",
+            "version": "^10.0.1"
+          },
+          {
             "name": "babel-plugin-styled-components",
             "version": "^1.8.0"
+          },
+          {
+            "name": "eslint",
+            "version": "^5.8.0"
+          },
+          {
+            "name": "eslint-config-standard",
+            "version": "^12.0.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.14.0"
+          },
+          {
+            "name": "eslint-plugin-node",
+            "version": "^8.0.0"
+          },
+          {
+            "name": "eslint-plugin-promise",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.11.1"
+          },
+          {
+            "name": "eslint-plugin-standard",
+            "version": "^4.0.0"
           },
           {
             "name": "gatsby",
@@ -912,6 +1025,10 @@
             "version": "^3.0.1"
           },
           {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.1"
+          },
+          {
             "name": "gatsby-source-filesystem",
             "version": "^2.0.4"
           },
@@ -932,16 +1049,23 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
             "name": "styled-components",
             "version": "^4.0.3"
-          }
-        ],
-        "devDependencies": [
+          },
           {
-            "name": "prettier",
-            "version": "^1.14.2"
+            "name": "typography",
+            "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-twin-peaks",
+            "version": "^0.15.11"
           }
         ],
+        "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
@@ -949,7 +1073,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f83462bf17e369ec1b4ff5aacea1dc55",
+        "contentDigest": "7cf8ccc4cbb85bc2cfa939a73ab1dc54",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1072,12 +1196,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-03T08:59:26.666Z",
+      "buildTime": "2018-11-11T19:25:07.072Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "70758e5dccedd62e9f10e408dd8b09ea",
+        "contentDigest": "92a32e5f831e046ae9f184d42418a04f",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1087,7 +1211,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3f838863a45f20b02070ccb1c906d33d",
+        "contentDigest": "f673d2eb7cb2f86bda537583fa85f49b",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1096,11 +1220,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-10-31T05:43:35.511Z",
-      "accessTime": "2018-11-03T08:59:33.753Z",
-      "changeTime": "2018-10-31T05:43:35.511Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-11-05T07:45:20.694Z",
+      "accessTime": "2018-11-11T19:25:13.753Z",
+      "changeTime": "2018-11-05T07:45:20.694Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src",
@@ -1110,20 +1234,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 4,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 20593215,
       "blocks": 0,
-      "atimeMs": 1541235573753.2795,
-      "mtimeMs": 1540964615511.2124,
-      "ctimeMs": 1540964615511.2124,
+      "atimeMs": 1541964313752.5527,
+      "mtimeMs": 1541403920693.6497,
+      "ctimeMs": 1541403920693.6497,
       "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-03T08:59:33.753Z",
-      "mtime": "2018-10-31T05:43:35.511Z",
-      "ctime": "2018-10-31T05:43:35.511Z",
+      "atime": "2018-11-11T19:25:13.753Z",
+      "mtime": "2018-11-05T07:45:20.694Z",
+      "ctime": "2018-11-05T07:45:20.694Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
     },
     "05cfc17c-3a28-579f-9f49-224c7ab15457": {
@@ -1146,7 +1270,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-10-31T05:43:35.512Z",
-      "accessTime": "2018-10-31T05:46:41.314Z",
+      "accessTime": "2018-11-05T02:12:47.928Z",
       "changeTime": "2018-10-31T05:43:35.512Z",
       "birthTime": "2018-10-31T05:43:35.511Z",
       "root": "/",
@@ -1164,11 +1288,11 @@
       "blksize": 4096,
       "ino": 20593217,
       "blocks": 48,
-      "atimeMs": 1540964801314.4585,
+      "atimeMs": 1541383967927.9246,
       "mtimeMs": 1540964615511.5918,
       "ctimeMs": 1540964615511.5918,
       "birthtimeMs": 1540964615511.1797,
-      "atime": "2018-10-31T05:46:41.314Z",
+      "atime": "2018-11-05T02:12:47.928Z",
       "mtime": "2018-10-31T05:43:35.512Z",
       "ctime": "2018-10-31T05:43:35.512Z",
       "birthtime": "2018-10-31T05:43:35.511Z"
@@ -1203,7 +1327,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-10-31T05:43:35.511Z",
-      "accessTime": "2018-11-02T05:36:18.403Z",
+      "accessTime": "2018-11-05T02:12:45.945Z",
       "changeTime": "2018-10-31T05:43:35.511Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1221,11 +1345,11 @@
       "blksize": 4096,
       "ino": 20593216,
       "blocks": 328,
-      "atimeMs": 1541136978403.2197,
+      "atimeMs": 1541383965944.6643,
       "mtimeMs": 1540964615510.8381,
       "ctimeMs": 1540964615510.8381,
       "birthtimeMs": 1540964615509.9563,
-      "atime": "2018-11-02T05:36:18.403Z",
+      "atime": "2018-11-05T02:12:45.945Z",
       "mtime": "2018-10-31T05:43:35.511Z",
       "ctime": "2018-10-31T05:43:35.511Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
@@ -1239,6 +1363,141 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
+    },
+    "e7397794-7a87-5778-9d07-d596be70991c": {
+      "id": "e7397794-7a87-5778-9d07-d596be70991c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d2fe8bc628d5eb298d409f70ad88f0cb",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/moon.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/moon.svg",
+      "relativePath": "moon.svg",
+      "extension": "svg",
+      "size": 513,
+      "prettySize": "513 B",
+      "modifiedTime": "2018-11-05T06:09:43.456Z",
+      "accessTime": "2018-11-05T07:45:17.694Z",
+      "changeTime": "2018-11-05T07:45:20.692Z",
+      "birthTime": "2018-11-05T06:09:43.456Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "moon.svg",
+      "ext": ".svg",
+      "name": "moon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990764,
+      "blocks": 8,
+      "atimeMs": 1541403917694.377,
+      "mtimeMs": 1541398183456.024,
+      "ctimeMs": 1541403920692.284,
+      "birthtimeMs": 1541398183455.8179,
+      "atime": "2018-11-05T07:45:17.694Z",
+      "mtime": "2018-11-05T06:09:43.456Z",
+      "ctime": "2018-11-05T07:45:20.692Z",
+      "birthtime": "2018-11-05T06:09:43.456Z"
+    },
+    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
+      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/twitter.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
+      "relativePath": "twitter.svg",
+      "extension": "svg",
+      "size": 1007,
+      "prettySize": "1.01 kB",
+      "modifiedTime": "2018-11-05T06:09:07.197Z",
+      "accessTime": "2018-11-05T07:44:53.252Z",
+      "changeTime": "2018-11-05T07:45:20.694Z",
+      "birthTime": "2018-11-05T06:09:07.197Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "twitter.svg",
+      "ext": ".svg",
+      "name": "twitter",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990699,
+      "blocks": 8,
+      "atimeMs": 1541403893252.341,
+      "mtimeMs": 1541398147196.8877,
+      "ctimeMs": 1541403920693.6497,
+      "birthtimeMs": 1541398147196.6885,
+      "atime": "2018-11-05T07:44:53.252Z",
+      "mtime": "2018-11-05T06:09:07.197Z",
+      "ctime": "2018-11-05T07:45:20.694Z",
+      "birthtime": "2018-11-05T06:09:07.197Z"
+    },
+    "fb297998-6141-5a0e-899a-120dec6eda38": {
+      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/github.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
+      "relativePath": "github.svg",
+      "extension": "svg",
+      "size": 1518,
+      "prettySize": "1.52 kB",
+      "modifiedTime": "2018-11-05T06:09:22.551Z",
+      "accessTime": "2018-11-05T07:44:23.319Z",
+      "changeTime": "2018-11-05T07:45:20.690Z",
+      "birthTime": "2018-11-05T06:09:22.551Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "github.svg",
+      "ext": ".svg",
+      "name": "github",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990731,
+      "blocks": 8,
+      "atimeMs": 1541403863319.0583,
+      "mtimeMs": 1541398162550.8406,
+      "ctimeMs": 1541403920690.4397,
+      "birthtimeMs": 1541398162550.6235,
+      "atime": "2018-11-05T07:44:23.319Z",
+      "mtime": "2018-11-05T06:09:22.551Z",
+      "ctime": "2018-11-05T07:45:20.690Z",
+      "birthtime": "2018-11-05T06:09:22.551Z"
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1325,7 +1584,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ac3c529e6e9e0798a1accff68253f377"
+    "PLUGINS_HASH": "d2d272457a6d80af156752d75806d21a"
   },
   "componentDataDependencies": {
     "nodes": {
