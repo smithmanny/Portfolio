@@ -25,7 +25,7 @@ module.exports = {
     // options to emulate prettier setup
     'semi': ['error', 'never'
     ],
-    'max-len': ['warning',
+    'max-len': ['warn',
       { 'code': 80
       }
     ],
