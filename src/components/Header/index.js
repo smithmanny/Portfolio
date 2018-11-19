@@ -6,7 +6,7 @@ import { media } from '../../utils/utils'
 import SocialLinks from './SocialLinks'
 import { StyledLink } from '../shared/StyledLink'
 
-const Header = ({ menuLinks, siteTitle }) => (
+const Header = ({ menuLinks, siteTitle, toggleTheme }) => (
   <Nav>
     <h2 style={{ margin: 0, fontSize: 22 }}>
       <StyledLink to="/">
@@ -14,7 +14,7 @@ const Header = ({ menuLinks, siteTitle }) => (
       </StyledLink>
     </h2>
 
-    <SocialLinks />
+    <SocialLinks toggleTheme={toggleTheme} />
 
     <HeaderLink>
       {menuLinks.map(link =>

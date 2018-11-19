@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import styled, { ThemeProvider } from 'styled-components'
 
-import Header from './Header/index';
+import Header from './Header/index'
 import { ThemeContext } from '../contexts/ThemeContext'
 
 const Layout = ({ children }) => (
@@ -37,13 +37,14 @@ const Layout = ({ children }) => (
           <ThemeContext.Consumer>
             {({ theme, toggleTheme }) => (
               <ThemeProvider theme={theme}>
-                  <Wrapper>
-                    <Header
-                      menuLinks={data.site.siteMetadata.menuLinks}
-                      siteTitle={data.site.siteMetadata.title}
-                    />
-                    {children}
-                  </Wrapper>
+                <Wrapper>
+                  <Header
+                    menuLinks={data.site.siteMetadata.menuLinks}
+                    siteTitle={data.site.siteMetadata.title}
+                    toggleTheme={toggleTheme}
+                  />
+                  {children}
+                </Wrapper>
               </ThemeProvider>
             )}
           </ThemeContext.Consumer>
@@ -57,8 +58,8 @@ const Wrapper = styled.div`
   max-width: 960px;
   padding: 1.45rem 1.0875rem;
 
-  background-color: ${props => props.theme.background};
-`;
+  background-color: ${ props => props.theme.background };
+`
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
