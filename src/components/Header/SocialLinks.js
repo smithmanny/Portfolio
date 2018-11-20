@@ -3,6 +3,8 @@ import styled from 'styled-components'
 
 import { media } from '../../utils/utils'
 
+import ExtLink from '../shared/ExtLink'
+
 import Moon from '../../images/moon.svg'
 import Github from '../../images/github.svg'
 import Twitter from '../../images/twitter.svg'
@@ -11,13 +13,21 @@ const SocialLinks = ({ toggleTheme }) => {
   return (
     <SocialWrapper>
       <SocialLink>
-        <img src={Moon} alt="Toggle Background" style={{ width: '100%' }} onClick={toggleTheme} />
+        <ExtLink>
+          <SocialImg src={Moon} alt="Toggle Background" onClick={toggleTheme} />
+        </ExtLink>
       </SocialLink>
+
       <SocialLink>
-        <img src={Github} alt="Github" style={{ width: '100%' }} />
+        <ExtLink href="https://github.com/smithmanny">
+          <SocialImg src={Github} alt="Github" />
+        </ExtLink>
       </SocialLink>
+
       <SocialLink>
-        <img src={Twitter} alt="Twitter" style={{ width: '100%' }} />
+        <ExtLink href="https://twitter.com/smithmanny">
+          <SocialImg src={Twitter} alt="Twitter" />
+        </ExtLink>
       </SocialLink>
     </SocialWrapper>
   )
@@ -32,6 +42,10 @@ const SocialWrapper = styled.div`
   ${ media.mobile`
     grid-column: 2 / 3;
   ` }
+`
+
+const SocialImg = styled.img`
+  width: 100%;
 `
 
 const SocialLink = styled.li`

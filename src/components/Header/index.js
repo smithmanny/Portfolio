@@ -18,9 +18,9 @@ const Header = ({ menuLinks, siteTitle, toggleTheme }) => (
 
     <HeaderLink>
       {menuLinks.map(link =>
-        <li key={link.name} style={{ 'listStyleType': 'none', margin: '0 15px' }}>
+        <HeaderItem key={link.name}>
           <StyledLink to={link.link}>{link.name}</StyledLink>
-        </li>
+        </HeaderItem>
       )}
     </HeaderLink>
   </Nav>
@@ -32,6 +32,11 @@ const Nav = styled.nav`
   align-items: center;
 
   ${ media.mobile`grid-template-columns: 50% 50%;` }
+`
+
+const HeaderItem = styled.li`
+  list-style-type: none;
+  margin: 0 15px;
 `
 
 const HeaderLink = styled.ul`
