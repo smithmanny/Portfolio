@@ -1,8 +1,8 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import { media } from '../utils/utils'
-import Button from '../components/shared/Button'
 import Github from '../images/github.svg'
 
 const Posts = ({ posts, title }) => (
@@ -11,7 +11,7 @@ const Posts = ({ posts, title }) => (
       <PostIcon>
         <Icon src={Github} />
       </PostIcon>
-      <PostTitle>This is a test title</PostTitle>
+      <PostTitle to='/'>This is a test title</PostTitle>
       <PostDate>November 18, 2018</PostDate>
     </PostWrapper>
 
@@ -23,7 +23,6 @@ const Posts = ({ posts, title }) => (
       <PostDate>November 18, 2018</PostDate>
     </PostWrapper>
 
-    <Button section>View All</Button>
   </Container>
 )
 
@@ -54,10 +53,12 @@ const PostIcon = styled.div`
   margin-right: 15px;
 `
 
-const PostTitle = styled.h5`
+const PostTitle = styled(Link)`
   color: black;
   flex: 50%;
   margin: 0;
+  text-shadow: none;
+  background-image: none;
 
   ${ media.mobile`flex: 85%;` }
 `
@@ -67,7 +68,7 @@ const PostWrapper = styled.div`
   align-items: center;
   padding: 10px 0;
   margin-bottom: 15px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 `
 
 export default Posts

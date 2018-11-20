@@ -1196,12 +1196,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-18T06:52:43.363Z",
+      "buildTime": "2018-11-19T23:00:48.696Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e6a2b7947febd055b35b821e54455231",
+        "contentDigest": "c9787d16164ebf67428129be94401435",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1211,7 +1211,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e3c44a4197b22dd9e761d90c22fbf467",
+        "contentDigest": "0e3368597402f7f81b16c9de33bae2c5",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1223,7 +1223,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-11-05T07:45:20.694Z",
-      "accessTime": "2018-11-18T06:52:51.265Z",
+      "accessTime": "2018-11-19T23:00:57.064Z",
       "changeTime": "2018-11-05T07:45:20.694Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1241,11 +1241,11 @@
       "blksize": 4096,
       "ino": 20593215,
       "blocks": 0,
-      "atimeMs": 1542523971264.866,
+      "atimeMs": 1542668457063.8274,
       "mtimeMs": 1541403920693.6497,
       "ctimeMs": 1541403920693.6497,
       "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-18T06:52:51.265Z",
+      "atime": "2018-11-19T23:00:57.064Z",
       "mtime": "2018-11-05T07:45:20.694Z",
       "ctime": "2018-11-05T07:45:20.694Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
@@ -1539,26 +1539,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
-      "jsonName": "page-2-fbc",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "fc14dcd171bb1c2a13e66495360d763b",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -1579,6 +1559,123 @@
         "contentDigest": "e07ee106e3b7f3ada455bbc2edd23d45",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "eb45de44acb2068502b6352a49a8370e",
+        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "jsonName": "blog-f7a",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9afd041bffdbcf8a1da1716c2fa6f1b9",
+        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "96efa51f14b14fa36e560e25b49a311e",
+        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "058f36a8-5b0e-55cf-8108-ff43b19bb5f5": {
+      "id": "058f36a8-5b0e-55cf-8108-ff43b19bb5f5",
+      "children": [
+        "a458f555-c027-53f8-a8c0-a2ee9af26995"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1adbf3507b7378701833ed12e6ecc5b6",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/about_pic.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/about_pic.png",
+      "relativePath": "about_pic.png",
+      "extension": "png",
+      "size": 963995,
+      "prettySize": "964 kB",
+      "modifiedTime": "2018-11-20T04:07:03.052Z",
+      "accessTime": "2018-11-20T04:07:03.099Z",
+      "changeTime": "2018-11-20T04:07:03.063Z",
+      "birthTime": "2018-11-20T04:07:03.037Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "about_pic.png",
+      "ext": ".png",
+      "name": "about_pic",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 22968824,
+      "blocks": 1888,
+      "atimeMs": 1542686823098.5845,
+      "mtimeMs": 1542686823051.7239,
+      "ctimeMs": 1542686823063.3596,
+      "birthtimeMs": 1542686823036.8247,
+      "atime": "2018-11-20T04:07:03.099Z",
+      "mtime": "2018-11-20T04:07:03.052Z",
+      "ctime": "2018-11-20T04:07:03.063Z",
+      "birthtime": "2018-11-20T04:07:03.037Z"
+    },
+    "a458f555-c027-53f8-a8c0-a2ee9af26995": {
+      "id": "a458f555-c027-53f8-a8c0-a2ee9af26995",
+      "children": [],
+      "parent": "058f36a8-5b0e-55cf-8108-ff43b19bb5f5",
+      "internal": {
+        "contentDigest": "1adbf3507b7378701833ed12e6ecc5b6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     }
   },
@@ -1601,7 +1698,10 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2011440971
+    "sq--src-components-image-js": 2011440971,
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-f7a": "32/path---blog-f-7-a-05d-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js": {
@@ -1616,9 +1716,17 @@
       "query": "",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js"
     },
-    "/Users/shakhor/Projects/Web/Portfolio/src/pages/page-2.js": {
+    "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js": {
       "query": "",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/page-2.js"
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js"
+    },
+    "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js": {
+      "query": "",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js"
+    },
+    "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js"
     }
   },
   "staticQueryComponents": {
