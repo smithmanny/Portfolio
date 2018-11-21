@@ -26,6 +26,14 @@ const Header = ({ menuLinks, siteTitle, toggleTheme }) => (
   </Nav>
 )
 
+const Logo = styled.h2`
+  margin: 0;
+  font-size: 22px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+`
+
 const Nav = styled.nav`
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -42,10 +50,12 @@ const HeaderItem = styled.li`
 const HeaderLink = styled.ul`
   display: flex;
   align-content: center;
+  align-items: center;
   justify-content: center;
   margin: 1rem 0;
   grid-column: 2 / 3;
   grid-row: 1;
+  height: 100%;
 
   ${ media.tablet`
     grid-column: 1 / span 3;

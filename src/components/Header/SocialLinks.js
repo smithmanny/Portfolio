@@ -44,8 +44,10 @@ const SocialLinks = ({ toggleTheme }) => {
 const SocialWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   grid-column: 3 / 4;
   grid-row: 1;
+  height: 100;
 
   ${ media.mobile`
     grid-column: 2 / 3;
@@ -61,6 +63,8 @@ const SocialLink = styled.li`
   margin: 0 15px;
   width: 25px;
   height: 25px;
+  display: flex;
+  align-items: center;
   transition: .3s ease;
 
   :last-child {
