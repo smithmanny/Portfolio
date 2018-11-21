@@ -1,7 +1,7 @@
-import React from 'react';
-import { themes } from '../theme/globalStyles';
+import React from 'react'
+import { themes } from '../theme/globalStyles'
 
-export const ThemeContext = React.createContext();
+export const ThemeContext = React.createContext()
 
 export class PortfolioThemeProvider extends React.Component {
   state = {
@@ -10,7 +10,7 @@ export class PortfolioThemeProvider extends React.Component {
 
   toggleTheme = () => this.setState(prevState => ({ theme: prevState.theme === themes.main ? themes.dark : themes.main }))
 
-  render() {
+  render () {
     return <ThemeContext.Provider value={{
       ...this.state,
       toggleTheme: this.toggleTheme,

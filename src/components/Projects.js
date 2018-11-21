@@ -7,7 +7,8 @@ import Github from '../images/github.svg'
 
 const Projects = ({ Projects, title }) => (
   <Container>
-    <ProjectWrapper>
+    <h2>Coming Soon</h2>
+    {/* <ProjectWrapper>
       <ProjectTitle>Projects</ProjectTitle>
       <ProjectTag>E-commerce</ProjectTag>
       <ProjectSummary>This is the product summary with an extended summary so that I can see how it looks.</ProjectSummary>
@@ -16,25 +17,7 @@ const Projects = ({ Projects, title }) => (
         <ProjectButton>View Code</ProjectButton>
         <ProjectButton>View Demo</ProjectButton>
       </ProjectButtonWrapper>
-    </ProjectWrapper>
-
-    <ProjectWrapper>
-      <ProjectTitle>Projects</ProjectTitle>
-      <ProjectTag>E-commerce</ProjectTag>
-      <ProjectSummary>This is the product summary</ProjectSummary>
-    </ProjectWrapper>
-
-    <ProjectWrapper>
-      <ProjectTitle>Projects</ProjectTitle>
-      <ProjectTag>E-commerce</ProjectTag>
-      <ProjectSummary>This is the product summary</ProjectSummary>
-    </ProjectWrapper>
-
-    <ProjectWrapper>
-      <ProjectTitle>Projects</ProjectTitle>
-      <ProjectTag>E-commerce</ProjectTag>
-      <ProjectSummary>This is the product summary</ProjectSummary>
-    </ProjectWrapper>
+    </ProjectWrapper> */}
 
   </Container>
 )

@@ -1,17 +1,17 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 
 import { media } from '../../utils/utils'
 
 import SocialLinks from './SocialLinks'
-import { StyledLink } from '../shared/StyledLink'
 
 const Header = ({ menuLinks, siteTitle, toggleTheme }) => (
   <Nav>
     <h2 style={{ margin: 0, fontSize: 22 }}>
-      <StyledLink to="/">
+      <Link to="/">
         {siteTitle}
-      </StyledLink>
+      </Link>
     </h2>
 
     <SocialLinks toggleTheme={toggleTheme} />
@@ -19,7 +19,7 @@ const Header = ({ menuLinks, siteTitle, toggleTheme }) => (
     <HeaderLink>
       {menuLinks.map(link =>
         <HeaderItem key={link.name}>
-          <StyledLink to={link.link}>{link.name}</StyledLink>
+          <Link to={link.link}>{link.name}</Link>
         </HeaderItem>
       )}
     </HeaderLink>

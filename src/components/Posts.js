@@ -5,24 +5,17 @@ import styled from 'styled-components'
 import { media } from '../utils/utils'
 import Github from '../images/github.svg'
 
-const Posts = ({ posts, title }) => (
+const Posts = ({ posts }) => (
   <Container>
-    <PostWrapper>
-      <PostIcon>
-        <Icon src={Github} />
-      </PostIcon>
-      <PostTitle to='/'>This is a test title</PostTitle>
-      <PostDate>November 18, 2018</PostDate>
-    </PostWrapper>
-
-    <PostWrapper>
-      <PostIcon>
-        <Icon src={Github} />
-      </PostIcon>
-      <PostTitle>This is a test title</PostTitle>
-      <PostDate>November 18, 2018</PostDate>
-    </PostWrapper>
-
+    {posts.map(({ node: { frontmatter: { date, title, slug } } }) => (
+      <PostWrapper key={title}>
+        <PostIcon>
+          <Icon src={Github} />
+        </PostIcon>
+        <PostTitle to={`/${ slug }`}>{title}</PostTitle>
+        <PostDate>{date}</PostDate>
+      </PostWrapper>
+    ))}
   </Container>
 )
 
@@ -54,7 +47,7 @@ const PostIcon = styled.div`
 `
 
 const PostTitle = styled(Link)`
-  color: black;
+  color: ${ props => props.theme.contentColor };
   flex: 50%;
   margin: 0;
   text-shadow: none;

@@ -543,6 +543,479 @@
         "owner": "internal-data-bridge"
       }
     },
+    "5d47db0a-505e-592b-9755-e7c52b1761ce": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-source-filesystem",
+      "id": "5d47db0a-505e-592b-9755-e7c52b1761ce",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "projects",
+        "path": "/Users/shakhor/Projects/Web/Portfolio/src/projects"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.6",
+        "keywords": {
+          "$ref": "$[\"nodes\"][\"310a79d3-295f-555f-b290-0e24792d5c9e\"][\"packageJson\"][\"keywords\"]"
+        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "34ceccb3f5c6378a1a6ea46515c333e6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "c9b57267-1543-50e4-a390-35af59afc9ae": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-source-filesystem",
+      "id": "c9b57267-1543-50e4-a390-35af59afc9ae",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.6",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "posts",
+        "path": "/Users/shakhor/Projects/Web/Portfolio/src/posts"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.6",
+        "keywords": {
+          "$ref": "$[\"nodes\"][\"310a79d3-295f-555f-b290-0e24792d5c9e\"][\"packageJson\"][\"keywords\"]"
+        },
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "xstate",
+            "version": "^3.1.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b298ec4595dd5981b84c71256cb57446",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "b92fc91a-1667-53c9-b294-a24ddf6cd32b": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-transformer-remark",
+      "id": "b92fc91a-1667-53c9-b294-a24ddf6cd32b",
+      "name": "gatsby-transformer-remark",
+      "version": "2.1.12",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs",
+            "id": "1e399642-2c62-5711-b1a6-9b203928694c",
+            "name": "gatsby-remark-prismjs",
+            "version": "3.0.3",
+            "pluginOptions": {
+              "plugins": [],
+              "classPrefix": "language-",
+              "inlineCodeMarker": null,
+              "aliases": {},
+              "showLineNumbers": false,
+              "noInlineHighlight": false
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "2.1.12",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.10"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^5.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.18.2"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.2"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.33"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0bd894e09c43a1d20a4deaacc2c31520",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "1e399642-2c62-5711-b1a6-9b203928694c": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs",
+      "id": "1e399642-2c62-5711-b1a6-9b203928694c",
+      "name": "gatsby-remark-prismjs",
+      "version": "3.0.3",
+      "pluginOptions": {
+        "$ref": "$[\"nodes\"][\"b92fc91a-1667-53c9-b294-a24ddf6cd32b\"][\"pluginOptions\"][\"plugins\"][0][\"pluginOptions\"]"
+      },
+      "nodeAPIs": {
+        "$ref": "$[\"nodes\"][\"b92fc91a-1667-53c9-b294-a24ddf6cd32b\"][\"pluginOptions\"][\"plugins\"][0][\"nodeAPIs\"]"
+      },
+      "browserAPIs": {
+        "$ref": "$[\"nodes\"][\"b92fc91a-1667-53c9-b294-a24ddf6cd32b\"][\"pluginOptions\"][\"plugins\"][0][\"browserAPIs\"]"
+      },
+      "ssrAPIs": {
+        "$ref": "$[\"nodes\"][\"b92fc91a-1667-53c9-b294-a24ddf6cd32b\"][\"pluginOptions\"][\"plugins\"][0][\"ssrAPIs\"]"
+      },
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs",
+      "packageJson": {
+        "name": "gatsby-remark-prismjs",
+        "description": "Adds syntax highlighting to code blocks at build time using PrismJS",
+        "version": "3.0.3",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "parse-numeric-range",
+            "version": "^0.0.2"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.3.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          },
+          {
+            "name": "remark",
+            "version": "^9.0.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cc228ab7841e729dd08d324ae768e618",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-transformer-sharp",
       "id": "da3d06eb-685e-5c77-ae1d-750eb6a2e4a9",
@@ -940,11 +1413,14 @@
       "resolve": "/Users/shakhor/Projects/Web/Portfolio",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "2195ee24077ef9c082134b19b7eb75f6",
+      "version": "0489af58100f1135d3ed62e127c0bb04",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
       "browserAPIs": [
         "wrapRootElement"
       ],
@@ -960,6 +1436,14 @@
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
+          {
+            "name": "@mdx-js/mdx",
+            "version": "^0.16.3"
+          },
+          {
+            "name": "@mdx-js/tag",
+            "version": "^0.16.1"
+          },
           {
             "name": "babel-eslint",
             "version": "^10.0.1"
@@ -1029,12 +1513,24 @@
             "version": "^2.2.1"
           },
           {
+            "name": "gatsby-remark-prismjs",
+            "version": "^3.0.3"
+          },
+          {
             "name": "gatsby-source-filesystem",
             "version": "^2.0.4"
           },
           {
+            "name": "gatsby-transformer-remark",
+            "version": "^2.1.12"
+          },
+          {
             "name": "gatsby-transformer-sharp",
             "version": "^2.1.4"
+          },
+          {
+            "name": "prismjs",
+            "version": "^1.15.0"
           },
           {
             "name": "react",
@@ -1073,7 +1569,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7cf8ccc4cbb85bc2cfa939a73ab1dc54",
+        "contentDigest": "caecbbbecc9127d7038b06593f5a0fb3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1196,12 +1692,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-19T23:00:48.696Z",
+      "buildTime": "2018-11-21T20:34:34.784Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c9787d16164ebf67428129be94401435",
+        "contentDigest": "7ccd079a2f0f0d9c04fa0f4a314508dd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1211,7 +1707,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0e3368597402f7f81b16c9de33bae2c5",
+        "contentDigest": "06bfcb7f8354fd7001613544e3fbbd68",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1220,11 +1716,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 224,
-      "prettySize": "224 B",
-      "modifiedTime": "2018-11-05T07:45:20.694Z",
-      "accessTime": "2018-11-19T23:00:57.064Z",
-      "changeTime": "2018-11-05T07:45:20.694Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-11-20T04:07:03.037Z",
+      "accessTime": "2018-11-21T20:34:40.004Z",
+      "changeTime": "2018-11-20T04:07:03.037Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src",
@@ -1234,20 +1730,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 7,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 20593215,
       "blocks": 0,
-      "atimeMs": 1542668457063.8274,
-      "mtimeMs": 1541403920693.6497,
-      "ctimeMs": 1541403920693.6497,
+      "atimeMs": 1542832480003.9392,
+      "mtimeMs": 1542686823036.8433,
+      "ctimeMs": 1542686823036.8433,
       "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-19T23:00:57.064Z",
-      "mtime": "2018-11-05T07:45:20.694Z",
-      "ctime": "2018-11-05T07:45:20.694Z",
+      "atime": "2018-11-21T20:34:40.004Z",
+      "mtime": "2018-11-20T04:07:03.037Z",
+      "ctime": "2018-11-20T04:07:03.037Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
     },
     "05cfc17c-3a28-579f-9f49-224c7ab15457": {
@@ -1270,7 +1766,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-10-31T05:43:35.512Z",
-      "accessTime": "2018-11-05T02:12:47.928Z",
+      "accessTime": "2018-11-21T20:27:43.729Z",
       "changeTime": "2018-10-31T05:43:35.512Z",
       "birthTime": "2018-10-31T05:43:35.511Z",
       "root": "/",
@@ -1288,14 +1784,149 @@
       "blksize": 4096,
       "ino": 20593217,
       "blocks": 48,
-      "atimeMs": 1541383967927.9246,
+      "atimeMs": 1542832063729.0637,
       "mtimeMs": 1540964615511.5918,
       "ctimeMs": 1540964615511.5918,
       "birthtimeMs": 1540964615511.1797,
-      "atime": "2018-11-05T02:12:47.928Z",
+      "atime": "2018-11-21T20:27:43.729Z",
       "mtime": "2018-10-31T05:43:35.512Z",
       "ctime": "2018-10-31T05:43:35.512Z",
       "birthtime": "2018-10-31T05:43:35.511Z"
+    },
+    "fb297998-6141-5a0e-899a-120dec6eda38": {
+      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/github.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
+      "relativePath": "github.svg",
+      "extension": "svg",
+      "size": 1518,
+      "prettySize": "1.52 kB",
+      "modifiedTime": "2018-11-05T06:09:22.551Z",
+      "accessTime": "2018-11-21T20:27:43.729Z",
+      "changeTime": "2018-11-05T07:45:20.690Z",
+      "birthTime": "2018-11-05T06:09:22.551Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "github.svg",
+      "ext": ".svg",
+      "name": "github",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990731,
+      "blocks": 8,
+      "atimeMs": 1542832063729.0874,
+      "mtimeMs": 1541398162550.8406,
+      "ctimeMs": 1541403920690.4397,
+      "birthtimeMs": 1541398162550.6235,
+      "atime": "2018-11-21T20:27:43.729Z",
+      "mtime": "2018-11-05T06:09:22.551Z",
+      "ctime": "2018-11-05T07:45:20.690Z",
+      "birthtime": "2018-11-05T06:09:22.551Z"
+    },
+    "e7397794-7a87-5778-9d07-d596be70991c": {
+      "id": "e7397794-7a87-5778-9d07-d596be70991c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d2fe8bc628d5eb298d409f70ad88f0cb",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/moon.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/moon.svg",
+      "relativePath": "moon.svg",
+      "extension": "svg",
+      "size": 513,
+      "prettySize": "513 B",
+      "modifiedTime": "2018-11-05T06:09:43.456Z",
+      "accessTime": "2018-11-21T20:27:43.729Z",
+      "changeTime": "2018-11-05T07:45:20.692Z",
+      "birthTime": "2018-11-05T06:09:43.456Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "moon.svg",
+      "ext": ".svg",
+      "name": "moon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990764,
+      "blocks": 8,
+      "atimeMs": 1542832063729.1106,
+      "mtimeMs": 1541398183456.024,
+      "ctimeMs": 1541403920692.284,
+      "birthtimeMs": 1541398183455.8179,
+      "atime": "2018-11-21T20:27:43.729Z",
+      "mtime": "2018-11-05T06:09:43.456Z",
+      "ctime": "2018-11-05T07:45:20.692Z",
+      "birthtime": "2018-11-05T06:09:43.456Z"
+    },
+    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
+      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/twitter.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
+      "relativePath": "twitter.svg",
+      "extension": "svg",
+      "size": 1007,
+      "prettySize": "1.01 kB",
+      "modifiedTime": "2018-11-05T06:09:07.197Z",
+      "accessTime": "2018-11-21T20:27:43.729Z",
+      "changeTime": "2018-11-05T07:45:20.694Z",
+      "birthTime": "2018-11-05T06:09:07.197Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "twitter.svg",
+      "ext": ".svg",
+      "name": "twitter",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990699,
+      "blocks": 8,
+      "atimeMs": 1542832063729.134,
+      "mtimeMs": 1541398147196.8877,
+      "ctimeMs": 1541403920693.6497,
+      "birthtimeMs": 1541398147196.6885,
+      "atime": "2018-11-21T20:27:43.729Z",
+      "mtime": "2018-11-05T06:09:07.197Z",
+      "ctime": "2018-11-05T07:45:20.694Z",
+      "birthtime": "2018-11-05T06:09:07.197Z"
     },
     "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
       "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
@@ -1327,7 +1958,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-10-31T05:43:35.511Z",
-      "accessTime": "2018-11-05T02:12:45.945Z",
+      "accessTime": "2018-11-21T20:27:40.675Z",
       "changeTime": "2018-10-31T05:43:35.511Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1345,11 +1976,11 @@
       "blksize": 4096,
       "ino": 20593216,
       "blocks": 328,
-      "atimeMs": 1541383965944.6643,
+      "atimeMs": 1542832060674.9797,
       "mtimeMs": 1540964615510.8381,
       "ctimeMs": 1540964615510.8381,
       "birthtimeMs": 1540964615509.9563,
-      "atime": "2018-11-05T02:12:45.945Z",
+      "atime": "2018-11-21T20:27:40.675Z",
       "mtime": "2018-10-31T05:43:35.511Z",
       "ctime": "2018-10-31T05:43:35.511Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
@@ -1364,32 +1995,34 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "e7397794-7a87-5778-9d07-d596be70991c": {
-      "id": "e7397794-7a87-5778-9d07-d596be70991c",
-      "children": [],
+    "058f36a8-5b0e-55cf-8108-ff43b19bb5f5": {
+      "id": "058f36a8-5b0e-55cf-8108-ff43b19bb5f5",
+      "children": [
+        "a458f555-c027-53f8-a8c0-a2ee9af26995"
+      ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d2fe8bc628d5eb298d409f70ad88f0cb",
+        "contentDigest": "1adbf3507b7378701833ed12e6ecc5b6",
         "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/moon.svg\"",
+        "mediaType": "image/png",
+        "description": "File \"src/images/about_pic.png\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/moon.svg",
-      "relativePath": "moon.svg",
-      "extension": "svg",
-      "size": 513,
-      "prettySize": "513 B",
-      "modifiedTime": "2018-11-05T06:09:43.456Z",
-      "accessTime": "2018-11-05T07:45:17.694Z",
-      "changeTime": "2018-11-05T07:45:20.692Z",
-      "birthTime": "2018-11-05T06:09:43.456Z",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/about_pic.png",
+      "relativePath": "about_pic.png",
+      "extension": "png",
+      "size": 963995,
+      "prettySize": "964 kB",
+      "modifiedTime": "2018-11-20T04:07:03.052Z",
+      "accessTime": "2018-11-21T20:27:40.675Z",
+      "changeTime": "2018-11-20T04:07:03.063Z",
+      "birthTime": "2018-11-20T04:07:03.037Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "moon.svg",
-      "ext": ".svg",
-      "name": "moon",
+      "base": "about_pic.png",
+      "ext": ".png",
+      "name": "about_pic",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1398,88 +2031,143 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 21990764,
-      "blocks": 8,
-      "atimeMs": 1541403917694.377,
-      "mtimeMs": 1541398183456.024,
-      "ctimeMs": 1541403920692.284,
-      "birthtimeMs": 1541398183455.8179,
-      "atime": "2018-11-05T07:45:17.694Z",
-      "mtime": "2018-11-05T06:09:43.456Z",
-      "ctime": "2018-11-05T07:45:20.692Z",
-      "birthtime": "2018-11-05T06:09:43.456Z"
+      "ino": 22968824,
+      "blocks": 1888,
+      "atimeMs": 1542832060674.9568,
+      "mtimeMs": 1542686823051.7239,
+      "ctimeMs": 1542686823063.3596,
+      "birthtimeMs": 1542686823036.8247,
+      "atime": "2018-11-21T20:27:40.675Z",
+      "mtime": "2018-11-20T04:07:03.052Z",
+      "ctime": "2018-11-20T04:07:03.063Z",
+      "birthtime": "2018-11-20T04:07:03.037Z"
     },
-    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
-      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
+    "a458f555-c027-53f8-a8c0-a2ee9af26995": {
+      "id": "a458f555-c027-53f8-a8c0-a2ee9af26995",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": "058f36a8-5b0e-55cf-8108-ff43b19bb5f5",
       "internal": {
-        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/twitter.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
-      "relativePath": "twitter.svg",
-      "extension": "svg",
-      "size": 1007,
-      "prettySize": "1.01 kB",
-      "modifiedTime": "2018-11-05T06:09:07.197Z",
-      "accessTime": "2018-11-05T07:44:53.252Z",
-      "changeTime": "2018-11-05T07:45:20.694Z",
-      "birthTime": "2018-11-05T06:09:07.197Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "twitter.svg",
-      "ext": ".svg",
-      "name": "twitter",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21990699,
-      "blocks": 8,
-      "atimeMs": 1541403893252.341,
-      "mtimeMs": 1541398147196.8877,
-      "ctimeMs": 1541403920693.6497,
-      "birthtimeMs": 1541398147196.6885,
-      "atime": "2018-11-05T07:44:53.252Z",
-      "mtime": "2018-11-05T06:09:07.197Z",
-      "ctime": "2018-11-05T07:45:20.694Z",
-      "birthtime": "2018-11-05T06:09:07.197Z"
+        "contentDigest": "1adbf3507b7378701833ed12e6ecc5b6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
-    "fb297998-6141-5a0e-899a-120dec6eda38": {
-      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
+    "95fe7697-f4f9-5597-84a0-6bb2d96acfc1": {
+      "id": "95fe7697-f4f9-5597-84a0-6bb2d96acfc1",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/github.svg\"",
+        "contentDigest": "25bb552c5816b21d01ed8af6013a83c1",
+        "type": "Directory",
+        "description": "Directory \"src/projects\"",
         "owner": "gatsby-source-filesystem"
       },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
-      "relativePath": "github.svg",
-      "extension": "svg",
-      "size": 1518,
-      "prettySize": "1.52 kB",
-      "modifiedTime": "2018-11-05T06:09:22.551Z",
-      "accessTime": "2018-11-05T07:44:23.319Z",
-      "changeTime": "2018-11-05T07:45:20.690Z",
-      "birthTime": "2018-11-05T06:09:22.551Z",
+      "sourceInstanceName": "projects",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/projects",
+      "relativePath": "",
+      "extension": "",
+      "size": 64,
+      "prettySize": "64 B",
+      "modifiedTime": "2018-11-21T01:00:14.113Z",
+      "accessTime": "2018-11-21T20:34:40.039Z",
+      "changeTime": "2018-11-21T01:00:14.113Z",
+      "birthTime": "2018-11-21T01:00:14.113Z",
       "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "github.svg",
-      "ext": ".svg",
-      "name": "github",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src",
+      "base": "projects",
+      "ext": "",
+      "name": "projects",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 2,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23012528,
+      "blocks": 0,
+      "atimeMs": 1542832480038.6492,
+      "mtimeMs": 1542762014112.7483,
+      "ctimeMs": 1542762014112.7483,
+      "birthtimeMs": 1542762014112.7483,
+      "atime": "2018-11-21T20:34:40.039Z",
+      "mtime": "2018-11-21T01:00:14.113Z",
+      "ctime": "2018-11-21T01:00:14.113Z",
+      "birthtime": "2018-11-21T01:00:14.113Z"
+    },
+    "b113d833-8ca5-5ae5-8597-c0cee20f05cb": {
+      "id": "b113d833-8ca5-5ae5-8597-c0cee20f05cb",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5b487e3ccf9eb656bb60e64cf9829dab",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 192,
+      "prettySize": "192 B",
+      "modifiedTime": "2018-11-21T01:30:58.847Z",
+      "accessTime": "2018-11-21T20:34:40.044Z",
+      "changeTime": "2018-11-21T01:30:58.847Z",
+      "birthTime": "2018-11-21T01:04:51.355Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 6,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23012763,
+      "blocks": 0,
+      "atimeMs": 1542832480044.2312,
+      "mtimeMs": 1542763858846.828,
+      "ctimeMs": 1542763858846.828,
+      "birthtimeMs": 1542762291354.9749,
+      "atime": "2018-11-21T20:34:40.044Z",
+      "mtime": "2018-11-21T01:30:58.847Z",
+      "ctime": "2018-11-21T01:30:58.847Z",
+      "birthtime": "2018-11-21T01:04:51.355Z"
+    },
+    "079d86fd-7efa-5b68-b908-67344e304dac": {
+      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
+      "children": [
+        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1bbd27696b479df55c238418e622abd8",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "relativePath": "03-23-2018-Deploy-Your-App.md",
+      "extension": "md",
+      "size": 4341,
+      "prettySize": "4.34 kB",
+      "modifiedTime": "2018-11-21T20:55:55.512Z",
+      "accessTime": "2018-11-21T20:55:55.511Z",
+      "changeTime": "2018-11-21T20:55:55.512Z",
+      "birthTime": "2018-11-21T01:30:58.847Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-23-2018-Deploy-Your-App.md",
+      "ext": ".md",
+      "name": "03-23-2018-Deploy-Your-App",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1488,16 +2176,297 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 21990731,
-      "blocks": 8,
-      "atimeMs": 1541403863319.0583,
-      "mtimeMs": 1541398162550.8406,
-      "ctimeMs": 1541403920690.4397,
-      "birthtimeMs": 1541398162550.6235,
-      "atime": "2018-11-05T07:44:23.319Z",
-      "mtime": "2018-11-05T06:09:22.551Z",
-      "ctime": "2018-11-05T07:45:20.690Z",
-      "birthtime": "2018-11-05T06:09:22.551Z"
+      "ino": 23017203,
+      "blocks": 16,
+      "atimeMs": 1542833755511.3125,
+      "mtimeMs": 1542833755511.8418,
+      "ctimeMs": 1542833755511.8418,
+      "birthtimeMs": 1542763858846.8127,
+      "atime": "2018-11-21T20:55:55.511Z",
+      "mtime": "2018-11-21T20:55:55.512Z",
+      "ctime": "2018-11-21T20:55:55.512Z",
+      "birthtime": "2018-11-21T01:30:58.847Z"
+    },
+    "64357855-ba9b-5124-823b-10eae4a51b27": {
+      "id": "64357855-ba9b-5124-823b-10eae4a51b27",
+      "children": [
+        "5d85e12b-609c-5299-8c0a-e7f0213a005e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a2d8a73de3a3ed723c37d9ea21ba834e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/07-22-2018-My-Workflow.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
+      "relativePath": "07-22-2018-My-Workflow.md",
+      "extension": "md",
+      "size": 4329,
+      "prettySize": "4.33 kB",
+      "modifiedTime": "2018-11-21T20:57:00.059Z",
+      "accessTime": "2018-11-21T20:57:00.056Z",
+      "changeTime": "2018-11-21T20:57:00.059Z",
+      "birthTime": "2018-11-21T01:26:24.372Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "07-22-2018-My-Workflow.md",
+      "ext": ".md",
+      "name": "07-22-2018-My-Workflow",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23016992,
+      "blocks": 16,
+      "atimeMs": 1542833820055.747,
+      "mtimeMs": 1542833820058.602,
+      "ctimeMs": 1542833820058.602,
+      "birthtimeMs": 1542763584372.158,
+      "atime": "2018-11-21T20:57:00.056Z",
+      "mtime": "2018-11-21T20:57:00.059Z",
+      "ctime": "2018-11-21T20:57:00.059Z",
+      "birthtime": "2018-11-21T01:26:24.372Z"
+    },
+    "64ac11fa-7f5d-59f3-9c58-0881cba94cb4": {
+      "id": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
+      "children": [
+        "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5e135c018271a46f53854313883013a1",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-16-2018-How-I-Became.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
+      "relativePath": "03-16-2018-How-I-Became.md",
+      "extension": "md",
+      "size": 4234,
+      "prettySize": "4.23 kB",
+      "modifiedTime": "2018-11-21T03:37:59.242Z",
+      "accessTime": "2018-11-21T20:27:40.675Z",
+      "changeTime": "2018-11-21T03:37:59.242Z",
+      "birthTime": "2018-11-21T01:11:43.723Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-16-2018-How-I-Became.md",
+      "ext": ".md",
+      "name": "03-16-2018-How-I-Became",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23013678,
+      "blocks": 16,
+      "atimeMs": 1542832060675.4998,
+      "mtimeMs": 1542771479241.8782,
+      "ctimeMs": 1542771479241.8782,
+      "birthtimeMs": 1542762703723.2544,
+      "atime": "2018-11-21T20:27:40.675Z",
+      "mtime": "2018-11-21T03:37:59.242Z",
+      "ctime": "2018-11-21T03:37:59.242Z",
+      "birthtime": "2018-11-21T01:11:43.723Z"
+    },
+    "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
+      "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
+      "children": [
+        "84789685-cd7c-5477-87c4-809c23b5619e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a8148e490e0b7abcca6ed0bade4dc17b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-19-2018-How-To-Make.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
+      "relativePath": "03-19-2018-How-To-Make.md",
+      "extension": "md",
+      "size": 11538,
+      "prettySize": "11.5 kB",
+      "modifiedTime": "2018-11-21T15:24:38.726Z",
+      "accessTime": "2018-11-21T20:27:40.676Z",
+      "changeTime": "2018-11-21T15:24:38.726Z",
+      "birthTime": "2018-11-21T01:22:45.089Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-19-2018-How-To-Make.md",
+      "ext": ".md",
+      "name": "03-19-2018-How-To-Make",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23016810,
+      "blocks": 24,
+      "atimeMs": 1542832060675.5225,
+      "mtimeMs": 1542813878726.2092,
+      "ctimeMs": 1542813878726.2092,
+      "birthtimeMs": 1542763365088.6953,
+      "atime": "2018-11-21T20:27:40.676Z",
+      "mtime": "2018-11-21T15:24:38.726Z",
+      "ctime": "2018-11-21T15:24:38.726Z",
+      "birthtime": "2018-11-21T01:22:45.089Z"
+    },
+    "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
+      "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
+      "children": [],
+      "parent": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
+      "internal": {
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
+        "type": "MarkdownRemark",
+        "contentDigest": "c8be8c39815bea7de485b8be6d5a2443",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How I Became A Web Developer In 4 Months",
+        "date": "March 16, 2018",
+        "slug": "how-i-became-a-web-developer-in-4-months",
+        "_PARENT": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
+      "fields": {
+        "slug": "/03-16-2018-How-I-Became/"
+      }
+    },
+    "84789685-cd7c-5477-87c4-809c23b5619e": {
+      "id": "84789685-cd7c-5477-87c4-809c23b5619e",
+      "children": [],
+      "parent": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
+      "internal": {
+        "content": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link [here](https://graphql.org/). So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free [GraphCMS](https://graphcms.com/) account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more [here](https://reacttraining.com/react-router/).\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code [here](https://github.com/smithmanny/React-Blog). (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
+        "type": "MarkdownRemark",
+        "contentDigest": "b380153b823468e7afe85ef4d2cb9f15",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How To Make App A Blog With React & GraphQL",
+        "date": "March 19, 2018",
+        "slug": "how-to-make-a-blog-with-react-and-graphql",
+        "_PARENT": "9f078a3d-ec32-51d1-9171-52fe450dbc92"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link [here](https://graphql.org/). So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free [GraphCMS](https://graphcms.com/) account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more [here](https://reacttraining.com/react-router/).\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code [here](https://github.com/smithmanny/React-Blog). (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
+      "fields": {
+        "slug": "/03-19-2018-How-To-Make/"
+      }
+    },
+    "SitePage /deploy-your-react-app-to-heroku": {
+      "jsonName": "deploy-your-react-app-to-heroku-716",
+      "internalComponentName": "ComponentDeployYourReactAppToHeroku",
+      "path": "/deploy-your-react-app-to-heroku",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "deploy-your-react-app-to-heroku"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /deploy-your-react-app-to-heroku",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "304370cb483ea81461016a741a0d3c69",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /my-workflow-software-engineer": {
+      "jsonName": "my-workflow-software-engineer-f1c",
+      "internalComponentName": "ComponentMyWorkflowSoftwareEngineer",
+      "path": "/my-workflow-software-engineer",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "my-workflow-software-engineer"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /my-workflow-software-engineer",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ad7f629b064f11b3d0cde74a48406b87",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /how-i-became-a-web-developer-in-4-months": {
+      "jsonName": "how-i-became-a-web-developer-in-4-months-977",
+      "internalComponentName": "ComponentHowIBecameAWebDeveloperIn4Months",
+      "path": "/how-i-became-a-web-developer-in-4-months",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "how-i-became-a-web-developer-in-4-months"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /how-i-became-a-web-developer-in-4-months",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5992c473549938cc77e509dd5e00c5a6",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /how-to-make-a-blog-with-react-and-graphql": {
+      "jsonName": "how-to-make-a-blog-with-react-and-graphql-6e2",
+      "internalComponentName": "ComponentHowToMakeABlogWithReactAndGraphql",
+      "path": "/how-to-make-a-blog-with-react-and-graphql",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "how-to-make-a-blog-with-react-and-graphql"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /how-to-make-a-blog-with-react-and-graphql",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "accf1fa5db5793d0ff05d33c511c381c",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
     },
     "SitePage /404/": {
       "jsonName": "404-22d",
@@ -1515,6 +2484,66 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "23a33eb97b7b285316f2d64b32a19de9",
+        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "96efa51f14b14fa36e560e25b49a311e",
+        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "jsonName": "blog-f7a",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9afd041bffdbcf8a1da1716c2fa6f1b9",
+        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "eb45de44acb2068502b6352a49a8370e",
         "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
         "owner": "internal-data-bridge"
       }
@@ -1561,149 +2590,107 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /contact/": {
-      "jsonName": "contact-26a",
-      "internalComponentName": "ComponentContact",
-      "path": "/contact/",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js",
-      "componentChunkName": "component---src-pages-contact-js",
-      "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js",
-      "id": "SitePage /contact/",
-      "parent": "SOURCE",
+    "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": {
+      "id": "a8af5dbc-5cbb-5a4d-a891-3f1b78849760",
       "children": [],
+      "parent": "079d86fd-7efa-5b68-b908-67344e304dac",
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "eb45de44acb2068502b6352a49a8370e",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog/": {
-      "jsonName": "blog-f7a",
-      "internalComponentName": "ComponentBlog",
-      "path": "/blog/",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js",
-      "componentChunkName": "component---src-pages-blog-js",
-      "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js",
-      "id": "SitePage /blog/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "9afd041bffdbcf8a1da1716c2fa6f1b9",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /about/": {
-      "jsonName": "about-f34",
-      "internalComponentName": "ComponentAbout",
-      "path": "/about/",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js",
-      "componentChunkName": "component---src-pages-about-js",
-      "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js",
-      "id": "SitePage /about/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "96efa51f14b14fa36e560e25b49a311e",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "058f36a8-5b0e-55cf-8108-ff43b19bb5f5": {
-      "id": "058f36a8-5b0e-55cf-8108-ff43b19bb5f5",
-      "children": [
-        "a458f555-c027-53f8-a8c0-a2ee9af26995"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "1adbf3507b7378701833ed12e6ecc5b6",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/about_pic.png\"",
-        "owner": "gatsby-source-filesystem"
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
+        "type": "MarkdownRemark",
+        "contentDigest": "4d46a38ab3bf5ec80161c27ee8b5f14b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
       },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/about_pic.png",
-      "relativePath": "about_pic.png",
-      "extension": "png",
-      "size": 963995,
-      "prettySize": "964 kB",
-      "modifiedTime": "2018-11-20T04:07:03.052Z",
-      "accessTime": "2018-11-20T04:07:03.099Z",
-      "changeTime": "2018-11-20T04:07:03.063Z",
-      "birthTime": "2018-11-20T04:07:03.037Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "about_pic.png",
-      "ext": ".png",
-      "name": "about_pic",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 22968824,
-      "blocks": 1888,
-      "atimeMs": 1542686823098.5845,
-      "mtimeMs": 1542686823051.7239,
-      "ctimeMs": 1542686823063.3596,
-      "birthtimeMs": 1542686823036.8247,
-      "atime": "2018-11-20T04:07:03.099Z",
-      "mtime": "2018-11-20T04:07:03.052Z",
-      "ctime": "2018-11-20T04:07:03.063Z",
-      "birthtime": "2018-11-20T04:07:03.037Z"
+      "frontmatter": {
+        "title": "Deploy Your React App To Heroku",
+        "date": "March 23, 2018",
+        "slug": "deploy-your-react-app-to-heroku",
+        "_PARENT": "079d86fd-7efa-5b68-b908-67344e304dac"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "fields": {
+        "slug": "/03-23-2018-Deploy-Your-App/"
+      }
     },
-    "a458f555-c027-53f8-a8c0-a2ee9af26995": {
-      "id": "a458f555-c027-53f8-a8c0-a2ee9af26995",
+    "5d85e12b-609c-5299-8c0a-e7f0213a005e": {
+      "id": "5d85e12b-609c-5299-8c0a-e7f0213a005e",
       "children": [],
-      "parent": "058f36a8-5b0e-55cf-8108-ff43b19bb5f5",
+      "parent": "64357855-ba9b-5124-823b-10eae4a51b27",
       "internal": {
-        "contentDigest": "1adbf3507b7378701833ed12e6ecc5b6",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
+        "type": "MarkdownRemark",
+        "contentDigest": "9d48b6ebd68b3ed3c8af761831e784a2",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My Workflow - Software Engineer",
+        "date": "July 22, 2018",
+        "slug": "my-workflow-software-engineer",
+        "_PARENT": "64357855-ba9b-5124-823b-10eae4a51b27"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
+      "fields": {
+        "slug": "/07-22-2018-My-Workflow/"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "d2d272457a6d80af156752d75806d21a"
+    "PLUGINS_HASH": "89e01ac2d75f5e28fa7a7b9cbaa2f9c6"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
+      ],
+      "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": [
+        "/deploy-your-react-app-to-heroku"
+      ],
+      "5d85e12b-609c-5299-8c0a-e7f0213a005e": [
+        "/my-workflow-software-engineer"
+      ],
+      "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": [
+        "/how-i-became-a-web-developer-in-4-months"
+      ],
+      "84789685-cd7c-5477-87c4-809c23b5619e": [
+        "/how-to-make-a-blog-with-react-and-graphql"
       ]
     },
-    "connections": {}
+    "connections": {
+      "MarkdownRemark": [
+        "/blog/",
+        "/"
+      ]
+    }
   },
   "jsonDataPaths": {
+    "how-i-became-a-web-developer-in-4-months-977": "968/path---how-i-became-a-web-developer-in-4-months-977-3ba-7iOr4enMu6wzKXosGtzK6hbcuCc",
+    "blog-f7a": "619/path---blog-f-7-a-05d-TJRfjAT0rrv7hT9mUNZitlXhCxQ",
+    "index": "389/path---index-6a9-TJRfjAT0rrv7hT9mUNZitlXhCxQ",
+    "my-workflow-software-engineer-f1c": "619/path---my-workflow-software-engineer-f-1-c-425-8RyLXNURwWPMAAN7FEjZ1WZFS70",
+    "how-to-make-a-blog-with-react-and-graphql-6e2": "973/path---how-to-make-a-blog-with-react-and-graphql-6-e-2-f5c-IkcYP8ODFRCQ8nAzE8jY69BIpiM",
+    "deploy-your-react-app-to-heroku-716": "521/path---deploy-your-react-app-to-heroku-716-954-Q7y8EqRKB5fDtV9eA0qldyuJSM0",
+    "sq--src-components-layout-js": 2571625782,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-layout-js": 2571625782,
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "page-2-fbc": "53/path---page-2-fbc-5a8-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2011440971,
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "blog-f7a": "32/path---blog-f-7-a-05d-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js": {
+      "query": "query usersShakhorProjectsWebPortfolioSrcTemplatesBlogPostJs3498585245(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js"
+    },
     "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js"
@@ -1712,21 +2699,21 @@
       "query": "",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/404.js"
     },
-    "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js": {
+    "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js": {
       "query": "",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js"
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js"
+    },
+    "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js": {
+      "query": "query usersShakhorProjectsWebPortfolioSrcPagesBlogJs1155556693 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js"
     },
     "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js": {
       "query": "",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js"
     },
-    "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js": {
-      "query": "",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js"
-    },
-    "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js": {
-      "query": "",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js"
+    "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js": {
+      "query": "query usersShakhorProjectsWebPortfolioSrcPagesIndexJs1155556693 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js"
     }
   },
   "staticQueryComponents": {
