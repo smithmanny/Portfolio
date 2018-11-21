@@ -8,16 +8,12 @@ import ExtLink from '../shared/ExtLink'
 import Moon from '../../images/moon.svg'
 import Github from '../../images/github.svg'
 import Twitter from '../../images/twitter.svg'
+import Linkedin from '../../images/linkedin.svg'
+import Youtube from '../../images/youtube.svg'
 
 const SocialLinks = ({ toggleTheme }) => {
   return (
     <SocialWrapper>
-      <SocialLink>
-        <ExtLink>
-          <SocialImg src={Moon} alt="Toggle Background" onClick={toggleTheme} />
-        </ExtLink>
-      </SocialLink>
-
       <SocialLink>
         <ExtLink href="https://github.com/smithmanny">
           <SocialImg src={Github} alt="Github" />
@@ -27,6 +23,18 @@ const SocialLinks = ({ toggleTheme }) => {
       <SocialLink>
         <ExtLink href="https://twitter.com/smithmanny">
           <SocialImg src={Twitter} alt="Twitter" />
+        </ExtLink>
+      </SocialLink>
+
+      <SocialLink>
+        <ExtLink href="https://www.youtube.com/channel/UC33Y0c5LX9Z2TvtxpztaFUA?view_as=subscriber">
+          <SocialImg src={Youtube} alt="Youtube channel" />
+        </ExtLink>
+      </SocialLink>
+
+      <SocialLink>
+        <ExtLink href="https://www.linkedin.com/in/shakhor-smith/">
+          <SocialImg src={Linkedin} alt="Linkedin" />
         </ExtLink>
       </SocialLink>
     </SocialWrapper>
@@ -53,9 +61,15 @@ const SocialLink = styled.li`
   margin: 0 15px;
   width: 25px;
   height: 25px;
+  transition: .3s ease;
 
   :last-child {
     margin-right: 0;
+  }
+
+  :hover {
+    transform: translateY(-5px);
+    transition: .3s ease;
   }
 `
 

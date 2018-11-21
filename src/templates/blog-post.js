@@ -19,7 +19,7 @@ export default ({ data }) => {
         ]}
       />
       <GlobalStyle />
-      <PageTitle>{post.frontmatter.title}</PageTitle>
+      <PageTitle blogPost>{post.frontmatter.title}</PageTitle>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )

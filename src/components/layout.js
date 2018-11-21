@@ -4,8 +4,9 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components'
 
+import { themes } from '../theme/globalStyles'
+
 import Header from './Header/index'
-import { ThemeContext } from '../contexts/ThemeContext'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -34,21 +35,17 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
 
-          <ThemeContext.Consumer>
-            {({ theme, toggleTheme }) => (
-              <ThemeProvider theme={theme}>
-                <Wrapper>
-                  <GlobalStyle />
-                  <Header
-                    menuLinks={data.site.siteMetadata.menuLinks}
-                    siteTitle={data.site.siteMetadata.title}
-                    toggleTheme={toggleTheme}
-                  />
-                  {children}
-                </Wrapper>
-              </ThemeProvider>
-            )}
-          </ThemeContext.Consumer>
+          <ThemeProvider theme={themes.main}>
+            <Wrapper>
+              <GlobalStyle />
+              <Header
+                menuLinks={data.site.siteMetadata.menuLinks}
+                siteTitle={data.site.siteMetadata.title}
+              />
+              {children}
+            </Wrapper>
+          </ThemeProvider>
+
       </>
     )}
   />

@@ -1,9 +1,9 @@
 import React from 'react'
 import { themes } from '../theme/globalStyles'
 
-export const ThemeContext = React.createContext()
+const ThemeContext = React.createContext()
 
-export class PortfolioThemeProvider extends React.Component {
+class PortfolioThemeProvider extends React.Component {
   state = {
     theme: themes.main
   };
@@ -19,3 +19,5 @@ export class PortfolioThemeProvider extends React.Component {
     </ThemeContext.Provider>
   }
 }
+
+export default PortfolioThemeProvider
