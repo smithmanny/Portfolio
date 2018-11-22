@@ -53,5 +53,10 @@
         "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "my-workflow-software-engineer-f1c",
         "path": "/my-workflow-software-engineer"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "website-redesign-v-2-068",
+        "path": "/website-redesign-v2"
     }
 ]

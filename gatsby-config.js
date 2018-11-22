@@ -102,6 +102,13 @@ module.exports = {
               noInlineHighlight: false,
             },
           },
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_target',
+              rel: 'nofollow'
+            },
+          }
         ],
       },
     },

@@ -1,6 +1,6 @@
 ---
 title: "Deploy Your React App To Heroku"
-date: "March 23, 2018"
+date: "03-23-2018"
 slug: "deploy-your-react-app-to-heroku"
 ---
 
