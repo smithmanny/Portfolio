@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-amplitude-analytics/gatsby-ssr'),
-      options: {"plugins":[],"head":false,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"eventTypes":{"outboundLinkClick":"OUTBOUND_LINK_CLICK","pageView":"PAGE_VIEW"},"amplitudeConfig":{"saveEvents":true,"includeUtm":true,"includeReferrer":true}},
+      options: {"plugins":[],"apiKey":"f4b660f1235b6088eed1cb7b31f7aea1","head":false,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"eventTypes":{"outboundLinkClick":"OUTBOUND_LINK_CLICK","pageView":"PAGE_VIEW"},"amplitudeConfig":{"saveEvents":true,"includeUtm":true,"includeReferrer":true}},
     },{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Shakhor Smith","short_name":"Shakhor","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
