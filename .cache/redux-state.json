@@ -543,6 +543,115 @@
         "owner": "internal-data-bridge"
       }
     },
+    "8bcd06ec-3981-53bc-9e22-d651b744bd24": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-amplitude-analytics",
+      "id": "8bcd06ec-3981-53bc-9e22-d651b744bd24",
+      "name": "gatsby-plugin-amplitude-analytics",
+      "version": "1.4.0",
+      "pluginOptions": {
+        "plugins": [],
+        "head": false,
+        "respectDNT": true,
+        "exclude": [
+          "/preview/**",
+          "/do-not-track/me/too/"
+        ],
+        "eventTypes": {
+          "outboundLinkClick": "OUTBOUND_LINK_CLICK",
+          "pageView": "PAGE_VIEW"
+        },
+        "amplitudeConfig": {
+          "saveEvents": true,
+          "includeUtm": true,
+          "includeReferrer": true
+        }
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-amplitude-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-amplitude-analytics",
+        "description": "Plugin to add Amplitude analytics to a Gatsby site",
+        "version": "1.4.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "amplitude",
+          "analytics"
+        ],
+        "author": "Ryan Ashcraft <ryan@ryanashcraft.me>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/node",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-class-properties",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-proposal-optional-chaining",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/plugin-transform-runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/preset-env",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/preset-flow",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/preset-react",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "281c1d0e93b4d78abf9b780c57c777c8",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "c9b57267-1543-50e4-a390-35af59afc9ae": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-source-filesystem",
       "id": "c9b57267-1543-50e4-a390-35af59afc9ae",
@@ -1124,15 +1233,15 @@
         "owner": "internal-data-bridge"
       }
     },
-    "fa527c69-4b84-52c4-8340-2876a81af102": {
+    "35330947-c59a-5cf0-812a-a0cc535e294b": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-manifest",
-      "id": "fa527c69-4b84-52c4-8340-2876a81af102",
+      "id": "35330947-c59a-5cf0-812a-a0cc535e294b",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.7",
       "pluginOptions": {
         "plugins": [],
-        "name": "gatsby-starter-default",
-        "short_name": "starter",
+        "name": "Shakhor Smith",
+        "short_name": "Shakhor",
         "start_url": "/",
         "background_color": "#663399",
         "theme_color": "#663399",
@@ -1207,7 +1316,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "557f54062daedd92c39ae6084b33e9a2",
+        "contentDigest": "00169b8b91c423d677d78ca6dad294d9",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1302,7 +1411,7 @@
       "resolve": "/Users/shakhor/Projects/Web/Portfolio",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "4215a78a99ee0c29f9c6f947a760bd63",
+      "version": "45bb5271cbe799e40a357554ae3cbe4f",
       "pluginOptions": {
         "plugins": []
       },
@@ -1374,6 +1483,10 @@
           {
             "name": "gatsby-image",
             "version": "^2.0.15"
+          },
+          {
+            "name": "gatsby-plugin-amplitude-analytics",
+            "version": "^1.4.0"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -1456,7 +1569,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d0ef2fff5ea7bf2c13d19795709abb41",
+        "contentDigest": "16f5585a3bdea8fc0c023460aa47dddd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1579,12 +1692,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-21T22:31:16.693Z",
+      "buildTime": "2018-11-22T02:04:15.252Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "55edfa4ba3a6871085e89efbefb83eb9",
+        "contentDigest": "99568ca3fcf7e712f8961422c8a11a3e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1594,7 +1707,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9a2f0e1120e3f8f64aafaca2447eebed",
+        "contentDigest": "a6a901ba9552a666d888d846152dc20c",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1606,7 +1719,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-11-21T22:20:31.936Z",
-      "accessTime": "2018-11-21T22:31:22.233Z",
+      "accessTime": "2018-11-22T02:04:23.115Z",
       "changeTime": "2018-11-21T22:20:31.936Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1624,14 +1737,106 @@
       "blksize": 4096,
       "ino": 20593215,
       "blocks": 0,
-      "atimeMs": 1542839482232.6814,
+      "atimeMs": 1542852263115.4797,
       "mtimeMs": 1542838831936.1733,
       "ctimeMs": 1542838831936.1733,
       "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-21T22:31:22.233Z",
+      "atime": "2018-11-22T02:04:23.115Z",
       "mtime": "2018-11-21T22:20:31.936Z",
       "ctime": "2018-11-21T22:20:31.936Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
+    },
+    "90eef715-4ed4-55f5-8bfe-4641b3143ffa": {
+      "id": "90eef715-4ed4-55f5-8bfe-4641b3143ffa",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b278494afb335c70ba290501b797348",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/linkedin.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/linkedin.svg",
+      "relativePath": "linkedin.svg",
+      "extension": "svg",
+      "size": 514,
+      "prettySize": "514 B",
+      "modifiedTime": "2018-11-21T22:20:31.913Z",
+      "accessTime": "2018-11-21T22:39:07.564Z",
+      "changeTime": "2018-11-21T22:20:31.915Z",
+      "birthTime": "2018-11-21T22:20:31.906Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "linkedin.svg",
+      "ext": ".svg",
+      "name": "linkedin",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23072513,
+      "blocks": 8,
+      "atimeMs": 1542839947563.7097,
+      "mtimeMs": 1542838831912.6987,
+      "ctimeMs": 1542838831914.6594,
+      "birthtimeMs": 1542838831905.768,
+      "atime": "2018-11-21T22:39:07.564Z",
+      "mtime": "2018-11-21T22:20:31.913Z",
+      "ctime": "2018-11-21T22:20:31.915Z",
+      "birthtime": "2018-11-21T22:20:31.906Z"
+    },
+    "05cfc17c-3a28-579f-9f49-224c7ab15457": {
+      "id": "05cfc17c-3a28-579f-9f49-224c7ab15457",
+      "children": [
+        "61248ed6-7de1-563c-8de3-2ec722ed2a59"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2018-10-31T05:43:35.512Z",
+      "accessTime": "2018-11-21T22:31:27.232Z",
+      "changeTime": "2018-10-31T05:43:35.512Z",
+      "birthTime": "2018-10-31T05:43:35.511Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 20593217,
+      "blocks": 48,
+      "atimeMs": 1542839487231.602,
+      "mtimeMs": 1540964615511.5918,
+      "ctimeMs": 1540964615511.5918,
+      "birthtimeMs": 1540964615511.1797,
+      "atime": "2018-11-21T22:31:27.232Z",
+      "mtime": "2018-10-31T05:43:35.512Z",
+      "ctime": "2018-10-31T05:43:35.512Z",
+      "birthtime": "2018-10-31T05:43:35.511Z"
     },
     "fb297998-6141-5a0e-899a-120dec6eda38": {
       "id": "fb297998-6141-5a0e-899a-120dec6eda38",
@@ -1651,7 +1856,7 @@
       "size": 1518,
       "prettySize": "1.52 kB",
       "modifiedTime": "2018-11-05T06:09:22.551Z",
-      "accessTime": "2018-11-21T22:30:43.841Z",
+      "accessTime": "2018-11-21T22:31:27.232Z",
       "changeTime": "2018-11-05T07:45:20.690Z",
       "birthTime": "2018-11-05T06:09:22.551Z",
       "root": "/",
@@ -1669,11 +1874,11 @@
       "blksize": 4096,
       "ino": 21990731,
       "blocks": 8,
-      "atimeMs": 1542839443841.4412,
+      "atimeMs": 1542839487231.6248,
       "mtimeMs": 1541398162550.8406,
       "ctimeMs": 1541403920690.4397,
       "birthtimeMs": 1541398162550.6235,
-      "atime": "2018-11-21T22:30:43.841Z",
+      "atime": "2018-11-21T22:31:27.232Z",
       "mtime": "2018-11-05T06:09:22.551Z",
       "ctime": "2018-11-05T07:45:20.690Z",
       "birthtime": "2018-11-05T06:09:22.551Z"
@@ -1696,7 +1901,7 @@
       "size": 513,
       "prettySize": "513 B",
       "modifiedTime": "2018-11-05T06:09:43.456Z",
-      "accessTime": "2018-11-21T22:30:43.841Z",
+      "accessTime": "2018-11-21T22:31:27.232Z",
       "changeTime": "2018-11-05T07:45:20.692Z",
       "birthTime": "2018-11-05T06:09:43.456Z",
       "root": "/",
@@ -1714,11 +1919,11 @@
       "blksize": 4096,
       "ino": 21990764,
       "blocks": 8,
-      "atimeMs": 1542839443841.4458,
+      "atimeMs": 1542839487231.6729,
       "mtimeMs": 1541398183456.024,
       "ctimeMs": 1541403920692.284,
       "birthtimeMs": 1541398183455.8179,
-      "atime": "2018-11-21T22:30:43.841Z",
+      "atime": "2018-11-21T22:31:27.232Z",
       "mtime": "2018-11-05T06:09:43.456Z",
       "ctime": "2018-11-05T07:45:20.692Z",
       "birthtime": "2018-11-05T06:09:43.456Z"
@@ -1741,7 +1946,7 @@
       "size": 1007,
       "prettySize": "1.01 kB",
       "modifiedTime": "2018-11-05T06:09:07.197Z",
-      "accessTime": "2018-11-21T22:30:43.841Z",
+      "accessTime": "2018-11-21T22:31:27.232Z",
       "changeTime": "2018-11-05T07:45:20.694Z",
       "birthTime": "2018-11-05T06:09:07.197Z",
       "root": "/",
@@ -1759,59 +1964,24 @@
       "blksize": 4096,
       "ino": 21990699,
       "blocks": 8,
-      "atimeMs": 1542839443841.4504,
+      "atimeMs": 1542839487231.6956,
       "mtimeMs": 1541398147196.8877,
       "ctimeMs": 1541403920693.6497,
       "birthtimeMs": 1541398147196.6885,
-      "atime": "2018-11-21T22:30:43.841Z",
+      "atime": "2018-11-21T22:31:27.232Z",
       "mtime": "2018-11-05T06:09:07.197Z",
       "ctime": "2018-11-05T07:45:20.694Z",
       "birthtime": "2018-11-05T06:09:07.197Z"
     },
-    "90eef715-4ed4-55f5-8bfe-4641b3143ffa": {
-      "id": "90eef715-4ed4-55f5-8bfe-4641b3143ffa",
+    "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
+      "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
       "children": [],
-      "parent": "___SOURCE___",
+      "parent": "05cfc17c-3a28-579f-9f49-224c7ab15457",
       "internal": {
-        "contentDigest": "6b278494afb335c70ba290501b797348",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/linkedin.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/linkedin.svg",
-      "relativePath": "linkedin.svg",
-      "extension": "svg",
-      "size": 514,
-      "prettySize": "514 B",
-      "modifiedTime": "2018-11-21T22:20:31.913Z",
-      "accessTime": "2018-11-21T22:31:22.233Z",
-      "changeTime": "2018-11-21T22:20:31.915Z",
-      "birthTime": "2018-11-21T22:20:31.906Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "linkedin.svg",
-      "ext": ".svg",
-      "name": "linkedin",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23072513,
-      "blocks": 8,
-      "atimeMs": 1542839482232.8853,
-      "mtimeMs": 1542838831912.6987,
-      "ctimeMs": 1542838831914.6594,
-      "birthtimeMs": 1542838831905.768,
-      "atime": "2018-11-21T22:31:22.233Z",
-      "mtime": "2018-11-21T22:20:31.913Z",
-      "ctime": "2018-11-21T22:20:31.915Z",
-      "birthtime": "2018-11-21T22:20:31.906Z"
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "d388bfd8-bb23-5caf-b329-506dca9d52c4": {
       "id": "d388bfd8-bb23-5caf-b329-506dca9d52c4",
@@ -1831,7 +2001,7 @@
       "size": 686,
       "prettySize": "686 B",
       "modifiedTime": "2018-11-21T22:20:31.937Z",
-      "accessTime": "2018-11-21T22:31:22.233Z",
+      "accessTime": "2018-11-21T22:39:07.564Z",
       "changeTime": "2018-11-21T22:20:31.937Z",
       "birthTime": "2018-11-21T22:20:31.936Z",
       "root": "/",
@@ -1849,71 +2019,14 @@
       "blksize": 4096,
       "ino": 23072514,
       "blocks": 8,
-      "atimeMs": 1542839482232.912,
+      "atimeMs": 1542839947563.718,
       "mtimeMs": 1542838831937.0872,
       "ctimeMs": 1542838831937.4917,
       "birthtimeMs": 1542838831936.1587,
-      "atime": "2018-11-21T22:31:22.233Z",
+      "atime": "2018-11-21T22:39:07.564Z",
       "mtime": "2018-11-21T22:20:31.937Z",
       "ctime": "2018-11-21T22:20:31.937Z",
       "birthtime": "2018-11-21T22:20:31.936Z"
-    },
-    "05cfc17c-3a28-579f-9f49-224c7ab15457": {
-      "id": "05cfc17c-3a28-579f-9f49-224c7ab15457",
-      "children": [
-        "61248ed6-7de1-563c-8de3-2ec722ed2a59"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-icon.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/gatsby-icon.png",
-      "relativePath": "gatsby-icon.png",
-      "extension": "png",
-      "size": 21212,
-      "prettySize": "21.2 kB",
-      "modifiedTime": "2018-10-31T05:43:35.512Z",
-      "accessTime": "2018-11-21T22:30:43.841Z",
-      "changeTime": "2018-10-31T05:43:35.512Z",
-      "birthTime": "2018-10-31T05:43:35.511Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "gatsby-icon.png",
-      "ext": ".png",
-      "name": "gatsby-icon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 20593217,
-      "blocks": 48,
-      "atimeMs": 1542839443841.4368,
-      "mtimeMs": 1540964615511.5918,
-      "ctimeMs": 1540964615511.5918,
-      "birthtimeMs": 1540964615511.1797,
-      "atime": "2018-11-21T22:30:43.841Z",
-      "mtime": "2018-10-31T05:43:35.512Z",
-      "ctime": "2018-10-31T05:43:35.512Z",
-      "birthtime": "2018-10-31T05:43:35.511Z"
-    },
-    "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
-      "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
-      "children": [],
-      "parent": "05cfc17c-3a28-579f-9f49-224c7ab15457",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "6e440b88-e02e-5c33-88be-790f3e506a6d": {
       "id": "6e440b88-e02e-5c33-88be-790f3e506a6d",
@@ -1935,7 +2048,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-10-31T05:43:35.511Z",
-      "accessTime": "2018-11-21T22:30:35.912Z",
+      "accessTime": "2018-11-21T22:31:22.759Z",
       "changeTime": "2018-10-31T05:43:35.511Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1953,11 +2066,11 @@
       "blksize": 4096,
       "ino": 20593216,
       "blocks": 328,
-      "atimeMs": 1542839435912.0066,
+      "atimeMs": 1542839482759.2153,
       "mtimeMs": 1540964615510.8381,
       "ctimeMs": 1540964615510.8381,
       "birthtimeMs": 1540964615509.9563,
-      "atime": "2018-11-21T22:30:35.912Z",
+      "atime": "2018-11-21T22:31:22.759Z",
       "mtime": "2018-10-31T05:43:35.511Z",
       "ctime": "2018-10-31T05:43:35.511Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
@@ -1992,7 +2105,7 @@
       "size": 963995,
       "prettySize": "964 kB",
       "modifiedTime": "2018-11-20T04:07:03.052Z",
-      "accessTime": "2018-11-21T22:30:35.912Z",
+      "accessTime": "2018-11-21T22:31:22.759Z",
       "changeTime": "2018-11-20T04:07:03.063Z",
       "birthTime": "2018-11-20T04:07:03.037Z",
       "root": "/",
@@ -2010,11 +2123,11 @@
       "blksize": 4096,
       "ino": 22968824,
       "blocks": 1888,
-      "atimeMs": 1542839435911.9836,
+      "atimeMs": 1542839482759.1812,
       "mtimeMs": 1542686823051.7239,
       "ctimeMs": 1542686823063.3596,
       "birthtimeMs": 1542686823036.8247,
-      "atime": "2018-11-21T22:30:35.912Z",
+      "atime": "2018-11-21T22:31:22.759Z",
       "mtime": "2018-11-20T04:07:03.052Z",
       "ctime": "2018-11-20T04:07:03.063Z",
       "birthtime": "2018-11-20T04:07:03.037Z"
@@ -2034,7 +2147,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "db73878c2d322283ab80beeb908ec08d",
+        "contentDigest": "67f0146c7ddeac696f1d15e20a068010",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2046,7 +2159,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-11-21T01:30:58.847Z",
-      "accessTime": "2018-11-21T22:31:22.280Z",
+      "accessTime": "2018-11-22T02:04:23.186Z",
       "changeTime": "2018-11-21T01:30:58.847Z",
       "birthTime": "2018-11-21T01:04:51.355Z",
       "root": "/",
@@ -2064,14 +2177,61 @@
       "blksize": 4096,
       "ino": 23012763,
       "blocks": 0,
-      "atimeMs": 1542839482279.9817,
+      "atimeMs": 1542852263186.042,
       "mtimeMs": 1542763858846.828,
       "ctimeMs": 1542763858846.828,
       "birthtimeMs": 1542762291354.9749,
-      "atime": "2018-11-21T22:31:22.280Z",
+      "atime": "2018-11-22T02:04:23.186Z",
       "mtime": "2018-11-21T01:30:58.847Z",
       "ctime": "2018-11-21T01:30:58.847Z",
       "birthtime": "2018-11-21T01:04:51.355Z"
+    },
+    "64357855-ba9b-5124-823b-10eae4a51b27": {
+      "id": "64357855-ba9b-5124-823b-10eae4a51b27",
+      "children": [
+        "5d85e12b-609c-5299-8c0a-e7f0213a005e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a2d8a73de3a3ed723c37d9ea21ba834e",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/07-22-2018-My-Workflow.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
+      "relativePath": "07-22-2018-My-Workflow.md",
+      "extension": "md",
+      "size": 4329,
+      "prettySize": "4.33 kB",
+      "modifiedTime": "2018-11-21T20:57:00.059Z",
+      "accessTime": "2018-11-21T22:31:22.761Z",
+      "changeTime": "2018-11-21T20:57:00.059Z",
+      "birthTime": "2018-11-21T01:26:24.372Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "07-22-2018-My-Workflow.md",
+      "ext": ".md",
+      "name": "07-22-2018-My-Workflow",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23016992,
+      "blocks": 16,
+      "atimeMs": 1542839482761.011,
+      "mtimeMs": 1542833820058.602,
+      "ctimeMs": 1542833820058.602,
+      "birthtimeMs": 1542763584372.158,
+      "atime": "2018-11-21T22:31:22.761Z",
+      "mtime": "2018-11-21T20:57:00.059Z",
+      "ctime": "2018-11-21T20:57:00.059Z",
+      "birthtime": "2018-11-21T01:26:24.372Z"
     },
     "64ac11fa-7f5d-59f3-9c58-0881cba94cb4": {
       "id": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
@@ -2093,7 +2253,7 @@
       "size": 4234,
       "prettySize": "4.23 kB",
       "modifiedTime": "2018-11-21T03:37:59.242Z",
-      "accessTime": "2018-11-21T22:30:35.913Z",
+      "accessTime": "2018-11-21T22:31:22.760Z",
       "changeTime": "2018-11-21T03:37:59.242Z",
       "birthTime": "2018-11-21T01:11:43.723Z",
       "root": "/",
@@ -2111,14 +2271,108 @@
       "blksize": 4096,
       "ino": 23013678,
       "blocks": 16,
-      "atimeMs": 1542839435912.565,
+      "atimeMs": 1542839482760.2725,
       "mtimeMs": 1542771479241.8782,
       "ctimeMs": 1542771479241.8782,
       "birthtimeMs": 1542762703723.2544,
-      "atime": "2018-11-21T22:30:35.913Z",
+      "atime": "2018-11-21T22:31:22.760Z",
       "mtime": "2018-11-21T03:37:59.242Z",
       "ctime": "2018-11-21T03:37:59.242Z",
       "birthtime": "2018-11-21T01:11:43.723Z"
+    },
+    "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
+      "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
+      "children": [
+        "84789685-cd7c-5477-87c4-809c23b5619e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a8148e490e0b7abcca6ed0bade4dc17b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-19-2018-How-To-Make.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
+      "relativePath": "03-19-2018-How-To-Make.md",
+      "extension": "md",
+      "size": 11538,
+      "prettySize": "11.5 kB",
+      "modifiedTime": "2018-11-21T15:24:38.726Z",
+      "accessTime": "2018-11-21T22:31:22.761Z",
+      "changeTime": "2018-11-21T15:24:38.726Z",
+      "birthTime": "2018-11-21T01:22:45.089Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-19-2018-How-To-Make.md",
+      "ext": ".md",
+      "name": "03-19-2018-How-To-Make",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23016810,
+      "blocks": 24,
+      "atimeMs": 1542839482760.8713,
+      "mtimeMs": 1542813878726.2092,
+      "ctimeMs": 1542813878726.2092,
+      "birthtimeMs": 1542763365088.6953,
+      "atime": "2018-11-21T22:31:22.761Z",
+      "mtime": "2018-11-21T15:24:38.726Z",
+      "ctime": "2018-11-21T15:24:38.726Z",
+      "birthtime": "2018-11-21T01:22:45.089Z"
+    },
+    "079d86fd-7efa-5b68-b908-67344e304dac": {
+      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
+      "children": [
+        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1bbd27696b479df55c238418e622abd8",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "relativePath": "03-23-2018-Deploy-Your-App.md",
+      "extension": "md",
+      "size": 4341,
+      "prettySize": "4.34 kB",
+      "modifiedTime": "2018-11-21T20:55:55.512Z",
+      "accessTime": "2018-11-21T22:31:22.761Z",
+      "changeTime": "2018-11-21T20:55:55.512Z",
+      "birthTime": "2018-11-21T01:30:58.847Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-23-2018-Deploy-Your-App.md",
+      "ext": ".md",
+      "name": "03-23-2018-Deploy-Your-App",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23017203,
+      "blocks": 16,
+      "atimeMs": 1542839482760.9673,
+      "mtimeMs": 1542833755511.8418,
+      "ctimeMs": 1542833755511.8418,
+      "birthtimeMs": 1542763858846.8127,
+      "atime": "2018-11-21T22:31:22.761Z",
+      "mtime": "2018-11-21T20:55:55.512Z",
+      "ctime": "2018-11-21T20:55:55.512Z",
+      "birthtime": "2018-11-21T01:30:58.847Z"
     },
     "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
       "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
@@ -2145,147 +2399,6 @@
       "fields": {
         "slug": "/03-16-2018-How-I-Became/"
       }
-    },
-    "64357855-ba9b-5124-823b-10eae4a51b27": {
-      "id": "64357855-ba9b-5124-823b-10eae4a51b27",
-      "children": [
-        "5d85e12b-609c-5299-8c0a-e7f0213a005e"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a2d8a73de3a3ed723c37d9ea21ba834e",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/07-22-2018-My-Workflow.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
-      "relativePath": "07-22-2018-My-Workflow.md",
-      "extension": "md",
-      "size": 4329,
-      "prettySize": "4.33 kB",
-      "modifiedTime": "2018-11-21T20:57:00.059Z",
-      "accessTime": "2018-11-21T22:30:35.913Z",
-      "changeTime": "2018-11-21T20:57:00.059Z",
-      "birthTime": "2018-11-21T01:26:24.372Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "07-22-2018-My-Workflow.md",
-      "ext": ".md",
-      "name": "07-22-2018-My-Workflow",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23016992,
-      "blocks": 16,
-      "atimeMs": 1542839435912.6287,
-      "mtimeMs": 1542833820058.602,
-      "ctimeMs": 1542833820058.602,
-      "birthtimeMs": 1542763584372.158,
-      "atime": "2018-11-21T22:30:35.913Z",
-      "mtime": "2018-11-21T20:57:00.059Z",
-      "ctime": "2018-11-21T20:57:00.059Z",
-      "birthtime": "2018-11-21T01:26:24.372Z"
-    },
-    "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
-      "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
-      "children": [
-        "84789685-cd7c-5477-87c4-809c23b5619e"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a8148e490e0b7abcca6ed0bade4dc17b",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-19-2018-How-To-Make.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
-      "relativePath": "03-19-2018-How-To-Make.md",
-      "extension": "md",
-      "size": 11538,
-      "prettySize": "11.5 kB",
-      "modifiedTime": "2018-11-21T15:24:38.726Z",
-      "accessTime": "2018-11-21T22:30:35.913Z",
-      "changeTime": "2018-11-21T15:24:38.726Z",
-      "birthTime": "2018-11-21T01:22:45.089Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-19-2018-How-To-Make.md",
-      "ext": ".md",
-      "name": "03-19-2018-How-To-Make",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23016810,
-      "blocks": 24,
-      "atimeMs": 1542839435912.5872,
-      "mtimeMs": 1542813878726.2092,
-      "ctimeMs": 1542813878726.2092,
-      "birthtimeMs": 1542763365088.6953,
-      "atime": "2018-11-21T22:30:35.913Z",
-      "mtime": "2018-11-21T15:24:38.726Z",
-      "ctime": "2018-11-21T15:24:38.726Z",
-      "birthtime": "2018-11-21T01:22:45.089Z"
-    },
-    "079d86fd-7efa-5b68-b908-67344e304dac": {
-      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
-      "children": [
-        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "1bbd27696b479df55c238418e622abd8",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
-      "relativePath": "03-23-2018-Deploy-Your-App.md",
-      "extension": "md",
-      "size": 4341,
-      "prettySize": "4.34 kB",
-      "modifiedTime": "2018-11-21T20:55:55.512Z",
-      "accessTime": "2018-11-21T22:30:35.913Z",
-      "changeTime": "2018-11-21T20:55:55.512Z",
-      "birthTime": "2018-11-21T01:30:58.847Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-23-2018-Deploy-Your-App.md",
-      "ext": ".md",
-      "name": "03-23-2018-Deploy-Your-App",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23017203,
-      "blocks": 16,
-      "atimeMs": 1542839435912.6082,
-      "mtimeMs": 1542833755511.8418,
-      "ctimeMs": 1542833755511.8418,
-      "birthtimeMs": 1542763858846.8127,
-      "atime": "2018-11-21T22:30:35.913Z",
-      "mtime": "2018-11-21T20:55:55.512Z",
-      "ctime": "2018-11-21T20:55:55.512Z",
-      "birthtime": "2018-11-21T01:30:58.847Z"
     },
     "5d85e12b-609c-5299-8c0a-e7f0213a005e": {
       "id": "5d85e12b-609c-5299-8c0a-e7f0213a005e",
@@ -2578,7 +2691,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f6121992b51b6cbb6446a4c93299f2dc"
+    "PLUGINS_HASH": "76bf4ac9980c9796fa620fec02507c83"
   },
   "componentDataDependencies": {
     "nodes": {

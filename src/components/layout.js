@@ -45,7 +45,6 @@ const Layout = ({ children }) => (
               {children}
             </Wrapper>
           </ThemeProvider>
-
       </>
     )}
   />

@@ -8,8 +8,11 @@ var plugins = [{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
+      plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-amplitude-analytics/gatsby-ssr'),
+      options: {"plugins":[],"head":false,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"eventTypes":{"outboundLinkClick":"OUTBOUND_LINK_CLICK","pageView":"PAGE_VIEW"},"amplitudeConfig":{"saveEvents":true,"includeUtm":true,"includeReferrer":true}},
+    },{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      options: {"plugins":[],"name":"Shakhor Smith","short_name":"Shakhor","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

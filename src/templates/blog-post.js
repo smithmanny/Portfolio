@@ -14,7 +14,7 @@ export default ({ data }) => {
       <Helmet
         title={`Shakhor | ${ post.frontmatter.title }`}
         meta={[
-          { name: 'description', content: 'Shakhor Smith | Software Engineer' },
+          { name: 'description', content: post.frontmatter.title },
           { name: 'keywords', content: 'shakhor, shakhor smith' },
         ]}
       />

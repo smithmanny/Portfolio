@@ -5611,6 +5611,13 @@ gatsby-link@^2.0.6:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
+gatsby-plugin-amplitude-analytics@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-amplitude-analytics/-/gatsby-plugin-amplitude-analytics-1.4.0.tgz#83cca1e085ebff58619b1920759732f9b0f3a381"
+  integrity sha512-WVrc88Ch08Uk6Oq3GCy0wlN81smLXuavMlF/bcY+K0dV6mLya7aLITDHaRK011RxYTFSb7kY+SJz2ogpf3yFpg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-plugin-manifest@^2.0.5:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.7.tgz#3b74503d368c5b830c2dbf745c7073fe0f4aa737"

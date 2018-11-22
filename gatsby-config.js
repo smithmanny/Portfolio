@@ -32,13 +32,30 @@ module.exports = {
         path: `${ __dirname }/src/images`,
       },
     },
-    // {
-    //   resolve: `gatsby-source-filesystem`,
-    //   options: {
-    //     name: `projects`,
-    //     path: `${ __dirname }/src/projects`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-amplitude-analytics`,
+      options: {
+        // Specify the API key for your Amplitude Project (required)
+        apiKey: process.env.AMPLITUDE_API_KEY,
+        // Puts tracking script in the head instead of the body (optional)
+        head: false,
+        // Prevents loading Amplitude and logging events if visitors have "Do Not Track" enabled (optional)
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths (optional)
+        exclude: ['/preview/**', '/do-not-track/me/too/'],
+        // Override the default event types (optional)
+        eventTypes: {
+          outboundLinkClick: 'OUTBOUND_LINK_CLICK',
+          pageView: 'PAGE_VIEW',
+        },
+        // Amplitude JS SDK configuration options (optional)
+        amplitudeConfig: {
+          saveEvents: true,
+          includeUtm: true,
+          includeReferrer: true
+        }
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -92,8 +109,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Shakhor Smith',
+        short_name: 'Shakhor',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
