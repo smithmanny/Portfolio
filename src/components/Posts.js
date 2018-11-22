@@ -1,21 +1,26 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import moment from 'moment'
 
 import { media } from '../utils/utils'
 import Github from '../images/github.svg'
 
 const Posts = ({ posts }) => (
   <Container>
-    {posts.map(({ node: { frontmatter: { date, title, slug } } }) => (
-      <PostWrapper key={title}>
-        <PostIcon>
-          <Icon src={Github} />
-        </PostIcon>
-        <PostTitle to={`/${ slug }`}>{title}</PostTitle>
-        <PostDate>{date}</PostDate>
-      </PostWrapper>
-    ))}
+    {posts.map(({ node: { frontmatter: { date, title, slug } } }) => {
+      const formattedDate = moment(date).format('MMM DD, YYYY')
+
+      return (
+        <PostWrapper key={title}>
+          <PostIcon>
+            <Icon src={Github} />
+          </PostIcon>
+          <PostTitle to={`/${ slug }`}>{title}</PostTitle>
+          <PostDate>{formattedDate}</PostDate>
+        </PostWrapper>
+      )
+    })}
   </Container>
 )
 
