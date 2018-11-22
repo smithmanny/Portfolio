@@ -16,7 +16,7 @@ const Posts = ({ posts }) => (
           <PostIcon>
             <Icon src={Github} />
           </PostIcon>
-          <PostTitle to={`/${ slug }`}>{title}</PostTitle>
+          <PostTitle to={`/blog/${ slug }`}>{title}</PostTitle>
           <PostDate>{formattedDate}</PostDate>
         </PostWrapper>
       )

@@ -25,38 +25,38 @@
         "path": "/blog/"
     },
     {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-deploy-your-react-app-to-heroku-7cd",
+        "path": "/blog/deploy-your-react-app-to-heroku"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-how-i-became-a-web-developer-in-4-months-7bd",
+        "path": "/blog/how-i-became-a-web-developer-in-4-months"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-how-to-make-a-blog-with-react-and-graphql-6cc",
+        "path": "/blog/how-to-make-a-blog-with-react-and-graphql"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-my-workflow-software-engineer-d40",
+        "path": "/blog/my-workflow-software-engineer"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-website-redesign-v-2-6ef",
+        "path": "/blog/website-redesign-v2"
+    },
+    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"
     },
     {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "deploy-your-react-app-to-heroku-716",
-        "path": "/deploy-your-react-app-to-heroku"
-    },
-    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "how-i-became-a-web-developer-in-4-months-977",
-        "path": "/how-i-became-a-web-developer-in-4-months"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "how-to-make-a-blog-with-react-and-graphql-6e2",
-        "path": "/how-to-make-a-blog-with-react-and-graphql"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "my-workflow-software-engineer-f1c",
-        "path": "/my-workflow-software-engineer"
-    },
-    {
-        "componentChunkName": "component---src-templates-blog-post-js",
-        "jsonName": "website-redesign-v-2-068",
-        "path": "/website-redesign-v2"
     }
 ]
