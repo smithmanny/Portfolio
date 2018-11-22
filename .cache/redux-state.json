@@ -735,9 +735,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "b92fc91a-1667-53c9-b294-a24ddf6cd32b": {
+    "f82e61f2-d8cf-5662-96ce-b9c2124382cc": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-transformer-remark",
-      "id": "b92fc91a-1667-53c9-b294-a24ddf6cd32b",
+      "id": "f82e61f2-d8cf-5662-96ce-b9c2124382cc",
       "name": "gatsby-transformer-remark",
       "version": "2.1.12",
       "pluginOptions": {
@@ -759,6 +759,21 @@
             "browserAPIs": [],
             "ssrAPIs": [],
             "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs"
+          },
+          {
+            "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-external-links",
+            "id": "25f02ae8-896e-5e8f-a2a9-4d3c0d3b089c",
+            "name": "gatsby-remark-external-links",
+            "version": "0.0.4",
+            "pluginOptions": {
+              "plugins": [],
+              "target": "_target",
+              "rel": "nofollow"
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-external-links"
           }
         ]
       },
@@ -889,7 +904,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0bd894e09c43a1d20a4deaacc2c31520",
+        "contentDigest": "77bf34928af7491253c3d480a1ae6236",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -900,16 +915,16 @@
       "name": "gatsby-remark-prismjs",
       "version": "3.0.3",
       "pluginOptions": {
-        "$ref": "$[\"nodes\"][\"b92fc91a-1667-53c9-b294-a24ddf6cd32b\"][\"pluginOptions\"][\"plugins\"][0][\"pluginOptions\"]"
+        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][0][\"pluginOptions\"]"
       },
       "nodeAPIs": {
-        "$ref": "$[\"nodes\"][\"b92fc91a-1667-53c9-b294-a24ddf6cd32b\"][\"pluginOptions\"][\"plugins\"][0][\"nodeAPIs\"]"
+        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][0][\"nodeAPIs\"]"
       },
       "browserAPIs": {
-        "$ref": "$[\"nodes\"][\"b92fc91a-1667-53c9-b294-a24ddf6cd32b\"][\"pluginOptions\"][\"plugins\"][0][\"browserAPIs\"]"
+        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][0][\"browserAPIs\"]"
       },
       "ssrAPIs": {
-        "$ref": "$[\"nodes\"][\"b92fc91a-1667-53c9-b294-a24ddf6cd32b\"][\"pluginOptions\"][\"plugins\"][0][\"ssrAPIs\"]"
+        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][0][\"ssrAPIs\"]"
       },
       "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs",
       "packageJson": {
@@ -982,6 +997,88 @@
       "children": [],
       "internal": {
         "contentDigest": "cc228ab7841e729dd08d324ae768e618",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "25f02ae8-896e-5e8f-a2a9-4d3c0d3b089c": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-external-links",
+      "id": "25f02ae8-896e-5e8f-a2a9-4d3c0d3b089c",
+      "name": "gatsby-remark-external-links",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][1][\"pluginOptions\"]"
+      },
+      "nodeAPIs": {
+        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][1][\"nodeAPIs\"]"
+      },
+      "browserAPIs": {
+        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][1][\"browserAPIs\"]"
+      },
+      "ssrAPIs": {
+        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][1][\"ssrAPIs\"]"
+      },
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-external-links",
+      "packageJson": {
+        "name": "gatsby-remark-external-links",
+        "description": "Automatically adds the target and rel attributes to external links in markdown.",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "remark"
+        ],
+        "author": "Jimmy Longley <jimmylongley@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "unist-util-find",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          },
+          {
+            "name": "dedent",
+            "version": "^0.7.0"
+          },
+          {
+            "name": "jest",
+            "version": "^21.2.1"
+          },
+          {
+            "name": "remark",
+            "version": "^8.0.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "be981c1e74f8fca565b77c1b72c7d57e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1383,7 +1480,7 @@
       "resolve": "/Users/shakhor/Projects/Web/Portfolio",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "7b03c7a6d066118df11e0d81e51fa9be",
+      "version": "24e8c981ab522a7870ff469f58245cba",
       "pluginOptions": {
         "plugins": []
       },
@@ -1489,6 +1586,10 @@
             "version": "^2.2.1"
           },
           {
+            "name": "gatsby-remark-external-links",
+            "version": "^0.0.4"
+          },
+          {
             "name": "gatsby-remark-prismjs",
             "version": "^3.0.3"
           },
@@ -1545,7 +1646,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2d612662b1861626c36ed62010037f8f",
+        "contentDigest": "f73596dfe5c71da253ab1adff31ccb7b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1668,12 +1769,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-22T15:16:39.378Z",
+      "buildTime": "2018-11-22T16:22:48.771Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e12ff30f2f15b1f1a43eaebc662c9cd3",
+        "contentDigest": "e714843add86860a69b3ceb834b80815",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1683,7 +1784,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b3e91fd0d3b1dffb6bc7dbc9d224486b",
+        "contentDigest": "8cf1141e43d3e93a6b519e015526a5db",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1695,7 +1796,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-11-21T22:20:31.936Z",
-      "accessTime": "2018-11-22T15:16:48.177Z",
+      "accessTime": "2018-11-22T16:22:55.160Z",
       "changeTime": "2018-11-21T22:20:31.936Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1713,59 +1814,14 @@
       "blksize": 4096,
       "ino": 20593215,
       "blocks": 0,
-      "atimeMs": 1542899808176.5007,
+      "atimeMs": 1542903775159.8704,
       "mtimeMs": 1542838831936.1733,
       "ctimeMs": 1542838831936.1733,
       "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-22T15:16:48.177Z",
+      "atime": "2018-11-22T16:22:55.160Z",
       "mtime": "2018-11-21T22:20:31.936Z",
       "ctime": "2018-11-21T22:20:31.936Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
-    },
-    "fb297998-6141-5a0e-899a-120dec6eda38": {
-      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/github.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
-      "relativePath": "github.svg",
-      "extension": "svg",
-      "size": 1518,
-      "prettySize": "1.52 kB",
-      "modifiedTime": "2018-11-05T06:09:22.551Z",
-      "accessTime": "2018-11-22T02:14:05.411Z",
-      "changeTime": "2018-11-05T07:45:20.690Z",
-      "birthTime": "2018-11-05T06:09:22.551Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "github.svg",
-      "ext": ".svg",
-      "name": "github",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21990731,
-      "blocks": 8,
-      "atimeMs": 1542852845411.354,
-      "mtimeMs": 1541398162550.8406,
-      "ctimeMs": 1541403920690.4397,
-      "birthtimeMs": 1541398162550.6235,
-      "atime": "2018-11-22T02:14:05.411Z",
-      "mtime": "2018-11-05T06:09:22.551Z",
-      "ctime": "2018-11-05T07:45:20.690Z",
-      "birthtime": "2018-11-05T06:09:22.551Z"
     },
     "90eef715-4ed4-55f5-8bfe-4641b3143ffa": {
       "id": "90eef715-4ed4-55f5-8bfe-4641b3143ffa",
@@ -1785,7 +1841,7 @@
       "size": 514,
       "prettySize": "514 B",
       "modifiedTime": "2018-11-21T22:20:31.913Z",
-      "accessTime": "2018-11-22T02:14:05.411Z",
+      "accessTime": "2018-11-21T22:20:33.242Z",
       "changeTime": "2018-11-21T22:20:31.915Z",
       "birthTime": "2018-11-21T22:20:31.906Z",
       "root": "/",
@@ -1803,41 +1859,41 @@
       "blksize": 4096,
       "ino": 23072513,
       "blocks": 8,
-      "atimeMs": 1542852845411.3774,
+      "atimeMs": 1542838833241.8186,
       "mtimeMs": 1542838831912.6987,
       "ctimeMs": 1542838831914.6594,
       "birthtimeMs": 1542838831905.768,
-      "atime": "2018-11-22T02:14:05.411Z",
+      "atime": "2018-11-21T22:20:33.242Z",
       "mtime": "2018-11-21T22:20:31.913Z",
       "ctime": "2018-11-21T22:20:31.915Z",
       "birthtime": "2018-11-21T22:20:31.906Z"
     },
-    "e7397794-7a87-5778-9d07-d596be70991c": {
-      "id": "e7397794-7a87-5778-9d07-d596be70991c",
+    "fb297998-6141-5a0e-899a-120dec6eda38": {
+      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d2fe8bc628d5eb298d409f70ad88f0cb",
+        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
         "type": "File",
         "mediaType": "image/svg+xml",
-        "description": "File \"src/images/moon.svg\"",
+        "description": "File \"src/images/github.svg\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/moon.svg",
-      "relativePath": "moon.svg",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
+      "relativePath": "github.svg",
       "extension": "svg",
-      "size": 513,
-      "prettySize": "513 B",
-      "modifiedTime": "2018-11-05T06:09:43.456Z",
-      "accessTime": "2018-11-22T02:14:05.411Z",
-      "changeTime": "2018-11-05T07:45:20.692Z",
-      "birthTime": "2018-11-05T06:09:43.456Z",
+      "size": 1518,
+      "prettySize": "1.52 kB",
+      "modifiedTime": "2018-11-05T06:09:22.551Z",
+      "accessTime": "2018-11-22T15:16:52.234Z",
+      "changeTime": "2018-11-05T07:45:20.690Z",
+      "birthTime": "2018-11-05T06:09:22.551Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "moon.svg",
+      "base": "github.svg",
       "ext": ".svg",
-      "name": "moon",
+      "name": "github",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -1846,106 +1902,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 21990764,
+      "ino": 21990731,
       "blocks": 8,
-      "atimeMs": 1542852845411.4006,
-      "mtimeMs": 1541398183456.024,
-      "ctimeMs": 1541403920692.284,
-      "birthtimeMs": 1541398183455.8179,
-      "atime": "2018-11-22T02:14:05.411Z",
-      "mtime": "2018-11-05T06:09:43.456Z",
-      "ctime": "2018-11-05T07:45:20.692Z",
-      "birthtime": "2018-11-05T06:09:43.456Z"
-    },
-    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
-      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/twitter.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
-      "relativePath": "twitter.svg",
-      "extension": "svg",
-      "size": 1007,
-      "prettySize": "1.01 kB",
-      "modifiedTime": "2018-11-05T06:09:07.197Z",
-      "accessTime": "2018-11-22T02:14:05.411Z",
-      "changeTime": "2018-11-05T07:45:20.694Z",
-      "birthTime": "2018-11-05T06:09:07.197Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "twitter.svg",
-      "ext": ".svg",
-      "name": "twitter",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21990699,
-      "blocks": 8,
-      "atimeMs": 1542852845411.4236,
-      "mtimeMs": 1541398147196.8877,
-      "ctimeMs": 1541403920693.6497,
-      "birthtimeMs": 1541398147196.6885,
-      "atime": "2018-11-22T02:14:05.411Z",
-      "mtime": "2018-11-05T06:09:07.197Z",
-      "ctime": "2018-11-05T07:45:20.694Z",
-      "birthtime": "2018-11-05T06:09:07.197Z"
-    },
-    "d388bfd8-bb23-5caf-b329-506dca9d52c4": {
-      "id": "d388bfd8-bb23-5caf-b329-506dca9d52c4",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "50c699a1ba4e2a0dc31e7299029614a3",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/youtube.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/youtube.svg",
-      "relativePath": "youtube.svg",
-      "extension": "svg",
-      "size": 686,
-      "prettySize": "686 B",
-      "modifiedTime": "2018-11-21T22:20:31.937Z",
-      "accessTime": "2018-11-22T02:14:05.411Z",
-      "changeTime": "2018-11-21T22:20:31.937Z",
-      "birthTime": "2018-11-21T22:20:31.936Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "youtube.svg",
-      "ext": ".svg",
-      "name": "youtube",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23072514,
-      "blocks": 8,
-      "atimeMs": 1542852845411.4465,
-      "mtimeMs": 1542838831937.0872,
-      "ctimeMs": 1542838831937.4917,
-      "birthtimeMs": 1542838831936.1587,
-      "atime": "2018-11-22T02:14:05.411Z",
-      "mtime": "2018-11-21T22:20:31.937Z",
-      "ctime": "2018-11-21T22:20:31.937Z",
-      "birthtime": "2018-11-21T22:20:31.936Z"
+      "atimeMs": 1542899812234.41,
+      "mtimeMs": 1541398162550.8406,
+      "ctimeMs": 1541403920690.4397,
+      "birthtimeMs": 1541398162550.6235,
+      "atime": "2018-11-22T15:16:52.234Z",
+      "mtime": "2018-11-05T06:09:22.551Z",
+      "ctime": "2018-11-05T07:45:20.690Z",
+      "birthtime": "2018-11-05T06:09:22.551Z"
     },
     "05cfc17c-3a28-579f-9f49-224c7ab15457": {
       "id": "05cfc17c-3a28-579f-9f49-224c7ab15457",
@@ -1967,7 +1933,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-10-31T05:43:35.512Z",
-      "accessTime": "2018-11-22T02:14:02.542Z",
+      "accessTime": "2018-11-22T15:16:52.234Z",
       "changeTime": "2018-10-31T05:43:35.512Z",
       "birthTime": "2018-10-31T05:43:35.511Z",
       "root": "/",
@@ -1985,14 +1951,159 @@
       "blksize": 4096,
       "ino": 20593217,
       "blocks": 48,
-      "atimeMs": 1542852842542.2185,
+      "atimeMs": 1542899812234.3867,
       "mtimeMs": 1540964615511.5918,
       "ctimeMs": 1540964615511.5918,
       "birthtimeMs": 1540964615511.1797,
-      "atime": "2018-11-22T02:14:02.542Z",
+      "atime": "2018-11-22T15:16:52.234Z",
       "mtime": "2018-10-31T05:43:35.512Z",
       "ctime": "2018-10-31T05:43:35.512Z",
       "birthtime": "2018-10-31T05:43:35.511Z"
+    },
+    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
+      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/twitter.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
+      "relativePath": "twitter.svg",
+      "extension": "svg",
+      "size": 1007,
+      "prettySize": "1.01 kB",
+      "modifiedTime": "2018-11-05T06:09:07.197Z",
+      "accessTime": "2018-11-22T15:16:52.234Z",
+      "changeTime": "2018-11-05T07:45:20.694Z",
+      "birthTime": "2018-11-05T06:09:07.197Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "twitter.svg",
+      "ext": ".svg",
+      "name": "twitter",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990699,
+      "blocks": 8,
+      "atimeMs": 1542899812234.4827,
+      "mtimeMs": 1541398147196.8877,
+      "ctimeMs": 1541403920693.6497,
+      "birthtimeMs": 1541398147196.6885,
+      "atime": "2018-11-22T15:16:52.234Z",
+      "mtime": "2018-11-05T06:09:07.197Z",
+      "ctime": "2018-11-05T07:45:20.694Z",
+      "birthtime": "2018-11-05T06:09:07.197Z"
+    },
+    "e7397794-7a87-5778-9d07-d596be70991c": {
+      "id": "e7397794-7a87-5778-9d07-d596be70991c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d2fe8bc628d5eb298d409f70ad88f0cb",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/moon.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/moon.svg",
+      "relativePath": "moon.svg",
+      "extension": "svg",
+      "size": 513,
+      "prettySize": "513 B",
+      "modifiedTime": "2018-11-05T06:09:43.456Z",
+      "accessTime": "2018-11-22T15:16:52.234Z",
+      "changeTime": "2018-11-05T07:45:20.692Z",
+      "birthTime": "2018-11-05T06:09:43.456Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "moon.svg",
+      "ext": ".svg",
+      "name": "moon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990764,
+      "blocks": 8,
+      "atimeMs": 1542899812234.4565,
+      "mtimeMs": 1541398183456.024,
+      "ctimeMs": 1541403920692.284,
+      "birthtimeMs": 1541398183455.8179,
+      "atime": "2018-11-22T15:16:52.234Z",
+      "mtime": "2018-11-05T06:09:43.456Z",
+      "ctime": "2018-11-05T07:45:20.692Z",
+      "birthtime": "2018-11-05T06:09:43.456Z"
+    },
+    "d388bfd8-bb23-5caf-b329-506dca9d52c4": {
+      "id": "d388bfd8-bb23-5caf-b329-506dca9d52c4",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "50c699a1ba4e2a0dc31e7299029614a3",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/youtube.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/youtube.svg",
+      "relativePath": "youtube.svg",
+      "extension": "svg",
+      "size": 686,
+      "prettySize": "686 B",
+      "modifiedTime": "2018-11-21T22:20:31.937Z",
+      "accessTime": "2018-11-21T22:20:33.242Z",
+      "changeTime": "2018-11-21T22:20:31.937Z",
+      "birthTime": "2018-11-21T22:20:31.936Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "youtube.svg",
+      "ext": ".svg",
+      "name": "youtube",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23072514,
+      "blocks": 8,
+      "atimeMs": 1542838833241.898,
+      "mtimeMs": 1542838831937.0872,
+      "ctimeMs": 1542838831937.4917,
+      "birthtimeMs": 1542838831936.1587,
+      "atime": "2018-11-21T22:20:33.242Z",
+      "mtime": "2018-11-21T22:20:31.937Z",
+      "ctime": "2018-11-21T22:20:31.937Z",
+      "birthtime": "2018-11-21T22:20:31.936Z"
+    },
+    "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
+      "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
+      "children": [],
+      "parent": "05cfc17c-3a28-579f-9f49-224c7ab15457",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "6e440b88-e02e-5c33-88be-790f3e506a6d": {
       "id": "6e440b88-e02e-5c33-88be-790f3e506a6d",
@@ -2014,7 +2125,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-10-31T05:43:35.511Z",
-      "accessTime": "2018-11-22T02:14:00.931Z",
+      "accessTime": "2018-11-22T15:16:48.901Z",
       "changeTime": "2018-10-31T05:43:35.511Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -2032,24 +2143,14 @@
       "blksize": 4096,
       "ino": 20593216,
       "blocks": 328,
-      "atimeMs": 1542852840930.9443,
+      "atimeMs": 1542899808901.455,
       "mtimeMs": 1540964615510.8381,
       "ctimeMs": 1540964615510.8381,
       "birthtimeMs": 1540964615509.9563,
-      "atime": "2018-11-22T02:14:00.931Z",
+      "atime": "2018-11-22T15:16:48.901Z",
       "mtime": "2018-10-31T05:43:35.511Z",
       "ctime": "2018-10-31T05:43:35.511Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
-    },
-    "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
-      "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
-      "children": [],
-      "parent": "05cfc17c-3a28-579f-9f49-224c7ab15457",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "f41bbab9-9ef8-5caf-ae35-6de893522b1b": {
       "id": "f41bbab9-9ef8-5caf-ae35-6de893522b1b",
@@ -2081,7 +2182,7 @@
       "size": 963995,
       "prettySize": "964 kB",
       "modifiedTime": "2018-11-20T04:07:03.052Z",
-      "accessTime": "2018-11-22T02:14:00.931Z",
+      "accessTime": "2018-11-20T04:15:15.283Z",
       "changeTime": "2018-11-20T04:07:03.063Z",
       "birthTime": "2018-11-20T04:07:03.037Z",
       "root": "/",
@@ -2099,11 +2200,11 @@
       "blksize": 4096,
       "ino": 22968824,
       "blocks": 1888,
-      "atimeMs": 1542852840930.8953,
+      "atimeMs": 1542687315282.502,
       "mtimeMs": 1542686823051.7239,
       "ctimeMs": 1542686823063.3596,
       "birthtimeMs": 1542686823036.8247,
-      "atime": "2018-11-22T02:14:00.931Z",
+      "atime": "2018-11-20T04:15:15.283Z",
       "mtime": "2018-11-20T04:07:03.052Z",
       "ctime": "2018-11-20T04:07:03.063Z",
       "birthtime": "2018-11-20T04:07:03.037Z"
@@ -2123,7 +2224,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e657778378f60ead41cfddacff4edc40",
+        "contentDigest": "b9155aed2dd39ab9750a2c69a7a69aed",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2134,9 +2235,9 @@
       "extension": "",
       "size": 224,
       "prettySize": "224 B",
-      "modifiedTime": "2018-11-22T15:15:30.698Z",
-      "accessTime": "2018-11-22T15:16:48.331Z",
-      "changeTime": "2018-11-22T15:15:30.698Z",
+      "modifiedTime": "2018-11-22T16:19:13.048Z",
+      "accessTime": "2018-11-22T16:22:55.202Z",
+      "changeTime": "2018-11-22T16:19:13.048Z",
       "birthTime": "2018-11-21T01:04:51.355Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src",
@@ -2153,61 +2254,14 @@
       "blksize": 4096,
       "ino": 23012763,
       "blocks": 0,
-      "atimeMs": 1542899808331.0154,
-      "mtimeMs": 1542899730698.2053,
-      "ctimeMs": 1542899730698.2053,
+      "atimeMs": 1542903775202.1921,
+      "mtimeMs": 1542903553048.3108,
+      "ctimeMs": 1542903553048.3108,
       "birthtimeMs": 1542762291354.9749,
-      "atime": "2018-11-22T15:16:48.331Z",
-      "mtime": "2018-11-22T15:15:30.698Z",
-      "ctime": "2018-11-22T15:15:30.698Z",
+      "atime": "2018-11-22T16:22:55.202Z",
+      "mtime": "2018-11-22T16:19:13.048Z",
+      "ctime": "2018-11-22T16:19:13.048Z",
       "birthtime": "2018-11-21T01:04:51.355Z"
-    },
-    "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
-      "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
-      "children": [
-        "84789685-cd7c-5477-87c4-809c23b5619e"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "5dc6e22656a48c6d89c24ba942cf0e4b",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-19-2018-How-To-Make.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
-      "relativePath": "03-19-2018-How-To-Make.md",
-      "extension": "md",
-      "size": 11581,
-      "prettySize": "11.6 kB",
-      "modifiedTime": "2018-11-22T16:10:35.757Z",
-      "accessTime": "2018-11-22T16:10:35.755Z",
-      "changeTime": "2018-11-22T16:10:35.757Z",
-      "birthTime": "2018-11-21T01:22:45.089Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-19-2018-How-To-Make.md",
-      "ext": ".md",
-      "name": "03-19-2018-How-To-Make",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23016810,
-      "blocks": 24,
-      "atimeMs": 1542903035755.226,
-      "mtimeMs": 1542903035756.9758,
-      "ctimeMs": 1542903035756.9758,
-      "birthtimeMs": 1542763365088.6953,
-      "atime": "2018-11-22T16:10:35.755Z",
-      "mtime": "2018-11-22T16:10:35.757Z",
-      "ctime": "2018-11-22T16:10:35.757Z",
-      "birthtime": "2018-11-21T01:22:45.089Z"
     },
     "64ac11fa-7f5d-59f3-9c58-0881cba94cb4": {
       "id": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
@@ -2216,7 +2270,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5e135c018271a46f53854313883013a1",
+        "contentDigest": "914df24cbbe339372f01bd4217f66ae4",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/03-16-2018-How-I-Became.md\"",
@@ -2226,11 +2280,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
       "relativePath": "03-16-2018-How-I-Became.md",
       "extension": "md",
-      "size": 4234,
+      "size": 4230,
       "prettySize": "4.23 kB",
-      "modifiedTime": "2018-11-21T03:37:59.242Z",
-      "accessTime": "2018-11-22T02:14:00.932Z",
-      "changeTime": "2018-11-21T03:37:59.242Z",
+      "modifiedTime": "2018-11-22T16:25:38.803Z",
+      "accessTime": "2018-11-22T16:25:38.800Z",
+      "changeTime": "2018-11-22T16:25:38.803Z",
       "birthTime": "2018-11-21T01:11:43.723Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
@@ -2247,40 +2301,108 @@
       "blksize": 4096,
       "ino": 23013678,
       "blocks": 16,
-      "atimeMs": 1542852840932.03,
-      "mtimeMs": 1542771479241.8782,
-      "ctimeMs": 1542771479241.8782,
+      "atimeMs": 1542903938799.5017,
+      "mtimeMs": 1542903938802.5193,
+      "ctimeMs": 1542903938802.5193,
       "birthtimeMs": 1542762703723.2544,
-      "atime": "2018-11-22T02:14:00.932Z",
-      "mtime": "2018-11-21T03:37:59.242Z",
-      "ctime": "2018-11-21T03:37:59.242Z",
+      "atime": "2018-11-22T16:25:38.800Z",
+      "mtime": "2018-11-22T16:25:38.803Z",
+      "ctime": "2018-11-22T16:25:38.803Z",
       "birthtime": "2018-11-21T01:11:43.723Z"
     },
-    "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
-      "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
-      "children": [],
-      "parent": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
+    "079d86fd-7efa-5b68-b908-67344e304dac": {
+      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
+      "children": [
+        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
-        "type": "MarkdownRemark",
-        "contentDigest": "c8be8c39815bea7de485b8be6d5a2443",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
+        "contentDigest": "7989dc9483c695992ecb9e1619f70a0b",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "How I Became A Web Developer In 4 Months",
-        "date": "March 16, 2018",
-        "slug": "how-i-became-a-web-developer-in-4-months",
-        "_PARENT": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4"
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "relativePath": "03-23-2018-Deploy-Your-App.md",
+      "extension": "md",
+      "size": 4337,
+      "prettySize": "4.34 kB",
+      "modifiedTime": "2018-11-22T16:26:15.559Z",
+      "accessTime": "2018-11-22T16:26:15.559Z",
+      "changeTime": "2018-11-22T16:26:15.559Z",
+      "birthTime": "2018-11-22T16:19:00.061Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-23-2018-Deploy-Your-App.md",
+      "ext": ".md",
+      "name": "03-23-2018-Deploy-Your-App",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23140756,
+      "blocks": 16,
+      "atimeMs": 1542903975558.5212,
+      "mtimeMs": 1542903975558.838,
+      "ctimeMs": 1542903975558.838,
+      "birthtimeMs": 1542903540060.5105,
+      "atime": "2018-11-22T16:26:15.559Z",
+      "mtime": "2018-11-22T16:26:15.559Z",
+      "ctime": "2018-11-22T16:26:15.559Z",
+      "birthtime": "2018-11-22T16:19:00.061Z"
+    },
+    "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
+      "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
+      "children": [
+        "84789685-cd7c-5477-87c4-809c23b5619e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c6d821eeb5df835d0d7216dad8e1fdb5",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-19-2018-How-To-Make.md\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
-      "fields": {
-        "slug": "/03-16-2018-How-I-Became/"
-      }
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
+      "relativePath": "03-19-2018-How-To-Make.md",
+      "extension": "md",
+      "size": 11534,
+      "prettySize": "11.5 kB",
+      "modifiedTime": "2018-11-22T16:25:51.983Z",
+      "accessTime": "2018-11-22T16:25:51.983Z",
+      "changeTime": "2018-11-22T16:25:51.983Z",
+      "birthTime": "2018-11-22T16:19:13.048Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-19-2018-How-To-Make.md",
+      "ext": ".md",
+      "name": "03-19-2018-How-To-Make",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23140765,
+      "blocks": 24,
+      "atimeMs": 1542903951982.6453,
+      "mtimeMs": 1542903951983.006,
+      "ctimeMs": 1542903951983.006,
+      "birthtimeMs": 1542903553048.301,
+      "atime": "2018-11-22T16:25:51.983Z",
+      "mtime": "2018-11-22T16:25:51.983Z",
+      "ctime": "2018-11-22T16:25:51.983Z",
+      "birthtime": "2018-11-22T16:19:13.048Z"
     },
     "64357855-ba9b-5124-823b-10eae4a51b27": {
       "id": "64357855-ba9b-5124-823b-10eae4a51b27",
@@ -2289,7 +2411,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a2d8a73de3a3ed723c37d9ea21ba834e",
+        "contentDigest": "313e676f10593e549aa8d2b9804301c8",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/07-22-2018-My-Workflow.md\"",
@@ -2299,11 +2421,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
       "relativePath": "07-22-2018-My-Workflow.md",
       "extension": "md",
-      "size": 4329,
+      "size": 4326,
       "prettySize": "4.33 kB",
-      "modifiedTime": "2018-11-21T20:57:00.059Z",
-      "accessTime": "2018-11-22T02:14:00.932Z",
-      "changeTime": "2018-11-21T20:57:00.059Z",
+      "modifiedTime": "2018-11-22T16:26:40.919Z",
+      "accessTime": "2018-11-22T16:26:40.918Z",
+      "changeTime": "2018-11-22T16:26:40.919Z",
       "birthTime": "2018-11-21T01:26:24.372Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
@@ -2320,87 +2442,14 @@
       "blksize": 4096,
       "ino": 23016992,
       "blocks": 16,
-      "atimeMs": 1542852840932.1748,
-      "mtimeMs": 1542833820058.602,
-      "ctimeMs": 1542833820058.602,
+      "atimeMs": 1542904000917.7148,
+      "mtimeMs": 1542904000919.0786,
+      "ctimeMs": 1542904000919.0786,
       "birthtimeMs": 1542763584372.158,
-      "atime": "2018-11-22T02:14:00.932Z",
-      "mtime": "2018-11-21T20:57:00.059Z",
-      "ctime": "2018-11-21T20:57:00.059Z",
+      "atime": "2018-11-22T16:26:40.918Z",
+      "mtime": "2018-11-22T16:26:40.919Z",
+      "ctime": "2018-11-22T16:26:40.919Z",
       "birthtime": "2018-11-21T01:26:24.372Z"
-    },
-    "079d86fd-7efa-5b68-b908-67344e304dac": {
-      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
-      "children": [
-        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "c9d31f69f21cec58cca82891f20b61fc",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
-      "relativePath": "03-23-2018-Deploy-Your-App.md",
-      "extension": "md",
-      "size": 4351,
-      "prettySize": "4.35 kB",
-      "modifiedTime": "2018-11-22T16:12:39.809Z",
-      "accessTime": "2018-11-22T16:12:39.809Z",
-      "changeTime": "2018-11-22T16:12:39.809Z",
-      "birthTime": "2018-11-21T01:30:58.847Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-23-2018-Deploy-Your-App.md",
-      "ext": ".md",
-      "name": "03-23-2018-Deploy-Your-App",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23017203,
-      "blocks": 16,
-      "atimeMs": 1542903159808.5276,
-      "mtimeMs": 1542903159808.8896,
-      "ctimeMs": 1542903159808.8896,
-      "birthtimeMs": 1542763858846.8127,
-      "atime": "2018-11-22T16:12:39.809Z",
-      "mtime": "2018-11-22T16:12:39.809Z",
-      "ctime": "2018-11-22T16:12:39.809Z",
-      "birthtime": "2018-11-21T01:30:58.847Z"
-    },
-    "5d85e12b-609c-5299-8c0a-e7f0213a005e": {
-      "id": "5d85e12b-609c-5299-8c0a-e7f0213a005e",
-      "children": [],
-      "parent": "64357855-ba9b-5124-823b-10eae4a51b27",
-      "internal": {
-        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
-        "type": "MarkdownRemark",
-        "contentDigest": "9d48b6ebd68b3ed3c8af761831e784a2",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "My Workflow - Software Engineer",
-        "date": "July 22, 2018",
-        "slug": "my-workflow-software-engineer",
-        "_PARENT": "64357855-ba9b-5124-823b-10eae4a51b27"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
-      "fields": {
-        "slug": "/07-22-2018-My-Workflow/"
-      }
     },
     "03b8abef-f557-57fe-b52e-c188b17b61e0": {
       "id": "03b8abef-f557-57fe-b52e-c188b17b61e0",
@@ -2409,7 +2458,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5530b840644f57f4da83ea28bd9b6882",
+        "contentDigest": "b86249264990a56dd9c07ac7c7293baf",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/11-22-2018-Website-Redesign-v2.md\"",
@@ -2419,11 +2468,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
       "relativePath": "11-22-2018-Website-Redesign-v2.md",
       "extension": "md",
-      "size": 1750,
-      "prettySize": "1.75 kB",
-      "modifiedTime": "2018-11-22T15:41:25.273Z",
-      "accessTime": "2018-11-22T15:41:25.272Z",
-      "changeTime": "2018-11-22T15:41:25.273Z",
+      "size": 1717,
+      "prettySize": "1.72 kB",
+      "modifiedTime": "2018-11-22T16:27:10.803Z",
+      "accessTime": "2018-11-22T16:27:10.803Z",
+      "changeTime": "2018-11-22T16:27:10.803Z",
       "birthTime": "2018-11-22T15:15:30.698Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
@@ -2440,33 +2489,33 @@
       "blksize": 4096,
       "ino": 23135246,
       "blocks": 8,
-      "atimeMs": 1542901285272.183,
-      "mtimeMs": 1542901285272.7202,
-      "ctimeMs": 1542901285272.7202,
+      "atimeMs": 1542904030802.9497,
+      "mtimeMs": 1542904030803.2493,
+      "ctimeMs": 1542904030803.2493,
       "birthtimeMs": 1542899730698.1897,
-      "atime": "2018-11-22T15:41:25.272Z",
-      "mtime": "2018-11-22T15:41:25.273Z",
-      "ctime": "2018-11-22T15:41:25.273Z",
+      "atime": "2018-11-22T16:27:10.803Z",
+      "mtime": "2018-11-22T16:27:10.803Z",
+      "ctime": "2018-11-22T16:27:10.803Z",
       "birthtime": "2018-11-22T15:15:30.698Z"
     },
-    "SitePage /how-to-make-a-blog-with-react-and-graphql": {
-      "jsonName": "how-to-make-a-blog-with-react-and-graphql-6e2",
-      "internalComponentName": "ComponentHowToMakeABlogWithReactAndGraphql",
-      "path": "/how-to-make-a-blog-with-react-and-graphql",
+    "SitePage /deploy-your-react-app-to-heroku": {
+      "jsonName": "deploy-your-react-app-to-heroku-716",
+      "internalComponentName": "ComponentDeployYourReactAppToHeroku",
+      "path": "/deploy-your-react-app-to-heroku",
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
-        "slug": "how-to-make-a-blog-with-react-and-graphql"
+        "slug": "deploy-your-react-app-to-heroku"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /how-to-make-a-blog-with-react-and-graphql",
+      "id": "SitePage /deploy-your-react-app-to-heroku",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "accf1fa5db5793d0ff05d33c511c381c",
+        "contentDigest": "304370cb483ea81461016a741a0d3c69",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2515,24 +2564,24 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /deploy-your-react-app-to-heroku": {
-      "jsonName": "deploy-your-react-app-to-heroku-716",
-      "internalComponentName": "ComponentDeployYourReactAppToHeroku",
-      "path": "/deploy-your-react-app-to-heroku",
+    "SitePage /how-to-make-a-blog-with-react-and-graphql": {
+      "jsonName": "how-to-make-a-blog-with-react-and-graphql-6e2",
+      "internalComponentName": "ComponentHowToMakeABlogWithReactAndGraphql",
+      "path": "/how-to-make-a-blog-with-react-and-graphql",
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
-        "slug": "deploy-your-react-app-to-heroku"
+        "slug": "how-to-make-a-blog-with-react-and-graphql"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /deploy-your-react-app-to-heroku",
+      "id": "SitePage /how-to-make-a-blog-with-react-and-graphql",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "304370cb483ea81461016a741a0d3c69",
+        "contentDigest": "accf1fa5db5793d0ff05d33c511c381c",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2681,30 +2730,30 @@
         "owner": "internal-data-bridge"
       }
     },
-    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
-      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
+    "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
+      "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
       "children": [],
-      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
+      "parent": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
       "internal": {
-        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from <a href=\"https://www.taniarascia.com/\" target=\"_blank\">Tania Rascia</a>. I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
         "type": "MarkdownRemark",
-        "contentDigest": "fce27e1ba27c1ff13c72b71561ff190c",
+        "contentDigest": "8ecc0174c323c7552cc392cd9f04645b",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "Website Redesign V2",
-        "date": "November 22, 2018",
-        "slug": "website-redesign-v2",
-        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
+        "title": "How I Became A Web Developer In 4 Months",
+        "date": "2018-03-16",
+        "slug": "how-i-became-a-web-developer-in-4-months",
+        "_PARENT": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from <a href=\"https://www.taniarascia.com/\" target=\"_blank\">Tania Rascia</a>. I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
       "fields": {
-        "slug": "/11-22-2018-Website-Redesign-v2/"
+        "slug": "/03-16-2018-How-I-Became/"
       }
     },
     "84789685-cd7c-5477-87c4-809c23b5619e": {
@@ -2712,9 +2761,9 @@
       "children": [],
       "parent": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
       "internal": {
-        "content": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link <a href=\"https://graphql.org/\">here</a>. So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free <a href=\"https://graphcms.com/\">GraphCMS</a> account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more <a href=\"https://reacttraining.com/react-router/\">here</a>.\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code <a href=\"https://github.com/smithmanny/React-Blog\">here</a>. (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
+        "content": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link [here](https://graphql.org/). So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free [GraphCMS](https://graphcms.com/) account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more [here](https://reacttraining.com/react-router/).\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code [here](https://github.com/smithmanny/React-Blog). (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
         "type": "MarkdownRemark",
-        "contentDigest": "cc8a1093a7d1767f5df74aead4bbbe7a",
+        "contentDigest": "c7cb1ff90791283d9c3386de3f04ba52",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2722,12 +2771,12 @@
       },
       "frontmatter": {
         "title": "How To Make App A Blog With React & GraphQL",
-        "date": "March 19, 2018",
+        "date": "2018-03-19",
         "slug": "how-to-make-a-blog-with-react-and-graphql",
         "_PARENT": "9f078a3d-ec32-51d1-9171-52fe450dbc92"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link <a href=\"https://graphql.org/\">here</a>. So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free <a href=\"https://graphcms.com/\">GraphCMS</a> account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more <a href=\"https://reacttraining.com/react-router/\">here</a>.\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code <a href=\"https://github.com/smithmanny/React-Blog\">here</a>. (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
+      "rawMarkdownBody": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link [here](https://graphql.org/). So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free [GraphCMS](https://graphcms.com/) account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more [here](https://reacttraining.com/react-router/).\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code [here](https://github.com/smithmanny/React-Blog). (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
       "fields": {
         "slug": "/03-19-2018-How-To-Make/"
@@ -2738,9 +2787,9 @@
       "children": [],
       "parent": "079d86fd-7efa-5b68-b908-67344e304dac",
       "internal": {
-        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to <a href=\"https://www.heroku.com/\">Heroku</a> and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
         "type": "MarkdownRemark",
-        "contentDigest": "02f3cf1989e69d78fb5a1e96a90120aa",
+        "contentDigest": "bd236e73a53c75ad6d9174797b45d85e",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -2748,29 +2797,81 @@
       },
       "frontmatter": {
         "title": "Deploy Your React App To Heroku",
-        "date": "March 23, 2018",
+        "date": "2018-03-23",
         "slug": "deploy-your-react-app-to-heroku",
         "_PARENT": "079d86fd-7efa-5b68-b908-67344e304dac"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to <a href=\"https://www.heroku.com/\">Heroku</a> and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
       "fields": {
         "slug": "/03-23-2018-Deploy-Your-App/"
+      }
+    },
+    "5d85e12b-609c-5299-8c0a-e7f0213a005e": {
+      "id": "5d85e12b-609c-5299-8c0a-e7f0213a005e",
+      "children": [],
+      "parent": "64357855-ba9b-5124-823b-10eae4a51b27",
+      "internal": {
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
+        "type": "MarkdownRemark",
+        "contentDigest": "50b8f09aa84b951e3098278f9c9a54af",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My Workflow - Software Engineer",
+        "date": "2018-07-22",
+        "slug": "my-workflow-software-engineer",
+        "_PARENT": "64357855-ba9b-5124-823b-10eae4a51b27"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
+      "fields": {
+        "slug": "/07-22-2018-My-Workflow/"
+      }
+    },
+    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
+      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
+      "children": [],
+      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
+      "internal": {
+        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "feb149f6dd1635813cd132b32bc90165",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Website Redesign V2",
+        "date": "2018-11-22",
+        "slug": "website-redesign-v2",
+        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
+      "fields": {
+        "slug": "/11-22-2018-Website-Redesign-v2/"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "50b17d14c23b8d5450e35c2ef316ef56"
+    "PLUGINS_HASH": "b64554d8334257f9b5155f46dd891dc7"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
       ],
-      "84789685-cd7c-5477-87c4-809c23b5619e": [
-        "/how-to-make-a-blog-with-react-and-graphql"
+      "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": [
+        "/deploy-your-react-app-to-heroku"
       ],
       "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": [
         "/how-i-became-a-web-developer-in-4-months"
@@ -2778,9 +2879,8 @@
       "5d85e12b-609c-5299-8c0a-e7f0213a005e": [
         "/my-workflow-software-engineer"
       ],
-      "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": [
-        "/deploy-your-react-app-to-heroku",
-        "/"
+      "84789685-cd7c-5477-87c4-809c23b5619e": [
+        "/how-to-make-a-blog-with-react-and-graphql"
       ],
       "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": [
         "/website-redesign-v2"
@@ -2795,11 +2895,11 @@
   },
   "jsonDataPaths": {
     "how-i-became-a-web-developer-in-4-months-977": "968/path---how-i-became-a-web-developer-in-4-months-977-3ba-7iOr4enMu6wzKXosGtzK6hbcuCc",
-    "blog-f7a": "439/path---blog-f-7-a-05d-Jw6R2TNZeFZVAFTAk9CVwUGSXI",
-    "index": "496/path---index-6a9-Jw6R2TNZeFZVAFTAk9CVwUGSXI",
-    "my-workflow-software-engineer-f1c": "619/path---my-workflow-software-engineer-f-1-c-425-8RyLXNURwWPMAAN7FEjZ1WZFS70",
-    "how-to-make-a-blog-with-react-and-graphql-6e2": "993/path---how-to-make-a-blog-with-react-and-graphql-6-e-2-f5c-Gx39fIgnsmDJIz5VayB072n27Pw",
-    "deploy-your-react-app-to-heroku-716": "413/path---deploy-your-react-app-to-heroku-716-954-sxNiYxZeT6WpmxGoiJNTNDWzk",
+    "blog-f7a": "557/path---blog-f-7-a-05d-TE4tWpIiQoK6Bvs989r6YkwBDcc",
+    "index": "647/path---index-6a9-TE4tWpIiQoK6Bvs989r6YkwBDcc",
+    "my-workflow-software-engineer-f1c": "122/path---my-workflow-software-engineer-f-1-c-425-2u742MIsm5VTYU8aEoIznRaPK0",
+    "how-to-make-a-blog-with-react-and-graphql-6e2": "976/path---how-to-make-a-blog-with-react-and-graphql-6-e-2-f5c-G67by1vaNix3m8PBj8tnE9GUV8",
+    "deploy-your-react-app-to-heroku-716": "979/path---deploy-your-react-app-to-heroku-716-954-icQglFokkGMKBkknDyDtUECcjgA",
     "sq--src-components-layout-js": 2571625782,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
@@ -2807,7 +2907,7 @@
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "website-redesign-v-2-068": "574/path---website-redesign-v-2-068-abc-eedvb8SFT1qLwT2vi3yOXiKtKSA"
+    "website-redesign-v-2-068": "491/path---website-redesign-v-2-068-abc-wSDODtTNYtGnqcyVLPEWxUa7fU"
   },
   "components": {
     "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js": {

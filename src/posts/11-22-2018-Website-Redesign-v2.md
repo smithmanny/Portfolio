@@ -1,6 +1,6 @@
 ---
 title: "Website Redesign V2"
-date: "November 22, 2018"
+date: "2018-11-22"
 slug: "website-redesign-v2"
 ---
 

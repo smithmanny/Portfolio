@@ -1,6 +1,6 @@
 ---
 title: "How I Became A Web Developer In 4 Months"
-date: "March 16, 2018"
+date: "2018-03-16"
 slug: "how-i-became-a-web-developer-in-4-months"
 ---
 

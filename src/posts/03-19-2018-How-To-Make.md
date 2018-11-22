@@ -1,6 +1,6 @@
 ---
 title: "How To Make App A Blog With React & GraphQL"
-date: "March 19, 2018"
+date: "2018-03-19"
 slug: "how-to-make-a-blog-with-react-and-graphql"
 ---
 

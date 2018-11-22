@@ -1,6 +1,6 @@
 ---
 title: "My Workflow - Software Engineer"
-date: "July 22, 2018"
+date: "2018-07-22"
 slug: "my-workflow-software-engineer"
 ---
 
