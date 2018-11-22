@@ -1668,12 +1668,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-22T02:49:57.083Z",
+      "buildTime": "2018-11-22T15:16:39.378Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2937e1c2be57848da981c67b0dd26196",
+        "contentDigest": "e12ff30f2f15b1f1a43eaebc662c9cd3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1683,7 +1683,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "9482f10f334871c157708cf30f5dbef4",
+        "contentDigest": "b3e91fd0d3b1dffb6bc7dbc9d224486b",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1695,7 +1695,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-11-21T22:20:31.936Z",
-      "accessTime": "2018-11-22T02:50:05.734Z",
+      "accessTime": "2018-11-22T15:16:48.177Z",
       "changeTime": "2018-11-21T22:20:31.936Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1713,11 +1713,11 @@
       "blksize": 4096,
       "ino": 20593215,
       "blocks": 0,
-      "atimeMs": 1542855005734.4844,
+      "atimeMs": 1542899808176.5007,
       "mtimeMs": 1542838831936.1733,
       "ctimeMs": 1542838831936.1733,
       "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-22T02:50:05.734Z",
+      "atime": "2018-11-22T15:16:48.177Z",
       "mtime": "2018-11-21T22:20:31.936Z",
       "ctime": "2018-11-21T22:20:31.936Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
@@ -2123,7 +2123,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b95f34c60c392ec842e2555b5e7f681b",
+        "contentDigest": "e657778378f60ead41cfddacff4edc40",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2132,11 +2132,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
       "relativePath": "",
       "extension": "",
-      "size": 192,
-      "prettySize": "192 B",
-      "modifiedTime": "2018-11-21T01:30:58.847Z",
-      "accessTime": "2018-11-22T02:50:05.777Z",
-      "changeTime": "2018-11-21T01:30:58.847Z",
+      "size": 224,
+      "prettySize": "224 B",
+      "modifiedTime": "2018-11-22T15:15:30.698Z",
+      "accessTime": "2018-11-22T15:16:48.331Z",
+      "changeTime": "2018-11-22T15:15:30.698Z",
       "birthTime": "2018-11-21T01:04:51.355Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src",
@@ -2146,20 +2146,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 6,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 23012763,
       "blocks": 0,
-      "atimeMs": 1542855005777.062,
-      "mtimeMs": 1542763858846.828,
-      "ctimeMs": 1542763858846.828,
+      "atimeMs": 1542899808331.0154,
+      "mtimeMs": 1542899730698.2053,
+      "ctimeMs": 1542899730698.2053,
       "birthtimeMs": 1542762291354.9749,
-      "atime": "2018-11-22T02:50:05.777Z",
-      "mtime": "2018-11-21T01:30:58.847Z",
-      "ctime": "2018-11-21T01:30:58.847Z",
+      "atime": "2018-11-22T15:16:48.331Z",
+      "mtime": "2018-11-22T15:15:30.698Z",
+      "ctime": "2018-11-22T15:15:30.698Z",
       "birthtime": "2018-11-21T01:04:51.355Z"
     },
     "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
@@ -2169,7 +2169,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a8148e490e0b7abcca6ed0bade4dc17b",
+        "contentDigest": "5dc6e22656a48c6d89c24ba942cf0e4b",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/03-19-2018-How-To-Make.md\"",
@@ -2179,11 +2179,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
       "relativePath": "03-19-2018-How-To-Make.md",
       "extension": "md",
-      "size": 11538,
-      "prettySize": "11.5 kB",
-      "modifiedTime": "2018-11-21T15:24:38.726Z",
-      "accessTime": "2018-11-22T02:14:00.932Z",
-      "changeTime": "2018-11-21T15:24:38.726Z",
+      "size": 11581,
+      "prettySize": "11.6 kB",
+      "modifiedTime": "2018-11-22T16:10:35.757Z",
+      "accessTime": "2018-11-22T16:10:35.755Z",
+      "changeTime": "2018-11-22T16:10:35.757Z",
       "birthTime": "2018-11-21T01:22:45.089Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
@@ -2200,13 +2200,13 @@
       "blksize": 4096,
       "ino": 23016810,
       "blocks": 24,
-      "atimeMs": 1542852840932.0784,
-      "mtimeMs": 1542813878726.2092,
-      "ctimeMs": 1542813878726.2092,
+      "atimeMs": 1542903035755.226,
+      "mtimeMs": 1542903035756.9758,
+      "ctimeMs": 1542903035756.9758,
       "birthtimeMs": 1542763365088.6953,
-      "atime": "2018-11-22T02:14:00.932Z",
-      "mtime": "2018-11-21T15:24:38.726Z",
-      "ctime": "2018-11-21T15:24:38.726Z",
+      "atime": "2018-11-22T16:10:35.755Z",
+      "mtime": "2018-11-22T16:10:35.757Z",
+      "ctime": "2018-11-22T16:10:35.757Z",
       "birthtime": "2018-11-21T01:22:45.089Z"
     },
     "64ac11fa-7f5d-59f3-9c58-0881cba94cb4": {
@@ -2255,32 +2255,6 @@
       "mtime": "2018-11-21T03:37:59.242Z",
       "ctime": "2018-11-21T03:37:59.242Z",
       "birthtime": "2018-11-21T01:11:43.723Z"
-    },
-    "84789685-cd7c-5477-87c4-809c23b5619e": {
-      "id": "84789685-cd7c-5477-87c4-809c23b5619e",
-      "children": [],
-      "parent": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
-      "internal": {
-        "content": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link [here](https://graphql.org/). So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free [GraphCMS](https://graphcms.com/) account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more [here](https://reacttraining.com/react-router/).\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code [here](https://github.com/smithmanny/React-Blog). (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
-        "type": "MarkdownRemark",
-        "contentDigest": "b380153b823468e7afe85ef4d2cb9f15",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "How To Make App A Blog With React & GraphQL",
-        "date": "March 19, 2018",
-        "slug": "how-to-make-a-blog-with-react-and-graphql",
-        "_PARENT": "9f078a3d-ec32-51d1-9171-52fe450dbc92"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link [here](https://graphql.org/). So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free [GraphCMS](https://graphcms.com/) account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more [here](https://reacttraining.com/react-router/).\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code [here](https://github.com/smithmanny/React-Blog). (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
-      "fields": {
-        "slug": "/03-19-2018-How-To-Make/"
-      }
     },
     "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
       "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
@@ -2362,7 +2336,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1bbd27696b479df55c238418e622abd8",
+        "contentDigest": "c9d31f69f21cec58cca82891f20b61fc",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
@@ -2372,11 +2346,11 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
       "relativePath": "03-23-2018-Deploy-Your-App.md",
       "extension": "md",
-      "size": 4341,
-      "prettySize": "4.34 kB",
-      "modifiedTime": "2018-11-21T20:55:55.512Z",
-      "accessTime": "2018-11-22T02:14:00.932Z",
-      "changeTime": "2018-11-21T20:55:55.512Z",
+      "size": 4351,
+      "prettySize": "4.35 kB",
+      "modifiedTime": "2018-11-22T16:12:39.809Z",
+      "accessTime": "2018-11-22T16:12:39.809Z",
+      "changeTime": "2018-11-22T16:12:39.809Z",
       "birthTime": "2018-11-21T01:30:58.847Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
@@ -2393,13 +2367,13 @@
       "blksize": 4096,
       "ino": 23017203,
       "blocks": 16,
-      "atimeMs": 1542852840932.1167,
-      "mtimeMs": 1542833755511.8418,
-      "ctimeMs": 1542833755511.8418,
+      "atimeMs": 1542903159808.5276,
+      "mtimeMs": 1542903159808.8896,
+      "ctimeMs": 1542903159808.8896,
       "birthtimeMs": 1542763858846.8127,
-      "atime": "2018-11-22T02:14:00.932Z",
-      "mtime": "2018-11-21T20:55:55.512Z",
-      "ctime": "2018-11-21T20:55:55.512Z",
+      "atime": "2018-11-22T16:12:39.809Z",
+      "mtime": "2018-11-22T16:12:39.809Z",
+      "ctime": "2018-11-22T16:12:39.809Z",
       "birthtime": "2018-11-21T01:30:58.847Z"
     },
     "5d85e12b-609c-5299-8c0a-e7f0213a005e": {
@@ -2428,31 +2402,52 @@
         "slug": "/07-22-2018-My-Workflow/"
       }
     },
-    "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": {
-      "id": "a8af5dbc-5cbb-5a4d-a891-3f1b78849760",
-      "children": [],
-      "parent": "079d86fd-7efa-5b68-b908-67344e304dac",
+    "03b8abef-f557-57fe-b52e-c188b17b61e0": {
+      "id": "03b8abef-f557-57fe-b52e-c188b17b61e0",
+      "children": [
+        "8d3e9908-9dc9-52a6-98f5-6de271fb3b17"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
-        "type": "MarkdownRemark",
-        "contentDigest": "4d46a38ab3bf5ec80161c27ee8b5f14b",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
+        "contentDigest": "5530b840644f57f4da83ea28bd9b6882",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/11-22-2018-Website-Redesign-v2.md\"",
+        "owner": "gatsby-source-filesystem"
       },
-      "frontmatter": {
-        "title": "Deploy Your React App To Heroku",
-        "date": "March 23, 2018",
-        "slug": "deploy-your-react-app-to-heroku",
-        "_PARENT": "079d86fd-7efa-5b68-b908-67344e304dac"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
-      "fields": {
-        "slug": "/03-23-2018-Deploy-Your-App/"
-      }
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
+      "relativePath": "11-22-2018-Website-Redesign-v2.md",
+      "extension": "md",
+      "size": 1750,
+      "prettySize": "1.75 kB",
+      "modifiedTime": "2018-11-22T15:41:25.273Z",
+      "accessTime": "2018-11-22T15:41:25.272Z",
+      "changeTime": "2018-11-22T15:41:25.273Z",
+      "birthTime": "2018-11-22T15:15:30.698Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "11-22-2018-Website-Redesign-v2.md",
+      "ext": ".md",
+      "name": "11-22-2018-Website-Redesign-v2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23135246,
+      "blocks": 8,
+      "atimeMs": 1542901285272.183,
+      "mtimeMs": 1542901285272.7202,
+      "ctimeMs": 1542901285272.7202,
+      "birthtimeMs": 1542899730698.1897,
+      "atime": "2018-11-22T15:41:25.272Z",
+      "mtime": "2018-11-22T15:41:25.273Z",
+      "ctime": "2018-11-22T15:41:25.273Z",
+      "birthtime": "2018-11-22T15:15:30.698Z"
     },
     "SitePage /how-to-make-a-blog-with-react-and-graphql": {
       "jsonName": "how-to-make-a-blog-with-react-and-graphql-6e2",
@@ -2538,6 +2533,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "304370cb483ea81461016a741a0d3c69",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /website-redesign-v2": {
+      "jsonName": "website-redesign-v-2-068",
+      "internalComponentName": "ComponentWebsiteRedesignV2",
+      "path": "/website-redesign-v2",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "website-redesign-v2"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /website-redesign-v2",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ec01f4bc3e358a6ef52a8d37a6f47b28",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2663,6 +2680,84 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
+      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
+      "children": [],
+      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
+      "internal": {
+        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from <a href=\"https://www.taniarascia.com/\" target=\"_blank\">Tania Rascia</a>. I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "fce27e1ba27c1ff13c72b71561ff190c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Website Redesign V2",
+        "date": "November 22, 2018",
+        "slug": "website-redesign-v2",
+        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from <a href=\"https://www.taniarascia.com/\" target=\"_blank\">Tania Rascia</a>. I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
+      "fields": {
+        "slug": "/11-22-2018-Website-Redesign-v2/"
+      }
+    },
+    "84789685-cd7c-5477-87c4-809c23b5619e": {
+      "id": "84789685-cd7c-5477-87c4-809c23b5619e",
+      "children": [],
+      "parent": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
+      "internal": {
+        "content": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link <a href=\"https://graphql.org/\">here</a>. So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free <a href=\"https://graphcms.com/\">GraphCMS</a> account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more <a href=\"https://reacttraining.com/react-router/\">here</a>.\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code <a href=\"https://github.com/smithmanny/React-Blog\">here</a>. (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
+        "type": "MarkdownRemark",
+        "contentDigest": "cc8a1093a7d1767f5df74aead4bbbe7a",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How To Make App A Blog With React & GraphQL",
+        "date": "March 19, 2018",
+        "slug": "how-to-make-a-blog-with-react-and-graphql",
+        "_PARENT": "9f078a3d-ec32-51d1-9171-52fe450dbc92"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nAfter hearing all the hype about GraphQL and why developers should start learning it, I finally decided to do some research. I'm not going to go into to much detail, but GraphQL is a query language for your API. If you want to read more about it visit the official link <a href=\"https://graphql.org/\">here</a>. So after reading, I came across a headless-cms that uses GraphQL instead of Rest and thought this would be the best chance for me to really try it out. We're going to build a blog with GrapgQL!\n\n* * * * *\n\nRequirements:\n\n-   create-react-app\n-   GraphCMS account (Free)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9f51-13oteigk7uaspn93n2iywew.png?w=1100)\n\nSign up it's free!\n\n### Step 1 --- Setup GraphCMS:\n\n![](https://shakhorblog.files.wordpress.com/2018/03/e88d9-1uqh0g-bk6mbvyp_yhb8ytw.png?w=1100)\n\nGraphCMS Dashboard\n\nBefore we start doing any coding, you need to sign up for a free <a href=\"https://graphcms.com/\">GraphCMS</a> account. We will be using GraphCMS to handle our backend for us. After signing up we're going to make a new project. Click on that project and you'll be greeted with the dashboard page. Don't worry about everything right now, the first thing we need to do is set up a new model. Click \"Models\" on the side nav bar, then click \"Add Content Model\" at the top of the page. The only field we need to worry about is display name. Enter \"Post\" as the display name and the API ID should autofill itself; once your done click save.\n\n#### Adding Fields:\n\nYou should now see a new button that says \"Add Field\" under your Post Model. We're going to add four fields to make a basic blog: Image, Title, Description, and Slug.\n\nAdding Image:\n\n1.  Click \"Add Field\"\n2.  Click \"Asset\" then \"Asset Grid\"\n3.  Give it the name \"Image\"\n4.  Click next then save\n\nAdding Title:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Single Line\"\n3.  Give it the name \"Title\"\n4.  Click next then save\n\nAdding Description:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Rich Text\"\n3.  Give it the name \"Description\"\n4.  Click next then save\n\nAdding Slug:\n\n1.  Click \"Add Field\"\n2.  Click \"Text\" then \"Slug\"\n3.  Give it the name \"Slug\"\n4.  Click next then save\n\n![](https://shakhorblog.files.wordpress.com/2018/03/b5c67-127tuqehvduyjcsj8wuvxma.png?w=1100)\n\nMake sure to click \"R\" on the main Post model and Asset\n\n#### Giving API access:\n\nOnce we're finished with our model, we need to give our API access to read our fields. Still, inside your Models view go to Post and click on \"R\". Make sure \"R\" is clicked for every field and that \"connect\" is selected for Image. Make sure to do the same for Asset as well.\n\n#### Creating Dummy Data:\n\nThe last step for us inside of our GraphQL is to create some dummy data to show on our front-end. Click on Content then Post on the left side nav bar. You should see a plus icon on the top left. Click it and fill in the data. For the Slug field, you can just put in the Title name with dashes instead of spaces (This is a test = This-is-a-test).\n\n### Step 2 --- Create New React Project:\n\n* If you do not have creact-react-app installed run this command**\n\n``` npm i -g create-react-app ```\n\nNow we can finally code our blog. I did not design this blog to be amazing, so the design is bad, but it gets the job done.\n\n1.  Navigate to where you want to store this project and create a new react project. I'm using create-react-app and I like to keep my projects inside a folder called projects(makes sense). I'm going to call this project \"blog\". Open up your terminal and type\n\n``` create-react-app blog ```\n\nthen press enter and let create-react-app create our project for us.\n\n2\\. Once it's finished you need to change directory into your project.\n\n(Press Enter after the command)\n\n``` cd blog ```\n\n3\\. Before we can run our App we need to install a few packages.\n\n``` npm i react-router-dom react-apollo graphql-tag apollo-client apollo-link-http apollo-cache-inmemory ```\n\n4\\. Now we can finally start our App!\n\n``` npm start ```\n\n### Step 3 --- Start Coding\n\nNow it's time for the fun part, coding our React project! I'm trying to keep this project as simple as possible, so I'm just going to throw all of my files inside the root of my src folder. Usually, I'll create a new folder for components, and etc, but we're not doing that today because it's a very small App.\n\nSo with our project running, let's start creating our components.\n\n#### Index.js\n\nOpen up your Index.js file inside your src folder and change it to this:\n\n```\nimport React from 'react'; \nimport ReactDOM from 'react-dom'; \nimport { ApolloClient } from 'apollo-client'; \nimport { HttpLink } from 'apollo-link-http'; \nimport { InMemoryCache } from 'apollo-cache-inmemory'; \nimport { ApolloProvider } from 'react-apollo';\nimport App from './App'; \nimport registerServiceWorker from './registerServiceWorker'; \n\nconst API = 'ENTER_YOUR_API_ROUTE_HERE'; \nconst client = new ApolloClient({ \n  link: new HttpLink({ uri: API }), \n  cache: new InMemoryCache() \n }); \n\nReactDOM.render(\n  <ApolloProvider client={client}> \n    <App /> \n  </ApolloProvider>, \n  document.getElementById('root')); \n\n  registerServiceWorker();\n  ```\n\n![](https://shakhorblog.files.wordpress.com/2018/03/675a1-1f6fdkmy4q-cnov1wevrpkg.png?w=1100)\n\nFor the const variable API, we need to get your GraphCMS API key. Head over back to GraphCMS website and log in. Once logged in scroll down to settings. Inside your settings tab scroll down until you see Endpoints and copy your Simple Endpoint API.\n\n#### Header Component\n\nInside your src folder create a new file called Header.js and paste this code:\n```\nimport React from 'react';\n\nconst Header = () => {\n  return <header>Headless CMS</header>;\n}\n\nexport default Header;\n```\n\n#### Landing Component\n\nMake a new file in src folder called Landing.js and paste this code, I'll explain it later.\n```\n import React from 'react'; \n import { Link } from 'react-router-dom'; \n import { graphql } from 'react-apollo'; \n import gql from 'graphql-tag'; \n  \n const Landing = ({ data: { loading, allPosts } }) => { \n  if (!loading) { \n    return ( \n      <div className=\"wrapper\"> \n        {allPosts.map(post => ( \n          <article className=\"content\" key={post.id}> \n            <h2>{post.title}</h2> \n            <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n            <Link to={`/post/${post.slug}`}> \n              <button className=\"btn\">Read More</button> \n            </Link> \n          </article> \n        ))} \n      </div> \n    ); \n  } \n  \n  return <h2>Loading Posts...</h2> \n }; \n  \n const allPosts = gql` \n  query allPosts { \n    allPosts { \n      id \n      title \n      description \n      slug \n    } \n  } \n `; \n\n export default graphql(allPosts)(Landing); \n```\n\nThat was a lot of code so let me explain it a little. We created a new component called Landing and imported a few packages.\n\n-   react-router-dom (To use the Link to switch between our component views)\n-   react-apollo (Used to get our data from GraphCMS API)\n-   graphql-tag (Used to get our data from GraphCMS API)\n\nThe const variable allPosts is where we are calling to our database to get all of our posts and its fields (id, title, description, and slug) in the form of an array, then we're passing that to our Landing.js data object. The if statement for loading is something that Apollo looks for. If the query is not finished \"loading\" is set to true and we return\n\n//Landing.js\n\n```<h2>Loading Posts...</h2>```\n\nOnce Apollo finishes with the query loading is set to false and then we render all of our blog posts.\n\n#### Post Component\n\nOur Post Component is going to be the same thing just a little different since we only want the post that we clicked on. How we handle this is from the Landing Component when we click on the \"read more\" button:\n\n//Landing.js\n```\n<Link to={`/post/${post.slug}`}>\n  <button className=\"btn\">Read More</button>\n</link>\n```\n\nIf our slug was \"first-post\" the Link tag would navigate the user to localhost/post/first-post. This is important because later inside of out Post component we're going to get the slug from the URL.\n\n* * * * *\n\nCreate a new file called Post.js and paste this code in:\n```\nimport React from 'react'; \nimport { graphql } from 'react-apollo'; \nimport gql from 'graphql-tag'; \n\nconst Post = ({ data: { loading, post } }) => { \n  if (!loading) { \n    return ( \n    <article className=\"wrapper\"> \n      <div className=\"post\"> \n        <h1>{post.title}</h1> \n        <img src={post.image.url} alt=\"Dogs\" /> |\n        <p dangerouslySetInnerHTML={{ __html: post.description }} /> \n      </div> \n    </article> \n  ); \n} \n  return <h2>Loading article...</h2> \n}; \n\nconst singlePost = gql` \n  query singlePost($slug: String!) { \n    post: Post(slug: $slug) { \n      id \n      slug \n      title \n      description \n      image { \n        url \n    } \n  } \n } \n `; \n  \n export default graphql(singlePost, { \n  options: ({ match }) => ({ \n    variables: { \n      slug: match.params.slug \n    } \n  }) \n })(Post); \n```\n\nLike I said before you can see that we are getting the slug params from the variables object. This code is basically saying we are only looking for a post that matches slug param from the URL.\n\n#### App Component\n\nOpen up our App.js file and delete everything and paste this code. Don't worry if you don't know what this code is doing, it's just setting up our routes for us. You can learn more <a href=\"https://reacttraining.com/react-router/\">here</a>.\n\n```\nimport React from 'react'; |\nimport { BrowserRouter, Switch, Route } from 'react-router-dom'; |\nimport Header from './Header'; |\nimport Landing from './Landing'; |\nimport Post from './Post'; |\nimport './App.css'; |\n\nconst App = () => ( \n  <BrowserRouter>\n    <main> \n      <Header /> \n      <Switch> \n        <Route exact path=\"/\" component={Landing} /> \n        <Route path=\"/post/:slug\" component={Post} /> \n      </Switch> \n    </main> \n  </BrowserRouter> \n); \n\nexport default App; \n```\n\n### Step 4 --- Styling our App (Sort of)\n\nThis is something hopefully everybody knows if you're reading this tutorial, if not stop and go learn the basics first...for real. Again to keep this tutorial simple I just posted everything inside my App.css file.\n```\n* {\n box-sizing: border-box;\n padding: 0;\n margin: 0;\n}\n\nbody {\n background-color: #F4F4F4;\n}\n\nheader {\n height: 100px;\n background-color: rgb(211, 206, 206);\n display: flex;\n align-items: center;\n justify-content: center;\n font-size: 2.5em;\n}\n\n.wrapper {\n max-width: 1500px;\n margin: 0 auto;\n}\n\n/* Landing Section */\n.content {\n background-color: white;\n margin: 50px auto;\n padding: 1rem;\n box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);\n}\n\narticle h2 {\n text-align: center;\n}\narticle p {\n margin-top: 20px;\n}\n\n.btn {\n background-color: transparent;\n border: 1px solid black;\n padding: .5rem 1rem;\n margin: 20px auto 0 auto;\n display: block;\n}\n\n/* Post Section */\n.post {\n padding: 1rem;\n}\n.post h1 {\n text-align: center;\n margin: 20px;\n}\n.post img {\n display: block;\n margin: 0 auto 30px auto;\n}\n```\n\n### Enjoy your React and GraphQL blog!\n\nYou can view the full code <a href=\"https://github.com/smithmanny/React-Blog\">here</a>. (I probably will be updating this App later to make it look more appealing and structuring the code)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f9501-13nt0aops5jkjtywuk_4yww.png?w=1100)\n\n![](https://shakhorblog.files.wordpress.com/2018/03/c8947-1vuacxx50zarecqjuw_shkg.png?w=1100)",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
+      "fields": {
+        "slug": "/03-19-2018-How-To-Make/"
+      }
+    },
+    "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": {
+      "id": "a8af5dbc-5cbb-5a4d-a891-3f1b78849760",
+      "children": [],
+      "parent": "079d86fd-7efa-5b68-b908-67344e304dac",
+      "internal": {
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to <a href=\"https://www.heroku.com/\">Heroku</a> and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
+        "type": "MarkdownRemark",
+        "contentDigest": "02f3cf1989e69d78fb5a1e96a90120aa",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Deploy Your React App To Heroku",
+        "date": "March 23, 2018",
+        "slug": "deploy-your-react-app-to-heroku",
+        "_PARENT": "079d86fd-7efa-5b68-b908-67344e304dac"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to <a href=\"https://www.heroku.com/\">Heroku</a> and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "fields": {
+        "slug": "/03-23-2018-Deploy-Your-App/"
+      }
     }
   },
   "status": {
@@ -2684,7 +2779,11 @@
         "/my-workflow-software-engineer"
       ],
       "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": [
-        "/deploy-your-react-app-to-heroku"
+        "/deploy-your-react-app-to-heroku",
+        "/"
+      ],
+      "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": [
+        "/website-redesign-v2"
       ]
     },
     "connections": {
@@ -2696,18 +2795,19 @@
   },
   "jsonDataPaths": {
     "how-i-became-a-web-developer-in-4-months-977": "968/path---how-i-became-a-web-developer-in-4-months-977-3ba-7iOr4enMu6wzKXosGtzK6hbcuCc",
-    "blog-f7a": "619/path---blog-f-7-a-05d-TJRfjAT0rrv7hT9mUNZitlXhCxQ",
-    "index": "389/path---index-6a9-TJRfjAT0rrv7hT9mUNZitlXhCxQ",
+    "blog-f7a": "439/path---blog-f-7-a-05d-Jw6R2TNZeFZVAFTAk9CVwUGSXI",
+    "index": "496/path---index-6a9-Jw6R2TNZeFZVAFTAk9CVwUGSXI",
     "my-workflow-software-engineer-f1c": "619/path---my-workflow-software-engineer-f-1-c-425-8RyLXNURwWPMAAN7FEjZ1WZFS70",
-    "how-to-make-a-blog-with-react-and-graphql-6e2": "973/path---how-to-make-a-blog-with-react-and-graphql-6-e-2-f5c-IkcYP8ODFRCQ8nAzE8jY69BIpiM",
-    "deploy-your-react-app-to-heroku-716": "521/path---deploy-your-react-app-to-heroku-716-954-Q7y8EqRKB5fDtV9eA0qldyuJSM0",
+    "how-to-make-a-blog-with-react-and-graphql-6e2": "993/path---how-to-make-a-blog-with-react-and-graphql-6-e-2-f5c-Gx39fIgnsmDJIz5VayB072n27Pw",
+    "deploy-your-react-app-to-heroku-716": "413/path---deploy-your-react-app-to-heroku-716-954-sxNiYxZeT6WpmxGoiJNTNDWzk",
     "sq--src-components-layout-js": 2571625782,
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "website-redesign-v-2-068": "574/path---website-redesign-v-2-068-abc-eedvb8SFT1qLwT2vi3yOXiKtKSA"
   },
   "components": {
     "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js": {
