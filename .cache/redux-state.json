@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7463e62ef59408a088751e8433c1ac8f",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -192,6 +183,78 @@
       "children": [],
       "internal": {
         "contentDigest": "cbb81bad077c810a9b79e1778d9eb2f7",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-sitemap",
+      "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
+      "name": "gatsby-plugin-sitemap",
+      "version": "2.0.2",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPostBuild"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-sitemap",
+      "packageJson": {
+        "name": "gatsby-plugin-sitemap",
+        "description": "Gatsby plugin that automatically creates a sitemap for your site",
+        "version": "2.0.2",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Nicholas Young &lt;nicholas@nicholaswyoung.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "sitemap",
+            "version": "^1.12.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6a45545b64c4f2d148ceefdd48e5c1eb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1480,7 +1543,7 @@
       "resolve": "/Users/shakhor/Projects/Web/Portfolio",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "36e32bb7dbfc1026a1e4e95d77524eeb",
+      "version": "c4d10acefa15033c7424eb03aa8e8beb",
       "pluginOptions": {
         "plugins": []
       },
@@ -1578,6 +1641,10 @@
             "version": "^2.0.7"
           },
           {
+            "name": "gatsby-plugin-sitemap",
+            "version": "^2.0.2"
+          },
+          {
             "name": "gatsby-plugin-styled-components",
             "version": "^3.0.1"
           },
@@ -1650,7 +1717,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "634200c9de470cd2c1dd1ef18ed7fff8",
+        "contentDigest": "73991f0774f6f7c005006ccba6629dd1",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1754,6 +1821,7 @@
     "Site": {
       "siteMetadata": {
         "title": "Shakhor Smith",
+        "siteUrl": "https://shakhorsmith.com",
         "menuLinks": [
           {
             "name": "Blog",
@@ -1769,16 +1837,14 @@
           }
         ]
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-22T20:47:07.928Z",
+      "buildTime": "2018-11-23T00:54:06.959Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "56211d03c17776630939e8d059e697bf",
+        "contentDigest": "94123608aae728a87cd74806a4cbbe14",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1788,7 +1854,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "f62ee76eebee1cc1aca6347bf5eeb5f6",
+        "contentDigest": "5dbd86c3b0f6dabccdb09963ec2d3a9e",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1800,7 +1866,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-11-21T22:20:31.936Z",
-      "accessTime": "2018-11-22T20:47:13.939Z",
+      "accessTime": "2018-11-23T00:54:13.998Z",
       "changeTime": "2018-11-21T22:20:31.936Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1818,14 +1884,59 @@
       "blksize": 4096,
       "ino": 20593215,
       "blocks": 0,
-      "atimeMs": 1542919633939.06,
+      "atimeMs": 1542934453997.8,
       "mtimeMs": 1542838831936.1733,
       "ctimeMs": 1542838831936.1733,
       "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-22T20:47:13.939Z",
+      "atime": "2018-11-23T00:54:13.998Z",
       "mtime": "2018-11-21T22:20:31.936Z",
       "ctime": "2018-11-21T22:20:31.936Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
+    },
+    "fb297998-6141-5a0e-899a-120dec6eda38": {
+      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/github.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
+      "relativePath": "github.svg",
+      "extension": "svg",
+      "size": 1518,
+      "prettySize": "1.52 kB",
+      "modifiedTime": "2018-11-05T06:09:22.551Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
+      "changeTime": "2018-11-05T07:45:20.690Z",
+      "birthTime": "2018-11-05T06:09:22.551Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "github.svg",
+      "ext": ".svg",
+      "name": "github",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990731,
+      "blocks": 8,
+      "atimeMs": 1542934429855.9268,
+      "mtimeMs": 1541398162550.8406,
+      "ctimeMs": 1541403920690.4397,
+      "birthtimeMs": 1541398162550.6235,
+      "atime": "2018-11-23T00:53:49.856Z",
+      "mtime": "2018-11-05T06:09:22.551Z",
+      "ctime": "2018-11-05T07:45:20.690Z",
+      "birthtime": "2018-11-05T06:09:22.551Z"
     },
     "05cfc17c-3a28-579f-9f49-224c7ab15457": {
       "id": "05cfc17c-3a28-579f-9f49-224c7ab15457",
@@ -1847,7 +1958,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-10-31T05:43:35.512Z",
-      "accessTime": "2018-11-22T20:46:36.333Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
       "changeTime": "2018-10-31T05:43:35.512Z",
       "birthTime": "2018-10-31T05:43:35.511Z",
       "root": "/",
@@ -1865,104 +1976,14 @@
       "blksize": 4096,
       "ino": 20593217,
       "blocks": 48,
-      "atimeMs": 1542919596333.0403,
+      "atimeMs": 1542934429855.9238,
       "mtimeMs": 1540964615511.5918,
       "ctimeMs": 1540964615511.5918,
       "birthtimeMs": 1540964615511.1797,
-      "atime": "2018-11-22T20:46:36.333Z",
+      "atime": "2018-11-23T00:53:49.856Z",
       "mtime": "2018-10-31T05:43:35.512Z",
       "ctime": "2018-10-31T05:43:35.512Z",
       "birthtime": "2018-10-31T05:43:35.511Z"
-    },
-    "fb297998-6141-5a0e-899a-120dec6eda38": {
-      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/github.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
-      "relativePath": "github.svg",
-      "extension": "svg",
-      "size": 1518,
-      "prettySize": "1.52 kB",
-      "modifiedTime": "2018-11-05T06:09:22.551Z",
-      "accessTime": "2018-11-22T20:46:36.333Z",
-      "changeTime": "2018-11-05T07:45:20.690Z",
-      "birthTime": "2018-11-05T06:09:22.551Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "github.svg",
-      "ext": ".svg",
-      "name": "github",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21990731,
-      "blocks": 8,
-      "atimeMs": 1542919596333.0637,
-      "mtimeMs": 1541398162550.8406,
-      "ctimeMs": 1541403920690.4397,
-      "birthtimeMs": 1541398162550.6235,
-      "atime": "2018-11-22T20:46:36.333Z",
-      "mtime": "2018-11-05T06:09:22.551Z",
-      "ctime": "2018-11-05T07:45:20.690Z",
-      "birthtime": "2018-11-05T06:09:22.551Z"
-    },
-    "90eef715-4ed4-55f5-8bfe-4641b3143ffa": {
-      "id": "90eef715-4ed4-55f5-8bfe-4641b3143ffa",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6b278494afb335c70ba290501b797348",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/linkedin.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/linkedin.svg",
-      "relativePath": "linkedin.svg",
-      "extension": "svg",
-      "size": 514,
-      "prettySize": "514 B",
-      "modifiedTime": "2018-11-21T22:20:31.913Z",
-      "accessTime": "2018-11-22T20:46:36.333Z",
-      "changeTime": "2018-11-21T22:20:31.915Z",
-      "birthTime": "2018-11-21T22:20:31.906Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "linkedin.svg",
-      "ext": ".svg",
-      "name": "linkedin",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23072513,
-      "blocks": 8,
-      "atimeMs": 1542919596333.0864,
-      "mtimeMs": 1542838831912.6987,
-      "ctimeMs": 1542838831914.6594,
-      "birthtimeMs": 1542838831905.768,
-      "atime": "2018-11-22T20:46:36.333Z",
-      "mtime": "2018-11-21T22:20:31.913Z",
-      "ctime": "2018-11-21T22:20:31.915Z",
-      "birthtime": "2018-11-21T22:20:31.906Z"
     },
     "e7397794-7a87-5778-9d07-d596be70991c": {
       "id": "e7397794-7a87-5778-9d07-d596be70991c",
@@ -1982,7 +2003,7 @@
       "size": 513,
       "prettySize": "513 B",
       "modifiedTime": "2018-11-05T06:09:43.456Z",
-      "accessTime": "2018-11-22T20:46:36.333Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
       "changeTime": "2018-11-05T07:45:20.692Z",
       "birthTime": "2018-11-05T06:09:43.456Z",
       "root": "/",
@@ -2000,11 +2021,11 @@
       "blksize": 4096,
       "ino": 21990764,
       "blocks": 8,
-      "atimeMs": 1542919596333.109,
+      "atimeMs": 1542934429855.9329,
       "mtimeMs": 1541398183456.024,
       "ctimeMs": 1541403920692.284,
       "birthtimeMs": 1541398183455.8179,
-      "atime": "2018-11-22T20:46:36.333Z",
+      "atime": "2018-11-23T00:53:49.856Z",
       "mtime": "2018-11-05T06:09:43.456Z",
       "ctime": "2018-11-05T07:45:20.692Z",
       "birthtime": "2018-11-05T06:09:43.456Z"
@@ -2027,7 +2048,7 @@
       "size": 1007,
       "prettySize": "1.01 kB",
       "modifiedTime": "2018-11-05T06:09:07.197Z",
-      "accessTime": "2018-11-22T20:46:36.333Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
       "changeTime": "2018-11-05T07:45:20.694Z",
       "birthTime": "2018-11-05T06:09:07.197Z",
       "root": "/",
@@ -2045,11 +2066,11 @@
       "blksize": 4096,
       "ino": 21990699,
       "blocks": 8,
-      "atimeMs": 1542919596333.1313,
+      "atimeMs": 1542934429855.9355,
       "mtimeMs": 1541398147196.8877,
       "ctimeMs": 1541403920693.6497,
       "birthtimeMs": 1541398147196.6885,
-      "atime": "2018-11-22T20:46:36.333Z",
+      "atime": "2018-11-23T00:53:49.856Z",
       "mtime": "2018-11-05T06:09:07.197Z",
       "ctime": "2018-11-05T07:45:20.694Z",
       "birthtime": "2018-11-05T06:09:07.197Z"
@@ -2072,7 +2093,7 @@
       "size": 686,
       "prettySize": "686 B",
       "modifiedTime": "2018-11-21T22:20:31.937Z",
-      "accessTime": "2018-11-22T20:46:36.333Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
       "changeTime": "2018-11-21T22:20:31.937Z",
       "birthTime": "2018-11-21T22:20:31.936Z",
       "root": "/",
@@ -2090,11 +2111,11 @@
       "blksize": 4096,
       "ino": 23072514,
       "blocks": 8,
-      "atimeMs": 1542919596333.1538,
+      "atimeMs": 1542934429855.9385,
       "mtimeMs": 1542838831937.0872,
       "ctimeMs": 1542838831937.4917,
       "birthtimeMs": 1542838831936.1587,
-      "atime": "2018-11-22T20:46:36.333Z",
+      "atime": "2018-11-23T00:53:49.856Z",
       "mtime": "2018-11-21T22:20:31.937Z",
       "ctime": "2018-11-21T22:20:31.937Z",
       "birthtime": "2018-11-21T22:20:31.936Z"
@@ -2108,6 +2129,51 @@
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
+    },
+    "90eef715-4ed4-55f5-8bfe-4641b3143ffa": {
+      "id": "90eef715-4ed4-55f5-8bfe-4641b3143ffa",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b278494afb335c70ba290501b797348",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/linkedin.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/linkedin.svg",
+      "relativePath": "linkedin.svg",
+      "extension": "svg",
+      "size": 514,
+      "prettySize": "514 B",
+      "modifiedTime": "2018-11-21T22:20:31.913Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
+      "changeTime": "2018-11-21T22:20:31.915Z",
+      "birthTime": "2018-11-21T22:20:31.906Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "linkedin.svg",
+      "ext": ".svg",
+      "name": "linkedin",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23072513,
+      "blocks": 8,
+      "atimeMs": 1542934429855.9297,
+      "mtimeMs": 1542838831912.6987,
+      "ctimeMs": 1542838831914.6594,
+      "birthtimeMs": 1542838831905.768,
+      "atime": "2018-11-23T00:53:49.856Z",
+      "mtime": "2018-11-21T22:20:31.913Z",
+      "ctime": "2018-11-21T22:20:31.915Z",
+      "birthtime": "2018-11-21T22:20:31.906Z"
     },
     "6e440b88-e02e-5c33-88be-790f3e506a6d": {
       "id": "6e440b88-e02e-5c33-88be-790f3e506a6d",
@@ -2129,7 +2195,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-10-31T05:43:35.511Z",
-      "accessTime": "2018-11-22T20:46:33.326Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
       "changeTime": "2018-10-31T05:43:35.511Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -2147,11 +2213,11 @@
       "blksize": 4096,
       "ino": 20593216,
       "blocks": 328,
-      "atimeMs": 1542919593325.609,
+      "atimeMs": 1542934429855.9204,
       "mtimeMs": 1540964615510.8381,
       "ctimeMs": 1540964615510.8381,
       "birthtimeMs": 1540964615509.9563,
-      "atime": "2018-11-22T20:46:33.326Z",
+      "atime": "2018-11-23T00:53:49.856Z",
       "mtime": "2018-10-31T05:43:35.511Z",
       "ctime": "2018-10-31T05:43:35.511Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
@@ -2186,7 +2252,7 @@
       "size": 963995,
       "prettySize": "964 kB",
       "modifiedTime": "2018-11-20T04:07:03.052Z",
-      "accessTime": "2018-11-22T20:46:33.326Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
       "changeTime": "2018-11-20T04:07:03.063Z",
       "birthTime": "2018-11-20T04:07:03.037Z",
       "root": "/",
@@ -2204,11 +2270,11 @@
       "blksize": 4096,
       "ino": 22968824,
       "blocks": 1888,
-      "atimeMs": 1542919593325.5845,
+      "atimeMs": 1542934429855.917,
       "mtimeMs": 1542686823051.7239,
       "ctimeMs": 1542686823063.3596,
       "birthtimeMs": 1542686823036.8247,
-      "atime": "2018-11-22T20:46:33.326Z",
+      "atime": "2018-11-23T00:53:49.856Z",
       "mtime": "2018-11-20T04:07:03.052Z",
       "ctime": "2018-11-20T04:07:03.063Z",
       "birthtime": "2018-11-20T04:07:03.037Z"
@@ -2228,7 +2294,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "65897e53726d6c6964f1e3a80f466462",
+        "contentDigest": "260148cbb91236a416213c0d78f981fb",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2240,7 +2306,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-11-22T16:19:13.048Z",
-      "accessTime": "2018-11-22T20:47:13.970Z",
+      "accessTime": "2018-11-23T00:54:14.089Z",
       "changeTime": "2018-11-22T16:19:13.048Z",
       "birthTime": "2018-11-21T01:04:51.355Z",
       "root": "/",
@@ -2258,155 +2324,14 @@
       "blksize": 4096,
       "ino": 23012763,
       "blocks": 0,
-      "atimeMs": 1542919633969.9763,
+      "atimeMs": 1542934454088.9917,
       "mtimeMs": 1542903553048.3108,
       "ctimeMs": 1542903553048.3108,
       "birthtimeMs": 1542762291354.9749,
-      "atime": "2018-11-22T20:47:13.970Z",
+      "atime": "2018-11-23T00:54:14.089Z",
       "mtime": "2018-11-22T16:19:13.048Z",
       "ctime": "2018-11-22T16:19:13.048Z",
       "birthtime": "2018-11-21T01:04:51.355Z"
-    },
-    "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
-      "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
-      "children": [
-        "84789685-cd7c-5477-87c4-809c23b5619e"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6883fa5a1b2e3e8438f1d9d2147682f8",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-19-2018-How-To-Make.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
-      "relativePath": "03-19-2018-How-To-Make.md",
-      "extension": "md",
-      "size": 11534,
-      "prettySize": "11.5 kB",
-      "modifiedTime": "2018-11-22T17:41:39.537Z",
-      "accessTime": "2018-11-22T20:46:33.326Z",
-      "changeTime": "2018-11-22T17:41:39.537Z",
-      "birthTime": "2018-11-22T16:19:13.048Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-19-2018-How-To-Make.md",
-      "ext": ".md",
-      "name": "03-19-2018-How-To-Make",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23140765,
-      "blocks": 24,
-      "atimeMs": 1542919593326.4497,
-      "mtimeMs": 1542908499537.1758,
-      "ctimeMs": 1542908499537.1758,
-      "birthtimeMs": 1542903553048.301,
-      "atime": "2018-11-22T20:46:33.326Z",
-      "mtime": "2018-11-22T17:41:39.537Z",
-      "ctime": "2018-11-22T17:41:39.537Z",
-      "birthtime": "2018-11-22T16:19:13.048Z"
-    },
-    "64357855-ba9b-5124-823b-10eae4a51b27": {
-      "id": "64357855-ba9b-5124-823b-10eae4a51b27",
-      "children": [
-        "5d85e12b-609c-5299-8c0a-e7f0213a005e"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6d817acc8b760c6b685e7b950acd1be3",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/07-22-2018-My-Workflow.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
-      "relativePath": "07-22-2018-My-Workflow.md",
-      "extension": "md",
-      "size": 4326,
-      "prettySize": "4.33 kB",
-      "modifiedTime": "2018-11-22T17:42:05.901Z",
-      "accessTime": "2018-11-22T20:46:33.327Z",
-      "changeTime": "2018-11-22T17:42:05.901Z",
-      "birthTime": "2018-11-21T01:26:24.372Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "07-22-2018-My-Workflow.md",
-      "ext": ".md",
-      "name": "07-22-2018-My-Workflow",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23016992,
-      "blocks": 16,
-      "atimeMs": 1542919593326.5203,
-      "mtimeMs": 1542908525901.4893,
-      "ctimeMs": 1542908525901.4893,
-      "birthtimeMs": 1542763584372.158,
-      "atime": "2018-11-22T20:46:33.327Z",
-      "mtime": "2018-11-22T17:42:05.901Z",
-      "ctime": "2018-11-22T17:42:05.901Z",
-      "birthtime": "2018-11-21T01:26:24.372Z"
-    },
-    "079d86fd-7efa-5b68-b908-67344e304dac": {
-      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
-      "children": [
-        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "cb309a37922f36fef12c69deb1e1074c",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
-      "relativePath": "03-23-2018-Deploy-Your-App.md",
-      "extension": "md",
-      "size": 4337,
-      "prettySize": "4.34 kB",
-      "modifiedTime": "2018-11-22T17:41:53.852Z",
-      "accessTime": "2018-11-22T20:46:33.326Z",
-      "changeTime": "2018-11-22T17:41:53.852Z",
-      "birthTime": "2018-11-22T16:19:00.061Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-23-2018-Deploy-Your-App.md",
-      "ext": ".md",
-      "name": "03-23-2018-Deploy-Your-App",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23140756,
-      "blocks": 16,
-      "atimeMs": 1542919593326.486,
-      "mtimeMs": 1542908513852.2805,
-      "ctimeMs": 1542908513852.2805,
-      "birthtimeMs": 1542903540060.5105,
-      "atime": "2018-11-22T20:46:33.326Z",
-      "mtime": "2018-11-22T17:41:53.852Z",
-      "ctime": "2018-11-22T17:41:53.852Z",
-      "birthtime": "2018-11-22T16:19:00.061Z"
     },
     "64ac11fa-7f5d-59f3-9c58-0881cba94cb4": {
       "id": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
@@ -2428,7 +2353,7 @@
       "size": 4230,
       "prettySize": "4.23 kB",
       "modifiedTime": "2018-11-22T17:41:27.256Z",
-      "accessTime": "2018-11-22T20:46:33.326Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
       "changeTime": "2018-11-22T17:41:27.256Z",
       "birthTime": "2018-11-21T01:11:43.723Z",
       "root": "/",
@@ -2446,14 +2371,108 @@
       "blksize": 4096,
       "ino": 23013678,
       "blocks": 16,
-      "atimeMs": 1542919593326.4119,
+      "atimeMs": 1542934429855.9644,
       "mtimeMs": 1542908487255.7449,
       "ctimeMs": 1542908487255.7449,
       "birthtimeMs": 1542762703723.2544,
-      "atime": "2018-11-22T20:46:33.326Z",
+      "atime": "2018-11-23T00:53:49.856Z",
       "mtime": "2018-11-22T17:41:27.256Z",
       "ctime": "2018-11-22T17:41:27.256Z",
       "birthtime": "2018-11-21T01:11:43.723Z"
+    },
+    "079d86fd-7efa-5b68-b908-67344e304dac": {
+      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
+      "children": [
+        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cb309a37922f36fef12c69deb1e1074c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "relativePath": "03-23-2018-Deploy-Your-App.md",
+      "extension": "md",
+      "size": 4337,
+      "prettySize": "4.34 kB",
+      "modifiedTime": "2018-11-22T17:41:53.852Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
+      "changeTime": "2018-11-22T17:41:53.852Z",
+      "birthTime": "2018-11-22T16:19:00.061Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-23-2018-Deploy-Your-App.md",
+      "ext": ".md",
+      "name": "03-23-2018-Deploy-Your-App",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23140756,
+      "blocks": 16,
+      "atimeMs": 1542934429855.9731,
+      "mtimeMs": 1542908513852.2805,
+      "ctimeMs": 1542908513852.2805,
+      "birthtimeMs": 1542903540060.5105,
+      "atime": "2018-11-23T00:53:49.856Z",
+      "mtime": "2018-11-22T17:41:53.852Z",
+      "ctime": "2018-11-22T17:41:53.852Z",
+      "birthtime": "2018-11-22T16:19:00.061Z"
+    },
+    "64357855-ba9b-5124-823b-10eae4a51b27": {
+      "id": "64357855-ba9b-5124-823b-10eae4a51b27",
+      "children": [
+        "5d85e12b-609c-5299-8c0a-e7f0213a005e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6d817acc8b760c6b685e7b950acd1be3",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/07-22-2018-My-Workflow.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
+      "relativePath": "07-22-2018-My-Workflow.md",
+      "extension": "md",
+      "size": 4326,
+      "prettySize": "4.33 kB",
+      "modifiedTime": "2018-11-22T17:42:05.901Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
+      "changeTime": "2018-11-22T17:42:05.901Z",
+      "birthTime": "2018-11-21T01:26:24.372Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "07-22-2018-My-Workflow.md",
+      "ext": ".md",
+      "name": "07-22-2018-My-Workflow",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23016992,
+      "blocks": 16,
+      "atimeMs": 1542934429855.9783,
+      "mtimeMs": 1542908525901.4893,
+      "ctimeMs": 1542908525901.4893,
+      "birthtimeMs": 1542763584372.158,
+      "atime": "2018-11-23T00:53:49.856Z",
+      "mtime": "2018-11-22T17:42:05.901Z",
+      "ctime": "2018-11-22T17:42:05.901Z",
+      "birthtime": "2018-11-21T01:26:24.372Z"
     },
     "03b8abef-f557-57fe-b52e-c188b17b61e0": {
       "id": "03b8abef-f557-57fe-b52e-c188b17b61e0",
@@ -2475,7 +2494,7 @@
       "size": 2028,
       "prettySize": "2.03 kB",
       "modifiedTime": "2018-11-22T17:42:16.368Z",
-      "accessTime": "2018-11-22T20:46:33.327Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
       "changeTime": "2018-11-22T17:42:16.368Z",
       "birthTime": "2018-11-22T15:15:30.698Z",
       "root": "/",
@@ -2493,39 +2512,86 @@
       "blksize": 4096,
       "ino": 23135246,
       "blocks": 8,
-      "atimeMs": 1542919593326.554,
+      "atimeMs": 1542934429855.9827,
       "mtimeMs": 1542908536368.0186,
       "ctimeMs": 1542908536368.0186,
       "birthtimeMs": 1542899730698.1897,
-      "atime": "2018-11-22T20:46:33.327Z",
+      "atime": "2018-11-23T00:53:49.856Z",
       "mtime": "2018-11-22T17:42:16.368Z",
       "ctime": "2018-11-22T17:42:16.368Z",
       "birthtime": "2018-11-22T15:15:30.698Z"
     },
-    "5d85e12b-609c-5299-8c0a-e7f0213a005e": {
-      "id": "5d85e12b-609c-5299-8c0a-e7f0213a005e",
-      "children": [],
-      "parent": "64357855-ba9b-5124-823b-10eae4a51b27",
+    "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
+      "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
+      "children": [
+        "84789685-cd7c-5477-87c4-809c23b5619e"
+      ],
+      "parent": "___SOURCE___",
       "internal": {
-        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
+        "contentDigest": "6883fa5a1b2e3e8438f1d9d2147682f8",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-19-2018-How-To-Make.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
+      "relativePath": "03-19-2018-How-To-Make.md",
+      "extension": "md",
+      "size": 11534,
+      "prettySize": "11.5 kB",
+      "modifiedTime": "2018-11-22T17:41:39.537Z",
+      "accessTime": "2018-11-23T00:53:49.856Z",
+      "changeTime": "2018-11-22T17:41:39.537Z",
+      "birthTime": "2018-11-22T16:19:13.048Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-19-2018-How-To-Make.md",
+      "ext": ".md",
+      "name": "03-19-2018-How-To-Make",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23140765,
+      "blocks": 24,
+      "atimeMs": 1542934429855.9685,
+      "mtimeMs": 1542908499537.1758,
+      "ctimeMs": 1542908499537.1758,
+      "birthtimeMs": 1542903553048.301,
+      "atime": "2018-11-23T00:53:49.856Z",
+      "mtime": "2018-11-22T17:41:39.537Z",
+      "ctime": "2018-11-22T17:41:39.537Z",
+      "birthtime": "2018-11-22T16:19:13.048Z"
+    },
+    "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
+      "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
+      "children": [],
+      "parent": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
+      "internal": {
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
         "type": "MarkdownRemark",
-        "contentDigest": "83eded3760a51df3215f522e2aaa1581",
+        "contentDigest": "0795302adaecef254d905e5e9fc9be6f",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "My Workflow - Software Engineer",
-        "date": "07-22-2018",
-        "slug": "my-workflow-software-engineer",
-        "_PARENT": "64357855-ba9b-5124-823b-10eae4a51b27"
+        "title": "How I Became A Web Developer In 4 Months",
+        "date": "03-16-2018",
+        "slug": "how-i-became-a-web-developer-in-4-months",
+        "_PARENT": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
       "fields": {
-        "slug": "/07-22-2018-My-Workflow/"
+        "slug": "/03-16-2018-How-I-Became/"
       }
     },
     "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": {
@@ -2554,30 +2620,56 @@
         "slug": "/03-23-2018-Deploy-Your-App/"
       }
     },
-    "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
-      "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
+    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
+      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
       "children": [],
-      "parent": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
+      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
       "internal": {
-        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
+        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
         "type": "MarkdownRemark",
-        "contentDigest": "0795302adaecef254d905e5e9fc9be6f",
+        "contentDigest": "2476b6ce663a9287d98c059197e1dd2e",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
         }
       },
       "frontmatter": {
-        "title": "How I Became A Web Developer In 4 Months",
-        "date": "03-16-2018",
-        "slug": "how-i-became-a-web-developer-in-4-months",
-        "_PARENT": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4"
+        "title": "Website Redesign V2",
+        "date": "11-22-2018",
+        "slug": "website-redesign-v2",
+        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
+      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
       "fields": {
-        "slug": "/03-16-2018-How-I-Became/"
+        "slug": "/11-22-2018-Website-Redesign-v2/"
+      }
+    },
+    "5d85e12b-609c-5299-8c0a-e7f0213a005e": {
+      "id": "5d85e12b-609c-5299-8c0a-e7f0213a005e",
+      "children": [],
+      "parent": "64357855-ba9b-5124-823b-10eae4a51b27",
+      "internal": {
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
+        "type": "MarkdownRemark",
+        "contentDigest": "83eded3760a51df3215f522e2aaa1581",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "My Workflow - Software Engineer",
+        "date": "07-22-2018",
+        "slug": "my-workflow-software-engineer",
+        "_PARENT": "64357855-ba9b-5124-823b-10eae4a51b27"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/07/workspace-2-1.png?w=256)\n\nAs I took my first Software Engineering job I was given a new MacBook Pro since the position was working remotely. And as you probably guess, I had to install all of my applications over to the new laptop. While configuring my new laptop, I figured I'll make a list of applications and tools I use every day as a developer. (Keep in mind some of these apps are only for Mac OS)\n\n-   Computer\n    -   2017 MacBook Pro 13′\n-   Software\n    -   Browsers\n        -   [Chrome](https://www.google.com/chrome/)\n        -   [Firefox](https://www.mozilla.org/en-US/firefox/channel/desktop/) -- Developer Edition\n        -   Safari -- Mac Users\n    -   VS Code & Extensions 👇🏾(https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f447-1f3fe.svg)\n        -   [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)\n        -   [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)\n        -   [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)\n        -   [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)\n        -   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)\n        -   [CSS Peak](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)\n        -   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)\n        -   [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)\n        -   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)\n        -   [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)\n        -   [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)\n        -   [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)\n        -   [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)\n        -   [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl)\n        -   [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)\n        -   [Npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)\n        -   [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)\n        -   [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)\n        -   [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)\n        -   [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)\n        -   [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)\n    -   [RubyMine](https://www.jetbrains.com/ruby/)\n    -   API Development\n        -   [Postman](https://www.getpostman.com/)\n    -   Screen Recording\n        -   [OBS](https://obsproject.com/)\n    -   Terminal\n        -   [Hyper](https://hyper.is/)\n    -   Communication\n        -   [Slack](https://slack.com/)\n        -   [Zoom](https://zoom.us/)\n    -   [Flux](https://justgetflux.com/) -- Less Strain on your eyes\n    -   Notes\n        -   [Evernote](https://evernote.com/)\n        -   Google Keep\n    -   [Adobe CC](https://www.adobe.com/)\n    -   [Amphetamine](https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12) -- Keep your Mac awake\n    -   [App Cleaner](https://freemacsoft.net/appcleaner/)\n    -   [Spectacle](https://www.spectacleapp.com/) -- Move a resize windows at ease\n\n* * * * *\n\nObviously, these are not all the apps I use day-to-day, but while I'm programming these are the most important applications. As I mature into my career I will stumble across new applications and will try to keep this list up to date.",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
+      "fields": {
+        "slug": "/07-22-2018-My-Workflow/"
       }
     },
     "84789685-cd7c-5477-87c4-809c23b5619e": {
@@ -2606,50 +2698,44 @@
         "slug": "/03-19-2018-How-To-Make/"
       }
     },
-    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
-      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
-      "children": [],
-      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
-      "internal": {
-        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "2476b6ce663a9287d98c059197e1dd2e",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Website Redesign V2",
-        "date": "11-22-2018",
-        "slug": "website-redesign-v2",
-        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
-      "fields": {
-        "slug": "/11-22-2018-Website-Redesign-v2/"
-      }
-    },
-    "SitePage /blog/my-workflow-software-engineer": {
-      "jsonName": "blog-my-workflow-software-engineer-d40",
-      "internalComponentName": "ComponentBlogMyWorkflowSoftwareEngineer",
-      "path": "/blog/my-workflow-software-engineer",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "my-workflow-software-engineer"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /blog/my-workflow-software-engineer",
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "43962732b010eb2af08e1fe27ff82fc0",
+        "contentDigest": "05748cdc236c2fe87fd5da1e7c9784c9",
+        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/how-i-became-a-web-developer-in-4-months": {
+      "jsonName": "blog-how-i-became-a-web-developer-in-4-months-7bd",
+      "internalComponentName": "ComponentBlogHowIBecameAWebDeveloperIn4Months",
+      "path": "/blog/how-i-became-a-web-developer-in-4-months",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "how-i-became-a-web-developer-in-4-months"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /blog/how-i-became-a-web-developer-in-4-months",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "23745500c7b1a3551402ed54b9979970",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2676,24 +2762,46 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /blog/how-i-became-a-web-developer-in-4-months": {
-      "jsonName": "blog-how-i-became-a-web-developer-in-4-months-7bd",
-      "internalComponentName": "ComponentBlogHowIBecameAWebDeveloperIn4Months",
-      "path": "/blog/how-i-became-a-web-developer-in-4-months",
+    "SitePage /blog/website-redesign-v2": {
+      "jsonName": "blog-website-redesign-v-2-6ef",
+      "internalComponentName": "ComponentBlogWebsiteRedesignV2",
+      "path": "/blog/website-redesign-v2",
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
-        "slug": "how-i-became-a-web-developer-in-4-months"
+        "slug": "website-redesign-v2"
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /blog/how-i-became-a-web-developer-in-4-months",
+      "id": "SitePage /blog/website-redesign-v2",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "23745500c7b1a3551402ed54b9979970",
+        "contentDigest": "05a7487f2eb3da8786170d762d2fd5b2",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/my-workflow-software-engineer": {
+      "jsonName": "blog-my-workflow-software-engineer-d40",
+      "internalComponentName": "ComponentBlogMyWorkflowSoftwareEngineer",
+      "path": "/blog/my-workflow-software-engineer",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "my-workflow-software-engineer"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /blog/my-workflow-software-engineer",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "43962732b010eb2af08e1fe27ff82fc0",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2716,28 +2824,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "6e3251377fe4f3c32479bf2c9dbeb0fe",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog/website-redesign-v2": {
-      "jsonName": "blog-website-redesign-v-2-6ef",
-      "internalComponentName": "ComponentBlogWebsiteRedesignV2",
-      "path": "/blog/website-redesign-v2",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "website-redesign-v2"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /blog/website-redesign-v2",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "05a7487f2eb3da8786170d762d2fd5b2",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2867,27 +2953,27 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "ef849ead02f6240a950615babf1d3f98"
+    "PLUGINS_HASH": "72a82ded90e788400b1d433280d06073"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
         "sq--src-components-layout-js"
       ],
-      "5d85e12b-609c-5299-8c0a-e7f0213a005e": [
-        "/blog/my-workflow-software-engineer"
+      "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": [
+        "/blog/how-i-became-a-web-developer-in-4-months"
       ],
       "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": [
         "/blog/deploy-your-react-app-to-heroku"
       ],
-      "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": [
-        "/blog/how-i-became-a-web-developer-in-4-months"
+      "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": [
+        "/blog/website-redesign-v2"
+      ],
+      "5d85e12b-609c-5299-8c0a-e7f0213a005e": [
+        "/blog/my-workflow-software-engineer"
       ],
       "84789685-cd7c-5477-87c4-809c23b5619e": [
         "/blog/how-to-make-a-blog-with-react-and-graphql"
-      ],
-      "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": [
-        "/blog/website-redesign-v2"
       ]
     },
     "connections": {
@@ -2910,16 +2996,17 @@
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "blog-website-redesign-v-2-6ef": "938/path---blog-website-redesign-v-2-6-ef-051-6zOE4Sr2KYZKmfilfv9aehzNyV8",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/app-shell.js"
+    },
     "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js": {
       "query": "query usersShakhorProjectsWebPortfolioSrcTemplatesBlogPostJs3498585245(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js"
-    },
-    "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js"
     },
     "/Users/shakhor/Projects/Web/Portfolio/src/pages/404.js": {
       "query": "",

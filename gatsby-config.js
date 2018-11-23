@@ -5,6 +5,7 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'Shakhor Smith',
+    siteUrl: 'https://shakhorsmith.com',
     menuLinks: [
       {
         name: 'Blog',

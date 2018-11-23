@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
