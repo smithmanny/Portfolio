@@ -30,6 +30,11 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Shakhor Smith | Software Engineer' },
             { name: 'keywords', content: 'shakhor, shakhor smith' },
+            { property: 'og:type', content: 'profile' },
+            { property: 'og:title', content: 'Shakhor Smith | Software Enginner' },
+            { property: 'og:url', content: 'https://shakhorsmith.com' },
+            { property: 'profile:first_name', content: 'Shakhor' },
+            { property: 'profile:last_name', content: 'Smith' },
           ]}
         >
           <html lang="en" />

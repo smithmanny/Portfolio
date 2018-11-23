@@ -16,6 +16,8 @@ export default ({ data }) => {
         meta={[
           { name: 'description', content: post.frontmatter.title },
           { name: 'keywords', content: 'shakhor, shakhor smith' },
+          { property: 'og:title', content: post.frontmatter.title },
+          { property: 'og:url', content: 'shakhor, shakhor smith' },
         ]}
       />
       <GlobalStyle />
