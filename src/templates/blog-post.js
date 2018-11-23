@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { createGlobalStyle } from 'styled-components'
@@ -6,7 +6,7 @@ import { createGlobalStyle } from 'styled-components'
 import Layout from '../components/layout'
 import { PageTitle } from '../components/shared/Text'
 
-export default ({ data }) => {
+export default ({ data, ...props }) => {
   const post = data.markdownRemark
 
   return (

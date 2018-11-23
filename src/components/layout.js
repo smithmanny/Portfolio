@@ -1,3 +1,4 @@
+import '../utils/rhlConfig'
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
@@ -32,6 +33,7 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'shakhor, shakhor smith' },
             { property: 'og:type', content: 'profile' },
             { property: 'og:title', content: 'Shakhor Smith | Software Enginner' },
+            { property: 'og:site_name', content: 'Shakhor Smith | Software Engineer' },
             { property: 'og:url', content: 'https://shakhorsmith.com' },
             { property: 'profile:first_name', content: 'Shakhor' },
             { property: 'profile:last_name', content: 'Smith' },
