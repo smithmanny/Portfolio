@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "7463e62ef59408a088751e8433c1ac8f",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -1682,15 +1691,19 @@
           },
           {
             "name": "react",
-            "version": "^16.5.1"
+            "version": "^16.7.0-alpha.0"
           },
           {
             "name": "react-dom",
-            "version": "^16.5.1"
+            "version": "^16.7.0-alpha.0"
           },
           {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "react-hot-loader",
+            "version": "^4.3.12"
           },
           {
             "name": "react-typography",
@@ -1837,14 +1850,14 @@
           }
         ]
       },
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2018-11-23T00:54:06.959Z",
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2018-11-23T16:54:33.486Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "94123608aae728a87cd74806a4cbbe14",
+        "contentDigest": "c0e38f314089029abb91f5740da757ee",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1854,7 +1867,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5dbd86c3b0f6dabccdb09963ec2d3a9e",
+        "contentDigest": "ac7a1cf6c5091d156dd79e7717f5d49a",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1866,7 +1879,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-11-21T22:20:31.936Z",
-      "accessTime": "2018-11-23T00:54:13.998Z",
+      "accessTime": "2018-11-23T16:54:41.923Z",
       "changeTime": "2018-11-21T22:20:31.936Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -1884,59 +1897,14 @@
       "blksize": 4096,
       "ino": 20593215,
       "blocks": 0,
-      "atimeMs": 1542934453997.8,
+      "atimeMs": 1542992081922.8901,
       "mtimeMs": 1542838831936.1733,
       "ctimeMs": 1542838831936.1733,
       "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-23T00:54:13.998Z",
+      "atime": "2018-11-23T16:54:41.923Z",
       "mtime": "2018-11-21T22:20:31.936Z",
       "ctime": "2018-11-21T22:20:31.936Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
-    },
-    "fb297998-6141-5a0e-899a-120dec6eda38": {
-      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/github.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
-      "relativePath": "github.svg",
-      "extension": "svg",
-      "size": 1518,
-      "prettySize": "1.52 kB",
-      "modifiedTime": "2018-11-05T06:09:22.551Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
-      "changeTime": "2018-11-05T07:45:20.690Z",
-      "birthTime": "2018-11-05T06:09:22.551Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "github.svg",
-      "ext": ".svg",
-      "name": "github",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21990731,
-      "blocks": 8,
-      "atimeMs": 1542934429855.9268,
-      "mtimeMs": 1541398162550.8406,
-      "ctimeMs": 1541403920690.4397,
-      "birthtimeMs": 1541398162550.6235,
-      "atime": "2018-11-23T00:53:49.856Z",
-      "mtime": "2018-11-05T06:09:22.551Z",
-      "ctime": "2018-11-05T07:45:20.690Z",
-      "birthtime": "2018-11-05T06:09:22.551Z"
     },
     "05cfc17c-3a28-579f-9f49-224c7ab15457": {
       "id": "05cfc17c-3a28-579f-9f49-224c7ab15457",
@@ -1958,7 +1926,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-10-31T05:43:35.512Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
+      "accessTime": "2018-11-23T07:39:32.237Z",
       "changeTime": "2018-10-31T05:43:35.512Z",
       "birthTime": "2018-10-31T05:43:35.511Z",
       "root": "/",
@@ -1976,159 +1944,14 @@
       "blksize": 4096,
       "ino": 20593217,
       "blocks": 48,
-      "atimeMs": 1542934429855.9238,
+      "atimeMs": 1542958772237.3557,
       "mtimeMs": 1540964615511.5918,
       "ctimeMs": 1540964615511.5918,
       "birthtimeMs": 1540964615511.1797,
-      "atime": "2018-11-23T00:53:49.856Z",
+      "atime": "2018-11-23T07:39:32.237Z",
       "mtime": "2018-10-31T05:43:35.512Z",
       "ctime": "2018-10-31T05:43:35.512Z",
       "birthtime": "2018-10-31T05:43:35.511Z"
-    },
-    "e7397794-7a87-5778-9d07-d596be70991c": {
-      "id": "e7397794-7a87-5778-9d07-d596be70991c",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d2fe8bc628d5eb298d409f70ad88f0cb",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/moon.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/moon.svg",
-      "relativePath": "moon.svg",
-      "extension": "svg",
-      "size": 513,
-      "prettySize": "513 B",
-      "modifiedTime": "2018-11-05T06:09:43.456Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
-      "changeTime": "2018-11-05T07:45:20.692Z",
-      "birthTime": "2018-11-05T06:09:43.456Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "moon.svg",
-      "ext": ".svg",
-      "name": "moon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21990764,
-      "blocks": 8,
-      "atimeMs": 1542934429855.9329,
-      "mtimeMs": 1541398183456.024,
-      "ctimeMs": 1541403920692.284,
-      "birthtimeMs": 1541398183455.8179,
-      "atime": "2018-11-23T00:53:49.856Z",
-      "mtime": "2018-11-05T06:09:43.456Z",
-      "ctime": "2018-11-05T07:45:20.692Z",
-      "birthtime": "2018-11-05T06:09:43.456Z"
-    },
-    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
-      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/twitter.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
-      "relativePath": "twitter.svg",
-      "extension": "svg",
-      "size": 1007,
-      "prettySize": "1.01 kB",
-      "modifiedTime": "2018-11-05T06:09:07.197Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
-      "changeTime": "2018-11-05T07:45:20.694Z",
-      "birthTime": "2018-11-05T06:09:07.197Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "twitter.svg",
-      "ext": ".svg",
-      "name": "twitter",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 21990699,
-      "blocks": 8,
-      "atimeMs": 1542934429855.9355,
-      "mtimeMs": 1541398147196.8877,
-      "ctimeMs": 1541403920693.6497,
-      "birthtimeMs": 1541398147196.6885,
-      "atime": "2018-11-23T00:53:49.856Z",
-      "mtime": "2018-11-05T06:09:07.197Z",
-      "ctime": "2018-11-05T07:45:20.694Z",
-      "birthtime": "2018-11-05T06:09:07.197Z"
-    },
-    "d388bfd8-bb23-5caf-b329-506dca9d52c4": {
-      "id": "d388bfd8-bb23-5caf-b329-506dca9d52c4",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "50c699a1ba4e2a0dc31e7299029614a3",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/youtube.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/youtube.svg",
-      "relativePath": "youtube.svg",
-      "extension": "svg",
-      "size": 686,
-      "prettySize": "686 B",
-      "modifiedTime": "2018-11-21T22:20:31.937Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
-      "changeTime": "2018-11-21T22:20:31.937Z",
-      "birthTime": "2018-11-21T22:20:31.936Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "youtube.svg",
-      "ext": ".svg",
-      "name": "youtube",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23072514,
-      "blocks": 8,
-      "atimeMs": 1542934429855.9385,
-      "mtimeMs": 1542838831937.0872,
-      "ctimeMs": 1542838831937.4917,
-      "birthtimeMs": 1542838831936.1587,
-      "atime": "2018-11-23T00:53:49.856Z",
-      "mtime": "2018-11-21T22:20:31.937Z",
-      "ctime": "2018-11-21T22:20:31.937Z",
-      "birthtime": "2018-11-21T22:20:31.936Z"
-    },
-    "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
-      "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
-      "children": [],
-      "parent": "05cfc17c-3a28-579f-9f49-224c7ab15457",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "90eef715-4ed4-55f5-8bfe-4641b3143ffa": {
       "id": "90eef715-4ed4-55f5-8bfe-4641b3143ffa",
@@ -2148,7 +1971,7 @@
       "size": 514,
       "prettySize": "514 B",
       "modifiedTime": "2018-11-21T22:20:31.913Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
+      "accessTime": "2018-11-23T07:39:32.237Z",
       "changeTime": "2018-11-21T22:20:31.915Z",
       "birthTime": "2018-11-21T22:20:31.906Z",
       "root": "/",
@@ -2166,14 +1989,204 @@
       "blksize": 4096,
       "ino": 23072513,
       "blocks": 8,
-      "atimeMs": 1542934429855.9297,
+      "atimeMs": 1542958772237.4087,
       "mtimeMs": 1542838831912.6987,
       "ctimeMs": 1542838831914.6594,
       "birthtimeMs": 1542838831905.768,
-      "atime": "2018-11-23T00:53:49.856Z",
+      "atime": "2018-11-23T07:39:32.237Z",
       "mtime": "2018-11-21T22:20:31.913Z",
       "ctime": "2018-11-21T22:20:31.915Z",
       "birthtime": "2018-11-21T22:20:31.906Z"
+    },
+    "fb297998-6141-5a0e-899a-120dec6eda38": {
+      "id": "fb297998-6141-5a0e-899a-120dec6eda38",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3959958a15f3512c7edb9f28e3707417",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/github.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/github.svg",
+      "relativePath": "github.svg",
+      "extension": "svg",
+      "size": 1518,
+      "prettySize": "1.52 kB",
+      "modifiedTime": "2018-11-05T06:09:22.551Z",
+      "accessTime": "2018-11-23T07:39:32.237Z",
+      "changeTime": "2018-11-05T07:45:20.690Z",
+      "birthTime": "2018-11-05T06:09:22.551Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "github.svg",
+      "ext": ".svg",
+      "name": "github",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990731,
+      "blocks": 8,
+      "atimeMs": 1542958772237.3823,
+      "mtimeMs": 1541398162550.8406,
+      "ctimeMs": 1541403920690.4397,
+      "birthtimeMs": 1541398162550.6235,
+      "atime": "2018-11-23T07:39:32.237Z",
+      "mtime": "2018-11-05T06:09:22.551Z",
+      "ctime": "2018-11-05T07:45:20.690Z",
+      "birthtime": "2018-11-05T06:09:22.551Z"
+    },
+    "e7397794-7a87-5778-9d07-d596be70991c": {
+      "id": "e7397794-7a87-5778-9d07-d596be70991c",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d2fe8bc628d5eb298d409f70ad88f0cb",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/moon.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/moon.svg",
+      "relativePath": "moon.svg",
+      "extension": "svg",
+      "size": 513,
+      "prettySize": "513 B",
+      "modifiedTime": "2018-11-05T06:09:43.456Z",
+      "accessTime": "2018-11-23T07:39:32.237Z",
+      "changeTime": "2018-11-05T07:45:20.692Z",
+      "birthTime": "2018-11-05T06:09:43.456Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "moon.svg",
+      "ext": ".svg",
+      "name": "moon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990764,
+      "blocks": 8,
+      "atimeMs": 1542958772237.4353,
+      "mtimeMs": 1541398183456.024,
+      "ctimeMs": 1541403920692.284,
+      "birthtimeMs": 1541398183455.8179,
+      "atime": "2018-11-23T07:39:32.237Z",
+      "mtime": "2018-11-05T06:09:43.456Z",
+      "ctime": "2018-11-05T07:45:20.692Z",
+      "birthtime": "2018-11-05T06:09:43.456Z"
+    },
+    "d388bfd8-bb23-5caf-b329-506dca9d52c4": {
+      "id": "d388bfd8-bb23-5caf-b329-506dca9d52c4",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "50c699a1ba4e2a0dc31e7299029614a3",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/youtube.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/youtube.svg",
+      "relativePath": "youtube.svg",
+      "extension": "svg",
+      "size": 686,
+      "prettySize": "686 B",
+      "modifiedTime": "2018-11-21T22:20:31.937Z",
+      "accessTime": "2018-11-23T07:39:32.237Z",
+      "changeTime": "2018-11-21T22:20:31.937Z",
+      "birthTime": "2018-11-21T22:20:31.936Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "youtube.svg",
+      "ext": ".svg",
+      "name": "youtube",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23072514,
+      "blocks": 8,
+      "atimeMs": 1542958772237.4868,
+      "mtimeMs": 1542838831937.0872,
+      "ctimeMs": 1542838831937.4917,
+      "birthtimeMs": 1542838831936.1587,
+      "atime": "2018-11-23T07:39:32.237Z",
+      "mtime": "2018-11-21T22:20:31.937Z",
+      "ctime": "2018-11-21T22:20:31.937Z",
+      "birthtime": "2018-11-21T22:20:31.936Z"
+    },
+    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
+      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/twitter.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
+      "relativePath": "twitter.svg",
+      "extension": "svg",
+      "size": 1007,
+      "prettySize": "1.01 kB",
+      "modifiedTime": "2018-11-05T06:09:07.197Z",
+      "accessTime": "2018-11-23T07:39:32.237Z",
+      "changeTime": "2018-11-05T07:45:20.694Z",
+      "birthTime": "2018-11-05T06:09:07.197Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "twitter.svg",
+      "ext": ".svg",
+      "name": "twitter",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21990699,
+      "blocks": 8,
+      "atimeMs": 1542958772237.461,
+      "mtimeMs": 1541398147196.8877,
+      "ctimeMs": 1541403920693.6497,
+      "birthtimeMs": 1541398147196.6885,
+      "atime": "2018-11-23T07:39:32.237Z",
+      "mtime": "2018-11-05T06:09:07.197Z",
+      "ctime": "2018-11-05T07:45:20.694Z",
+      "birthtime": "2018-11-05T06:09:07.197Z"
+    },
+    "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
+      "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
+      "children": [],
+      "parent": "05cfc17c-3a28-579f-9f49-224c7ab15457",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     },
     "6e440b88-e02e-5c33-88be-790f3e506a6d": {
       "id": "6e440b88-e02e-5c33-88be-790f3e506a6d",
@@ -2195,7 +2208,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-10-31T05:43:35.511Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
+      "accessTime": "2018-11-23T07:39:28.466Z",
       "changeTime": "2018-10-31T05:43:35.511Z",
       "birthTime": "2018-10-31T05:43:35.510Z",
       "root": "/",
@@ -2213,11 +2226,11 @@
       "blksize": 4096,
       "ino": 20593216,
       "blocks": 328,
-      "atimeMs": 1542934429855.9204,
+      "atimeMs": 1542958768466.3892,
       "mtimeMs": 1540964615510.8381,
       "ctimeMs": 1540964615510.8381,
       "birthtimeMs": 1540964615509.9563,
-      "atime": "2018-11-23T00:53:49.856Z",
+      "atime": "2018-11-23T07:39:28.466Z",
       "mtime": "2018-10-31T05:43:35.511Z",
       "ctime": "2018-10-31T05:43:35.511Z",
       "birthtime": "2018-10-31T05:43:35.510Z"
@@ -2252,7 +2265,7 @@
       "size": 963995,
       "prettySize": "964 kB",
       "modifiedTime": "2018-11-20T04:07:03.052Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
+      "accessTime": "2018-11-23T07:39:28.466Z",
       "changeTime": "2018-11-20T04:07:03.063Z",
       "birthTime": "2018-11-20T04:07:03.037Z",
       "root": "/",
@@ -2270,11 +2283,11 @@
       "blksize": 4096,
       "ino": 22968824,
       "blocks": 1888,
-      "atimeMs": 1542934429855.917,
+      "atimeMs": 1542958768466.3655,
       "mtimeMs": 1542686823051.7239,
       "ctimeMs": 1542686823063.3596,
       "birthtimeMs": 1542686823036.8247,
-      "atime": "2018-11-23T00:53:49.856Z",
+      "atime": "2018-11-23T07:39:28.466Z",
       "mtime": "2018-11-20T04:07:03.052Z",
       "ctime": "2018-11-20T04:07:03.063Z",
       "birthtime": "2018-11-20T04:07:03.037Z"
@@ -2294,7 +2307,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "260148cbb91236a416213c0d78f981fb",
+        "contentDigest": "df9c0be8686576c8ce9cc64f4718d1fb",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2306,7 +2319,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-11-22T16:19:13.048Z",
-      "accessTime": "2018-11-23T00:54:14.089Z",
+      "accessTime": "2018-11-23T16:54:41.966Z",
       "changeTime": "2018-11-22T16:19:13.048Z",
       "birthTime": "2018-11-21T01:04:51.355Z",
       "root": "/",
@@ -2324,11 +2337,11 @@
       "blksize": 4096,
       "ino": 23012763,
       "blocks": 0,
-      "atimeMs": 1542934454088.9917,
+      "atimeMs": 1542992081965.8457,
       "mtimeMs": 1542903553048.3108,
       "ctimeMs": 1542903553048.3108,
       "birthtimeMs": 1542762291354.9749,
-      "atime": "2018-11-23T00:54:14.089Z",
+      "atime": "2018-11-23T16:54:41.966Z",
       "mtime": "2018-11-22T16:19:13.048Z",
       "ctime": "2018-11-22T16:19:13.048Z",
       "birthtime": "2018-11-21T01:04:51.355Z"
@@ -2353,7 +2366,7 @@
       "size": 4230,
       "prettySize": "4.23 kB",
       "modifiedTime": "2018-11-22T17:41:27.256Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
+      "accessTime": "2018-11-23T07:39:28.467Z",
       "changeTime": "2018-11-22T17:41:27.256Z",
       "birthTime": "2018-11-21T01:11:43.723Z",
       "root": "/",
@@ -2371,61 +2384,14 @@
       "blksize": 4096,
       "ino": 23013678,
       "blocks": 16,
-      "atimeMs": 1542934429855.9644,
+      "atimeMs": 1542958768466.9639,
       "mtimeMs": 1542908487255.7449,
       "ctimeMs": 1542908487255.7449,
       "birthtimeMs": 1542762703723.2544,
-      "atime": "2018-11-23T00:53:49.856Z",
+      "atime": "2018-11-23T07:39:28.467Z",
       "mtime": "2018-11-22T17:41:27.256Z",
       "ctime": "2018-11-22T17:41:27.256Z",
       "birthtime": "2018-11-21T01:11:43.723Z"
-    },
-    "079d86fd-7efa-5b68-b908-67344e304dac": {
-      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
-      "children": [
-        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "cb309a37922f36fef12c69deb1e1074c",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
-      "relativePath": "03-23-2018-Deploy-Your-App.md",
-      "extension": "md",
-      "size": 4337,
-      "prettySize": "4.34 kB",
-      "modifiedTime": "2018-11-22T17:41:53.852Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
-      "changeTime": "2018-11-22T17:41:53.852Z",
-      "birthTime": "2018-11-22T16:19:00.061Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-23-2018-Deploy-Your-App.md",
-      "ext": ".md",
-      "name": "03-23-2018-Deploy-Your-App",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23140756,
-      "blocks": 16,
-      "atimeMs": 1542934429855.9731,
-      "mtimeMs": 1542908513852.2805,
-      "ctimeMs": 1542908513852.2805,
-      "birthtimeMs": 1542903540060.5105,
-      "atime": "2018-11-23T00:53:49.856Z",
-      "mtime": "2018-11-22T17:41:53.852Z",
-      "ctime": "2018-11-22T17:41:53.852Z",
-      "birthtime": "2018-11-22T16:19:00.061Z"
     },
     "64357855-ba9b-5124-823b-10eae4a51b27": {
       "id": "64357855-ba9b-5124-823b-10eae4a51b27",
@@ -2447,7 +2413,7 @@
       "size": 4326,
       "prettySize": "4.33 kB",
       "modifiedTime": "2018-11-22T17:42:05.901Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
+      "accessTime": "2018-11-23T07:39:28.467Z",
       "changeTime": "2018-11-22T17:42:05.901Z",
       "birthTime": "2018-11-21T01:26:24.372Z",
       "root": "/",
@@ -2465,43 +2431,43 @@
       "blksize": 4096,
       "ino": 23016992,
       "blocks": 16,
-      "atimeMs": 1542934429855.9783,
+      "atimeMs": 1542958768467.0305,
       "mtimeMs": 1542908525901.4893,
       "ctimeMs": 1542908525901.4893,
       "birthtimeMs": 1542763584372.158,
-      "atime": "2018-11-23T00:53:49.856Z",
+      "atime": "2018-11-23T07:39:28.467Z",
       "mtime": "2018-11-22T17:42:05.901Z",
       "ctime": "2018-11-22T17:42:05.901Z",
       "birthtime": "2018-11-21T01:26:24.372Z"
     },
-    "03b8abef-f557-57fe-b52e-c188b17b61e0": {
-      "id": "03b8abef-f557-57fe-b52e-c188b17b61e0",
+    "079d86fd-7efa-5b68-b908-67344e304dac": {
+      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
       "children": [
-        "8d3e9908-9dc9-52a6-98f5-6de271fb3b17"
+        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "a01fdccc3491ed7bb150503267d29bf9",
+        "contentDigest": "cb309a37922f36fef12c69deb1e1074c",
         "type": "File",
         "mediaType": "text/markdown",
-        "description": "File \"src/posts/11-22-2018-Website-Redesign-v2.md\"",
+        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
         "owner": "gatsby-source-filesystem"
       },
       "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
-      "relativePath": "11-22-2018-Website-Redesign-v2.md",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "relativePath": "03-23-2018-Deploy-Your-App.md",
       "extension": "md",
-      "size": 2028,
-      "prettySize": "2.03 kB",
-      "modifiedTime": "2018-11-22T17:42:16.368Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
-      "changeTime": "2018-11-22T17:42:16.368Z",
-      "birthTime": "2018-11-22T15:15:30.698Z",
+      "size": 4337,
+      "prettySize": "4.34 kB",
+      "modifiedTime": "2018-11-22T17:41:53.852Z",
+      "accessTime": "2018-11-23T07:39:28.467Z",
+      "changeTime": "2018-11-22T17:41:53.852Z",
+      "birthTime": "2018-11-22T16:19:00.061Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "11-22-2018-Website-Redesign-v2.md",
+      "base": "03-23-2018-Deploy-Your-App.md",
       "ext": ".md",
-      "name": "11-22-2018-Website-Redesign-v2",
+      "name": "03-23-2018-Deploy-Your-App",
       "relativeDirectory": "",
       "dev": 16777220,
       "mode": 33188,
@@ -2510,16 +2476,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 23135246,
-      "blocks": 8,
-      "atimeMs": 1542934429855.9827,
-      "mtimeMs": 1542908536368.0186,
-      "ctimeMs": 1542908536368.0186,
-      "birthtimeMs": 1542899730698.1897,
-      "atime": "2018-11-23T00:53:49.856Z",
-      "mtime": "2018-11-22T17:42:16.368Z",
-      "ctime": "2018-11-22T17:42:16.368Z",
-      "birthtime": "2018-11-22T15:15:30.698Z"
+      "ino": 23140756,
+      "blocks": 16,
+      "atimeMs": 1542958768467.0093,
+      "mtimeMs": 1542908513852.2805,
+      "ctimeMs": 1542908513852.2805,
+      "birthtimeMs": 1542903540060.5105,
+      "atime": "2018-11-23T07:39:28.467Z",
+      "mtime": "2018-11-22T17:41:53.852Z",
+      "ctime": "2018-11-22T17:41:53.852Z",
+      "birthtime": "2018-11-22T16:19:00.061Z"
     },
     "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
       "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
@@ -2541,7 +2507,7 @@
       "size": 11534,
       "prettySize": "11.5 kB",
       "modifiedTime": "2018-11-22T17:41:39.537Z",
-      "accessTime": "2018-11-23T00:53:49.856Z",
+      "accessTime": "2018-11-23T07:39:28.467Z",
       "changeTime": "2018-11-22T17:41:39.537Z",
       "birthTime": "2018-11-22T16:19:13.048Z",
       "root": "/",
@@ -2559,14 +2525,61 @@
       "blksize": 4096,
       "ino": 23140765,
       "blocks": 24,
-      "atimeMs": 1542934429855.9685,
+      "atimeMs": 1542958768466.9875,
       "mtimeMs": 1542908499537.1758,
       "ctimeMs": 1542908499537.1758,
       "birthtimeMs": 1542903553048.301,
-      "atime": "2018-11-23T00:53:49.856Z",
+      "atime": "2018-11-23T07:39:28.467Z",
       "mtime": "2018-11-22T17:41:39.537Z",
       "ctime": "2018-11-22T17:41:39.537Z",
       "birthtime": "2018-11-22T16:19:13.048Z"
+    },
+    "03b8abef-f557-57fe-b52e-c188b17b61e0": {
+      "id": "03b8abef-f557-57fe-b52e-c188b17b61e0",
+      "children": [
+        "8d3e9908-9dc9-52a6-98f5-6de271fb3b17"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "efcfc58d4228025d25cd7fb2b25a2ae5",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/11-22-2018-Website-Redesign-v2.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
+      "relativePath": "11-22-2018-Website-Redesign-v2.md",
+      "extension": "md",
+      "size": 2151,
+      "prettySize": "2.15 kB",
+      "modifiedTime": "2018-11-23T20:08:10.019Z",
+      "accessTime": "2018-11-23T20:08:10.018Z",
+      "changeTime": "2018-11-23T20:08:10.019Z",
+      "birthTime": "2018-11-22T15:15:30.698Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "11-22-2018-Website-Redesign-v2.md",
+      "ext": ".md",
+      "name": "11-22-2018-Website-Redesign-v2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23135246,
+      "blocks": 8,
+      "atimeMs": 1543003690018.148,
+      "mtimeMs": 1543003690018.6199,
+      "ctimeMs": 1543003690018.6199,
+      "birthtimeMs": 1542899730698.1897,
+      "atime": "2018-11-23T20:08:10.018Z",
+      "mtime": "2018-11-23T20:08:10.019Z",
+      "ctime": "2018-11-23T20:08:10.019Z",
+      "birthtime": "2018-11-22T15:15:30.698Z"
     },
     "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
       "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
@@ -2592,58 +2605,6 @@
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
       "fields": {
         "slug": "/03-16-2018-How-I-Became/"
-      }
-    },
-    "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": {
-      "id": "a8af5dbc-5cbb-5a4d-a891-3f1b78849760",
-      "children": [],
-      "parent": "079d86fd-7efa-5b68-b908-67344e304dac",
-      "internal": {
-        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
-        "type": "MarkdownRemark",
-        "contentDigest": "e0e759d267b2a932f4508af0e634ffb0",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Deploy Your React App To Heroku",
-        "date": "03-23-2018",
-        "slug": "deploy-your-react-app-to-heroku",
-        "_PARENT": "079d86fd-7efa-5b68-b908-67344e304dac"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
-      "fields": {
-        "slug": "/03-23-2018-Deploy-Your-App/"
-      }
-    },
-    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
-      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
-      "children": [],
-      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
-      "internal": {
-        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "2476b6ce663a9287d98c059197e1dd2e",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Website Redesign V2",
-        "date": "11-22-2018",
-        "slug": "website-redesign-v2",
-        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
-      "fields": {
-        "slug": "/11-22-2018-Website-Redesign-v2/"
       }
     },
     "5d85e12b-609c-5299-8c0a-e7f0213a005e": {
@@ -2672,6 +2633,32 @@
         "slug": "/07-22-2018-My-Workflow/"
       }
     },
+    "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": {
+      "id": "a8af5dbc-5cbb-5a4d-a891-3f1b78849760",
+      "children": [],
+      "parent": "079d86fd-7efa-5b68-b908-67344e304dac",
+      "internal": {
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
+        "type": "MarkdownRemark",
+        "contentDigest": "e0e759d267b2a932f4508af0e634ffb0",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Deploy Your React App To Heroku",
+        "date": "03-23-2018",
+        "slug": "deploy-your-react-app-to-heroku",
+        "_PARENT": "079d86fd-7efa-5b68-b908-67344e304dac"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/heroku.png?w=512)\n\nBefore you jump into this tutorial you do need to have a few things installed first before you can start.\n\n#### Requirements:\n\n-   [Node / NPM](https://nodejs.org/en/) --- Click the link and download the installer\n-   [Git](https://git-scm.com/downloads) --- Click the link and download the installer\n-   [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) --- Click the link and download the installer\n\n#### Steps:\n\n1.  Sign up for [Heroku](https://www.heroku.com/)\n2.  Setup our React App for deployment\n3.  Create Heroku git repository\n\n* * * * *\n\n### Step 1 --- Sign up For Heroku\n\n![](https://shakhorblog.files.wordpress.com/2018/03/f3f51-1ppwg0zvhu_gyhgmhxi83dw.png?w=1100)\n\nVisit Heroku for free hosting\n\nThis step explains itself, we need to sign up for [Heroku](https://www.heroku.com/) before we can do any deployment. So head over to [Heroku](https://www.heroku.com/) and sign up. Once you signed up make sure you head over to your email and confirm your account.\n\n### Step 2 --- Setup React App\n\n![](https://shakhorblog.files.wordpress.com/2018/03/dbe0c-1t-t56mocumwzm2py8xdwgw.png?w=1100)\n\npackage.json - Before\n\nOpen up your React app (I'm using create-react-app) and open up your package.json file. If your using create-react-app we're going to add a new object called engines. Inside of our engines object we need to specify the versions for npm and node. To do this open up your terminal and type in:\n\n```npm -v```\n\n-   Press enter\n\n```node -v```\n\n-   Press enter\n\nYour versions may be different than mine, but that's fine. Once you specified your engine versions save your file.\n```\n{ \n  \"name\": \"deploy\", \n  \"version\": \"0.1.0\", \n  \"private\": true, \n  \"engines\": { \n  \"npm\": \"5.7.1\", \n  \"node\": \"9.5.0\" \n  }, \n  \"dependencies\": { \n  \"react\": \"^16.2.0\", \n  \"react-dom\": \"^16.2.0\", \n  \"react-scripts\": \"1.1.1\" \n  }, \n  \"scripts\": { \n  \"start\": \"react-scripts start\", \n  \"build\": \"react-scripts build\", \n  \"test\": \"react-scripts test --env=jsdom\", \n  \"eject\": \"react-scripts eject\" \n  } \n} \n```\n\n### Step 3 --- Create Heroku Git Repository\n\nWith your terminal still open navigate to your React app folder and change directory into it. Now we need to connect our project to Heroku. If you haven't already installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli). To make sure it's installed correctly run this command:\n\n-   ```heroku --version```\n\nYou should see your Heroku CLI version. Once that is installed we need to setup up Heroku git repository by running these commands:\n\n1.  ```heroku login (Enter your Heroku credentials)```\n2.  ```git init```\n3.  ```git add .```\n4.  ```git commit -m \"initial commit\"```\n5.  ```heroku create (You should see two links after running this command. Copy the second one)```\n6.  ```git remote add heroku *PASTE THE LINK YOU JUST COPIED*```\n7.  ```git push heroku master```\n\n* * * * *\n\nOnce you run the last command Heroku will start to run some tests on your app. If everything goes right you should see a successful deploy message. Now you're able to navigate to your app by running:\n\n-   heroku open\n\nAnytime you make changes to your app and want to re-deploy the only commands you need to run are:\n\n1.  ```git add .```\n2.  ```git commit -m \"any message goes here\"```\n3.  ```git push heroku master```\n\n* * * * *\n\n### Easier Method 😁\n\n![](https://shakhorblog.files.wordpress.com/2018/03/94ad9-1n0wsbavf_snjqyyfin39lw.png?w=1100)\n\nNow that I made you go through all of that process, there is an easier method if you use Github. All you have to do is log into your Heroku account; click \"new\" then \"create new app\" and give your app a name. After clicking create you should be greeted with a dashboard for the app you just created. Navigate to the deploy tab and sync your Github account with Heroku. After syncing your Github account and can search for the repository you want to sync with Heroku by scrolling down to \"App connected to Github\" section and searching for the repository you want to sync. You can also set up automatic deployment, so every time you push to the master branch Heroku will rebuild your app for you.\n\nEnjoy your free hosting!",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "fields": {
+        "slug": "/03-23-2018-Deploy-Your-App/"
+      }
+    },
     "84789685-cd7c-5477-87c4-809c23b5619e": {
       "id": "84789685-cd7c-5477-87c4-809c23b5619e",
       "children": [],
@@ -2698,26 +2685,6 @@
         "slug": "/03-19-2018-How-To-Make/"
       }
     },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "05748cdc236c2fe87fd5da1e7c9784c9",
-        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /blog/how-i-became-a-web-developer-in-4-months": {
       "jsonName": "blog-how-i-became-a-web-developer-in-4-months-7bd",
       "internalComponentName": "ComponentBlogHowIBecameAWebDeveloperIn4Months",
@@ -2736,50 +2703,6 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "23745500c7b1a3551402ed54b9979970",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog/deploy-your-react-app-to-heroku": {
-      "jsonName": "blog-deploy-your-react-app-to-heroku-7cd",
-      "internalComponentName": "ComponentBlogDeployYourReactAppToHeroku",
-      "path": "/blog/deploy-your-react-app-to-heroku",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "deploy-your-react-app-to-heroku"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /blog/deploy-your-react-app-to-heroku",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "de0737e165a7b9f4d7f680754aeea66f",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog/website-redesign-v2": {
-      "jsonName": "blog-website-redesign-v-2-6ef",
-      "internalComponentName": "ComponentBlogWebsiteRedesignV2",
-      "path": "/blog/website-redesign-v2",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "website-redesign-v2"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /blog/website-redesign-v2",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "05a7487f2eb3da8786170d762d2fd5b2",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2806,6 +2729,28 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /blog/deploy-your-react-app-to-heroku": {
+      "jsonName": "blog-deploy-your-react-app-to-heroku-7cd",
+      "internalComponentName": "ComponentBlogDeployYourReactAppToHeroku",
+      "path": "/blog/deploy-your-react-app-to-heroku",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "deploy-your-react-app-to-heroku"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /blog/deploy-your-react-app-to-heroku",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "de0737e165a7b9f4d7f680754aeea66f",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /blog/how-to-make-a-blog-with-react-and-graphql": {
       "jsonName": "blog-how-to-make-a-blog-with-react-and-graphql-6cc",
       "internalComponentName": "ComponentBlogHowToMakeABlogWithReactAndGraphql",
@@ -2824,6 +2769,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "6e3251377fe4f3c32479bf2c9dbeb0fe",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/website-redesign-v2": {
+      "jsonName": "blog-website-redesign-v-2-6ef",
+      "internalComponentName": "ComponentBlogWebsiteRedesignV2",
+      "path": "/blog/website-redesign-v2",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "website-redesign-v2"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /blog/website-redesign-v2",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "05a7487f2eb3da8786170d762d2fd5b2",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2949,11 +2916,37 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
+      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
+      "children": [],
+      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
+      "internal": {
+        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n\nYou can view the code [here](https://github.com/smithmanny/Portfolio). Feel free to fork it and add your own style to it \n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1c9bf4eca04f6bb2cf80a3701f77c9d7",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Website Redesign V2",
+        "date": "11-22-2018",
+        "slug": "website-redesign-v2",
+        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n\nYou can view the code [here](https://github.com/smithmanny/Portfolio). Feel free to fork it and add your own style to it \n",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
+      "fields": {
+        "slug": "/11-22-2018-Website-Redesign-v2/"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "72a82ded90e788400b1d433280d06073"
+    "PLUGINS_HASH": "db4eb19f0a6b272a7b611a8635b4712d"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2963,17 +2956,17 @@
       "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": [
         "/blog/how-i-became-a-web-developer-in-4-months"
       ],
-      "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": [
-        "/blog/deploy-your-react-app-to-heroku"
-      ],
-      "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": [
-        "/blog/website-redesign-v2"
-      ],
       "5d85e12b-609c-5299-8c0a-e7f0213a005e": [
         "/blog/my-workflow-software-engineer"
       ],
+      "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": [
+        "/blog/deploy-your-react-app-to-heroku"
+      ],
       "84789685-cd7c-5477-87c4-809c23b5619e": [
         "/blog/how-to-make-a-blog-with-react-and-graphql"
+      ],
+      "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": [
+        "/blog/website-redesign-v2"
       ]
     },
     "connections": {
@@ -2985,8 +2978,8 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 2571625782,
-    "blog-f7a": "17/path---blog-f-7-a-05d-FqBhMgOqewnS14tbQdZHhWiIug",
-    "index": "542/path---index-6a9-FqBhMgOqewnS14tbQdZHhWiIug",
+    "blog-f7a": "296/path---blog-f-7-a-05d-MHd1tbfFoM8AmV7fetJDQVtWOyM",
+    "index": "273/path---index-6a9-MHd1tbfFoM8AmV7fetJDQVtWOyM",
     "blog-my-workflow-software-engineer-d40": "252/path---blog-my-workflow-software-engineer-d-40-dd0-2u742MIsm5VTYU8aEoIznRaPK0",
     "blog-deploy-your-react-app-to-heroku-7cd": "414/path---blog-deploy-your-react-app-to-heroku-7-cd-479-icQglFokkGMKBkknDyDtUECcjgA",
     "blog-how-i-became-a-web-developer-in-4-months-7bd": "24/path---blog-how-i-became-a-web-developer-in-4-months-7-bd-8f0-7iOr4enMu6wzKXosGtzK6hbcuCc",
@@ -2994,19 +2987,19 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "blog-website-redesign-v-2-6ef": "938/path---blog-website-redesign-v-2-6-ef-051-6zOE4Sr2KYZKmfilfv9aehzNyV8",
+    "blog-website-redesign-v-2-6ef": "380/path---blog-website-redesign-v-2-6-ef-051-skad4CoMTClNvBARUfMLMn9MkaY",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
     "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/app-shell.js": {
-      "query": "",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/app-shell.js"
-    },
     "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js": {
       "query": "query usersShakhorProjectsWebPortfolioSrcTemplatesBlogPostJs3498585245(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js"
+    },
+    "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js"
     },
     "/Users/shakhor/Projects/Web/Portfolio/src/pages/404.js": {
       "query": "",
@@ -3017,7 +3010,7 @@
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js"
     },
     "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js": {
-      "query": "query usersShakhorProjectsWebPortfolioSrcPagesBlogJs1155556693 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "query": "query usersShakhorProjectsWebPortfolioSrcPagesBlogJs2105158739 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      next {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n      previous {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n      node {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js"
     },
     "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js": {
@@ -3025,7 +3018,7 @@
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js"
     },
     "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js": {
-      "query": "query usersShakhorProjectsWebPortfolioSrcPagesIndexJs1155556693 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {\n    edges {\n      node {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n    }\n  }\n}\n",
+      "query": "query usersShakhorProjectsWebPortfolioSrcPagesIndexJs992580564 {\n  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 5) {\n    edges {\n      next {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n      previous {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n      node {\n        frontmatter {\n          title\n          date\n          slug\n        }\n      }\n    }\n  }\n}\n",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js"
     }
   },

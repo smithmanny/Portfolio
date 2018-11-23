@@ -8,7 +8,8 @@ import Github from '../images/github.svg'
 
 const Posts = ({ posts }) => (
   <Container>
-    {posts.map(({ node: { frontmatter: { date, title, slug } } }) => {
+    {posts.map(post => {
+      const { date, title, slug } = post.node.frontmatter
       const formattedDate = moment(date).format('MMM DD, YYYY')
 
       return (
@@ -16,7 +17,15 @@ const Posts = ({ posts }) => (
           <PostIcon>
             <Icon src={Github} />
           </PostIcon>
-          <PostTitle to={`/blog/${ slug }`}>{title}</PostTitle>
+          <PostTitle
+            to={`/blog/${ slug }`}
+            state={{
+              prev: post.prev,
+              next: post.next,
+            }}
+          >
+            {title}
+          </PostTitle>
           <PostDate>{formattedDate}</PostDate>
         </PostWrapper>
       )

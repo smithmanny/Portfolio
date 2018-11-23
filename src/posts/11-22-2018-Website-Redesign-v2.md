@@ -19,3 +19,5 @@ Another slight change I made was the color scheme. I still am not completely sat
 * Analytics: Google Analytics (looking for free alternatives 🤔)
 * Blog: Markdown files hosted on Github 
 * Icons: Font Awesome
+
+You can view the code [here](https://github.com/smithmanny/Portfolio). Feel free to fork it and add your own style to it 
