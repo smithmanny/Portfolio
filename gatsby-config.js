@@ -5,6 +5,7 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'Shakhor Smith',
+    siteUrl: 'https://shakhorsmith.com',
     menuLinks: [
       {
         name: 'Blog',
@@ -21,6 +22,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     {
