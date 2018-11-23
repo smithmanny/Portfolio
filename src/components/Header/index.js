@@ -8,11 +8,11 @@ import SocialLinks from './SocialLinks'
 
 const Header = ({ menuLinks, siteTitle, toggleTheme }) => (
   <Nav>
-    <h2 style={{ margin: 0, fontSize: 22 }}>
+    <Logo>
       <Link to="/">
         {siteTitle}
       </Link>
-    </h2>
+    </Logo>
 
     <SocialLinks toggleTheme={toggleTheme} />
 
