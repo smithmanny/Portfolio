@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { OutboundLink } from 'gatsby-plugin-google-analytics'
+import { Link } from 'gatsby'
 
 const ExtLink = ({ children, ...props }) => {
-  return <Link {...props} target='_blank'>{children}</Link>
+  return <OutboundLink {...props} target='_blank'>{children}</OutboundLink>
 }
 
-const Link = styled(OutboundLink)`
+const OutboundLink = styled(Link)`
   text-shadow: none;
   background-image: none;
 `
