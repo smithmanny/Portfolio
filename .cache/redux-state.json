@@ -196,6 +196,41 @@
         "owner": "internal-data-bridge"
       }
     },
+    "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
+      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
+      "name": "webpack-theme-component-shadowing",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "packageJson": {
+        "name": "webpack-theme-component-shadowing",
+        "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Chris Biscardi <chris@christopherbiscardi.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ef2e68a412e17f22b172d95049036d48",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "9ccc7860-87fc-53f6-a439-0a4dc02836bd": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-sitemap",
       "id": "9ccc7860-87fc-53f6-a439-0a4dc02836bd",
@@ -424,9 +459,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "32abca12-bc12-5ab8-a75b-8cae899beba8": {
+    "64059fc2-eafe-53ab-a542-ad6d70a5c7ff": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-typography",
-      "id": "32abca12-bc12-5ab8-a75b-8cae899beba8",
+      "id": "64059fc2-eafe-53ab-a542-ad6d70a5c7ff",
       "name": "gatsby-plugin-typography",
       "version": "2.2.1",
       "pluginOptions": {
@@ -498,14 +533,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ec1c4901cea9a00deb077d2a4c3f0f54",
+        "contentDigest": "9125563d17e0fb800723f9372247c2fd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "310a79d3-295f-555f-b290-0e24792d5c9e": {
+    "a066c370-f9ab-51a6-95b7-0032a6597dbb": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-source-filesystem",
-      "id": "310a79d3-295f-555f-b290-0e24792d5c9e",
+      "id": "a066c370-f9ab-51a6-95b7-0032a6597dbb",
       "name": "gatsby-source-filesystem",
       "version": "2.0.6",
       "pluginOptions": {
@@ -610,14 +645,14 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c7cf6b4a79dbad50af2ca228f4fe57db",
+        "contentDigest": "b756b36d083b505536c55fb9a19816a3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "c9b57267-1543-50e4-a390-35af59afc9ae": {
+    "8ecc2722-202d-54ac-b2f9-acb5a64009db": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-source-filesystem",
-      "id": "c9b57267-1543-50e4-a390-35af59afc9ae",
+      "id": "8ecc2722-202d-54ac-b2f9-acb5a64009db",
       "name": "gatsby-source-filesystem",
       "version": "2.0.6",
       "pluginOptions": {
@@ -636,9 +671,10 @@
         "name": "gatsby-source-filesystem",
         "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
         "version": "2.0.6",
-        "keywords": {
-          "$ref": "$[\"nodes\"][\"310a79d3-295f-555f-b290-0e24792d5c9e\"][\"packageJson\"][\"keywords\"]"
-        },
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
         "author": "Kyle Mathews <mathews.kyle@gmail.com>",
         "license": "MIT",
         "dependencies": [
@@ -721,102 +757,21 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b298ec4595dd5981b84c71256cb57446",
+        "contentDigest": "05cf44aa8e6de17384f491dc67ad6c34",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "44aafbc4-e9b2-592a-95db-9d1a3aa85103": {
-      "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-google-analytics",
-      "id": "44aafbc4-e9b2-592a-95db-9d1a3aa85103",
-      "name": "gatsby-plugin-google-analytics",
-      "version": "2.0.7",
-      "pluginOptions": {
-        "plugins": [],
-        "trackingId": "UA-101156092-1",
-        "head": false,
-        "anonymize": true,
-        "respectDNT": true,
-        "exclude": [
-          "/preview/**",
-          "/do-not-track/me/too/"
-        ],
-        "optimizeId": "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
-        "sampleRate": 5,
-        "siteSpeedSampleRate": 10,
-        "cookieDomain": "shakhorsmith.com"
-      },
-      "nodeAPIs": [],
-      "browserAPIs": [
-        "onRouteUpdate"
-      ],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-google-analytics",
-      "packageJson": {
-        "name": "gatsby-plugin-google-analytics",
-        "description": "Gatsby plugin to add google analytics onto a site",
-        "version": "2.0.7",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "google analytics"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "57f6626b65eab2f1bbe12c33e14ddbe9",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "f82e61f2-d8cf-5662-96ce-b9c2124382cc": {
+    "be1143ed-3370-54a4-ad22-6c148424427c": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-transformer-remark",
-      "id": "f82e61f2-d8cf-5662-96ce-b9c2124382cc",
+      "id": "be1143ed-3370-54a4-ad22-6c148424427c",
       "name": "gatsby-transformer-remark",
       "version": "2.1.12",
       "pluginOptions": {
         "plugins": [
           {
             "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs",
-            "id": "1e399642-2c62-5711-b1a6-9b203928694c",
+            "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
             "name": "gatsby-remark-prismjs",
             "version": "3.0.3",
             "pluginOptions": {
@@ -834,7 +789,7 @@
           },
           {
             "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-external-links",
-            "id": "25f02ae8-896e-5e8f-a2a9-4d3c0d3b089c",
+            "id": "17afaf8a-13bc-5014-ac56-39a797295ac6",
             "name": "gatsby-remark-external-links",
             "version": "0.0.4",
             "pluginOptions": {
@@ -976,28 +931,27 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "77bf34928af7491253c3d480a1ae6236",
+        "contentDigest": "47578ad196f89cdd2f8158d559e44111",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "1e399642-2c62-5711-b1a6-9b203928694c": {
+    "d13151dc-fd64-50b0-b768-6beaa40f02ac": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs",
-      "id": "1e399642-2c62-5711-b1a6-9b203928694c",
+      "id": "d13151dc-fd64-50b0-b768-6beaa40f02ac",
       "name": "gatsby-remark-prismjs",
       "version": "3.0.3",
       "pluginOptions": {
-        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][0][\"pluginOptions\"]"
+        "plugins": [],
+        "classPrefix": "language-",
+        "inlineCodeMarker": null,
+        "aliases": {},
+        "showLineNumbers": false,
+        "noInlineHighlight": false
       },
-      "nodeAPIs": {
-        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][0][\"nodeAPIs\"]"
-      },
-      "browserAPIs": {
-        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][0][\"browserAPIs\"]"
-      },
-      "ssrAPIs": {
-        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][0][\"ssrAPIs\"]"
-      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-prismjs",
       "packageJson": {
         "name": "gatsby-remark-prismjs",
@@ -1068,28 +1022,24 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cc228ab7841e729dd08d324ae768e618",
+        "contentDigest": "db4acfe0cbd46245912288060c751d89",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "25f02ae8-896e-5e8f-a2a9-4d3c0d3b089c": {
+    "17afaf8a-13bc-5014-ac56-39a797295ac6": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-external-links",
-      "id": "25f02ae8-896e-5e8f-a2a9-4d3c0d3b089c",
+      "id": "17afaf8a-13bc-5014-ac56-39a797295ac6",
       "name": "gatsby-remark-external-links",
       "version": "0.0.4",
       "pluginOptions": {
-        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][1][\"pluginOptions\"]"
+        "plugins": [],
+        "target": "_target",
+        "rel": "nofollow"
       },
-      "nodeAPIs": {
-        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][1][\"nodeAPIs\"]"
-      },
-      "browserAPIs": {
-        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][1][\"browserAPIs\"]"
-      },
-      "ssrAPIs": {
-        "$ref": "$[\"nodes\"][\"f82e61f2-d8cf-5662-96ce-b9c2124382cc\"][\"pluginOptions\"][\"plugins\"][1][\"ssrAPIs\"]"
-      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
       "pluginFilepath": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-remark-external-links",
       "packageJson": {
         "name": "gatsby-remark-external-links",
@@ -1150,7 +1100,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "be981c1e74f8fca565b77c1b72c7d57e",
+        "contentDigest": "6bcd0825f0c21f590ffd1a96c10873fa",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1374,9 +1324,9 @@
         "owner": "internal-data-bridge"
       }
     },
-    "35330947-c59a-5cf0-812a-a0cc535e294b": {
+    "9ae642a3-c55a-5f1c-bec8-c1f62f9a3c5b": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-manifest",
-      "id": "35330947-c59a-5cf0-812a-a0cc535e294b",
+      "id": "9ae642a3-c55a-5f1c-bec8-c1f62f9a3c5b",
       "name": "gatsby-plugin-manifest",
       "version": "2.0.7",
       "pluginOptions": {
@@ -1457,7 +1407,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "00169b8b91c423d677d78ca6dad294d9",
+        "contentDigest": "64a420d14f8ec79b73dce2f4b2fac84c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1552,7 +1502,7 @@
       "resolve": "/Users/shakhor/Projects/Web/Portfolio",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "c4d10acefa15033c7424eb03aa8e8beb",
+      "version": "1010884f64810de48b09e44d8f4943ad",
       "pluginOptions": {
         "plugins": []
       },
@@ -1623,15 +1573,11 @@
           },
           {
             "name": "gatsby",
-            "version": "^2.0.19"
+            "version": "^2.0.62"
           },
           {
             "name": "gatsby-image",
             "version": "^2.0.15"
-          },
-          {
-            "name": "gatsby-plugin-google-analytics",
-            "version": "^2.0.7"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -1702,12 +1648,12 @@
             "version": "^5.2.0"
           },
           {
-            "name": "react-hot-loader",
-            "version": "^4.3.12"
-          },
-          {
             "name": "react-typography",
             "version": "^0.16.13"
+          },
+          {
+            "name": "snyk",
+            "version": "^1.110.1"
           },
           {
             "name": "styled-components",
@@ -1730,16 +1676,16 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "73991f0774f6f7c005006ccba6629dd1",
+        "contentDigest": "6c167d0708a44a1f674e5913fda1eaba",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "e03213f9-79ad-508c-a811-f12445fcc1a0": {
+    "3fddc471-80cc-5b6b-b47c-70bab1162c7c": {
       "resolve": "/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-page-creator",
-      "id": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "id": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.2",
+      "version": "2.0.5",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/shakhor/Projects/Web/Portfolio/src/pages",
@@ -1754,7 +1700,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.2",
+        "version": "2.0.5",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -1788,6 +1734,10 @@
             "version": "^4.17.10"
           },
           {
+            "name": "micromatch",
+            "version": "^3.1.10"
+          },
+          {
             "name": "parse-filepath",
             "version": "^1.0.1"
           },
@@ -1807,7 +1757,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.2"
+            "version": "^0.1.3"
           },
           {
             "name": "cross-env",
@@ -1826,7 +1776,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c11504b9dcdb759493092864cc052271",
+        "contentDigest": "21f03c0aa66fcb65773758b47320d68d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -1852,12 +1802,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2018-11-23T16:54:33.486Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-12-09T12:28:15.455Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c0e38f314089029abb91f5740da757ee",
+        "contentDigest": "e2984f0616b4bdbf0fc102c78f0486c2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1867,7 +1819,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ac7a1cf6c5091d156dd79e7717f5d49a",
+        "contentDigest": "01eb67763652f17ac4a26f413d75d733",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1878,10 +1830,10 @@
       "extension": "",
       "size": 320,
       "prettySize": "320 B",
-      "modifiedTime": "2018-11-21T22:20:31.936Z",
-      "accessTime": "2018-11-23T16:54:41.923Z",
-      "changeTime": "2018-11-21T22:20:31.936Z",
-      "birthTime": "2018-10-31T05:43:35.510Z",
+      "modifiedTime": "2018-11-25T14:40:06.787Z",
+      "accessTime": "2018-12-09T12:28:21.172Z",
+      "changeTime": "2018-11-25T14:40:06.787Z",
+      "birthTime": "2018-11-25T14:40:06.742Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src",
       "base": "images",
@@ -1895,16 +1847,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20593215,
+      "ino": 23642146,
       "blocks": 0,
-      "atimeMs": 1542992081922.8901,
-      "mtimeMs": 1542838831936.1733,
-      "ctimeMs": 1542838831936.1733,
-      "birthtimeMs": 1540964615509.884,
-      "atime": "2018-11-23T16:54:41.923Z",
-      "mtime": "2018-11-21T22:20:31.936Z",
-      "ctime": "2018-11-21T22:20:31.936Z",
-      "birthtime": "2018-10-31T05:43:35.510Z"
+      "atimeMs": 1544358501171.8625,
+      "mtimeMs": 1543156806787.3176,
+      "ctimeMs": 1543156806787.3176,
+      "birthtimeMs": 1543156806741.766,
+      "atime": "2018-12-09T12:28:21.172Z",
+      "mtime": "2018-11-25T14:40:06.787Z",
+      "ctime": "2018-11-25T14:40:06.787Z",
+      "birthtime": "2018-11-25T14:40:06.742Z"
     },
     "05cfc17c-3a28-579f-9f49-224c7ab15457": {
       "id": "05cfc17c-3a28-579f-9f49-224c7ab15457",
@@ -1925,10 +1877,10 @@
       "extension": "png",
       "size": 21212,
       "prettySize": "21.2 kB",
-      "modifiedTime": "2018-10-31T05:43:35.512Z",
-      "accessTime": "2018-11-23T07:39:32.237Z",
-      "changeTime": "2018-10-31T05:43:35.512Z",
-      "birthTime": "2018-10-31T05:43:35.511Z",
+      "modifiedTime": "2018-11-25T14:40:06.780Z",
+      "accessTime": "2018-12-09T04:03:34.445Z",
+      "changeTime": "2018-11-25T14:40:06.780Z",
+      "birthTime": "2018-11-25T14:40:06.780Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
       "base": "gatsby-icon.png",
@@ -1942,61 +1894,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20593217,
+      "ino": 23642149,
       "blocks": 48,
-      "atimeMs": 1542958772237.3557,
-      "mtimeMs": 1540964615511.5918,
-      "ctimeMs": 1540964615511.5918,
-      "birthtimeMs": 1540964615511.1797,
-      "atime": "2018-11-23T07:39:32.237Z",
-      "mtime": "2018-10-31T05:43:35.512Z",
-      "ctime": "2018-10-31T05:43:35.512Z",
-      "birthtime": "2018-10-31T05:43:35.511Z"
-    },
-    "90eef715-4ed4-55f5-8bfe-4641b3143ffa": {
-      "id": "90eef715-4ed4-55f5-8bfe-4641b3143ffa",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6b278494afb335c70ba290501b797348",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/linkedin.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/linkedin.svg",
-      "relativePath": "linkedin.svg",
-      "extension": "svg",
-      "size": 514,
-      "prettySize": "514 B",
-      "modifiedTime": "2018-11-21T22:20:31.913Z",
-      "accessTime": "2018-11-23T07:39:32.237Z",
-      "changeTime": "2018-11-21T22:20:31.915Z",
-      "birthTime": "2018-11-21T22:20:31.906Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "linkedin.svg",
-      "ext": ".svg",
-      "name": "linkedin",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23072513,
-      "blocks": 8,
-      "atimeMs": 1542958772237.4087,
-      "mtimeMs": 1542838831912.6987,
-      "ctimeMs": 1542838831914.6594,
-      "birthtimeMs": 1542838831905.768,
-      "atime": "2018-11-23T07:39:32.237Z",
-      "mtime": "2018-11-21T22:20:31.913Z",
-      "ctime": "2018-11-21T22:20:31.915Z",
-      "birthtime": "2018-11-21T22:20:31.906Z"
+      "atimeMs": 1544328214444.9453,
+      "mtimeMs": 1543156806780.3657,
+      "ctimeMs": 1543156806780.3657,
+      "birthtimeMs": 1543156806779.6545,
+      "atime": "2018-12-09T04:03:34.445Z",
+      "mtime": "2018-11-25T14:40:06.780Z",
+      "ctime": "2018-11-25T14:40:06.780Z",
+      "birthtime": "2018-11-25T14:40:06.780Z"
     },
     "fb297998-6141-5a0e-899a-120dec6eda38": {
       "id": "fb297998-6141-5a0e-899a-120dec6eda38",
@@ -2015,10 +1922,10 @@
       "extension": "svg",
       "size": 1518,
       "prettySize": "1.52 kB",
-      "modifiedTime": "2018-11-05T06:09:22.551Z",
-      "accessTime": "2018-11-23T07:39:32.237Z",
-      "changeTime": "2018-11-05T07:45:20.690Z",
-      "birthTime": "2018-11-05T06:09:22.551Z",
+      "modifiedTime": "2018-11-25T14:40:06.786Z",
+      "accessTime": "2018-12-09T04:03:34.445Z",
+      "changeTime": "2018-11-25T14:40:06.786Z",
+      "birthTime": "2018-11-25T14:40:06.781Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
       "base": "github.svg",
@@ -2032,16 +1939,61 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 21990731,
+      "ino": 23642150,
       "blocks": 8,
-      "atimeMs": 1542958772237.3823,
-      "mtimeMs": 1541398162550.8406,
-      "ctimeMs": 1541403920690.4397,
-      "birthtimeMs": 1541398162550.6235,
-      "atime": "2018-11-23T07:39:32.237Z",
-      "mtime": "2018-11-05T06:09:22.551Z",
-      "ctime": "2018-11-05T07:45:20.690Z",
-      "birthtime": "2018-11-05T06:09:22.551Z"
+      "atimeMs": 1544328214444.9705,
+      "mtimeMs": 1543156806785.8064,
+      "ctimeMs": 1543156806785.8064,
+      "birthtimeMs": 1543156806780.5532,
+      "atime": "2018-12-09T04:03:34.445Z",
+      "mtime": "2018-11-25T14:40:06.786Z",
+      "ctime": "2018-11-25T14:40:06.786Z",
+      "birthtime": "2018-11-25T14:40:06.781Z"
+    },
+    "90eef715-4ed4-55f5-8bfe-4641b3143ffa": {
+      "id": "90eef715-4ed4-55f5-8bfe-4641b3143ffa",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b278494afb335c70ba290501b797348",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/linkedin.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/linkedin.svg",
+      "relativePath": "linkedin.svg",
+      "extension": "svg",
+      "size": 514,
+      "prettySize": "514 B",
+      "modifiedTime": "2018-11-25T14:40:06.786Z",
+      "accessTime": "2018-12-09T04:03:34.445Z",
+      "changeTime": "2018-11-25T14:40:06.786Z",
+      "birthTime": "2018-11-25T14:40:06.786Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "linkedin.svg",
+      "ext": ".svg",
+      "name": "linkedin",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23642151,
+      "blocks": 8,
+      "atimeMs": 1544328214444.9949,
+      "mtimeMs": 1543156806786.1448,
+      "ctimeMs": 1543156806786.1448,
+      "birthtimeMs": 1543156806785.9504,
+      "atime": "2018-12-09T04:03:34.445Z",
+      "mtime": "2018-11-25T14:40:06.786Z",
+      "ctime": "2018-11-25T14:40:06.786Z",
+      "birthtime": "2018-11-25T14:40:06.786Z"
     },
     "e7397794-7a87-5778-9d07-d596be70991c": {
       "id": "e7397794-7a87-5778-9d07-d596be70991c",
@@ -2060,10 +2012,10 @@
       "extension": "svg",
       "size": 513,
       "prettySize": "513 B",
-      "modifiedTime": "2018-11-05T06:09:43.456Z",
-      "accessTime": "2018-11-23T07:39:32.237Z",
-      "changeTime": "2018-11-05T07:45:20.692Z",
-      "birthTime": "2018-11-05T06:09:43.456Z",
+      "modifiedTime": "2018-11-25T14:40:06.787Z",
+      "accessTime": "2018-12-09T04:03:34.445Z",
+      "changeTime": "2018-11-25T14:40:06.787Z",
+      "birthTime": "2018-11-25T14:40:06.786Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
       "base": "moon.svg",
@@ -2077,61 +2029,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 21990764,
+      "ino": 23642152,
       "blocks": 8,
-      "atimeMs": 1542958772237.4353,
-      "mtimeMs": 1541398183456.024,
-      "ctimeMs": 1541403920692.284,
-      "birthtimeMs": 1541398183455.8179,
-      "atime": "2018-11-23T07:39:32.237Z",
-      "mtime": "2018-11-05T06:09:43.456Z",
-      "ctime": "2018-11-05T07:45:20.692Z",
-      "birthtime": "2018-11-05T06:09:43.456Z"
-    },
-    "d388bfd8-bb23-5caf-b329-506dca9d52c4": {
-      "id": "d388bfd8-bb23-5caf-b329-506dca9d52c4",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "50c699a1ba4e2a0dc31e7299029614a3",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/youtube.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/youtube.svg",
-      "relativePath": "youtube.svg",
-      "extension": "svg",
-      "size": 686,
-      "prettySize": "686 B",
-      "modifiedTime": "2018-11-21T22:20:31.937Z",
-      "accessTime": "2018-11-23T07:39:32.237Z",
-      "changeTime": "2018-11-21T22:20:31.937Z",
-      "birthTime": "2018-11-21T22:20:31.936Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "youtube.svg",
-      "ext": ".svg",
-      "name": "youtube",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23072514,
-      "blocks": 8,
-      "atimeMs": 1542958772237.4868,
-      "mtimeMs": 1542838831937.0872,
-      "ctimeMs": 1542838831937.4917,
-      "birthtimeMs": 1542838831936.1587,
-      "atime": "2018-11-23T07:39:32.237Z",
-      "mtime": "2018-11-21T22:20:31.937Z",
-      "ctime": "2018-11-21T22:20:31.937Z",
-      "birthtime": "2018-11-21T22:20:31.936Z"
+      "atimeMs": 1544328214445.0193,
+      "mtimeMs": 1543156806786.6604,
+      "ctimeMs": 1543156806786.6604,
+      "birthtimeMs": 1543156806786.3933,
+      "atime": "2018-12-09T04:03:34.445Z",
+      "mtime": "2018-11-25T14:40:06.787Z",
+      "ctime": "2018-11-25T14:40:06.787Z",
+      "birthtime": "2018-11-25T14:40:06.786Z"
     },
     "404870f7-5e34-5adf-b6e7-bf52120b823d": {
       "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
@@ -2150,10 +2057,10 @@
       "extension": "svg",
       "size": 1007,
       "prettySize": "1.01 kB",
-      "modifiedTime": "2018-11-05T06:09:07.197Z",
-      "accessTime": "2018-11-23T07:39:32.237Z",
-      "changeTime": "2018-11-05T07:45:20.694Z",
-      "birthTime": "2018-11-05T06:09:07.197Z",
+      "modifiedTime": "2018-11-25T14:40:06.787Z",
+      "accessTime": "2018-12-09T04:03:34.445Z",
+      "changeTime": "2018-11-25T14:40:06.787Z",
+      "birthTime": "2018-11-25T14:40:06.787Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
       "base": "twitter.svg",
@@ -2167,16 +2074,61 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 21990699,
+      "ino": 23642153,
       "blocks": 8,
-      "atimeMs": 1542958772237.461,
-      "mtimeMs": 1541398147196.8877,
-      "ctimeMs": 1541403920693.6497,
-      "birthtimeMs": 1541398147196.6885,
-      "atime": "2018-11-23T07:39:32.237Z",
-      "mtime": "2018-11-05T06:09:07.197Z",
-      "ctime": "2018-11-05T07:45:20.694Z",
-      "birthtime": "2018-11-05T06:09:07.197Z"
+      "atimeMs": 1544328214445.0432,
+      "mtimeMs": 1543156806787.1667,
+      "ctimeMs": 1543156806787.1667,
+      "birthtimeMs": 1543156806786.9028,
+      "atime": "2018-12-09T04:03:34.445Z",
+      "mtime": "2018-11-25T14:40:06.787Z",
+      "ctime": "2018-11-25T14:40:06.787Z",
+      "birthtime": "2018-11-25T14:40:06.787Z"
+    },
+    "d388bfd8-bb23-5caf-b329-506dca9d52c4": {
+      "id": "d388bfd8-bb23-5caf-b329-506dca9d52c4",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "50c699a1ba4e2a0dc31e7299029614a3",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/youtube.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/youtube.svg",
+      "relativePath": "youtube.svg",
+      "extension": "svg",
+      "size": 686,
+      "prettySize": "686 B",
+      "modifiedTime": "2018-11-25T14:40:06.788Z",
+      "accessTime": "2018-12-09T04:03:34.445Z",
+      "changeTime": "2018-11-25T14:40:06.788Z",
+      "birthTime": "2018-11-25T14:40:06.787Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "youtube.svg",
+      "ext": ".svg",
+      "name": "youtube",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23642154,
+      "blocks": 8,
+      "atimeMs": 1544328214445.0688,
+      "mtimeMs": 1543156806787.5266,
+      "ctimeMs": 1543156806787.5266,
+      "birthtimeMs": 1543156806787.31,
+      "atime": "2018-12-09T04:03:34.445Z",
+      "mtime": "2018-11-25T14:40:06.788Z",
+      "ctime": "2018-11-25T14:40:06.788Z",
+      "birthtime": "2018-11-25T14:40:06.787Z"
     },
     "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
       "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
@@ -2207,10 +2159,10 @@
       "extension": "png",
       "size": 167273,
       "prettySize": "167 kB",
-      "modifiedTime": "2018-10-31T05:43:35.511Z",
-      "accessTime": "2018-11-23T07:39:28.466Z",
-      "changeTime": "2018-10-31T05:43:35.511Z",
-      "birthTime": "2018-10-31T05:43:35.510Z",
+      "modifiedTime": "2018-11-25T14:40:06.773Z",
+      "accessTime": "2018-12-09T04:03:29.321Z",
+      "changeTime": "2018-11-25T14:40:06.773Z",
+      "birthTime": "2018-11-25T14:40:06.755Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
       "base": "gatsby-astronaut.png",
@@ -2224,16 +2176,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20593216,
+      "ino": 23642148,
       "blocks": 328,
-      "atimeMs": 1542958768466.3892,
-      "mtimeMs": 1540964615510.8381,
-      "ctimeMs": 1540964615510.8381,
-      "birthtimeMs": 1540964615509.9563,
-      "atime": "2018-11-23T07:39:28.466Z",
-      "mtime": "2018-10-31T05:43:35.511Z",
-      "ctime": "2018-10-31T05:43:35.511Z",
-      "birthtime": "2018-10-31T05:43:35.510Z"
+      "atimeMs": 1544328209321.2373,
+      "mtimeMs": 1543156806773.3838,
+      "ctimeMs": 1543156806773.3838,
+      "birthtimeMs": 1543156806755.1733,
+      "atime": "2018-12-09T04:03:29.321Z",
+      "mtime": "2018-11-25T14:40:06.773Z",
+      "ctime": "2018-11-25T14:40:06.773Z",
+      "birthtime": "2018-11-25T14:40:06.755Z"
     },
     "f41bbab9-9ef8-5caf-ae35-6de893522b1b": {
       "id": "f41bbab9-9ef8-5caf-ae35-6de893522b1b",
@@ -2264,10 +2216,10 @@
       "extension": "png",
       "size": 963995,
       "prettySize": "964 kB",
-      "modifiedTime": "2018-11-20T04:07:03.052Z",
-      "accessTime": "2018-11-23T07:39:28.466Z",
-      "changeTime": "2018-11-20T04:07:03.063Z",
-      "birthTime": "2018-11-20T04:07:03.037Z",
+      "modifiedTime": "2018-11-25T14:40:06.755Z",
+      "accessTime": "2018-12-09T04:03:29.321Z",
+      "changeTime": "2018-11-25T14:40:06.755Z",
+      "birthTime": "2018-11-25T14:40:06.742Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
       "base": "about_pic.png",
@@ -2281,16 +2233,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 22968824,
+      "ino": 23642147,
       "blocks": 1888,
-      "atimeMs": 1542958768466.3655,
-      "mtimeMs": 1542686823051.7239,
-      "ctimeMs": 1542686823063.3596,
-      "birthtimeMs": 1542686823036.8247,
-      "atime": "2018-11-23T07:39:28.466Z",
-      "mtime": "2018-11-20T04:07:03.052Z",
-      "ctime": "2018-11-20T04:07:03.063Z",
-      "birthtime": "2018-11-20T04:07:03.037Z"
+      "atimeMs": 1544328209321.2139,
+      "mtimeMs": 1543156806754.8281,
+      "ctimeMs": 1543156806754.8281,
+      "birthtimeMs": 1543156806741.9531,
+      "atime": "2018-12-09T04:03:29.321Z",
+      "mtime": "2018-11-25T14:40:06.755Z",
+      "ctime": "2018-11-25T14:40:06.755Z",
+      "birthtime": "2018-11-25T14:40:06.742Z"
     },
     "a458f555-c027-53f8-a8c0-a2ee9af26995": {
       "id": "a458f555-c027-53f8-a8c0-a2ee9af26995",
@@ -2307,7 +2259,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "df9c0be8686576c8ce9cc64f4718d1fb",
+        "contentDigest": "1aa6baf6f37c292a4b9c2f3cb32a081f",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2316,12 +2268,12 @@
       "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
       "relativePath": "",
       "extension": "",
-      "size": 224,
-      "prettySize": "224 B",
-      "modifiedTime": "2018-11-22T16:19:13.048Z",
-      "accessTime": "2018-11-23T16:54:41.966Z",
-      "changeTime": "2018-11-22T16:19:13.048Z",
-      "birthTime": "2018-11-21T01:04:51.355Z",
+      "size": 256,
+      "prettySize": "256 B",
+      "modifiedTime": "2018-12-03T15:45:56.929Z",
+      "accessTime": "2018-12-09T12:28:21.196Z",
+      "changeTime": "2018-12-03T15:45:56.929Z",
+      "birthTime": "2018-11-25T14:40:06.796Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src",
       "base": "posts",
@@ -2330,21 +2282,21 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 7,
+      "nlink": 8,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 23012763,
+      "ino": 23642161,
       "blocks": 0,
-      "atimeMs": 1542992081965.8457,
-      "mtimeMs": 1542903553048.3108,
-      "ctimeMs": 1542903553048.3108,
-      "birthtimeMs": 1542762291354.9749,
-      "atime": "2018-11-23T16:54:41.966Z",
-      "mtime": "2018-11-22T16:19:13.048Z",
-      "ctime": "2018-11-22T16:19:13.048Z",
-      "birthtime": "2018-11-21T01:04:51.355Z"
+      "atimeMs": 1544358501196.3118,
+      "mtimeMs": 1543851956928.745,
+      "ctimeMs": 1543851956928.745,
+      "birthtimeMs": 1543156806796.064,
+      "atime": "2018-12-09T12:28:21.196Z",
+      "mtime": "2018-12-03T15:45:56.929Z",
+      "ctime": "2018-12-03T15:45:56.929Z",
+      "birthtime": "2018-11-25T14:40:06.796Z"
     },
     "64ac11fa-7f5d-59f3-9c58-0881cba94cb4": {
       "id": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
@@ -2365,10 +2317,10 @@
       "extension": "md",
       "size": 4230,
       "prettySize": "4.23 kB",
-      "modifiedTime": "2018-11-22T17:41:27.256Z",
-      "accessTime": "2018-11-23T07:39:28.467Z",
-      "changeTime": "2018-11-22T17:41:27.256Z",
-      "birthTime": "2018-11-21T01:11:43.723Z",
+      "modifiedTime": "2018-11-25T14:40:06.797Z",
+      "accessTime": "2018-12-09T04:03:29.322Z",
+      "changeTime": "2018-11-25T14:40:06.797Z",
+      "birthTime": "2018-11-25T14:40:06.796Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
       "base": "03-16-2018-How-I-Became.md",
@@ -2382,16 +2334,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 23013678,
+      "ino": 23642162,
       "blocks": 16,
-      "atimeMs": 1542958768466.9639,
-      "mtimeMs": 1542908487255.7449,
-      "ctimeMs": 1542908487255.7449,
-      "birthtimeMs": 1542762703723.2544,
-      "atime": "2018-11-23T07:39:28.467Z",
-      "mtime": "2018-11-22T17:41:27.256Z",
-      "ctime": "2018-11-22T17:41:27.256Z",
-      "birthtime": "2018-11-21T01:11:43.723Z"
+      "atimeMs": 1544328209321.808,
+      "mtimeMs": 1543156806797.266,
+      "ctimeMs": 1543156806797.266,
+      "birthtimeMs": 1543156806796.3162,
+      "atime": "2018-12-09T04:03:29.322Z",
+      "mtime": "2018-11-25T14:40:06.797Z",
+      "ctime": "2018-11-25T14:40:06.797Z",
+      "birthtime": "2018-11-25T14:40:06.796Z"
     },
     "64357855-ba9b-5124-823b-10eae4a51b27": {
       "id": "64357855-ba9b-5124-823b-10eae4a51b27",
@@ -2412,10 +2364,10 @@
       "extension": "md",
       "size": 4326,
       "prettySize": "4.33 kB",
-      "modifiedTime": "2018-11-22T17:42:05.901Z",
-      "accessTime": "2018-11-23T07:39:28.467Z",
-      "changeTime": "2018-11-22T17:42:05.901Z",
-      "birthTime": "2018-11-21T01:26:24.372Z",
+      "modifiedTime": "2018-11-25T14:40:06.799Z",
+      "accessTime": "2018-12-09T04:03:29.322Z",
+      "changeTime": "2018-11-25T14:40:06.799Z",
+      "birthTime": "2018-11-25T14:40:06.799Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
       "base": "07-22-2018-My-Workflow.md",
@@ -2429,63 +2381,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 23016992,
+      "ino": 23642165,
       "blocks": 16,
-      "atimeMs": 1542958768467.0305,
-      "mtimeMs": 1542908525901.4893,
-      "ctimeMs": 1542908525901.4893,
-      "birthtimeMs": 1542763584372.158,
-      "atime": "2018-11-23T07:39:28.467Z",
-      "mtime": "2018-11-22T17:42:05.901Z",
-      "ctime": "2018-11-22T17:42:05.901Z",
-      "birthtime": "2018-11-21T01:26:24.372Z"
-    },
-    "079d86fd-7efa-5b68-b908-67344e304dac": {
-      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
-      "children": [
-        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "cb309a37922f36fef12c69deb1e1074c",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
-      "relativePath": "03-23-2018-Deploy-Your-App.md",
-      "extension": "md",
-      "size": 4337,
-      "prettySize": "4.34 kB",
-      "modifiedTime": "2018-11-22T17:41:53.852Z",
-      "accessTime": "2018-11-23T07:39:28.467Z",
-      "changeTime": "2018-11-22T17:41:53.852Z",
-      "birthTime": "2018-11-22T16:19:00.061Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-23-2018-Deploy-Your-App.md",
-      "ext": ".md",
-      "name": "03-23-2018-Deploy-Your-App",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23140756,
-      "blocks": 16,
-      "atimeMs": 1542958768467.0093,
-      "mtimeMs": 1542908513852.2805,
-      "ctimeMs": 1542908513852.2805,
-      "birthtimeMs": 1542903540060.5105,
-      "atime": "2018-11-23T07:39:28.467Z",
-      "mtime": "2018-11-22T17:41:53.852Z",
-      "ctime": "2018-11-22T17:41:53.852Z",
-      "birthtime": "2018-11-22T16:19:00.061Z"
+      "atimeMs": 1544328209321.8733,
+      "mtimeMs": 1543156806799.4324,
+      "ctimeMs": 1543156806799.4324,
+      "birthtimeMs": 1543156806798.914,
+      "atime": "2018-12-09T04:03:29.322Z",
+      "mtime": "2018-11-25T14:40:06.799Z",
+      "ctime": "2018-11-25T14:40:06.799Z",
+      "birthtime": "2018-11-25T14:40:06.799Z"
     },
     "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
       "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
@@ -2506,10 +2411,10 @@
       "extension": "md",
       "size": 11534,
       "prettySize": "11.5 kB",
-      "modifiedTime": "2018-11-22T17:41:39.537Z",
-      "accessTime": "2018-11-23T07:39:28.467Z",
-      "changeTime": "2018-11-22T17:41:39.537Z",
-      "birthTime": "2018-11-22T16:19:13.048Z",
+      "modifiedTime": "2018-11-25T14:40:06.798Z",
+      "accessTime": "2018-12-09T04:03:29.322Z",
+      "changeTime": "2018-11-25T14:40:06.798Z",
+      "birthTime": "2018-11-25T14:40:06.797Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
       "base": "03-19-2018-How-To-Make.md",
@@ -2523,16 +2428,63 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 23140765,
+      "ino": 23642163,
       "blocks": 24,
-      "atimeMs": 1542958768466.9875,
-      "mtimeMs": 1542908499537.1758,
-      "ctimeMs": 1542908499537.1758,
-      "birthtimeMs": 1542903553048.301,
-      "atime": "2018-11-23T07:39:28.467Z",
-      "mtime": "2018-11-22T17:41:39.537Z",
-      "ctime": "2018-11-22T17:41:39.537Z",
-      "birthtime": "2018-11-22T16:19:13.048Z"
+      "atimeMs": 1544328209321.8308,
+      "mtimeMs": 1543156806797.9753,
+      "ctimeMs": 1543156806797.9753,
+      "birthtimeMs": 1543156806797.4233,
+      "atime": "2018-12-09T04:03:29.322Z",
+      "mtime": "2018-11-25T14:40:06.798Z",
+      "ctime": "2018-11-25T14:40:06.798Z",
+      "birthtime": "2018-11-25T14:40:06.797Z"
+    },
+    "079d86fd-7efa-5b68-b908-67344e304dac": {
+      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
+      "children": [
+        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cb309a37922f36fef12c69deb1e1074c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "relativePath": "03-23-2018-Deploy-Your-App.md",
+      "extension": "md",
+      "size": 4337,
+      "prettySize": "4.34 kB",
+      "modifiedTime": "2018-11-25T14:40:06.799Z",
+      "accessTime": "2018-12-09T04:03:29.322Z",
+      "changeTime": "2018-11-25T14:40:06.799Z",
+      "birthTime": "2018-11-25T14:40:06.798Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-23-2018-Deploy-Your-App.md",
+      "ext": ".md",
+      "name": "03-23-2018-Deploy-Your-App",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23642164,
+      "blocks": 16,
+      "atimeMs": 1544328209321.8516,
+      "mtimeMs": 1543156806798.6377,
+      "ctimeMs": 1543156806798.6377,
+      "birthtimeMs": 1543156806798.116,
+      "atime": "2018-12-09T04:03:29.322Z",
+      "mtime": "2018-11-25T14:40:06.799Z",
+      "ctime": "2018-11-25T14:40:06.799Z",
+      "birthtime": "2018-11-25T14:40:06.798Z"
     },
     "03b8abef-f557-57fe-b52e-c188b17b61e0": {
       "id": "03b8abef-f557-57fe-b52e-c188b17b61e0",
@@ -2553,10 +2505,10 @@
       "extension": "md",
       "size": 2151,
       "prettySize": "2.15 kB",
-      "modifiedTime": "2018-11-23T20:08:10.019Z",
-      "accessTime": "2018-11-23T20:08:10.018Z",
-      "changeTime": "2018-11-23T20:08:10.019Z",
-      "birthTime": "2018-11-22T15:15:30.698Z",
+      "modifiedTime": "2018-11-25T14:40:06.800Z",
+      "accessTime": "2018-12-09T04:03:29.322Z",
+      "changeTime": "2018-11-25T14:40:06.800Z",
+      "birthTime": "2018-11-25T14:40:06.800Z",
       "root": "/",
       "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
       "base": "11-22-2018-Website-Redesign-v2.md",
@@ -2570,23 +2522,70 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 23135246,
+      "ino": 23642166,
       "blocks": 8,
-      "atimeMs": 1543003690018.148,
-      "mtimeMs": 1543003690018.6199,
-      "ctimeMs": 1543003690018.6199,
-      "birthtimeMs": 1542899730698.1897,
-      "atime": "2018-11-23T20:08:10.018Z",
-      "mtime": "2018-11-23T20:08:10.019Z",
-      "ctime": "2018-11-23T20:08:10.019Z",
-      "birthtime": "2018-11-22T15:15:30.698Z"
+      "atimeMs": 1544328209321.8945,
+      "mtimeMs": 1543156806799.906,
+      "ctimeMs": 1543156806799.906,
+      "birthtimeMs": 1543156806799.5457,
+      "atime": "2018-12-09T04:03:29.322Z",
+      "mtime": "2018-11-25T14:40:06.800Z",
+      "ctime": "2018-11-25T14:40:06.800Z",
+      "birthtime": "2018-11-25T14:40:06.800Z"
+    },
+    "c60e7a6b-6b42-5777-82a2-fb883b7c3242": {
+      "id": "c60e7a6b-6b42-5777-82a2-fb883b7c3242",
+      "children": [
+        "6a7a9d8d-33d3-5d62-b209-5789035e8279"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "71b321a4d4b247b648e526522b9f78bc",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/12-03-2018-Launch-Of-Dev-Collab.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/12-03-2018-Launch-Of-Dev-Collab.md",
+      "relativePath": "12-03-2018-Launch-Of-Dev-Collab.md",
+      "extension": "md",
+      "size": 1632,
+      "prettySize": "1.63 kB",
+      "modifiedTime": "2018-12-03T15:47:00.262Z",
+      "accessTime": "2018-12-09T04:03:29.322Z",
+      "changeTime": "2018-12-03T15:47:00.262Z",
+      "birthTime": "2018-12-03T15:45:56.929Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "12-03-2018-Launch-Of-Dev-Collab.md",
+      "ext": ".md",
+      "name": "12-03-2018-Launch-Of-Dev-Collab",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 24225746,
+      "blocks": 8,
+      "atimeMs": 1544328209321.9185,
+      "mtimeMs": 1543852020262.2742,
+      "ctimeMs": 1543852020262.2742,
+      "birthtimeMs": 1543851956928.7244,
+      "atime": "2018-12-09T04:03:29.322Z",
+      "mtime": "2018-12-03T15:47:00.262Z",
+      "ctime": "2018-12-03T15:47:00.262Z",
+      "birthtime": "2018-12-03T15:45:56.929Z"
     },
     "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75": {
       "id": "98faef75-dbc0-5b7a-b6b5-0ac966b2dd75",
       "children": [],
       "parent": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4",
       "internal": {
-        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
+        "content": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)‍. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
         "type": "MarkdownRemark",
         "contentDigest": "0795302adaecef254d905e5e9fc9be6f",
         "owner": "gatsby-transformer-remark",
@@ -2601,7 +2600,7 @@
         "_PARENT": "64ac11fa-7f5d-59f3-9c58-0881cba94cb4"
       },
       "excerpt": "",
-      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)\u200d. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
+      "rawMarkdownBody": "\n![](https://shakhorblog.files.wordpress.com/2018/03/browser.png?quality=80&strip=info&w=800)\n\n> *I invested $100 and changed my life for the best.*\n\nJust like the title says I was able to land my first web developer position in only 4 months of studying. Well to be honest maybe a little more than 4 months. It all started back in my junior year of high school. I took my first computer class which was \"HTML/CSS Introduction\". This was back in 2010 so I'm not sure if responsive design was already out, but I do know that we didn't learn it. This class was just going over the basics of web development, we never built anything \"amazing\" just some plain simple websites with a little of styling. I loved the class, but unfortunately, I stopped programming after I completed the class.\n\n![](https://i0.wp.com/media.giphy.com/media/AjYsTtVxEEBPO/giphy.gif?ssl=1)\n\nFast forward to 2016 I was working at Publix warehouse as an order selector. Life was good, I was making decent money and had full benefits (This was my first serious job). Until they announced that they were relocating to Alabama. I didn't see myself retiring as a warehouse worker anyway, so I let my managers know that I wouldn't be relocating with them. We had until the end of December before the location transfer. Well fortunately for me I left in November and signed up Team Treehouse. It was actually awkward because when I left my job, I just randomly seen an ad for Front-End Web Development, so I signed up for the free 7-day trial.\n\nAfter completing my 7-day trial, I was hooked on web development again. So upgraded from the trial to the actual program. It was like I had an addiction, I couldn't stop learning. Every day I was spending 3+ hours studying. Sometimes I would stay up all night completing courses, go to sleep for a few hours, wake up and do it all again.\n\n![](https://i1.wp.com/media.giphy.com/media/4LL66XsL0aTZe/giphy.gif?ssl=1)\n\nSo from November 2016 to February 2017, I was able to complete Team Treehouse Front-End Developer Stack. Once I completed it, I felt confident enough to start working on some projects and my portfolio. I wish that I still have my first portfolio design to remind myself how far I came, but I didn't know git at the time ![🤦🏾](https://twemoji.maxcdn.com/2/72x72/1f926-1f3fe.png)‍. It wasn't nothing special though, it was a basic portfolio page built with HTML5, CSS3, Bootstrap, and a single line of jQuery. And to be honest I was proud af for my accomplishment that I started applying for jobs. After sending multiple applications to companies through indeed, luckily I was able to land an interview for a small company.\n\n![](https://i1.wp.com/media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?ssl=1)\n\nI still remember the day I got a call back for my first developer interview. I couldn't believe it. Just three months ago I was a warehouse worker trying to figure out what I'm going to do with my life. Walking into the interview I was nervous. I couldn't stop sweating, I started getting chills through my body, and I was sweating so much I felt like I starting smelling. I finally sat down with the manager of the office and we start the conversation about me. She wanted to get to know me better and what I knew and didn't know. So I was honest with her, I mean she already knew because she viewed my resume. After telling her I was self-taught and just started, she ended up telling me more about the company and what my role would be. When we got through talking she introduced me to the IT manager and the CEO...did I just get the job?\n\nWell, come to find out the already had their mind set on hiring me because of my portfolio. They knew that I had just started and wanted someone that knew PHP, but because of my determination and how quickly I learned that offered me the position on the spot!\n\nSo my advice to new developers out there who feel lost and think they are wasting their time, you're not. Keep on studying and perfecting your craft, build some projects, set up a portfolio, and network. Just don't give up because it will all be worth it in the end",
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-16-2018-How-I-Became.md",
       "fields": {
         "slug": "/03-16-2018-How-I-Became/"
@@ -2657,6 +2656,58 @@
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
       "fields": {
         "slug": "/03-23-2018-Deploy-Your-App/"
+      }
+    },
+    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
+      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
+      "children": [],
+      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
+      "internal": {
+        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n\nYou can view the code [here](https://github.com/smithmanny/Portfolio). Feel free to fork it and add your own style to it \n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1c9bf4eca04f6bb2cf80a3701f77c9d7",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Website Redesign V2",
+        "date": "11-22-2018",
+        "slug": "website-redesign-v2",
+        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n\nYou can view the code [here](https://github.com/smithmanny/Portfolio). Feel free to fork it and add your own style to it \n",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
+      "fields": {
+        "slug": "/11-22-2018-Website-Redesign-v2/"
+      }
+    },
+    "6a7a9d8d-33d3-5d62-b209-5789035e8279": {
+      "id": "6a7a9d8d-33d3-5d62-b209-5789035e8279",
+      "children": [],
+      "parent": "c60e7a6b-6b42-5777-82a2-fb883b7c3242",
+      "internal": {
+        "content": "\nI've been thinking about this project idea for a while now and finally decided to start on it. Well as of December 2, 2018, I’ve released the Beta version of [Dev Collab](https://devcollab.org) 🎊. And when I mean beta I mean more like Alpha lol, but I wanted to release this project young and watch it mature with its users. The reason I created this project was to help new programmers jump in and start working on projects with a group. Some people are afraid or just don’t know where to look when it comes time finding projects to gain some experience.\n\nCurrently, everything is handled with [Airtable](https://airtable.com/invite/r/ElIWUPZu) in the backend, but working on converting the project to using Firebase. The reason I choose Firebase is that it just allows me to grow the project at a faster pace than setting up my own server. I like to have full control over things though so maybe in the future I’ll convert this project 🤔.\n\n### Upcoming Features\nAs of now, users have to click a button which opens up an Airtable form. Once the user fills out the form with their information it’s then displayed on Dev Collab home page. If a user wants to modify or delete their project, they will have to contact me via Twitter and I’ll remove it for them. So with that said here are some of Dev Collab upcoming features:\n- User Account\n* Link Firebase (DB/Auth)\n* Sync Github projects \n* Modify/Delete projects\n* Better UI/UX design??\n* And some more…\n\nThese features will start to roll out in the coming weeks so stay tuned!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ba01a37c74d1c786cf46a07e8923f5ea",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Launch Of Dev Collab",
+        "date": "12-03-2019",
+        "slug": "launch-of-dev-collab",
+        "_PARENT": "c60e7a6b-6b42-5777-82a2-fb883b7c3242"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI've been thinking about this project idea for a while now and finally decided to start on it. Well as of December 2, 2018, I’ve released the Beta version of [Dev Collab](https://devcollab.org) 🎊. And when I mean beta I mean more like Alpha lol, but I wanted to release this project young and watch it mature with its users. The reason I created this project was to help new programmers jump in and start working on projects with a group. Some people are afraid or just don’t know where to look when it comes time finding projects to gain some experience.\n\nCurrently, everything is handled with [Airtable](https://airtable.com/invite/r/ElIWUPZu) in the backend, but working on converting the project to using Firebase. The reason I choose Firebase is that it just allows me to grow the project at a faster pace than setting up my own server. I like to have full control over things though so maybe in the future I’ll convert this project 🤔.\n\n### Upcoming Features\nAs of now, users have to click a button which opens up an Airtable form. Once the user fills out the form with their information it’s then displayed on Dev Collab home page. If a user wants to modify or delete their project, they will have to contact me via Twitter and I’ll remove it for them. So with that said here are some of Dev Collab upcoming features:\n- User Account\n* Link Firebase (DB/Auth)\n* Sync Github projects \n* Modify/Delete projects\n* Better UI/UX design??\n* And some more…\n\nThese features will start to roll out in the coming weeks so stay tuned!\n",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/12-03-2018-Launch-Of-Dev-Collab.md",
+      "fields": {
+        "slug": "/12-03-2018-Launch-Of-Dev-Collab/"
       }
     },
     "84789685-cd7c-5477-87c4-809c23b5619e": {
@@ -2751,28 +2802,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /blog/how-to-make-a-blog-with-react-and-graphql": {
-      "jsonName": "blog-how-to-make-a-blog-with-react-and-graphql-6cc",
-      "internalComponentName": "ComponentBlogHowToMakeABlogWithReactAndGraphql",
-      "path": "/blog/how-to-make-a-blog-with-react-and-graphql",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "how-to-make-a-blog-with-react-and-graphql"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /blog/how-to-make-a-blog-with-react-and-graphql",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6e3251377fe4f3c32479bf2c9dbeb0fe",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /blog/website-redesign-v2": {
       "jsonName": "blog-website-redesign-v-2-6ef",
       "internalComponentName": "ComponentBlogWebsiteRedesignV2",
@@ -2795,6 +2824,50 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /blog/launch-of-dev-collab": {
+      "jsonName": "blog-launch-of-dev-collab-7dc",
+      "internalComponentName": "ComponentBlogLaunchOfDevCollab",
+      "path": "/blog/launch-of-dev-collab",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "launch-of-dev-collab"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /blog/launch-of-dev-collab",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0c05c7979013f8920d707076e148da46",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/how-to-make-a-blog-with-react-and-graphql": {
+      "jsonName": "blog-how-to-make-a-blog-with-react-and-graphql-6cc",
+      "internalComponentName": "ComponentBlogHowToMakeABlogWithReactAndGraphql",
+      "path": "/blog/how-to-make-a-blog-with-react-and-graphql",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "how-to-make-a-blog-with-react-and-graphql"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /blog/how-to-make-a-blog-with-react-and-graphql",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6e3251377fe4f3c32479bf2c9dbeb0fe",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -2802,16 +2875,16 @@
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreator___NODE": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
+      "pluginCreatorId": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "23a33eb97b7b285316f2d64b32a19de9",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "contentDigest": "947839dc0dec724758aa9c45f9893026",
+        "description": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2822,16 +2895,16 @@
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js",
       "componentChunkName": "component---src-pages-about-js",
       "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreator___NODE": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
+      "pluginCreatorId": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/about.js",
       "id": "SitePage /about/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "96efa51f14b14fa36e560e25b49a311e",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "contentDigest": "02b2e9a62e42a3bdf299e696d90e832d",
+        "description": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2842,16 +2915,16 @@
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js",
       "componentChunkName": "component---src-pages-blog-js",
       "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreator___NODE": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
+      "pluginCreatorId": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/blog.js",
       "id": "SitePage /blog/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9afd041bffdbcf8a1da1716c2fa6f1b9",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "contentDigest": "cf0f96974a78ad9334a016bcdb00b72f",
+        "description": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2862,16 +2935,16 @@
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js",
       "componentChunkName": "component---src-pages-contact-js",
       "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreator___NODE": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
+      "pluginCreatorId": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/contact.js",
       "id": "SitePage /contact/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eb45de44acb2068502b6352a49a8370e",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "contentDigest": "2a5e2bd5a1f3fcdf9c9a8217f7d89557",
+        "description": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2882,16 +2955,16 @@
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
-      "pluginCreator___NODE": "e03213f9-79ad-508c-a811-f12445fcc1a0",
-      "pluginCreatorId": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+      "pluginCreator___NODE": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
+      "pluginCreatorId": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb78097c00cc151b0bb4a7537a42b262",
-        "description": "e03213f9-79ad-508c-a811-f12445fcc1a0",
+        "contentDigest": "3df9901214e4c7a479b62c63df0f962f",
+        "description": "3fddc471-80cc-5b6b-b47c-70bab1162c7c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2901,9 +2974,7 @@
       "path": "/404.html",
       "component": "/Users/shakhor/Projects/Web/Portfolio/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
-      "context": {
-        "$ref": "$[\"nodes\"][\"SitePage /404/\"][\"context\"]"
-      },
+      "context": {},
       "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/pages/404.js",
@@ -2916,37 +2987,11 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
-    },
-    "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": {
-      "id": "8d3e9908-9dc9-52a6-98f5-6de271fb3b17",
-      "children": [],
-      "parent": "03b8abef-f557-57fe-b52e-c188b17b61e0",
-      "internal": {
-        "content": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n\nYou can view the code [here](https://github.com/smithmanny/Portfolio). Feel free to fork it and add your own style to it \n",
-        "type": "MarkdownRemark",
-        "contentDigest": "1c9bf4eca04f6bb2cf80a3701f77c9d7",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Website Redesign V2",
-        "date": "11-22-2018",
-        "slug": "website-redesign-v2",
-        "_PARENT": "03b8abef-f557-57fe-b52e-c188b17b61e0"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nWith 2018 coming to an end soon I was able to release V2 of my website over Thanksgiving holiday. Coincidentally this is also my second year as a developer so I'll be able to keep these releases in sync with my years of experience. What’s new? Everything! V2 was completely redesigned from the ground up with a little design inspiration from [Tania Rascia](https://www.taniarascia.com/\"). I switched from using create-react-app to Gatsby. The reason for this switch was to keep my blog on Github via Markdown files and also take advantage of Gatsby blazing fast speed with SSR. As you can see from the results below I was able to increase each area on the lighthouse test.\n\n![\"Old site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/old-site-performance_uws4hm.png)\n![\"New site performance\"](https://res.cloudinary.com/smithmanny/image/upload/c_scale,f_auto,h_500,q_auto:best/v1542907305/new-site-performance_d2ixpo.png)\n\nWith this version release of my website, I wanted to switch the focus from learning more about me to more about programming by putting the blog posts front and center. With this change, people would immediately be focused on my new blog posts and are able to learn something new within the first few seconds of visiting my website. \n\nAnother slight change I made was the color scheme. I still am not completely satisfied with my color scheme, but I wanted to go for a Miami Dolphins theme. I originally planned on releasing this site with the option of choosing between a light and dark theme, but because of a bug with styled-components and Gatsby, I postponed this feature until further notice. Curious as to what else I used to build this site? Well let’s see:\n\n* Gatsby\n* Hosting & DNS: Netlify\n* CSS: styled-components\n* Analytics: Google Analytics (looking for free alternatives 🤔)\n* Blog: Markdown files hosted on Github \n* Icons: Font Awesome\n\nYou can view the code [here](https://github.com/smithmanny/Portfolio). Feel free to fork it and add your own style to it \n",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/11-22-2018-Website-Redesign-v2.md",
-      "fields": {
-        "slug": "/11-22-2018-Website-Redesign-v2/"
-      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "db4eb19f0a6b272a7b611a8635b4712d"
+    "PLUGINS_HASH": "e76f8cd247973897d2a399d8a0745148"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2962,15 +3007,19 @@
       "a8af5dbc-5cbb-5a4d-a891-3f1b78849760": [
         "/blog/deploy-your-react-app-to-heroku"
       ],
-      "84789685-cd7c-5477-87c4-809c23b5619e": [
-        "/blog/how-to-make-a-blog-with-react-and-graphql"
-      ],
       "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": [
         "/blog/website-redesign-v2"
+      ],
+      "6a7a9d8d-33d3-5d62-b209-5789035e8279": [
+        "/blog/launch-of-dev-collab"
+      ],
+      "84789685-cd7c-5477-87c4-809c23b5619e": [
+        "/blog/how-to-make-a-blog-with-react-and-graphql"
       ]
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         "/blog/",
         "/"
       ]
@@ -2978,23 +3027,24 @@
   },
   "jsonDataPaths": {
     "sq--src-components-layout-js": 2571625782,
-    "blog-f7a": "296/path---blog-f-7-a-05d-MHd1tbfFoM8AmV7fetJDQVtWOyM",
-    "index": "273/path---index-6a9-MHd1tbfFoM8AmV7fetJDQVtWOyM",
-    "blog-my-workflow-software-engineer-d40": "252/path---blog-my-workflow-software-engineer-d-40-dd0-2u742MIsm5VTYU8aEoIznRaPK0",
-    "blog-deploy-your-react-app-to-heroku-7cd": "414/path---blog-deploy-your-react-app-to-heroku-7-cd-479-icQglFokkGMKBkknDyDtUECcjgA",
-    "blog-how-i-became-a-web-developer-in-4-months-7bd": "24/path---blog-how-i-became-a-web-developer-in-4-months-7-bd-8f0-7iOr4enMu6wzKXosGtzK6hbcuCc",
-    "blog-how-to-make-a-blog-with-react-and-graphql-6cc": "827/path---blog-how-to-make-a-blog-with-react-and-graphql-6-cc-f0a-G67by1vaNix3m8PBj8tnE9GUV8",
+    "blog-f7a": "894/path---blog-f-7-a-05d-HhMvORMVKAoxB1acmwukdGAVg",
+    "index": "686/path---index-6a9-C2tON6bZ5Lbd9RAHDrI3gfk0cQE",
+    "blog-my-workflow-software-engineer-d40": "31/path---blog-my-workflow-software-engineer-d-40-dd0-8SEp7ufKmdvjeinsY4OmI75pMk",
+    "blog-deploy-your-react-app-to-heroku-7cd": "672/path---blog-deploy-your-react-app-to-heroku-7-cd-479-WJEipqvKLfFCKte9AjGqreVBo",
+    "blog-how-i-became-a-web-developer-in-4-months-7bd": "79/path---blog-how-i-became-a-web-developer-in-4-months-7-bd-8f0-6KSoFNmeOwydTZMuF1H5VGcti8",
+    "blog-how-to-make-a-blog-with-react-and-graphql-6cc": "375/path---blog-how-to-make-a-blog-with-react-and-graphql-6-cc-f0a-X4pWpbiNb9rJmy0SrVJymIY",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "blog-website-redesign-v-2-6ef": "380/path---blog-website-redesign-v-2-6-ef-051-skad4CoMTClNvBARUfMLMn9MkaY",
+    "blog-website-redesign-v-2-6ef": "238/path---blog-website-redesign-v-2-6-ef-051-RqUgpOeAEpLnknWVRA7obmVJU",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "offline-plugin-app-shell-fallback-a30": "520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "blog-launch-of-dev-collab-7dc": "496/path---blog-launch-of-dev-collab-7-dc-085-zDNTekyzXxcyfD22NgwbsYfGHDc"
   },
   "components": {
     "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js": {
-      "query": "query usersShakhorProjectsWebPortfolioSrcTemplatesBlogPostJs3498585245(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n    }\n  }\n}\n",
+      "query": "query usersShakhorProjectsWebPortfolioSrcTemplatesBlogPostJs4110852730(\n  $slug: String!\n) {\n  markdownRemark(frontmatter: {slug: {eq: $slug}}) {\n    html\n    frontmatter {\n      title\n      slug\n    }\n  }\n}\n",
       "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js"
     },
     "/Users/shakhor/Projects/Web/Portfolio/.cache/dev-404-page.js": {

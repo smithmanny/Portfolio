@@ -195,7 +195,9 @@ var _default = (pagePath, callback) => {
     setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
-    setBodyProps
+    setBodyProps,
+    pathname: pagePath,
+    pathPrefix: __PATH_PREFIX__
   }); // If no one stepped up, we'll handle it.
 
   if (!bodyHtml) {
@@ -336,7 +338,9 @@ var _default = (pagePath, callback) => {
     getPreBodyComponents,
     replacePreBodyComponents,
     getPostBodyComponents,
-    replacePostBodyComponents
+    replacePostBodyComponents,
+    pathname: pagePath,
+    pathPrefix: __PATH_PREFIX__
   });
   const html = `<!DOCTYPE html>${renderToStaticMarkup(React.createElement(Html, (0, _extends2.default)({}, bodyProps, {
     headComponents: headComponents,

@@ -41,6 +41,11 @@
     },
     {
         "componentChunkName": "component---src-templates-blog-post-js",
+        "jsonName": "blog-launch-of-dev-collab-7dc",
+        "path": "/blog/launch-of-dev-collab"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
         "jsonName": "blog-my-workflow-software-engineer-d40",
         "path": "/blog/my-workflow-software-engineer"
     },
