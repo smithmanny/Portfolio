@@ -36,10 +36,10 @@
     "react-dom": "^16.7.0-alpha.0",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
+    "snyk": "^1.116.2",
     "styled-components": "^4.0.3",
-    "typography": "^0.16.17",
-    "typography-theme-twin-peaks": "^0.15.11",
-    "snyk": "^1.116.2"
+    "typography": "^0.16.18",
+    "typography-theme-twin-peaks": "^0.16.18"
   },
   "keywords": [
     "gatsby"

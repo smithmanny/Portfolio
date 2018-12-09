@@ -57,23 +57,7 @@ const Layout = ({ children }) => (
 )
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    background-color: ${ props => props.theme.background };
-  }
-
-  h2, h3, h4, h5 {
-    color: ${ props => props.theme.title };
-  } 
-
-  dd, li, p {
-    color: ${ props => props.theme.contentColor };
-  }
-
   a {
-    color: ${ props => props.theme.secondary }; 
-    text-shadow: none;
-    background-image: none;
-
     :hover {
       text-decoration: underline;
       color: ${ props => props.theme.secondary };

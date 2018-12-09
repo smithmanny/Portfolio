@@ -1653,7 +1653,7 @@
           },
           {
             "name": "snyk",
-            "version": "^1.110.1"
+            "version": "^1.116.2"
           },
           {
             "name": "styled-components",
@@ -1661,11 +1661,11 @@
           },
           {
             "name": "typography",
-            "version": "^0.16.17"
+            "version": "^0.16.18"
           },
           {
             "name": "typography-theme-twin-peaks",
-            "version": "^0.15.11"
+            "version": "^0.16.18"
           }
         ],
         "devDependencies": [],
@@ -1804,12 +1804,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-09T12:28:15.455Z",
+      "buildTime": "2018-12-09T14:38:50.602Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e2984f0616b4bdbf0fc102c78f0486c2",
+        "contentDigest": "225d97d9c99b7427eff3fdd10ba439e0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1819,7 +1819,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "01eb67763652f17ac4a26f413d75d733",
+        "contentDigest": "ed0f1837a37d88593c1c3dbd1260e617",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1831,7 +1831,7 @@
       "size": 320,
       "prettySize": "320 B",
       "modifiedTime": "2018-11-25T14:40:06.787Z",
-      "accessTime": "2018-12-09T12:28:21.172Z",
+      "accessTime": "2018-12-09T14:38:57.982Z",
       "changeTime": "2018-11-25T14:40:06.787Z",
       "birthTime": "2018-11-25T14:40:06.742Z",
       "root": "/",
@@ -1849,61 +1849,14 @@
       "blksize": 4096,
       "ino": 23642146,
       "blocks": 0,
-      "atimeMs": 1544358501171.8625,
+      "atimeMs": 1544366337982.0417,
       "mtimeMs": 1543156806787.3176,
       "ctimeMs": 1543156806787.3176,
       "birthtimeMs": 1543156806741.766,
-      "atime": "2018-12-09T12:28:21.172Z",
+      "atime": "2018-12-09T14:38:57.982Z",
       "mtime": "2018-11-25T14:40:06.787Z",
       "ctime": "2018-11-25T14:40:06.787Z",
       "birthtime": "2018-11-25T14:40:06.742Z"
-    },
-    "05cfc17c-3a28-579f-9f49-224c7ab15457": {
-      "id": "05cfc17c-3a28-579f-9f49-224c7ab15457",
-      "children": [
-        "61248ed6-7de1-563c-8de3-2ec722ed2a59"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/gatsby-icon.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/gatsby-icon.png",
-      "relativePath": "gatsby-icon.png",
-      "extension": "png",
-      "size": 21212,
-      "prettySize": "21.2 kB",
-      "modifiedTime": "2018-11-25T14:40:06.780Z",
-      "accessTime": "2018-12-09T04:03:34.445Z",
-      "changeTime": "2018-11-25T14:40:06.780Z",
-      "birthTime": "2018-11-25T14:40:06.780Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "gatsby-icon.png",
-      "ext": ".png",
-      "name": "gatsby-icon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23642149,
-      "blocks": 48,
-      "atimeMs": 1544328214444.9453,
-      "mtimeMs": 1543156806780.3657,
-      "ctimeMs": 1543156806780.3657,
-      "birthtimeMs": 1543156806779.6545,
-      "atime": "2018-12-09T04:03:34.445Z",
-      "mtime": "2018-11-25T14:40:06.780Z",
-      "ctime": "2018-11-25T14:40:06.780Z",
-      "birthtime": "2018-11-25T14:40:06.780Z"
     },
     "fb297998-6141-5a0e-899a-120dec6eda38": {
       "id": "fb297998-6141-5a0e-899a-120dec6eda38",
@@ -1923,7 +1876,7 @@
       "size": 1518,
       "prettySize": "1.52 kB",
       "modifiedTime": "2018-11-25T14:40:06.786Z",
-      "accessTime": "2018-12-09T04:03:34.445Z",
+      "accessTime": "2018-12-09T12:29:18.590Z",
       "changeTime": "2018-11-25T14:40:06.786Z",
       "birthTime": "2018-11-25T14:40:06.781Z",
       "root": "/",
@@ -1941,11 +1894,11 @@
       "blksize": 4096,
       "ino": 23642150,
       "blocks": 8,
-      "atimeMs": 1544328214444.9705,
+      "atimeMs": 1544358558590.431,
       "mtimeMs": 1543156806785.8064,
       "ctimeMs": 1543156806785.8064,
       "birthtimeMs": 1543156806780.5532,
-      "atime": "2018-12-09T04:03:34.445Z",
+      "atime": "2018-12-09T12:29:18.590Z",
       "mtime": "2018-11-25T14:40:06.786Z",
       "ctime": "2018-11-25T14:40:06.786Z",
       "birthtime": "2018-11-25T14:40:06.781Z"
@@ -1968,7 +1921,7 @@
       "size": 514,
       "prettySize": "514 B",
       "modifiedTime": "2018-11-25T14:40:06.786Z",
-      "accessTime": "2018-12-09T04:03:34.445Z",
+      "accessTime": "2018-12-09T12:29:18.591Z",
       "changeTime": "2018-11-25T14:40:06.786Z",
       "birthTime": "2018-11-25T14:40:06.786Z",
       "root": "/",
@@ -1986,11 +1939,11 @@
       "blksize": 4096,
       "ino": 23642151,
       "blocks": 8,
-      "atimeMs": 1544328214444.9949,
+      "atimeMs": 1544358558591.046,
       "mtimeMs": 1543156806786.1448,
       "ctimeMs": 1543156806786.1448,
       "birthtimeMs": 1543156806785.9504,
-      "atime": "2018-12-09T04:03:34.445Z",
+      "atime": "2018-12-09T12:29:18.591Z",
       "mtime": "2018-11-25T14:40:06.786Z",
       "ctime": "2018-11-25T14:40:06.786Z",
       "birthtime": "2018-11-25T14:40:06.786Z"
@@ -2013,7 +1966,7 @@
       "size": 513,
       "prettySize": "513 B",
       "modifiedTime": "2018-11-25T14:40:06.787Z",
-      "accessTime": "2018-12-09T04:03:34.445Z",
+      "accessTime": "2018-12-09T12:29:18.590Z",
       "changeTime": "2018-11-25T14:40:06.787Z",
       "birthTime": "2018-11-25T14:40:06.786Z",
       "root": "/",
@@ -2031,59 +1984,14 @@
       "blksize": 4096,
       "ino": 23642152,
       "blocks": 8,
-      "atimeMs": 1544328214445.0193,
+      "atimeMs": 1544358558590.0796,
       "mtimeMs": 1543156806786.6604,
       "ctimeMs": 1543156806786.6604,
       "birthtimeMs": 1543156806786.3933,
-      "atime": "2018-12-09T04:03:34.445Z",
+      "atime": "2018-12-09T12:29:18.590Z",
       "mtime": "2018-11-25T14:40:06.787Z",
       "ctime": "2018-11-25T14:40:06.787Z",
       "birthtime": "2018-11-25T14:40:06.786Z"
-    },
-    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
-      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/twitter.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
-      "relativePath": "twitter.svg",
-      "extension": "svg",
-      "size": 1007,
-      "prettySize": "1.01 kB",
-      "modifiedTime": "2018-11-25T14:40:06.787Z",
-      "accessTime": "2018-12-09T04:03:34.445Z",
-      "changeTime": "2018-11-25T14:40:06.787Z",
-      "birthTime": "2018-11-25T14:40:06.787Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
-      "base": "twitter.svg",
-      "ext": ".svg",
-      "name": "twitter",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23642153,
-      "blocks": 8,
-      "atimeMs": 1544328214445.0432,
-      "mtimeMs": 1543156806787.1667,
-      "ctimeMs": 1543156806787.1667,
-      "birthtimeMs": 1543156806786.9028,
-      "atime": "2018-12-09T04:03:34.445Z",
-      "mtime": "2018-11-25T14:40:06.787Z",
-      "ctime": "2018-11-25T14:40:06.787Z",
-      "birthtime": "2018-11-25T14:40:06.787Z"
     },
     "d388bfd8-bb23-5caf-b329-506dca9d52c4": {
       "id": "d388bfd8-bb23-5caf-b329-506dca9d52c4",
@@ -2103,7 +2011,7 @@
       "size": 686,
       "prettySize": "686 B",
       "modifiedTime": "2018-11-25T14:40:06.788Z",
-      "accessTime": "2018-12-09T04:03:34.445Z",
+      "accessTime": "2018-12-09T12:29:18.591Z",
       "changeTime": "2018-11-25T14:40:06.788Z",
       "birthTime": "2018-11-25T14:40:06.787Z",
       "root": "/",
@@ -2121,14 +2029,106 @@
       "blksize": 4096,
       "ino": 23642154,
       "blocks": 8,
-      "atimeMs": 1544328214445.0688,
+      "atimeMs": 1544358558591.3137,
       "mtimeMs": 1543156806787.5266,
       "ctimeMs": 1543156806787.5266,
       "birthtimeMs": 1543156806787.31,
-      "atime": "2018-12-09T04:03:34.445Z",
+      "atime": "2018-12-09T12:29:18.591Z",
       "mtime": "2018-11-25T14:40:06.788Z",
       "ctime": "2018-11-25T14:40:06.788Z",
       "birthtime": "2018-11-25T14:40:06.787Z"
+    },
+    "404870f7-5e34-5adf-b6e7-bf52120b823d": {
+      "id": "404870f7-5e34-5adf-b6e7-bf52120b823d",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b2d29f087896e959696ca0e2294b1534",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/twitter.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/twitter.svg",
+      "relativePath": "twitter.svg",
+      "extension": "svg",
+      "size": 1007,
+      "prettySize": "1.01 kB",
+      "modifiedTime": "2018-11-25T14:40:06.787Z",
+      "accessTime": "2018-12-09T12:29:18.591Z",
+      "changeTime": "2018-11-25T14:40:06.787Z",
+      "birthTime": "2018-11-25T14:40:06.787Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "twitter.svg",
+      "ext": ".svg",
+      "name": "twitter",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23642153,
+      "blocks": 8,
+      "atimeMs": 1544358558590.7615,
+      "mtimeMs": 1543156806787.1667,
+      "ctimeMs": 1543156806787.1667,
+      "birthtimeMs": 1543156806786.9028,
+      "atime": "2018-12-09T12:29:18.591Z",
+      "mtime": "2018-11-25T14:40:06.787Z",
+      "ctime": "2018-11-25T14:40:06.787Z",
+      "birthtime": "2018-11-25T14:40:06.787Z"
+    },
+    "05cfc17c-3a28-579f-9f49-224c7ab15457": {
+      "id": "05cfc17c-3a28-579f-9f49-224c7ab15457",
+      "children": [
+        "61248ed6-7de1-563c-8de3-2ec722ed2a59"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4a9773549091c227cd2eb82ccd9c5e3a",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/gatsby-icon.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/images/gatsby-icon.png",
+      "relativePath": "gatsby-icon.png",
+      "extension": "png",
+      "size": 21212,
+      "prettySize": "21.2 kB",
+      "modifiedTime": "2018-11-25T14:40:06.780Z",
+      "accessTime": "2018-12-09T12:30:30.937Z",
+      "changeTime": "2018-11-25T14:40:06.780Z",
+      "birthTime": "2018-11-25T14:40:06.780Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/images",
+      "base": "gatsby-icon.png",
+      "ext": ".png",
+      "name": "gatsby-icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23642149,
+      "blocks": 48,
+      "atimeMs": 1544358630936.6477,
+      "mtimeMs": 1543156806780.3657,
+      "ctimeMs": 1543156806780.3657,
+      "birthtimeMs": 1543156806779.6545,
+      "atime": "2018-12-09T12:30:30.937Z",
+      "mtime": "2018-11-25T14:40:06.780Z",
+      "ctime": "2018-11-25T14:40:06.780Z",
+      "birthtime": "2018-11-25T14:40:06.780Z"
     },
     "61248ed6-7de1-563c-8de3-2ec722ed2a59": {
       "id": "61248ed6-7de1-563c-8de3-2ec722ed2a59",
@@ -2160,7 +2160,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-11-25T14:40:06.773Z",
-      "accessTime": "2018-12-09T04:03:29.321Z",
+      "accessTime": "2018-12-09T12:30:30.937Z",
       "changeTime": "2018-11-25T14:40:06.773Z",
       "birthTime": "2018-11-25T14:40:06.755Z",
       "root": "/",
@@ -2178,11 +2178,11 @@
       "blksize": 4096,
       "ino": 23642148,
       "blocks": 328,
-      "atimeMs": 1544328209321.2373,
+      "atimeMs": 1544358630936.6072,
       "mtimeMs": 1543156806773.3838,
       "ctimeMs": 1543156806773.3838,
       "birthtimeMs": 1543156806755.1733,
-      "atime": "2018-12-09T04:03:29.321Z",
+      "atime": "2018-12-09T12:30:30.937Z",
       "mtime": "2018-11-25T14:40:06.773Z",
       "ctime": "2018-11-25T14:40:06.773Z",
       "birthtime": "2018-11-25T14:40:06.755Z"
@@ -2217,7 +2217,7 @@
       "size": 963995,
       "prettySize": "964 kB",
       "modifiedTime": "2018-11-25T14:40:06.755Z",
-      "accessTime": "2018-12-09T04:03:29.321Z",
+      "accessTime": "2018-12-09T12:30:30.937Z",
       "changeTime": "2018-11-25T14:40:06.755Z",
       "birthTime": "2018-11-25T14:40:06.742Z",
       "root": "/",
@@ -2235,11 +2235,11 @@
       "blksize": 4096,
       "ino": 23642147,
       "blocks": 1888,
-      "atimeMs": 1544328209321.2139,
+      "atimeMs": 1544358630936.5618,
       "mtimeMs": 1543156806754.8281,
       "ctimeMs": 1543156806754.8281,
       "birthtimeMs": 1543156806741.9531,
-      "atime": "2018-12-09T04:03:29.321Z",
+      "atime": "2018-12-09T12:30:30.937Z",
       "mtime": "2018-11-25T14:40:06.755Z",
       "ctime": "2018-11-25T14:40:06.755Z",
       "birthtime": "2018-11-25T14:40:06.742Z"
@@ -2259,7 +2259,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "1aa6baf6f37c292a4b9c2f3cb32a081f",
+        "contentDigest": "26b13768eb9a4d182998228fa6119ae9",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2271,7 +2271,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-12-03T15:45:56.929Z",
-      "accessTime": "2018-12-09T12:28:21.196Z",
+      "accessTime": "2018-12-09T14:38:58.004Z",
       "changeTime": "2018-12-03T15:45:56.929Z",
       "birthTime": "2018-11-25T14:40:06.796Z",
       "root": "/",
@@ -2289,11 +2289,11 @@
       "blksize": 4096,
       "ino": 23642161,
       "blocks": 0,
-      "atimeMs": 1544358501196.3118,
+      "atimeMs": 1544366338004.3818,
       "mtimeMs": 1543851956928.745,
       "ctimeMs": 1543851956928.745,
       "birthtimeMs": 1543156806796.064,
-      "atime": "2018-12-09T12:28:21.196Z",
+      "atime": "2018-12-09T14:38:58.004Z",
       "mtime": "2018-12-03T15:45:56.929Z",
       "ctime": "2018-12-03T15:45:56.929Z",
       "birthtime": "2018-11-25T14:40:06.796Z"
@@ -2318,7 +2318,7 @@
       "size": 4230,
       "prettySize": "4.23 kB",
       "modifiedTime": "2018-11-25T14:40:06.797Z",
-      "accessTime": "2018-12-09T04:03:29.322Z",
+      "accessTime": "2018-12-09T13:20:48.156Z",
       "changeTime": "2018-11-25T14:40:06.797Z",
       "birthTime": "2018-11-25T14:40:06.796Z",
       "root": "/",
@@ -2336,61 +2336,14 @@
       "blksize": 4096,
       "ino": 23642162,
       "blocks": 16,
-      "atimeMs": 1544328209321.808,
+      "atimeMs": 1544361648155.9548,
       "mtimeMs": 1543156806797.266,
       "ctimeMs": 1543156806797.266,
       "birthtimeMs": 1543156806796.3162,
-      "atime": "2018-12-09T04:03:29.322Z",
+      "atime": "2018-12-09T13:20:48.156Z",
       "mtime": "2018-11-25T14:40:06.797Z",
       "ctime": "2018-11-25T14:40:06.797Z",
       "birthtime": "2018-11-25T14:40:06.796Z"
-    },
-    "64357855-ba9b-5124-823b-10eae4a51b27": {
-      "id": "64357855-ba9b-5124-823b-10eae4a51b27",
-      "children": [
-        "5d85e12b-609c-5299-8c0a-e7f0213a005e"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6d817acc8b760c6b685e7b950acd1be3",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/07-22-2018-My-Workflow.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
-      "relativePath": "07-22-2018-My-Workflow.md",
-      "extension": "md",
-      "size": 4326,
-      "prettySize": "4.33 kB",
-      "modifiedTime": "2018-11-25T14:40:06.799Z",
-      "accessTime": "2018-12-09T04:03:29.322Z",
-      "changeTime": "2018-11-25T14:40:06.799Z",
-      "birthTime": "2018-11-25T14:40:06.799Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "07-22-2018-My-Workflow.md",
-      "ext": ".md",
-      "name": "07-22-2018-My-Workflow",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23642165,
-      "blocks": 16,
-      "atimeMs": 1544328209321.8733,
-      "mtimeMs": 1543156806799.4324,
-      "ctimeMs": 1543156806799.4324,
-      "birthtimeMs": 1543156806798.914,
-      "atime": "2018-12-09T04:03:29.322Z",
-      "mtime": "2018-11-25T14:40:06.799Z",
-      "ctime": "2018-11-25T14:40:06.799Z",
-      "birthtime": "2018-11-25T14:40:06.799Z"
     },
     "9f078a3d-ec32-51d1-9171-52fe450dbc92": {
       "id": "9f078a3d-ec32-51d1-9171-52fe450dbc92",
@@ -2412,7 +2365,7 @@
       "size": 11534,
       "prettySize": "11.5 kB",
       "modifiedTime": "2018-11-25T14:40:06.798Z",
-      "accessTime": "2018-12-09T04:03:29.322Z",
+      "accessTime": "2018-12-09T12:30:30.938Z",
       "changeTime": "2018-11-25T14:40:06.798Z",
       "birthTime": "2018-11-25T14:40:06.797Z",
       "root": "/",
@@ -2430,61 +2383,14 @@
       "blksize": 4096,
       "ino": 23642163,
       "blocks": 24,
-      "atimeMs": 1544328209321.8308,
+      "atimeMs": 1544358630937.5786,
       "mtimeMs": 1543156806797.9753,
       "ctimeMs": 1543156806797.9753,
       "birthtimeMs": 1543156806797.4233,
-      "atime": "2018-12-09T04:03:29.322Z",
+      "atime": "2018-12-09T12:30:30.938Z",
       "mtime": "2018-11-25T14:40:06.798Z",
       "ctime": "2018-11-25T14:40:06.798Z",
       "birthtime": "2018-11-25T14:40:06.797Z"
-    },
-    "079d86fd-7efa-5b68-b908-67344e304dac": {
-      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
-      "children": [
-        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "cb309a37922f36fef12c69deb1e1074c",
-        "type": "File",
-        "mediaType": "text/markdown",
-        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "posts",
-      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
-      "relativePath": "03-23-2018-Deploy-Your-App.md",
-      "extension": "md",
-      "size": 4337,
-      "prettySize": "4.34 kB",
-      "modifiedTime": "2018-11-25T14:40:06.799Z",
-      "accessTime": "2018-12-09T04:03:29.322Z",
-      "changeTime": "2018-11-25T14:40:06.799Z",
-      "birthTime": "2018-11-25T14:40:06.798Z",
-      "root": "/",
-      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
-      "base": "03-23-2018-Deploy-Your-App.md",
-      "ext": ".md",
-      "name": "03-23-2018-Deploy-Your-App",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 23642164,
-      "blocks": 16,
-      "atimeMs": 1544328209321.8516,
-      "mtimeMs": 1543156806798.6377,
-      "ctimeMs": 1543156806798.6377,
-      "birthtimeMs": 1543156806798.116,
-      "atime": "2018-12-09T04:03:29.322Z",
-      "mtime": "2018-11-25T14:40:06.799Z",
-      "ctime": "2018-11-25T14:40:06.799Z",
-      "birthtime": "2018-11-25T14:40:06.798Z"
     },
     "03b8abef-f557-57fe-b52e-c188b17b61e0": {
       "id": "03b8abef-f557-57fe-b52e-c188b17b61e0",
@@ -2506,7 +2412,7 @@
       "size": 2151,
       "prettySize": "2.15 kB",
       "modifiedTime": "2018-11-25T14:40:06.800Z",
-      "accessTime": "2018-12-09T04:03:29.322Z",
+      "accessTime": "2018-12-09T12:30:30.938Z",
       "changeTime": "2018-11-25T14:40:06.800Z",
       "birthTime": "2018-11-25T14:40:06.800Z",
       "root": "/",
@@ -2524,14 +2430,108 @@
       "blksize": 4096,
       "ino": 23642166,
       "blocks": 8,
-      "atimeMs": 1544328209321.8945,
+      "atimeMs": 1544358630937.6775,
       "mtimeMs": 1543156806799.906,
       "ctimeMs": 1543156806799.906,
       "birthtimeMs": 1543156806799.5457,
-      "atime": "2018-12-09T04:03:29.322Z",
+      "atime": "2018-12-09T12:30:30.938Z",
       "mtime": "2018-11-25T14:40:06.800Z",
       "ctime": "2018-11-25T14:40:06.800Z",
       "birthtime": "2018-11-25T14:40:06.800Z"
+    },
+    "64357855-ba9b-5124-823b-10eae4a51b27": {
+      "id": "64357855-ba9b-5124-823b-10eae4a51b27",
+      "children": [
+        "5d85e12b-609c-5299-8c0a-e7f0213a005e"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6d817acc8b760c6b685e7b950acd1be3",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/07-22-2018-My-Workflow.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/07-22-2018-My-Workflow.md",
+      "relativePath": "07-22-2018-My-Workflow.md",
+      "extension": "md",
+      "size": 4326,
+      "prettySize": "4.33 kB",
+      "modifiedTime": "2018-11-25T14:40:06.799Z",
+      "accessTime": "2018-12-09T12:30:30.938Z",
+      "changeTime": "2018-11-25T14:40:06.799Z",
+      "birthTime": "2018-11-25T14:40:06.799Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "07-22-2018-My-Workflow.md",
+      "ext": ".md",
+      "name": "07-22-2018-My-Workflow",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23642165,
+      "blocks": 16,
+      "atimeMs": 1544358630937.643,
+      "mtimeMs": 1543156806799.4324,
+      "ctimeMs": 1543156806799.4324,
+      "birthtimeMs": 1543156806798.914,
+      "atime": "2018-12-09T12:30:30.938Z",
+      "mtime": "2018-11-25T14:40:06.799Z",
+      "ctime": "2018-11-25T14:40:06.799Z",
+      "birthtime": "2018-11-25T14:40:06.799Z"
+    },
+    "079d86fd-7efa-5b68-b908-67344e304dac": {
+      "id": "079d86fd-7efa-5b68-b908-67344e304dac",
+      "children": [
+        "a8af5dbc-5cbb-5a4d-a891-3f1b78849760"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "cb309a37922f36fef12c69deb1e1074c",
+        "type": "File",
+        "mediaType": "text/markdown",
+        "description": "File \"src/posts/03-23-2018-Deploy-Your-App.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-23-2018-Deploy-Your-App.md",
+      "relativePath": "03-23-2018-Deploy-Your-App.md",
+      "extension": "md",
+      "size": 4337,
+      "prettySize": "4.34 kB",
+      "modifiedTime": "2018-11-25T14:40:06.799Z",
+      "accessTime": "2018-12-09T12:30:30.938Z",
+      "changeTime": "2018-11-25T14:40:06.799Z",
+      "birthTime": "2018-11-25T14:40:06.798Z",
+      "root": "/",
+      "dir": "/Users/shakhor/Projects/Web/Portfolio/src/posts",
+      "base": "03-23-2018-Deploy-Your-App.md",
+      "ext": ".md",
+      "name": "03-23-2018-Deploy-Your-App",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 23642164,
+      "blocks": 16,
+      "atimeMs": 1544358630937.611,
+      "mtimeMs": 1543156806798.6377,
+      "ctimeMs": 1543156806798.6377,
+      "birthtimeMs": 1543156806798.116,
+      "atime": "2018-12-09T12:30:30.938Z",
+      "mtime": "2018-11-25T14:40:06.799Z",
+      "ctime": "2018-11-25T14:40:06.799Z",
+      "birthtime": "2018-11-25T14:40:06.798Z"
     },
     "c60e7a6b-6b42-5777-82a2-fb883b7c3242": {
       "id": "c60e7a6b-6b42-5777-82a2-fb883b7c3242",
@@ -2553,7 +2553,7 @@
       "size": 1632,
       "prettySize": "1.63 kB",
       "modifiedTime": "2018-12-03T15:47:00.262Z",
-      "accessTime": "2018-12-09T04:03:29.322Z",
+      "accessTime": "2018-12-09T12:30:30.938Z",
       "changeTime": "2018-12-03T15:47:00.262Z",
       "birthTime": "2018-12-03T15:45:56.929Z",
       "root": "/",
@@ -2571,11 +2571,11 @@
       "blksize": 4096,
       "ino": 24225746,
       "blocks": 8,
-      "atimeMs": 1544328209321.9185,
+      "atimeMs": 1544358630937.7092,
       "mtimeMs": 1543852020262.2742,
       "ctimeMs": 1543852020262.2742,
       "birthtimeMs": 1543851956928.7244,
-      "atime": "2018-12-09T04:03:29.322Z",
+      "atime": "2018-12-09T12:30:30.938Z",
       "mtime": "2018-12-03T15:47:00.262Z",
       "ctime": "2018-12-03T15:47:00.262Z",
       "birthtime": "2018-12-03T15:45:56.929Z"
@@ -2684,32 +2684,6 @@
         "slug": "/11-22-2018-Website-Redesign-v2/"
       }
     },
-    "6a7a9d8d-33d3-5d62-b209-5789035e8279": {
-      "id": "6a7a9d8d-33d3-5d62-b209-5789035e8279",
-      "children": [],
-      "parent": "c60e7a6b-6b42-5777-82a2-fb883b7c3242",
-      "internal": {
-        "content": "\nI've been thinking about this project idea for a while now and finally decided to start on it. Well as of December 2, 2018, I’ve released the Beta version of [Dev Collab](https://devcollab.org) 🎊. And when I mean beta I mean more like Alpha lol, but I wanted to release this project young and watch it mature with its users. The reason I created this project was to help new programmers jump in and start working on projects with a group. Some people are afraid or just don’t know where to look when it comes time finding projects to gain some experience.\n\nCurrently, everything is handled with [Airtable](https://airtable.com/invite/r/ElIWUPZu) in the backend, but working on converting the project to using Firebase. The reason I choose Firebase is that it just allows me to grow the project at a faster pace than setting up my own server. I like to have full control over things though so maybe in the future I’ll convert this project 🤔.\n\n### Upcoming Features\nAs of now, users have to click a button which opens up an Airtable form. Once the user fills out the form with their information it’s then displayed on Dev Collab home page. If a user wants to modify or delete their project, they will have to contact me via Twitter and I’ll remove it for them. So with that said here are some of Dev Collab upcoming features:\n- User Account\n* Link Firebase (DB/Auth)\n* Sync Github projects \n* Modify/Delete projects\n* Better UI/UX design??\n* And some more…\n\nThese features will start to roll out in the coming weeks so stay tuned!\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "ba01a37c74d1c786cf46a07e8923f5ea",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Launch Of Dev Collab",
-        "date": "12-03-2019",
-        "slug": "launch-of-dev-collab",
-        "_PARENT": "c60e7a6b-6b42-5777-82a2-fb883b7c3242"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nI've been thinking about this project idea for a while now and finally decided to start on it. Well as of December 2, 2018, I’ve released the Beta version of [Dev Collab](https://devcollab.org) 🎊. And when I mean beta I mean more like Alpha lol, but I wanted to release this project young and watch it mature with its users. The reason I created this project was to help new programmers jump in and start working on projects with a group. Some people are afraid or just don’t know where to look when it comes time finding projects to gain some experience.\n\nCurrently, everything is handled with [Airtable](https://airtable.com/invite/r/ElIWUPZu) in the backend, but working on converting the project to using Firebase. The reason I choose Firebase is that it just allows me to grow the project at a faster pace than setting up my own server. I like to have full control over things though so maybe in the future I’ll convert this project 🤔.\n\n### Upcoming Features\nAs of now, users have to click a button which opens up an Airtable form. Once the user fills out the form with their information it’s then displayed on Dev Collab home page. If a user wants to modify or delete their project, they will have to contact me via Twitter and I’ll remove it for them. So with that said here are some of Dev Collab upcoming features:\n- User Account\n* Link Firebase (DB/Auth)\n* Sync Github projects \n* Modify/Delete projects\n* Better UI/UX design??\n* And some more…\n\nThese features will start to roll out in the coming weeks so stay tuned!\n",
-      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/12-03-2018-Launch-Of-Dev-Collab.md",
-      "fields": {
-        "slug": "/12-03-2018-Launch-Of-Dev-Collab/"
-      }
-    },
     "84789685-cd7c-5477-87c4-809c23b5619e": {
       "id": "84789685-cd7c-5477-87c4-809c23b5619e",
       "children": [],
@@ -2734,6 +2708,32 @@
       "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/03-19-2018-How-To-Make.md",
       "fields": {
         "slug": "/03-19-2018-How-To-Make/"
+      }
+    },
+    "6a7a9d8d-33d3-5d62-b209-5789035e8279": {
+      "id": "6a7a9d8d-33d3-5d62-b209-5789035e8279",
+      "children": [],
+      "parent": "c60e7a6b-6b42-5777-82a2-fb883b7c3242",
+      "internal": {
+        "content": "\nI've been thinking about this project idea for a while now and finally decided to start on it. Well as of December 2, 2018, I’ve released the Beta version of [Dev Collab](https://devcollab.org) 🎊. And when I mean beta I mean more like Alpha lol, but I wanted to release this project young and watch it mature with its users. The reason I created this project was to help new programmers jump in and start working on projects with a group. Some people are afraid or just don’t know where to look when it comes time finding projects to gain some experience.\n\nCurrently, everything is handled with [Airtable](https://airtable.com/invite/r/ElIWUPZu) in the backend, but working on converting the project to using Firebase. The reason I choose Firebase is that it just allows me to grow the project at a faster pace than setting up my own server. I like to have full control over things though so maybe in the future I’ll convert this project 🤔.\n\n### Upcoming Features\nAs of now, users have to click a button which opens up an Airtable form. Once the user fills out the form with their information it’s then displayed on Dev Collab home page. If a user wants to modify or delete their project, they will have to contact me via Twitter and I’ll remove it for them. So with that said here are some of Dev Collab upcoming features:\n- User Account\n* Link Firebase (DB/Auth)\n* Sync Github projects \n* Modify/Delete projects\n* Better UI/UX design??\n* And some more…\n\nThese features will start to roll out in the coming weeks so stay tuned!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ba01a37c74d1c786cf46a07e8923f5ea",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Launch Of Dev Collab",
+        "date": "12-03-2019",
+        "slug": "launch-of-dev-collab",
+        "_PARENT": "c60e7a6b-6b42-5777-82a2-fb883b7c3242"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nI've been thinking about this project idea for a while now and finally decided to start on it. Well as of December 2, 2018, I’ve released the Beta version of [Dev Collab](https://devcollab.org) 🎊. And when I mean beta I mean more like Alpha lol, but I wanted to release this project young and watch it mature with its users. The reason I created this project was to help new programmers jump in and start working on projects with a group. Some people are afraid or just don’t know where to look when it comes time finding projects to gain some experience.\n\nCurrently, everything is handled with [Airtable](https://airtable.com/invite/r/ElIWUPZu) in the backend, but working on converting the project to using Firebase. The reason I choose Firebase is that it just allows me to grow the project at a faster pace than setting up my own server. I like to have full control over things though so maybe in the future I’ll convert this project 🤔.\n\n### Upcoming Features\nAs of now, users have to click a button which opens up an Airtable form. Once the user fills out the form with their information it’s then displayed on Dev Collab home page. If a user wants to modify or delete their project, they will have to contact me via Twitter and I’ll remove it for them. So with that said here are some of Dev Collab upcoming features:\n- User Account\n* Link Firebase (DB/Auth)\n* Sync Github projects \n* Modify/Delete projects\n* Better UI/UX design??\n* And some more…\n\nThese features will start to roll out in the coming weeks so stay tuned!\n",
+      "fileAbsolutePath": "/Users/shakhor/Projects/Web/Portfolio/src/posts/12-03-2018-Launch-Of-Dev-Collab.md",
+      "fields": {
+        "slug": "/12-03-2018-Launch-Of-Dev-Collab/"
       }
     },
     "SitePage /blog/how-i-became-a-web-developer-in-4-months": {
@@ -2824,28 +2824,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /blog/launch-of-dev-collab": {
-      "jsonName": "blog-launch-of-dev-collab-7dc",
-      "internalComponentName": "ComponentBlogLaunchOfDevCollab",
-      "path": "/blog/launch-of-dev-collab",
-      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "launch-of-dev-collab"
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
-      "id": "SitePage /blog/launch-of-dev-collab",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0c05c7979013f8920d707076e148da46",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /blog/how-to-make-a-blog-with-react-and-graphql": {
       "jsonName": "blog-how-to-make-a-blog-with-react-and-graphql-6cc",
       "internalComponentName": "ComponentBlogHowToMakeABlogWithReactAndGraphql",
@@ -2864,6 +2842,28 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "6e3251377fe4f3c32479bf2c9dbeb0fe",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/launch-of-dev-collab": {
+      "jsonName": "blog-launch-of-dev-collab-7dc",
+      "internalComponentName": "ComponentBlogLaunchOfDevCollab",
+      "path": "/blog/launch-of-dev-collab",
+      "component": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "launch-of-dev-collab"
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js",
+      "id": "SitePage /blog/launch-of-dev-collab",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0c05c7979013f8920d707076e148da46",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -2991,7 +2991,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "e76f8cd247973897d2a399d8a0745148"
+    "PLUGINS_HASH": "fea7cfeb8ffc821795364c60b666030e"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -3010,18 +3010,19 @@
       "8d3e9908-9dc9-52a6-98f5-6de271fb3b17": [
         "/blog/website-redesign-v2"
       ],
-      "6a7a9d8d-33d3-5d62-b209-5789035e8279": [
-        "/blog/launch-of-dev-collab"
-      ],
       "84789685-cd7c-5477-87c4-809c23b5619e": [
         "/blog/how-to-make-a-blog-with-react-and-graphql"
+      ],
+      "6a7a9d8d-33d3-5d62-b209-5789035e8279": [
+        "/blog/launch-of-dev-collab"
       ]
     },
     "connections": {
       "MarkdownRemark": [
         null,
         "/blog/",
-        "/"
+        "/",
+        null
       ]
     }
   },
