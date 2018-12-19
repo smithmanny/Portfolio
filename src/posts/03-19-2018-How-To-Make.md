@@ -1,5 +1,5 @@
 ---
-title: "How To Make App A Blog With React & GraphQL"
+title: "How To Make A Blog With React & GraphQL"
 date: "03-19-2018"
 slug: "how-to-make-a-blog-with-react-and-graphql"
 ---
