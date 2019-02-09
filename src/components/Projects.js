@@ -5,20 +5,15 @@ import { media } from '../utils/utils'
 import Button from '../components/shared/Button'
 import Github from '../images/github.svg'
 
-const Projects = ({ Projects, title }) => (
+const Projects = ({ projects, title }) => (
   <Container>
-    <h2>Coming Soon</h2>
-    {/* <ProjectWrapper>
-      <ProjectTitle>Projects</ProjectTitle>
-      <ProjectTag>E-commerce</ProjectTag>
-      <ProjectSummary>This is the product summary with an extended summary so that I can see how it looks.</ProjectSummary>
+    <ProjectWrapper>
+      <ProjectTitle>Slyderz</ProjectTitle>
 
       <ProjectButtonWrapper>
-        <ProjectButton>View Code</ProjectButton>
-        <ProjectButton>View Demo</ProjectButton>
+        <ProjectButton href='https://slyderz.co'>View Site</ProjectButton>
       </ProjectButtonWrapper>
-    </ProjectWrapper> */}
-
+    </ProjectWrapper>
   </Container>
 )
 
@@ -28,16 +23,31 @@ const Container = styled.div`
   justify-content: space-between;
 `
 
-const ProjectButton = styled.button`
+const ProjectWrapper = styled.div`
+  display: flex;
+  width: 350px;
+  margin: 30px 0;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  align-items: center;
+`
+
+const ProjectTitle = styled.h4`
+  margin: 0;
+`
+const ProjectButtonWrapper = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+`
+
+const ProjectButton = styled.a`
   height: 40px;
   border: 2px solid ${ props => props.theme.secondary };
   padding: 5px 15px;
   font-size: .87rem;
-`
-
-const ProjectButtonWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
 `
 
 const ProjectTag = styled.small`
@@ -47,7 +57,7 @@ const ProjectTag = styled.small`
   color: white;
   margin: 0 auto;
   height: 30px;
-  width: 150px;
+  max-width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,20 +67,6 @@ const ProjectTag = styled.small`
 const ProjectSummary = styled.p`
   text-align: center;
   margin-top: 10px;
-`
-
-const ProjectTitle = styled.h4`
-  text-align: center;
-`
-
-const ProjectWrapper = styled.div`
-  width: 300px;
-  height: auto;
-  margin: 30px 0;
-  background-color: white;
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 10px;
 `
 
 export default Projects
