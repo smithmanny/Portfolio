@@ -1,9 +1,8 @@
 import React from 'react'
-import styled from 'styled-components'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
-import Posts from '../components/Posts'
+import Layout from '../containers/Layout'
+import Posts from '../components/shared/Posts'
 import { PageTitle } from '../components/shared/Text'
 
 const Blog = ({ data }) => (

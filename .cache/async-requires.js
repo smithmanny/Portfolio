@@ -11,5 +11,3 @@ exports.components = {
   "component---src-pages-index-js": () => import("/Users/shakhor/Projects/Web/Portfolio/src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */)
 }
 
-exports.data = () => import("/Users/shakhor/Projects/Web/Portfolio/.cache/data.json")
-

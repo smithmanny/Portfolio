@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { createGlobalStyle } from 'styled-components'
 
-import Layout from '../components/layout'
+import Layout from '../containers/Layout'
 import { PageTitle } from '../components/shared/Text'
 
 class BlogPost extends React.Component {

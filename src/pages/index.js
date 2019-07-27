@@ -2,9 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import { graphql } from 'gatsby'
 
-import Layout from '../components/layout'
+import Layout from '../containers/Layout'
 import Button from '../components/shared/Button'
-import Posts from '../components/Posts'
+import Posts from '../components/shared/Posts'
 import Projects from '../components/Projects'
 
 export default ({ data }) => (
