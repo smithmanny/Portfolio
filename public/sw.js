@@ -26,81 +26,145 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-9497abd8f52401394130.js"
+    "url": "webpack-runtime-699b7ca5633146d0672b.js"
   },
   {
-    "url": "app.b6f197430f783b3e67aa.css"
+    "url": "styles.246d67a4ef7e9adeefa5.css"
   },
   {
-    "url": "app-198385d6e4a7a6526625.js"
+    "url": "styles-aa20cd897cc83849a629.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-6e9a63018a43f7809ecf.js"
+    "url": "app-a0d0b3ab95bba3ff2f74.js"
   },
   {
-    "url": "index.html",
-    "revision": "33a3b5ea33895f63df99f15c2528ab05"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-a7f396889724660e195d.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "93806429a2093a91e837f4c48c520dc8"
+    "revision": "b3723936dd4eb21f4a40b44d702fcb1f"
   },
   {
-    "url": "0-e3a29f5a8f310ec50406.js"
+    "url": "component---src-pages-404-js-6d99ad5b2ff4b4ccfcec.js"
   },
   {
-    "url": "component---src-pages-index-js-2ed6e4a31419a8223647.js"
+    "url": "0-77ff80199ac7e99cb874.js"
   },
   {
-    "url": "1-2f7406a354102fc0a0c4.js"
-  },
-  {
-    "url": "static/d/686/path---index-6a9-C2tON6bZ5Lbd9RAHDrI3gfk0cQE.json",
-    "revision": "cbf100cd6393585c00be59ebaa921f57"
-  },
-  {
-    "url": "component---src-pages-404-js-6c557c5226fbb9f1829b.js"
-  },
-  {
-    "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
-    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
-  },
-  {
-    "url": "static/d/520/path---offline-plugin-app-shell-fallback-a-30-c5a-NZuapzHg3X9TaN1iIixfv1W23E.json",
-    "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
+    "url": "page-data/404.html/page-data.json",
+    "revision": "63e16900db08fd4e979c5f5aff05d3be"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "f4a080d318e2c8688cb38d879e4519ea"
+    "revision": "f74f14287fa34520a759a41ea5ec5e6e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
-  whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
-  blacklist: [/\?(.+&)?no-cache=1$/],
-});
+workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, workbox.strategies.cacheFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, workbox.strategies.networkFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, workbox.strategies.staleWhileRevalidate(), 'GET');
 
-workbox.routing.registerRoute(/\.(?:png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, workbox.strategies.staleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https:/, workbox.strategies.networkFirst(), 'GET');
-"use strict";
+/* global importScripts, workbox, idbKeyval */
 
-/* global workbox */
-self.addEventListener("message", function (event) {
-  var api = event.data.api;
+importScripts(`idb-keyval-iife.min.js`)
+const WHITELIST_KEY = `custom-navigation-whitelist`
 
-  if (api === "gatsby-runtime-cache") {
-    var resources = event.data.resources;
-    var cacheName = workbox.core.cacheNames.runtime;
-    event.waitUntil(caches.open(cacheName).then(function (cache) {
-      return Promise.all(resources.map(function (resource) {
-        return cache.add(resource).catch(function (e) {
-          // ignore TypeErrors - these are usually due to
-          // external resources which don't allow CORS
-          if (!(e instanceof TypeError)) throw e;
-        });
-      }));
-    }));
+const navigationRoute = new workbox.routing.NavigationRoute(({ event }) => {
+  const { pathname } = new URL(event.request.url)
+
+  return idbKeyval.get(WHITELIST_KEY).then((customWhitelist = []) => {
+    // Respond with the offline shell if we match the custom whitelist
+    if (customWhitelist.includes(pathname)) {
+      const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+      const cacheName = workbox.core.cacheNames.precache
+
+      return caches.match(offlineShell, { cacheName }).then(cachedResponse => {
+        if (cachedResponse) return cachedResponse
+
+        console.error(
+          `The offline shell (${offlineShell}) was not found ` +
+            `while attempting to serve a response for ${pathname}`
+        )
+
+        return fetch(offlineShell).then(response => {
+          if (response.ok) {
+            return caches.open(cacheName).then(cache =>
+              // Clone is needed because put() consumes the response body.
+              cache.put(offlineShell, response.clone()).then(() => response)
+            )
+          } else {
+            return fetch(event.request)
+          }
+        })
+      })
+    }
+
+    return fetch(event.request)
+  })
+})
+
+workbox.routing.registerRoute(navigationRoute)
+
+let updatingWhitelist = null
+
+function rawWhitelistPathnames(pathnames) {
+  if (updatingWhitelist !== null) {
+    // Prevent the whitelist from being updated twice at the same time
+    return updatingWhitelist.then(() => rawWhitelistPathnames(pathnames))
   }
-});
+
+  updatingWhitelist = idbKeyval
+    .get(WHITELIST_KEY)
+    .then((customWhitelist = []) => {
+      pathnames.forEach(pathname => {
+        if (!customWhitelist.includes(pathname)) customWhitelist.push(pathname)
+      })
+
+      return idbKeyval.set(WHITELIST_KEY, customWhitelist)
+    })
+    .then(() => {
+      updatingWhitelist = null
+    })
+
+  return updatingWhitelist
+}
+
+function rawResetWhitelist() {
+  if (updatingWhitelist !== null) {
+    return updatingWhitelist.then(() => rawResetWhitelist())
+  }
+
+  updatingWhitelist = idbKeyval.set(WHITELIST_KEY, []).then(() => {
+    updatingWhitelist = null
+  })
+
+  return updatingWhitelist
+}
+
+const messageApi = {
+  whitelistPathnames(event) {
+    let { pathnames } = event.data
+
+    pathnames = pathnames.map(({ pathname, includesPrefix }) => {
+      if (!includesPrefix) {
+        return `${pathname}`
+      } else {
+        return pathname
+      }
+    })
+
+    event.waitUntil(rawWhitelistPathnames(pathnames))
+  },
+
+  resetWhitelist(event) {
+    event.waitUntil(rawResetWhitelist())
+  },
+}
+
+self.addEventListener(`message`, event => {
+  const { gatsbyApi } = event.data
+  if (gatsbyApi) messageApi[gatsbyApi](event)
+})

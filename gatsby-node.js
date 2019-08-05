@@ -1,14 +1,20 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const { format } = require('date-fns')
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark`) {
+  if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `posts` })
     createNodeField({
       node,
       name: `slug`,
-      value: slug,
+      value: `/blog${ slug }`,
+    })
+    createNodeField({
+      node,
+      name: `publishedAt`,
+      value: format(new Date(node.frontmatter.date), 'MMM dd, yyyy'),
     })
   }
 }
@@ -18,10 +24,11 @@ exports.createPages = ({ graphql, actions }) => {
   return new Promise((resolve, reject) => {
     graphql(`
       {
-        allMarkdownRemark {
+        allMdx {
           edges {
             node {
-              frontmatter {
+              id
+              fields {
                 slug
               }
             }
@@ -29,15 +36,11 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     `).then(result => {
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      result.data.allMdx.edges.forEach(({ node }) => {
         createPage({
-          path: `/blog/${ node.frontmatter.slug }`,
+          path: node.fields.slug,
           component: path.resolve(`./src/templates/blog-post.js`),
-          context: {
-            // Data passed to context is available
-            // in page queries as GraphQL variables.
-            slug: node.frontmatter.slug,
-          },
+          context: { id: node.id },
         })
       })
       resolve()

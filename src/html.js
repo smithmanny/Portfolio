@@ -23,18 +23,6 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-          {/* Lyra Tracking */}
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                      var lyra=window.lyra||[];lyra.push(['lyra_Id', '5bfaaa90b03a7']);
-                  `,
-            }}
-          />
-          <script
-            async
-            src='https://thelyra.pro/a/analytics.js'
-          />
           {/* Twitter JS */}
           <script dangerouslySetInnerHTML={{
             __html: `

@@ -8,11 +8,17 @@ var plugins = [{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
       plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Shakhor Smith","short_name":"Shakhor","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      options: {"plugins":[],"name":"Shakhor Smith","short_name":"Shakhor","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/logo.svg"},
+    },{
+      plugin: require('/Users/shakhor/Projects/Web/Portfolio/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      options: {"plugins":[],"defaultLayouts":{"posts":"/Users/shakhor/Projects/Web/Portfolio/src/templates/blog-post.js"},"extensions":[".mdx",".md"],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":590}},{"resolve":"gatsby-transformer-remark","options":{"plugins":[{"resolve":"gatsby-remark-external-links","options":{"target":"_target","rel":"nofollow"}}]}}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
