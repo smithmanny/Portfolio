@@ -2,23 +2,24 @@ import React from 'react'
 import styled from 'styled-components'
 import { graphql } from 'gatsby'
 
+import { PageTitle } from '../components/shared/Text'
 import Layout from '../containers/Layout'
 import Button from '../components/shared/Button'
 import Posts from '../components/shared/Posts'
-import Projects from '../components/Projects'
+import Projects from '../components/shared/Projects'
 
 export default ({ data }) => (
   <Layout>
     <Section>
-      <Title>Hi, I'm Shakhor Smith</Title>
-      <p>I'm a Software Engineer from Ft. Lauderdale, FL living in Atlanta. On my free time I like to build projects and also help people learn how to code.</p>
+      <PageTitle align="left">Software Engineer</PageTitle>
+      <p>Hi, my name is Shakhor Smith and I'm a self-taught developer in Atlanta, GA. This blog will be used to track my progress as I continue my career and grow.</p>
 
       <Button to='/about'>Read more</Button>
     </Section>
 
     <Section>
       <SectionTitle>Latest Posts</SectionTitle>
-      <Posts posts={data.allMarkdownRemark.edges} />
+      <Posts posts={data.allMdx.edges} />
       <Button to='/blog' section='true'>View All</Button>
     </Section>
 
@@ -32,36 +33,31 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }, limit: 5) {
+    allMdx (sort: { fields: [fields___publishedAt], order: DESC }, limit: 5) {
       edges {
         next {
           frontmatter {
             title
-            date
-            slug
           }
         }
         previous {
           frontmatter {
             title
-            date
-            slug
           }
         }
         node {
+          id
           frontmatter {
             title
-            date
+          }
+          fields {
+            publishedAt
             slug
           }
         }
       }
     }
   }
-`
-
-const Title = styled.h1`
-  color: ${ props => props.theme.title };
 `
 
 const SectionTitle = styled.h2`

@@ -2,37 +2,50 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 
+import { Switch } from './form'
 import { media } from '../../utils/utils'
-
 import SocialLinks from './SocialLinks'
 
-const Header = ({ menuLinks, siteTitle, toggleTheme }) => (
-  <Nav>
-    <Logo>
-      <Link to="/">
-        {siteTitle}
-      </Link>
-    </Logo>
+const Header = ({ menuLinks, siteTitle, toggleTheme, theme }) => (
+  <React.Fragment>
+    <Switch
+      toggleTheme={toggleTheme}
+      theme={theme}
+    />
 
-    <SocialLinks toggleTheme={toggleTheme} />
+    <Nav>
+      <h2
+        style={{
+          margin: 0,
+          fontSize: '22px',
+          height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+        }}
+      >
+        <Link to="/">
+          {siteTitle}
+        </Link>
+      </h2>
 
-    <HeaderLink>
-      {menuLinks.map(link =>
-        <HeaderItem key={link.name}>
-          <Link to={link.link}>{link.name}</Link>
-        </HeaderItem>
-      )}
-    </HeaderLink>
-  </Nav>
+      <SocialLinks toggleTheme={toggleTheme} />
+
+      <HeaderLink>
+        {menuLinks.map(link =>
+          <li
+            key={link.name}
+            style={{
+              listStyle: 'none',
+              margin: '0 15px',
+            }}
+          >
+            <Link to={link.link}>{link.name}</Link>
+          </li>
+        )}
+      </HeaderLink>
+    </Nav>
+  </React.Fragment>
 )
-
-const Logo = styled.h2`
-  margin: 0;
-  font-size: 22px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-`
 
 const Nav = styled.nav`
   display: grid;
@@ -40,11 +53,6 @@ const Nav = styled.nav`
   align-items: center;
 
   ${ media.mobile`grid-template-columns: 50% 50%;` }
-`
-
-const HeaderItem = styled.li`
-  list-style-type: none;
-  margin: 0 15px;
 `
 
 const HeaderLink = styled.ul`

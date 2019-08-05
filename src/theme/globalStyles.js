@@ -3,8 +3,8 @@ export const themes = {
     primary: '#0091A0',
     secondary: '#FF8500',
     background: '#616163',
-    contentColor: '#FFFFFC',
-    title: '#FFF',
+    contentColor: '#fffffcc2',
+    title: '#ffffffd1',
   },
   main: {
     primary: '#FF8500',

@@ -1,23 +1,48 @@
 import React from 'react'
-import { themes } from '../theme/globalStyles'
 
-const ThemeContext = React.createContext()
+const defaultState = {
+  theme: 'main',
+  toggleTheme: {}
+}
+const ThemeContext = React.createContext(defaultState)
 
-class PortfolioThemeProvider extends React.Component {
+class ThemeProvider extends React.PureComponent {
   state = {
-    theme: themes.main
+    theme: 'main'
   };
 
-  toggleTheme = () => this.setState(prevState => ({ theme: prevState.theme === themes.main ? themes.dark : themes.main }))
+  componentDidMount () {
+    const theme = JSON.parse(window.localStorage.getItem('theme'))
+
+    if (theme) {
+      if (theme === 'main') {
+        this.setState({ theme: 'main' })
+      } else {
+        this.setState({ theme: 'dark' })
+      }
+    }
+  }
+
+  toggleTheme = () => {
+    this.setState(prevState => ({ theme: prevState.theme === 'main' ? 'dark' : 'main' }), () => {
+      // Update app current theme
+      window.localStorage.setItem('theme', JSON.stringify(this.state.theme))
+    })
+  }
 
   render () {
-    return <ThemeContext.Provider value={{
-      ...this.state,
-      toggleTheme: this.toggleTheme,
-    }}>
-      {this.props.children}
-    </ThemeContext.Provider>
+    return (
+      <ThemeContext.Provider
+        value={{
+          theme: this.state.theme,
+          toggleTheme: this.toggleTheme,
+        }}
+      >
+        {this.props.children}
+      </ThemeContext.Provider>
+    )
   }
 }
 
-export default PortfolioThemeProvider
+export default ThemeContext
+export { ThemeProvider }

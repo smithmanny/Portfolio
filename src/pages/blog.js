@@ -8,38 +8,42 @@ import { PageTitle } from '../components/shared/Text'
 const Blog = ({ data }) => (
   <Layout>
     <PageTitle>Blog</PageTitle>
-    <Posts posts={data.allMarkdownRemark.edges} />
+    <Posts
+      posts={data.allMdx.edges}
+    />
   </Layout>
 )
 
 export const query = graphql`
   query {
-    allMarkdownRemark (sort: { fields: [frontmatter___date], order: DESC }) {
-          edges {
-            next {
-              frontmatter {
-                title
-                date
-                slug
-              }
-            }
-            previous {
-              frontmatter {
-                title
-                date
-                slug
-              }
-            }
-            node {
-              frontmatter {
-                title
-                date
-                slug
-              }
-            }
+    allMdx (sort: { fields: [fields___publishedAt], order: DESC }) {
+      edges {
+        next {
+          frontmatter {
+            title
+            date
+          }
+        }
+        previous {
+          frontmatter {
+            title
+            date
+          }
+        }
+        node {
+          id
+          frontmatter {
+            title
+            date
+          }
+          fields {
+            publishedAt
+            slug
           }
         }
       }
-    `
+    }
+  }
+`
 
 export default Blog
