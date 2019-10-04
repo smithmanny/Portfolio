@@ -289,3 +289,8 @@ patch:
         patched: '2019-08-05T03:51:01.776Z'
     - gatsby > relay-compiler > babel-preset-fbjs > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
         patched: '2019-08-05T03:51:01.776Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T06:09:59.310Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T06:09:59.310Z'
