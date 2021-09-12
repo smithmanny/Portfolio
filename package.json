@@ -18,7 +18,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-standard": "^4.0.0",
-    "gatsby": "^2.0.84",
+    "gatsby": "^3.13.0",
     "gatsby-image": "^2.2.7",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-mdx": "^1.0.17",
@@ -39,7 +39,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
-    "snyk": "^1.208.0",
+    "snyk": "^1.685.0",
     "styled-components": "^4.3.2",
     "typography": "^0.16.19",
     "typography-theme-twin-peaks": "^0.16.19"
