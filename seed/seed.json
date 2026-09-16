@@ -1,0 +1,943 @@
+{
+	"$schema": "https://emdashcms.com/seed.schema.json",
+	"version": "1",
+	"meta": {
+		"name": "Software Engineer Portfolio",
+		"description": "A portfolio for a software engineer with projects, a blog, and a work-with-me section",
+		"author": "EmDash"
+	},
+	"settings": {
+		"title": "Shakhor Smith",
+		"tagline": "Engineering · IT · Cloud · AI",
+		"social": {
+			"github": "https://github.com/smithmanny",
+			"linkedin": "https://www.linkedin.com/in/shakhor-smith/"
+		}
+	},
+	"collections": [
+		{
+			"slug": "projects",
+			"label": "Projects",
+			"labelSingular": "Project",
+			"supports": ["drafts", "revisions", "search", "seo"],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "Title",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "featured_image",
+					"label": "Featured Image",
+					"type": "image",
+					"required": true
+				},
+				{
+					"slug": "summary",
+					"label": "Summary",
+					"type": "text",
+					"searchable": true
+				},
+				{
+					"slug": "content",
+					"label": "Content",
+					"type": "portableText",
+					"searchable": true
+				},
+				{
+					"slug": "client",
+					"label": "Client / Context",
+					"type": "string"
+				},
+				{
+					"slug": "year",
+					"label": "Year",
+					"type": "string"
+				},
+				{
+					"slug": "role",
+					"label": "Role",
+					"type": "string",
+					"description": "What you did on this project, e.g. Staff Engineer"
+				},
+				{
+					"slug": "stack",
+					"label": "Tech Stack",
+					"type": "json",
+					"description": "Array of technology names, e.g. [\"TypeScript\", \"React\"]"
+				},
+				{
+					"slug": "url",
+					"label": "Live URL",
+					"type": "string"
+				},
+				{
+					"slug": "repo",
+					"label": "Repository URL",
+					"type": "string"
+				},
+				{
+					"slug": "gallery",
+					"label": "Gallery",
+					"type": "json",
+					"description": "Optional array of { url, alt? } records for screenshots"
+				}
+			]
+		},
+		{
+			"slug": "posts",
+			"label": "Posts",
+			"labelSingular": "Post",
+			"supports": ["drafts", "revisions", "search", "seo"],
+			"commentsEnabled": true,
+			"fields": [
+				{
+					"slug": "title",
+					"label": "Title",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "featured_image",
+					"label": "Featured Image",
+					"type": "image"
+				},
+				{
+					"slug": "excerpt",
+					"label": "Excerpt",
+					"type": "text",
+					"searchable": true
+				},
+				{
+					"slug": "content",
+					"label": "Content",
+					"type": "portableText",
+					"searchable": true
+				}
+			]
+		},
+		{
+			"slug": "pages",
+			"label": "Pages",
+			"labelSingular": "Page",
+			"supports": ["drafts", "revisions", "search", "seo"],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "Title",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "content",
+					"label": "Content",
+					"type": "portableText",
+					"searchable": true
+				}
+			]
+		}
+	],
+	"taxonomies": [
+		{
+			"name": "category",
+			"label": "Categories",
+			"labelSingular": "Category",
+			"hierarchical": false,
+			"collections": ["projects", "posts"],
+			"terms": [
+				{ "slug": "engineering", "label": "Engineering" },
+				{ "slug": "product", "label": "Product" },
+				{ "slug": "open-source", "label": "Open Source" },
+				{ "slug": "tutorial", "label": "Tutorials" },
+				{ "slug": "career", "label": "Career" }
+			]
+		},
+		{
+			"name": "tag",
+			"label": "Tags",
+			"labelSingular": "Tag",
+			"hierarchical": false,
+			"collections": ["projects", "posts"],
+			"terms": [
+				{ "slug": "typescript", "label": "TypeScript" },
+				{ "slug": "python", "label": "Python" },
+				{ "slug": "go", "label": "Go" },
+				{ "slug": "react", "label": "React" },
+				{ "slug": "nodejs", "label": "Node.js" },
+				{ "slug": "testing", "label": "Testing" },
+				{ "slug": "databases", "label": "Databases" },
+				{ "slug": "cloud", "label": "Cloud" },
+				{ "slug": "ai", "label": "AI" },
+				{ "slug": "devops", "label": "DevOps" },
+				{ "slug": "performance", "label": "Performance" }
+			]
+		}
+	],
+	"menus": [
+		{
+			"name": "primary",
+			"label": "Primary Navigation",
+			"items": [
+				{
+					"type": "custom",
+					"label": "Projects",
+					"url": "/work"
+				},
+				{
+					"type": "custom",
+					"label": "Blog",
+					"url": "/blog"
+				},
+				{
+					"type": "custom",
+					"label": "About",
+					"url": "/about"
+				},
+				{
+					"type": "custom",
+					"label": "Work with Me",
+					"url": "/work-with-me"
+				}
+			]
+		}
+	],
+	"content": {
+		"pages": [
+			{
+				"id": "home",
+				"slug": "home",
+				"status": "published",
+				"data": {
+					"title": "Home",
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "I'm a software engineer who has spent the last decade building and operating systems for the web, on-premises infrastructure, and AI products — from greenfield platforms to scruffy migrations nobody wanted. I care about code that ships, performs, and survives contact with production.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						}
+					]
+				}
+			},
+			{
+				"id": "about",
+				"slug": "about",
+				"status": "published",
+				"data": {
+					"title": "About",
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "I'm a software engineer with a decade of experience across IT operations, cloud infrastructure, and applied AI. Most of my career has been spent on the systems people don't see: the APIs, pipelines, and platform services that keep products running.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "I've built a TypeScript API platform processing millions of requests a day, shipped an open-source CLI used by CI pipelines across several companies, and led the data engineering on a coastal flood-forecasting system that models storm surge in near real time.",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "What I do",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "End-to-end product engineering. I design systems that scale predictably, write tests that matter, and take the operational side seriously — observability, deploys, and the midnight pages you'd rather not take. Comfortable leading a team or working alone inside a brownfield codebase.",
+									"_key": "k7"
+								}
+							],
+							"_key": "k6"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Toolbox",
+									"_key": "k9"
+								}
+							],
+							"_key": "k8"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "TypeScript, Node.js, React, Go, Python, PostgreSQL, Redis, Linux, cloud platforms (AWS / Cloudflare / GCP), and whatever AI tooling the moment demands.",
+									"_key": "k11"
+								}
+							],
+							"_key": "k10"
+						}
+					]
+				}
+			},
+			{
+				"id": "work-with-me",
+				"slug": "work-with-me",
+				"status": "published",
+				"data": {
+					"title": "Work with Me",
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "I take on a small number of engagements each quarter — contract engineering, architecture reviews, or turning a half-built prototype into a production system. I work best on problems with real constraints: a deadline, a budget, a gnarly legacy codebase.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "What I can help with",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Full-stack web products, API design and performance, migrating off-payroll infrastructure to managed cloud, data pipelines, and AI features that actually ship. If it's unclear whether something is a good fit, send the details anyway — a 20-minute call usually settles it.",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "How to reach me",
+									"_key": "k7"
+								}
+							],
+							"_key": "k6"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Use the form below, or email me directly at hello@shakhor.dev. I reply to every serious enquiry within a couple of working days.",
+									"_key": "k9"
+								}
+							],
+							"_key": "k8"
+						}
+					]
+				}
+			}
+		],
+		"projects": [
+			{
+				"id": "meridian-api",
+				"slug": "meridian-api",
+				"status": "published",
+				"data": {
+					"title": "Meridian API Platform",
+					"client": "Meridian Health",
+					"year": "2025",
+					"role": "Staff Engineer",
+					"stack": ["TypeScript", "Node.js", "PostgreSQL", "Redis", "AWS"],
+					"summary": "A multi-tenant REST API handling millions of requests per day for a digital health platform.",
+					"featured_image": {
+						"$media": {
+							"url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&h=900&fit=crop",
+							"alt": "Server racks in a data center",
+							"filename": "photo-1558494949-ef010cbdcc31.jpg"
+						}
+					},
+					"url": "https://meridian.example.com",
+					"repo": "https://github.com/smithmanny/meridian-api",
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Meridian Health needed to turn a single-tenant service built for one hospital into a multi-tenant platform dozens of hospitals could run on. I designed the tenant isolation model, the API contract, and the path from monolith to modular services.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The work",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Row-level tenant scoping in Postgres, a Redis caching layer that cut p95 latency by 60%, and an OpenAPI-first contract that let the client team build against the API in parallel. Load tests ran daily against a staging cluster sized like the largest hospital.",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Outcome",
+									"_key": "k7"
+								}
+							],
+							"_key": "k6"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "All 11 partner hospitals migrated within three months with zero data loss. The platform has served over 100M requests without an unplanned outage since the last hospital went live.",
+									"_key": "k9"
+								}
+							],
+							"_key": "k8"
+						}
+					]
+				},
+				"taxonomies": {
+					"category": ["engineering"],
+					"tag": ["typescript", "nodejs", "databases", "cloud"]
+				}
+			},
+			{
+				"id": "volta-dashboard",
+				"slug": "volta-dashboard",
+				"status": "published",
+				"data": {
+					"title": "Volta Energy Dashboard",
+					"client": "Volta Energy",
+					"year": "2024",
+					"role": "Lead Frontend Engineer",
+					"stack": ["TypeScript", "React", "D3", "WebSocket"],
+					"summary": "A real-time monitoring dashboard for a grid-scale battery storage network.",
+					"featured_image": {
+						"$media": {
+							"url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1200&h=900&fit=crop",
+							"alt": "Solar panels at dusk",
+							"filename": "photo-1509391366360-2e959784a276.jpg"
+						}
+					},
+					"url": "https://volta.example.com",
+					"repo": "https://github.com/smithmanny/volta-dashboard",
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Volta's operations team was staring at CSV exports to decide whether 200 batteries were charging, discharging, or on fire. I built a dashboard that streams telemetry over WebSockets and renders it without dropping frames.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The work",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "A React front end with a canvas-based charting layer that handles 10 updates per second per site, plus an alerting view that turned a 30-second polling workflow into push-based paging. I also introduced a test harness that replays recorded telemetry to catch regressions in rendering.",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Outcome",
+									"_key": "k7"
+								}
+							],
+							"_key": "k6"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Incident response time dropped from minutes to under 30 seconds, and the dashboard has absorbed every site Volta added in 2024 without a redesign.",
+									"_key": "k9"
+								}
+							],
+							"_key": "k8"
+						}
+					]
+				},
+				"taxonomies": {
+					"category": ["product"],
+					"tag": ["react", "typescript", "testing", "performance"]
+				}
+			},
+			{
+				"id": "forge-cli",
+				"slug": "forge-cli",
+				"status": "published",
+				"data": {
+					"title": "Forge — CI Pipeline CLI",
+					"client": "Open Source",
+					"year": "2024",
+					"role": "Maintainer",
+					"stack": ["Go", "GitHub Actions"],
+					"summary": "An open-source CLI that validates, renders, and runs CI pipeline definitions locally before they hit CI.",
+					"featured_image": {
+						"$media": {
+							"url": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1200&h=900&fit=crop",
+							"alt": "Terminal window with code",
+							"filename": "photo-1555066931-4365d14bab8c.jpg"
+						}
+					},
+					"repo": "https://github.com/smithmanny/forge-cli",
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Every team I've worked with has burned a CI run on a YAML typo. Forge is a single Go binary that parses pipeline files, validates them against the schema, and simulates the job graph so you know what will run — before you push.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The work",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "A hand-rolled YAML parser (the YAML spec is a horror show), a directed-acyclic graph renderer for the job simulation, and golden-file tests for the rendered output. The project has 2.4k GitHub stars and is used in CI at several small companies.",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Outcome",
+									"_key": "k7"
+								}
+							],
+							"_key": "k6"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Maintaining Forge taught me more about how people actually use software than any client project — the issues and PRs are a graduate course in product thinking.",
+									"_key": "k9"
+								}
+							],
+							"_key": "k8"
+						}
+					]
+				},
+				"taxonomies": {
+					"category": ["open-source"],
+					"tag": ["go", "devops", "testing"]
+				}
+			},
+			{
+				"id": "coastal-forecast",
+				"slug": "coastal-forecast",
+				"status": "published",
+				"data": {
+					"title": "Coastal Flood Forecasting",
+					"client": "NOAA Coastal Lab",
+					"year": "2023",
+					"role": "Data Engineer",
+					"stack": ["Python", "Apache Airflow", "PostgreSQL", "MLflow"],
+					"summary": "A near-real-time pipeline that turns tide gauges and weather models into actionable flood warnings.",
+					"featured_image": {
+						"$media": {
+							"url": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=1200&h=900&fit=crop",
+							"alt": "Waves along a coastline",
+							"filename": "photo-1519710164239-da123dc03ef4.jpg"
+						}
+					},
+					"repo": "https://github.com/smithmanny/coastal-forecast",
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Flood warnings are only useful if they arrive before the water. I built the data platform that ingests tide-gauge readings, storm-surge models, and NOAA weather forecasts, then runs a surge-prediction model every ten minutes.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The work",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Airflow DAGs with idempotent retries, a Postgres store that keeps five years of historical buoy data for model retraining, and MLflow for experiment tracking. The model itself was the ML team's job — making sure its inputs arrived fresh and its outputs reached emergency systems was mine.",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Outcome",
+									"_key": "k7"
+								}
+							],
+							"_key": "k6"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The system has issued warnings for three coastal storms since launch, all with enough lead time for evacuations. Data freshness went from best-effort to a 99.9% on-time SLA.",
+									"_key": "k9"
+								}
+							],
+							"_key": "k8"
+						}
+					]
+				},
+				"taxonomies": {
+					"category": ["engineering"],
+					"tag": ["python", "databases", "ai", "devops"]
+				}
+			}
+		],
+		"posts": [
+			{
+				"id": "scaling-postgres",
+				"slug": "scaling-postgres-past-100m-rows",
+				"status": "published",
+				"data": {
+					"title": "Scaling Postgres past 100 million rows",
+					"excerpt": "What worked, what didn't, and the three queries I stopped being embarrassed about.",
+					"featured_image": {
+						"$media": {
+							"url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop",
+							"alt": "Abstract data visualization",
+							"filename": "photo-1551288049-bebda4e38f71.jpg"
+						}
+					},
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Somewhere around 50 million rows, the queries that survived production review for years start creaking. By 100 million, they're calling meetings. This post is the honest record of how I got a Postgres database from 'working fine' to 'fine at 100M rows' — and the mistakes I'd skip next time.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The three epiphanies",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "First, indexes are not decoration — but every new index is a tax on every write. Second, most slow queries are slow because they fetch columns they never needed; a covering index often beats clever queries. Third, the query planner is rarely the problem; the schema usually is.",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Read it to avoid the fun parts",
+									"_key": "k7"
+								}
+							],
+							"_key": "k6"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The full walkthrough — including the partition scheme I eventually backed out of — is coming soon. If you want it early, it's available to newsletter subscribers.",
+									"_key": "k9"
+								}
+							],
+							"_key": "k8"
+						}
+					]
+				},
+				"taxonomies": {
+					"category": ["engineering"],
+					"tag": ["databases", "performance"]
+				}
+			},
+			{
+				"id": "open-source-cli-lessons",
+				"slug": "lessons-from-shipping-an-open-source-cli",
+				"status": "published",
+				"data": {
+					"title": "What I learned shipping my first open-source CLI",
+					"excerpt": "Maintenance is the real work. Stars are the paper napkin of internet fame.",
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Shipping Forge taught me that building the thing is maybe 20% of open source. The other 80% is triage: the issue that's actually a feature request, the PR that's a gift, and the 2 a.m. bug report from someone whose CI you broke.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Lessons",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Write a CONTRIBUTING file on day one. Automate the boring releases. Say no to scope creep in the issue tracker with the same spine you use in standup. And treat every user report as a design critique: nothing teaches you how software is actually used like watching strangers try yours.",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						}
+					]
+				},
+				"taxonomies": {
+					"category": ["open-source"],
+					"tag": ["go", "testing"]
+				}
+			},
+			{
+				"id": "react-typescript-architecture",
+				"slug": "a-react-typescript-architecture-i-actually-like",
+				"status": "published",
+				"data": {
+					"title": "A React + TypeScript architecture I actually like",
+					"excerpt": "Folders are a convention, not an architecture. Here's what I use for products that outlive a hackathon.",
+					"featured_image": {
+						"$media": {
+							"url": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=1200&h=800&fit=crop",
+							"alt": "Close-up of code on a screen",
+							"filename": "photo-1542831371-29b0f74f9713.jpg"
+						}
+					},
+					"content": [
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Most React codebases don't die from a bad library choice. They die from a thousand tiny decisions made inconsistently: some state in Redux, some in context, some in a ref that felt fine at the time.",
+									"_key": "k1"
+								}
+							],
+							"_key": "k0"
+						},
+						{
+							"_type": "block",
+							"style": "h2",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The shape I land on",
+									"_key": "k3"
+								}
+							],
+							"_key": "k2"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "Domain-driven folders instead of type-based folders. One file per route, thin by design. Data access behind a small interface so swapping an API for a mock is a one-file change. And a dream rule: if a component renders more than two conditionally-null branches, it earns a refactor.",
+									"_key": "k5"
+								}
+							],
+							"_key": "k4"
+						},
+						{
+							"_type": "block",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"text": "The post includes a starter repository and the test strategy that finally made refactoring fun again.",
+									"_key": "k7"
+								}
+							],
+							"_key": "k6"
+						}
+					]
+				},
+				"taxonomies": {
+					"category": ["tutorial"],
+					"tag": ["typescript", "react", "testing"]
+				}
+			}
+		]
+	}
+}

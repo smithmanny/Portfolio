@@ -1,64 +1,65 @@
-![Astro Nano](_astro_nano.png)
+# EmDash Portfolio Template (Cloudflare)
 
-Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
+A visual portfolio for showcasing creative work, built with [EmDash](https://github.com/emdash-cms/emdash) and deployed on Cloudflare Workers with D1 and R2. Project pages with tag filtering, case study layouts, and an RSS feed for new work.
 
-Built with Astro, Tailwind and Typescript, an no frameworks.
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/emdash-cms/templates/tree/main/portfolio-cloudflare)
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
+![Portfolio template work page](https://raw.githubusercontent.com/emdash-cms/emdash/main/assets/templates/portfolio/latest/work-light-desktop.jpg)
 
-## 🚀 Deploy your own
+## What's Included
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano)
+- Project grid with hover effects
+- Tag-based filtering on the work page
+- Individual project pages with galleries
+- About and contact pages
+- RSS feed for new projects
+- SEO metadata and JSON-LD
+- Dark/light mode
 
-## 📋 Features
+## Pages
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
+| Page | Route |
+|---|---|
+| Homepage | `/` |
+| Work listing | `/work` |
+| Single project | `/work/:slug` |
+| About | `/about` |
+| Contact | `/contact` |
+| RSS | `/rss.xml` |
+| 404 | fallback |
 
-## 💯 Lighthouse score
-![Astro Nano Lighthouse Score](_lighthouse.png)
+## Screenshots
 
-## 🕊️ Lightweight
-No frameworks or added bulk
+| | Desktop | Mobile |
+|---|---|---|
+| Light | ![work light desktop](https://raw.githubusercontent.com/emdash-cms/emdash/main/assets/templates/portfolio/latest/work-light-desktop.jpg) | ![work light mobile](https://raw.githubusercontent.com/emdash-cms/emdash/main/assets/templates/portfolio/latest/work-light-mobile.jpg) |
+| Dark | ![work dark desktop](https://raw.githubusercontent.com/emdash-cms/emdash/main/assets/templates/portfolio/latest/work-dark-desktop.jpg) | ![work dark mobile](https://raw.githubusercontent.com/emdash-cms/emdash/main/assets/templates/portfolio/latest/work-dark-mobile.jpg) |
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+## Infrastructure
 
-## 📄 Configuration
+- **Runtime:** Cloudflare Workers
+- **Database:** D1
+- **Storage:** R2
+- **Framework:** Astro with `@astrojs/cloudflare`
 
-The blog posts on the demo serve as the documentation and configuration.
+## Local Development
 
-## 💻 Commands
+```bash
+pnpm install
+pnpm bootstrap
+pnpm dev
+```
 
-All commands are run from the root of the project, from a terminal:
+## Deploying
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+```bash
+pnpm deploy
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts local dev server on local network         |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Preview build on local network                   |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+Or click the deploy button above to set up the project in your Cloudflare account.
 
-## 🏛️ License
+## See Also
 
-MIT
+- [Node.js variant](../portfolio) -- same template using SQLite and local file storage
+- [All templates](../)
+- [EmDash documentation](https://github.com/emdash-cms/emdash/tree/main/docs)

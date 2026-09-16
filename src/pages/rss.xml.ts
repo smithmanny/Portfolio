@@ -1,30 +1,70 @@
-import rss from "@astrojs/rss";
-import { getCollection } from "astro:content";
-import { HOME } from "@consts";
+import type { APIRoute } from "astro";
+import { getEmDashCollection, getSiteSettings } from "emdash";
 
-type Context = {
-  site: string
-}
+export const GET: APIRoute = async ({ site, url }) => {
+	const siteUrl = site?.toString() || url.origin;
+	const settings = await getSiteSettings();
+	const siteTitle = settings?.title || "Shakhor Smith";
+	const siteDescription = settings?.tagline || "Software Engineer";
 
-export async function GET(context: Context) {
-  const blog = (await getCollection("blog"))
-  .filter(post => !post.data.draft);
+	const { entries: posts } = await getEmDashCollection("posts", {
+		orderBy: { published_at: "desc" },
+		limit: 20,
+	});
 
-  const projects = (await getCollection("projects"))
-    .filter(project => !project.data.draft);
+	const items = posts
+		.map((post) => {
+			if (!post.data.publishedAt) return null;
+			const pubDate = post.data.publishedAt.toUTCString();
 
-  const items = [...blog, ...projects]
-    .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
+			const postUrl = `${siteUrl}/blog/${post.id}`;
+			const title = escapeXml(post.data.title || "Untitled");
+			const description = escapeXml(post.data.excerpt || "");
 
-  return rss({
-    title: HOME.TITLE,
-    description: HOME.DESCRIPTION,
-    site: context.site,
-    items: items.map((item) => ({
-      title: item.data.title,
-      description: item.data.description,
-      pubDate: item.data.date,
-      link: `/${item.collection}/${item.slug}/`,
-    })),
-  });
+			return `    <item>
+      <title>${title}</title>
+      <link>${postUrl}</link>
+      <guid isPermaLink="true">${postUrl}</guid>
+      <pubDate>${pubDate}</pubDate>
+      <description>${description}</description>
+    </item>`;
+		})
+		.filter(Boolean)
+		.join("\n");
+
+	const rss = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>${escapeXml(siteTitle)}</title>
+    <description>${escapeXml(siteDescription)}</description>
+    <link>${siteUrl}</link>
+    <atom:link href="${siteUrl}/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+${items}
+  </channel>
+</rss>`;
+
+	return new Response(rss, {
+		headers: {
+			"Content-Type": "application/rss+xml; charset=utf-8",
+			"Cache-Control": "public, max-age=3600",
+		},
+	});
+};
+
+const XML_ESCAPE_PATTERNS = [
+	[/&/g, "&amp;"],
+	[/</g, "&lt;"],
+	[/>/g, "&gt;"],
+	[/"/g, "&quot;"],
+	[/'/g, "&apos;"],
+] as const;
+
+function escapeXml(str: string): string {
+	let result = str;
+	for (const [pattern, replacement] of XML_ESCAPE_PATTERNS) {
+		result = result.replace(pattern, replacement);
+	}
+	return result;
 }

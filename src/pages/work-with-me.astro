@@ -1,0 +1,396 @@
+---
+import { getEmDashEntry, getSiteSettings } from "emdash";
+import { PortableText } from "emdash/ui";
+import Base from "../layouts/Base.astro";
+
+// Handle form submission
+let formStatus: "idle" | "success" | "error" = "idle";
+let formMessage = "";
+
+if (Astro.request.method === "POST") {
+	try {
+		const formData = await Astro.request.formData();
+		const name = formData.get("name")?.toString() || "";
+		const email = formData.get("email")?.toString() || "";
+		const details = formData.get("details")?.toString() || "";
+
+		if (!name || !email || !details) {
+			formStatus = "error";
+			formMessage = "Please fill in all fields.";
+		} else if (!email.includes("@")) {
+			formStatus = "error";
+			formMessage = "Please enter a valid email address.";
+		} else {
+			// Wire this up to your email service in production — see your
+			// platform docs for Cloudflare Email Sending or similar.
+			console.log("Work with me submission:", { name, email, details });
+			formStatus = "success";
+			formMessage = "Thanks — I'll get back to you within a couple of working days.";
+		}
+	} catch {
+		formStatus = "error";
+		formMessage = "Something went wrong. Please try again.";
+	}
+}
+
+const [settings, { entry: page, cacheHint }] = await Promise.all([
+	getSiteSettings(),
+	getEmDashEntry("pages", "work-with-me"),
+]);
+
+if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+
+const social = (settings?.social as Record<string, string> | undefined) ?? {};
+---
+
+<Base
+	title="Work with Me"
+	description="Tell me about your project — contract engineering, architecture reviews, or bringing a prototype to production."
+>
+	<div class="page">
+		<header class="page-header">
+			<h1 class="page-title" {...page?.edit?.title}>
+				{page?.data?.title || "Work with Me"}
+			</h1>
+		</header>
+
+		<div class="page-grid">
+			<div class="page-main">
+				{
+					page?.data?.content ? (
+						<div class="page-content" {...page?.edit?.content}>
+							<PortableText value={page.data.content} />
+						</div>
+					) : (
+						<p class="page-content">
+							Tell me about your project below. I take on a small number of
+							engagements each quarter.
+						</p>
+					)
+				}
+
+				{formStatus === "success" ? (
+					<div class="form-success">
+						<h2>Message sent</h2>
+						<p>{formMessage}</p>
+						<a href="/work-with-me" class="form-reset">Send another message</a>
+					</div>
+				) : (
+					<form method="POST" class="contact-form">
+						{formStatus === "error" && (
+							<div class="form-error">
+								<p>{formMessage}</p>
+							</div>
+						)}
+
+						<div class="form-field">
+							<label for="name">Name</label>
+							<input
+								type="text"
+								id="name"
+								name="name"
+								required
+								placeholder="Your name"
+								autocomplete="name"
+							/>
+						</div>
+
+						<div class="form-field">
+							<label for="email">Email</label>
+							<input
+								type="email"
+								id="email"
+								name="email"
+								required
+								placeholder="you@example.com"
+								autocomplete="email"
+							/>
+						</div>
+
+						<div class="form-field">
+							<label for="details">About the project</label>
+							<textarea
+								id="details"
+								name="details"
+								required
+								rows="6"
+								placeholder="What are you building, on what timeline, and what's the current state?"
+							></textarea>
+						</div>
+
+						<button type="submit" class="form-submit">
+							Send
+						</button>
+					</form>
+				)}
+			</div>
+
+			<aside class="page-aside">
+				<div class="info-section">
+					<h3>What I build</h3>
+					<p>
+						Full-stack web products, APIs, data pipelines, and AI features. End
+						to end, from architecture review to deploy.
+					</p>
+				</div>
+
+				{
+					Object.keys(social).length > 0 && (
+						<div class="info-section">
+							<h3>Elsewhere</h3>
+							<ul class="social-links">
+								{Object.entries(social).map(([label, url]) => (
+									<li>
+										<a href={url} target="_blank" rel="noopener noreferrer">
+											{label.charAt(0).toUpperCase() + label.slice(1)}
+										</a>
+									</li>
+								))}
+							</ul>
+						</div>
+					)
+				}
+
+				<div class="info-section">
+					<h3>Availability</h3>
+					<p>Typically one new engagement a month, booked about three weeks out.</p>
+				</div>
+			</aside>
+		</div>
+	</div>
+</Base>
+
+<style>
+	.page {
+		max-width: var(--wide-width);
+		margin: 0 auto;
+		padding: var(--spacing-2xl) var(--spacing-lg) var(--spacing-4xl);
+	}
+
+	.page-header {
+		margin-bottom: var(--spacing-3xl);
+	}
+
+	.page-title {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-4xl);
+		font-weight: var(--font-weight-display);
+		line-height: var(--leading-tight);
+	}
+
+	.page-grid {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		gap: var(--spacing-4xl);
+	}
+
+	.page-content {
+		font-size: var(--font-size-base);
+		line-height: var(--leading-relaxed);
+		margin-bottom: var(--spacing-3xl);
+	}
+
+	.page-content :global(p) {
+		margin-bottom: 1.25em;
+	}
+
+	.page-content :global(h2) {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-2xl);
+		font-weight: var(--font-weight-heading);
+		margin-top: 2em;
+		margin-bottom: 0.5em;
+	}
+
+	.page-content :global(h3) {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-xl);
+		font-weight: var(--font-weight-heading);
+		margin-top: 1.5em;
+		margin-bottom: 0.5em;
+	}
+
+	.contact-form {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-lg);
+	}
+
+	.form-field {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-sm);
+	}
+
+	.form-field label {
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+	}
+
+	.form-field input,
+	.form-field textarea {
+		padding: var(--spacing-md);
+		font-family: inherit;
+		font-size: var(--font-size-base);
+		color: var(--color-text);
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius);
+		transition:
+			border-color var(--transition-fast),
+			box-shadow var(--transition-fast);
+	}
+
+	.form-field input:focus,
+	.form-field textarea:focus {
+		outline: none;
+		border-color: var(--color-brand);
+		box-shadow: 0 0 0 3px var(--color-brand-ring);
+	}
+
+	.form-field input::placeholder,
+	.form-field textarea::placeholder {
+		color: var(--color-muted);
+	}
+
+	.form-field textarea {
+		resize: vertical;
+		min-height: 150px;
+	}
+
+	.form-submit {
+		align-self: flex-start;
+		padding: var(--spacing-md) var(--spacing-xl);
+		font-family: inherit;
+		font-size: var(--font-size-sm);
+		font-weight: 500;
+		color: var(--color-bg);
+		background: var(--color-text);
+		border: none;
+		border-radius: var(--radius);
+		cursor: pointer;
+		transition:
+			background var(--transition-fast),
+			transform var(--transition-fast);
+	}
+
+	.form-submit:hover {
+		background: var(--color-brand);
+		color: var(--color-on-brand);
+		transform: translateY(-1px);
+	}
+
+	.form-submit:active {
+		transform: translateY(0);
+	}
+
+	.form-error {
+		padding: var(--spacing-md);
+		background: color-mix(in srgb, var(--color-danger) 10%, transparent);
+		border: 1px solid color-mix(in srgb, var(--color-danger) 30%, transparent);
+		border-radius: var(--radius);
+		color: var(--color-danger);
+		font-size: var(--font-size-sm);
+	}
+
+	.form-success {
+		padding: var(--spacing-2xl);
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius);
+		text-align: center;
+	}
+
+	.form-success h2 {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-xl);
+		font-weight: var(--font-weight-heading);
+		margin-bottom: var(--spacing-sm);
+	}
+
+	.form-success p {
+		color: var(--color-muted);
+		margin-bottom: var(--spacing-lg);
+	}
+
+	.form-reset {
+		font-size: var(--font-size-sm);
+		color: var(--color-brand);
+		text-decoration: none;
+	}
+
+	.form-reset:hover {
+		text-decoration: underline;
+	}
+
+	.page-aside {
+		position: sticky;
+		top: var(--spacing-xl);
+		align-self: start;
+		color: var(--color-muted);
+		font-size: var(--font-size-sm);
+	}
+
+	.info-section {
+		margin-bottom: var(--spacing-2xl);
+	}
+
+	.info-section h3 {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-lg);
+		font-weight: var(--font-weight-heading);
+		color: var(--color-text);
+		margin-bottom: var(--spacing-sm);
+	}
+
+	.info-section p {
+		line-height: var(--leading-normal);
+	}
+
+	.social-links {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-sm);
+	}
+
+	.social-links a {
+		color: var(--color-muted);
+		text-decoration: none;
+		transition: color var(--transition-fast);
+	}
+
+	.social-links a:hover {
+		color: var(--color-text);
+	}
+
+	@media (max-width: 768px) {
+		.page-grid {
+			grid-template-columns: 1fr;
+			gap: var(--spacing-2xl);
+		}
+
+		.page-title {
+			font-size: var(--font-size-3xl);
+		}
+
+		.page-aside {
+			position: static;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: var(--spacing-xl);
+			padding-top: var(--spacing-xl);
+			border-top: 1px solid var(--color-border);
+		}
+
+		.info-section {
+			margin-bottom: 0;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.page-aside {
+			grid-template-columns: 1fr;
+		}
+	}
+</style>

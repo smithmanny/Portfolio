@@ -1,0 +1,304 @@
+---
+import { getEmDashCollection, getEmDashEntry, getEntryTerms, decodeSlug } from "emdash";
+import { Image, PortableText } from "emdash/ui";
+import { Comments, CommentForm } from "emdash/ui/comments";
+import Base from "../../layouts/Base.astro";
+
+const slug = decodeSlug(Astro.params.slug);
+
+if (!slug) {
+	return Astro.redirect("/404");
+}
+
+const { entry: post, cacheHint, isPreview } = await getEmDashEntry("posts", slug);
+
+if (!post && !isPreview) {
+	return Astro.redirect("/404");
+}
+
+if (post) {
+	if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
+}
+
+const entryId = post ? post.data.id : null;
+
+const [tags, recentPosts] = await Promise.all([
+	entryId ? getEntryTerms("posts", entryId, "tag") : Promise.resolve([]),
+	getEmDashCollection("posts", {
+		orderBy: { published_at: "desc" },
+		limit: 3,
+	}),
+]);
+
+const otherPosts = recentPosts.entries
+	.filter((p) => p.id !== post?.id)
+	.slice(0, 2);
+
+const formattedDate = post?.data.publishedAt?.toLocaleDateString("en-US", {
+	year: "numeric",
+	month: "long",
+	day: "numeric",
+});
+
+function getImageSrc(img: unknown): string | undefined {
+	if (!img || typeof img !== "object") return undefined;
+	const image = img as Record<string, unknown>;
+	return typeof image.src === "string" ? image.src : undefined;
+}
+---
+
+{
+	post ? (
+		<Base
+			title={post.data.title}
+			description={post.data.excerpt}
+			image={getImageSrc(post.data.featured_image)}
+		>
+			<article class="post">
+				<header class="post-header">
+					<div class="post-meta">
+						{formattedDate && (
+							<time datetime={post.data.publishedAt!.toISOString()}>
+								{formattedDate}
+							</time>
+						)}
+						{
+							tags.length > 0 && (
+								<span class="post-taxonomies">
+									{tags.map((tag) => (
+										<span class="post-tag">{tag.label}</span>
+									))}
+								</span>
+							)
+						}
+					</div>
+					<h1 class="post-title" {...post.edit.title}>
+						{post.data.title}
+					</h1>
+				</header>
+
+				{
+					post.data.featured_image && (
+						<div class="featured-image" {...post.edit.featured_image}>
+							<Image image={post.data.featured_image} />
+						</div>
+					)
+				}
+
+				{post.data.excerpt && (
+					<p class="post-excerpt" {...post.edit.excerpt}>
+						{post.data.excerpt}
+					</p>
+				)}
+
+				<div class="post-content" {...post.edit.content}>
+					<PortableText value={post.data.content} />
+				</div>
+
+				<section class="post-comments">
+					<h2 class="comments-title">Comments</h2>
+					<Comments collection="posts" contentId={post.data.id} threaded />
+					<CommentForm collection="posts" contentId={post.data.id} />
+				</section>
+			</article>
+
+			{
+				otherPosts.length > 0 && (
+					<section class="more-posts">
+						<div class="more-inner">
+							<h2 class="more-title">More reading</h2>
+							<ul class="more-list">
+								{otherPosts.map((p) => (
+									<li>
+										<a href={`/blog/${p.id}`}>{p.data.title}</a>
+									</li>
+								))}
+							</ul>
+						</div>
+					</section>
+				)
+			}
+		</Base>
+	) : (
+		<Base title="Loading">
+			<p>Loading&hellip;</p>
+		</Base>
+	)
+}
+
+<style>
+	.post {
+		max-width: var(--max-width);
+		margin: 0 auto;
+		padding: 0 var(--spacing-lg) var(--spacing-4xl);
+	}
+
+	.post-header {
+		margin-bottom: var(--spacing-2xl);
+	}
+
+	.post-meta {
+		display: flex;
+		align-items: baseline;
+		gap: var(--spacing-md);
+		font-size: var(--font-size-sm);
+		color: var(--color-muted);
+		margin-bottom: var(--spacing-sm);
+	}
+
+	.post-taxonomies {
+		display: flex;
+		gap: var(--spacing-md);
+		text-transform: uppercase;
+		letter-spacing: var(--tracking-wide);
+		font-size: var(--font-size-xs);
+	}
+
+	.post-tag {
+		color: var(--color-muted);
+	}
+
+	.post-title {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-4xl);
+		font-weight: var(--font-weight-display);
+		line-height: var(--leading-tight);
+	}
+
+	.featured-image {
+		margin-bottom: var(--spacing-2xl);
+	}
+
+	.featured-image img {
+		width: 100%;
+		height: auto;
+		border-radius: var(--radius);
+	}
+
+	.post-excerpt {
+		font-size: var(--font-size-lg);
+		color: var(--color-muted);
+		line-height: var(--leading-normal);
+		margin-bottom: var(--spacing-xl);
+	}
+
+	.post-content {
+		font-size: var(--font-size-base);
+		line-height: var(--leading-relaxed);
+	}
+
+	.post-content :global(p) {
+		margin-bottom: 1.5em;
+	}
+
+	.post-content :global(h2) {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-2xl);
+		font-weight: var(--font-weight-heading);
+		margin-top: 2.5em;
+		margin-bottom: 0.75em;
+	}
+
+	.post-content :global(h3) {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-xl);
+		font-weight: var(--font-weight-heading);
+		margin-top: 2em;
+		margin-bottom: 0.5em;
+	}
+
+	.post-content :global(blockquote) {
+		margin: 2em 0;
+		padding-left: var(--spacing-xl);
+		border-left: 2px solid var(--color-brand);
+		color: var(--color-muted);
+		font-family: var(--font-heading);
+		font-style: italic;
+		font-size: var(--font-size-lg);
+	}
+
+	.post-content :global(ul),
+	.post-content :global(ol) {
+		margin-bottom: 1.5em;
+		padding-left: 1.25em;
+	}
+
+	.post-content :global(li) {
+		margin-bottom: 0.5em;
+	}
+
+	.post-content :global(pre) {
+		margin: 1.5em 0;
+		padding: var(--spacing-lg);
+		background: var(--color-surface);
+		border: 1px solid var(--color-border);
+		border-radius: var(--radius);
+		overflow-x: auto;
+		font-size: var(--font-size-sm);
+		line-height: 1.5;
+	}
+
+	.post-content :global(code) {
+		font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+	}
+
+	.post-content :global(img) {
+		margin: 2em 0;
+		border-radius: var(--radius);
+	}
+
+	.post-comments {
+		margin-top: var(--spacing-4xl);
+		padding-top: var(--spacing-xl);
+		border-top: 1px solid var(--color-border);
+	}
+
+	.comments-title {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-lg);
+		font-weight: var(--font-weight-heading);
+		margin-bottom: var(--spacing-lg);
+	}
+
+	.more-posts {
+		background: var(--color-surface);
+		padding: var(--spacing-3xl) 0;
+		margin-top: var(--spacing-2xl);
+	}
+
+	.more-inner {
+		max-width: var(--max-width);
+		margin: 0 auto;
+		padding: 0 var(--spacing-lg);
+	}
+
+	.more-title {
+		font-family: var(--font-heading);
+		font-size: var(--font-size-xl);
+		font-weight: var(--font-weight-heading);
+		margin-bottom: var(--spacing-lg);
+	}
+
+	.more-list {
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-sm);
+	}
+
+	.more-list a {
+		color: var(--color-text);
+		text-decoration: none;
+		transition: color var(--transition-fast);
+	}
+
+	.more-list a:hover {
+		color: var(--color-brand);
+	}
+
+	@media (max-width: 768px) {
+		.post-title {
+			font-size: var(--font-size-3xl);
+		}
+	}
+</style>
