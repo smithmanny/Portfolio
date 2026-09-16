@@ -16,6 +16,7 @@
 			"bucket_name": "portfolio",
 		},
 	],
+	"kv_namespaces": [{ "binding": "CACHE"}],
 	"triggers": {
 		"crons": ["* * * * *"],
 	},
