@@ -1,15 +1,20 @@
 import cloudflare from "@astrojs/cloudflare";
 import react from "@astrojs/react";
-import { d1, r2 } from "@emdash-cms/cloudflare";
-import { defineConfig, fontProviders, memoryCache} from "astro/config";
+import { d1, r2, kvCache } from "@emdash-cms/cloudflare";
+import { defineConfig, fontProviders } from "astro/config";
+import { cacheCloudflare } from "@astrojs/cloudflare/cache";
 import emdash from "emdash/astro";
 
 export default defineConfig({
 	output: "server",
     adapter: cloudflare(),
     cache: {
-        provider: memoryCache()
-    },
+       enabled: true,
+       provider: cacheCloudflare(),
+     },
+     routeRules: {
+       "/": { maxAge: 300, swr: 86400 },
+     },
 	image: {
 		layout: "constrained",
 		responsiveStyles: true,
@@ -18,7 +23,8 @@ export default defineConfig({
 		react(),
 		emdash({
 			database: d1({ binding: "DB", session: "auto" }),
-			storage: r2({ binding: "MEDIA" }),
+            storage: r2({ binding: "MEDIA" }),
+			objectCache: kvCache({ binding: "CACHE" }),
 		}),
 	],
 	fonts: [

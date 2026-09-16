@@ -16,11 +16,6 @@
 			"bucket_name": "portfolio",
 		},
 	],
-	"worker_loaders": [
-		{
-			"binding": "LOADER",
-		},
-	],
 	"triggers": {
 		"crons": ["* * * * *"],
 	},
