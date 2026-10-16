@@ -13,3 +13,8 @@ minimumReleaseAgeExclude:
   - emdash
   - "@emdash-cms/*"
 blockExoticSubdeps: true
+
+# Force @atcute/cid >=2.5.0: @atcute/repo@1.1.1 imports toLinkBytes from it,
+# which is missing in 2.4.2 (the version otherwise resolved).
+overrides:
+  "@atcute/cid": ^2.5.0
