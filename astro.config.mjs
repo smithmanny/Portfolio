@@ -1,6 +1,6 @@
 import cloudflare from "@astrojs/cloudflare";
 import react from "@astrojs/react";
-import { d1, r2, kvCache } from "@emdash-cms/cloudflare";
+import { access, d1, r2, kvCache } from "@emdash-cms/cloudflare";
 import { defineConfig, fontProviders } from "astro/config";
 import { cacheCloudflare } from "@astrojs/cloudflare/cache";
 import emdash from "emdash/astro";
@@ -24,7 +24,11 @@ export default defineConfig({
 		emdash({
 			database: d1({ binding: "DB", session: "auto" }),
             storage: r2({ binding: "MEDIA" }),
-			objectCache: kvCache({ binding: "CACHE" }),
+            objectCache: kvCache({ binding: "CACHE" }),
+            auth: access({
+                teamDomain: "laudycrib.cloudflareaccess.com",
+                audienceEnvVar: "CF_ACCESS_AUDIENCE",
+            }),
 		}),
 	],
 	fonts: [

@@ -20,4 +20,7 @@
 	"triggers": {
 		"crons": ["* * * * *"],
 	},
+	"vars": {
+        "CF_ACCESS_AUDIENCE": "9a8ff0383dd07915f9894f60db3dec5e6c98f9f3cce1e6e86b49bae93a9c6f9d"
+    },
 }
